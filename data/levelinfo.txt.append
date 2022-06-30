@@ -1,3 +1,1192 @@
+//{ FC
+"rr1-1" {name="Eidolon 1" id=-1}
+"rr1-2" {name="Eidolon 2" id=-1}
+"rr1-3" {name="Eidolon 3" id=-1}
+"rr1-4" {name="Eidolon 4" id=-1}
+"rr1-5" {name="Eidolon 5" id=-1}
+"rr1-6" {name="Eidolon 6" id=-1}
+"rr1-7" {name="Eidolon 7" id=-1}
+"rr1-8" {name="Eidolon 8" id=-1}
+"rr1-9" {name="Eidolon 9" id=-1}
+"rr1-10" {name="Eidolon 10" id=-1}
+"rr1-11" {name="Eidolon 11" id=-1}
+"rr1-12" {name="Eidolon 12" id=-1}
+"rr1-13" {name="Eidolon 13" id=-1}
+"rr1-14" {name="Eidolon 14" id=-1}
+"rr1-15" {name="Eidolon 15" id=-1}
+"rr1-16" {name="Eidolon 16" id=-1}
+"rr1-17" {name="Eidolon 17" id=-1}
+"rr1-18" {name="Eidolon 18" id=-1}
+"rr1-19" {name="Eidolon 19" id=-1}
+"rr1-20" {name="Eidolon 20" id=-1}
+"rr2-1" {name="Throes 1" id=-1}
+"rr2-2" {name="Throes 2" id=-1}
+"rr2-3" {name="Throes 3" id=-1}
+"rr2-4" {name="Throes 4" id=-1}
+"rr2-5" {name="Throes 5" id=-1}
+"rr2-6" {name="Throes 6" id=-1}
+"rr2-7" {name="Throes 7" id=-1}
+"rr2-8" {name="Throes 8" id=-1}
+"rr2-9" {name="Throes 9" id=-1}
+"rr2-10" {name="Throes 10" id=-1}
+"rr2-11" {name="Throes 11" id=-1}
+"rr2-12" {name="Throes 12" id=-1}
+"rr2-13" {name="Throes 13" id=-1}
+"rr2-14" {name="Throes 14" id=-1}
+"rr2-15" {name="Throes 15" id=-1}
+"rr2-16" {name="Throes 16" id=-1}
+"rr2-17" {name="Throes 17" id=-1}
+"rr2-18" {name="Throes 18" id=-1}
+"rr2-19" {name="Throes 19" id=-1}
+"rr2-20" {name="Throes 20" id=-1}
+"rr3-1" {name="Beseech 1" id=-1}
+"rr3-2" {name="Beseech 2" id=-1}
+"rr3-3" {name="Beseech 3" id=-1}
+"rr3-4" {name="Beseech 4" id=-1}
+"rr3-5" {name="Beseech 5" id=-1}
+"rr3-6" {name="Beseech 6" id=-1}
+"rr3-7" {name="Beseech 7" id=-1}
+"rr3-8" {name="Beseech 8" id=-1}
+"rr3-9" {name="Beseech 9" id=-1}
+"rr3-10" {name="Beseech 10" id=-1}
+"rr3-11" {name="Beseech 11" id=-1}
+"rr3-12" {name="Beseech 12" id=-1}
+"rr3-13" {name="Beseech 13" id=-1}
+"rr3-14" {name="Beseech 14" id=-1}
+"rr3-15" {name="Beseech 15" id=-1}
+"rr3-16" {name="Beseech 16" id=-1}
+"rr3-17" {name="Beseech 17" id=-1}
+"rr3-18" {name="Beseech 18" id=-1}
+"rr3-19" {name="Beseech 19" id=-1}
+"rr3-20" {name="Beseech 20" id=-1}
+
+"c1-x" {name="Warpzone!" id=-1}
+"c2-x" {name="Warpzone!" id=-1}
+"c3-x" {name="Warpzone!" id=-1}
+"c4a-x" {name="Warpzone!" id=-1}
+"c5a-x" {name="Warpzone!" id=-1}
+"c4b-x" {name="Warpzone!" id=-1}
+"c5b-x" {name="Warpzone!" id=-1}
+"c4c-x" {name="Warpzone!" id=-1}
+"c5c-x" {name="Warpzone!" id=-1}
+
+"10x-0" {name="???" id=-1}
+"10x-1x" {name="???" id=-1}
+"10x-2x" {name="???" id=-1}
+"10x-3x" {name="???" id=-1}
+"10x-4x" {name="???" id=-1}
+"10x-5x" {name="???" id=-1}
+"10x-6x" {name="???" id=-1}
+"10x-7x" {name="???" id=-1}
+"10x-8x" {name="???" id=5} #cart
+
+"15x-1" {name="???" id=-1}
+"15x-2" {name="???" id=1} #cart
+"15x-3" {name="???" id=-1}
+"15x-4" {name="???" id=4} #cart
+"15x-5" {name="???" id=-1}
+"15x-6" {name="???" id=2} #cart
+"15x-7" {name="???" id=-1}
+"15x-8" {name="???" id=3} #cart
+
+"r1x-1" {name="???" id=-1}
+"r1x-2" {name="???" id=1}
+"r1x-3" {name="???" id=-1}
+"r1x-4" {name="???" id=-1}
+"r1x-5" {name="???" id=-1}
+"r1-1" {name="Rapture 1" id=-1}
+"r1-2" {name="Rapture 2" id=-1}
+"r1-3" {name="Rapture 3" id=-1}
+"r1-4" {name="Rapture 4" id=-1}
+"r1-5" {name="Rapture 5" id=-1}
+"r1-6" {name="Rapture 6" id=-1}
+"r1-7" {name="Rapture 7" id=-1}
+"r1-8" {name="Rapture 8" id=-1}
+"r1-9" {name="Rapture 9" id=-1}
+"r1-10" {name="Rapture 10" id=-1}
+"r1-11" {name="Rapture 11" id=-1}
+"r1-12" {name="Rapture 12" id=-1}
+"r1-13" {name="Rapture 13" id=-1}
+"r1-14" {name="Rapture 14" id=-1}
+"r1-15" {name="Rapture 15" id=-1}
+"r1-16" {name="Rapture 16" id=-1}
+"r1-17" {name="Rapture 17" id=-1}
+"r1-18" {name="Rapture 18" id=-1}
+"r1-19" {name="Rapture 19" id=-1}
+"r1-20" {name="Rapture 20" id=-1}
+"r2x-1" {name="???" id=-1}
+"r2x-2" {name="???" id=-1}
+"r2x-3" {name="???" id=-1}
+"r2x-4" {name="???" id=1}
+"r2x-5" {name="???" id=-1}
+"r2x-6" {name="???" id=-1}
+"r2x-7" {name="???" id=-1}
+"r2x-8" {name="Superposition" id=-1}
+"r2-1" {name="Wastelands 1" id=-1}
+"r2-2" {name="Wastelands 2" id=-1}
+"r2-3" {name="Wastelands 3" id=-1}
+"r2-4" {name="Wastelands 4" id=-1}
+"r2-5" {name="Wastelands 5" id=-1}
+"r2-6" {name="Wastelands 6" id=-1}
+"r2-7" {name="Wastelands 7" id=-1}
+"r2-8" {name="Wastelands 8" id=-1}
+"r2-9" {name="Wastelands 9" id=-1}
+"r2-10" {name="Wastelands 10" id=-1}
+"r2-11" {name="Wastelands 11" id=-1}
+"r2-12" {name="Wastelands 12" id=-1}
+"r2-13" {name="Wastelands 13" id=-1}
+"r2-14" {name="Wastelands 14" id=-1}
+"r2-15" {name="Wastelands 15" id=-1}
+"r2-16" {name="Wastelands 16" id=-1}
+"r2-17" {name="Wastelands 17" id=-1}
+"r2-18" {name="Wastelands 18" id=-1}
+"r2-19" {name="Wastelands 19" id=-1}
+"r2-20" {name="Wastelands 20" id=-1}
+"r3x-1" {name="???" id=1}
+"r3-1" {name="Collapse 1" id=-1}
+"r3-2" {name="Collapse 2" id=-1}
+"r3-3" {name="Collapse 3" id=-1}
+"r3-4" {name="Collapse 4" id=-1}
+"r3-5" {name="Collapse 5" id=-1}
+"r3-6" {name="Collapse 6" id=-1}
+"r3-7" {name="Collapse 7" id=-1}
+"r3-8" {name="Collapse 8" id=-1}
+"r3-9" {name="Collapse 9" id=-1}
+"r3-10" {name="Collapse 10" id=-1}
+"r3-11" {name="Collapse 11" id=-1}
+"r3-12" {name="Collapse 12" id=-1}
+"r3-13" {name="Collapse 13" id=-1}
+"r3-14" {name="Collapse 14" id=-1}
+"r3-15" {name="Collapse 15" id=-1}
+"r3-16" {name="Collapse 16" id=-1}
+"r3-17" {name="Collapse 17" id=-1}
+"r3-18" {name="Collapse 18" id=-1}
+"r3-19" {name="Collapse 19" id=-1}
+"r3-20" {name="Collapse 20" id=-1}
+"hub-1" {name="The Hub" id=-1}
+"hub-2" {name="The Hub" id=-1}
+"hub-3" {name="The Hub" id=-1}
+"6dx-1" {name="???" id=-1}
+"6dx-2" {name="???" id=1}
+"6d-1" {name="???" id=-1}
+"6d-2" {name="Shock" id=-1}
+"6d-3" {name="Shock 1" id=-1}
+"6d-4" {name="Shock 2" id=-1}
+"6d-5" {name="Shock 3" id=-1}
+"6d-6" {name="Shock 4" id=-1}
+"6d-7" {name="Shock 5" id=-1}
+"6d-8" {name="Shock 6" id=-1}
+"6d-9" {name="Shock 7" id=-1}
+"6d-10" {name="Shock 8" id=-1}
+"6d-11" {name="Shock 9" id=-1}
+"6d-12" {name="Shock 10" id=-1}
+"6d-13" {name="Shock 11" id=-1}
+"6d-14" {name="Shock 12" id=-1}
+"6d-15" {name="Shock 13" id=-1}
+"6d-16" {name="Shock 14" id=-1}
+"6d-17" {name="Shock 15" id=-1}
+"6d-18" {name="Shock 16" id=-1}
+"6d-19" {name="Shock 17" id=-1}
+"6d-20" {name="Shock 18" id=-1}
+"6d-21" {name="Shock 19" id=-1}
+"6d-22" {name="Shock 20" id=-1}
+"6d-23" {name="Shock 21" id=-1}
+"ex-1" {name="Excruciance 1" id=-1}
+"ex-2" {name="Excruciance 2" id=-1}
+"ex-3" {name="Excruciance 3" id=-1}
+"ex-4" {name="Excruciance 4" id=-1}
+"ex-5" {name="Excruciance 5" id=-1}
+"ex-6" {name="Excruciance 6" id=-1}
+"ex-7" {name="Excruciance 7" id=-1}
+"ex-8" {name="Excruciance 8" id=-1}
+"ex-9" {name="Excruciance 9" id=-1}
+"ex-10" {name="Excruciance 10" id=-1}
+"ex-11" {name="Excruciance 11" id=-1}
+"ex-12" {name="Excruciance 12" id=-1}
+"ex-13" {name="Excruciance 13" id=-1}
+"ex-14" {name="Excruciance 14" id=-1}
+"ex-15" {name="Excruciance 15" id=-1}
+"exx-1" {name="???" id=-1}
+"exx-2" {name="???" id=1}
+"xsx-1" {name="???" id=1}
+"xsx-2" {name="???" id=-1}
+"xs-1" {name="XS Exodus 1" id=-1}
+"xs-2" {name="XS Exodus 2" id=-1}
+"xs-3" {name="XS Exodus 3" id=-1}
+"xs-4" {name="XS Exodus 4" id=-1}
+"xs-5" {name="XS Exodus 5" id=-1}
+"xs-6" {name="XS Exodus 6" id=-1}
+"xs-7" {name="XS Exodus 7" id=-1}
+"xs-8" {name="XS Exodus 8" id=-1}
+"xs-9" {name="XS Exodus 9" id=-1}
+"xs-10" {name="XS Exodus 10" id=-1}
+"xs-11" {name="XS Exodus 11" id=-1}
+"xs-12" {name="XS Exodus 12" id=-1}
+"xs-13" {name="XS Exodus 13" id=-1}
+"xs-14" {name="XS Exodus 14" id=-1}
+"xs-15" {name="XS Exodus 15" id=-1}
+"xs-16" {name="XS Exodus 16" id=-1}
+"xs-17" {name="XS Exodus 17" id=-1}
+"xs-18" {name="XS Exodus 18" id=-1}
+"xs-19" {name="XS Exodus 19" id=-1}
+"xs-20" {name="XS Exodus 20" id=-1}
+"xs-21" {name="XS Exodus" id=-1}
+"xs-22" {name="Friend Boss" id=-1}
+"qux-1" {name="???" id=1}
+"qu-1" {name="???" id=-1}
+"qu-2" {name="Quantum Undersides" id=-1}
+"qu-3" {name="Quantum Undersides 1" id=-1}
+"qu-4" {name="Quantum Undersides 2" id=-1}
+"qu-5" {name="Quantum Undersides 3" id=-1}
+"qu-6" {name="Quantum Undersides 4" id=-1}
+"qu-7" {name="Quantum Undersides 5" id=-1}
+"qu-8" {name="Quantum Undersides 6" id=-1}
+"gbx-1" {name="???" id=1}
+"gb-1" {name="Guns Blazing 1" id=-1}
+"gb-2" {name="Guns Blazing 2" id=-1}
+"gb-3" {name="Guns Blazing 3" id=-1}
+"gb-4" {name="Guns Blazing 4" id=-1}
+"gb-5" {name="Guns Blazing 5" id=-1}
+"gb-6" {name="Guns Blazing 6" id=-1}
+"gb-7" {name="Guns Blazing 7" id=-1}
+"gb-8" {name="Guns Blazing 8" id=-1}
+"gb-9" {name="Guns Blazing 9" id=-1}
+"gb-10" {name="Guns Blazing 10" id=-1}
+"gb-11" {name="Guns Blazing 11" id=-1}
+"gb-12" {name="Guns Blazing 12" id=-1}
+"gb-13" {name="Guns Blazing 13" id=-1}
+"gb-14" {name="Guns Blazing 14" id=-1}
+"gb-15" {name="Guns Blazing 15" id=-1}
+"gb-16" {name="Guns Blazing 16" id=-1}
+"gb-17" {name="Guns Blazing 17" id=-1}
+"gb-18" {name="Guns Blazing 18" id=-1}
+"gb-19" {name="Guns Blazing 19" id=-1}
+"gb-20" {name="Guns Blazing 20" id=-1}
+"g4a-1" {name="Assassin's Cancer 1" id=-1}
+"g4a-2" {name="Assassin's Cancer 2" id=-1}
+"g4a-3" {name="Assassin's Cancer 3" id=-1}
+"g4a-4" {name="Assassin's Cancer 4" id=-1}
+"g4a-5" {name="Assassin's Cancer 5" id=-1}
+"g4a-6" {name="Assassin's Cancer 6" id=-1}
+"g4a-7" {name="Assassin's Cancer 7" id=-1}
+"g4a-8" {name="Assassin's Cancer 8" id=-1}
+"g4a-9" {name="Assassin's Cancer 9" id=-1}
+"g4a-10" {name="Assassin's Cancer 10" id=-1}
+"g4a-10x" {name="Assassin's Cancer 10" id=-1}
+"g4a-1x" {name="Assassin's Cancer 1" id=-1}
+"g6d-1" {name="Don't Drown 1" id=-1}
+"g6d-2" {name="Don't Drown 2" id=-1}
+"g6d-3" {name="Don't Drown 3" id=-1}
+"g6d-4" {name="Don't Drown 4" id=-1}
+"g6d-5" {name="Don't Drown 5" id=-1}
+"g6d-6" {name="Don't Drown 6" id=-1}
+"g6d-7" {name="Don't Drown 7" id=-1}
+"g6d-8" {name="Don't Drown 8" id=-1}
+"g6d-9" {name="Don't Drown 9" id=-1}
+"g6d-10" {name="Don't Drown 10" id=-1}
+"g6d-10x" {name="Don't Drown 10" id=-1}
+"g6d-1x" {name="Don't Drown 1" id=-1}
+"g5a-1" {name="Gory Mod 1" id=-1}
+"g5a-2" {name="Gory Mod 2" id=-1}
+"g5a-3" {name="Gory Mod 3" id=-1}
+"g5a-4" {name="Gory Mod 4" id=-1}
+"g5a-5" {name="Gory Mod 5" id=-1}
+"g5a-6" {name="Gory Mod 6" id=-1}
+"g5a-7" {name="Gory Mod 7" id=-1}
+"g5a-8" {name="Gory Mod 8" id=-1}
+"g5a-9" {name="Gory Mod 9" id=-1}
+"g5a-10" {name="Gory Mod 10" id=-1}
+"g5a-10x" {name="Gory Mod 10" id=-1}
+"g5a-1x" {name="Gory Mod 1" id=-1}
+"gi0-1" {name="Brittle Inferno 1" id=-1}
+"gi0-2" {name="Brittle Inferno 2" id=-1}
+"gi0-3" {name="Brittle Inferno 3" id=-1}
+"gi0-4" {name="Brittle Inferno 4" id=-1}
+"gi0-5" {name="Brittle Inferno 5" id=-1}
+"gi0-6" {name="Brittle Inferno 6" id=-1}
+"gi0-7" {name="Brittle Inferno 7" id=-1}
+"gi0-8" {name="Brittle Inferno 8" id=-1}
+"gi0-9" {name="Brittle Inferno 9" id=-1}
+"gi0-10" {name="Brittle Inferno 10" id=-1}
+"gi0-10x" {name="Brittle Inferno 10" id=-1}
+"gi0-1x" {name="Brittle Inferno 1" id=-1}
+"gr4-1" {name="Doomed 1" id=-1}
+"gr4-2" {name="Doomed 2" id=-1}
+"gr4-3" {name="Doomed 3" id=-1}
+"gr4-4" {name="Doomed 4" id=-1}
+"gr4-5" {name="Doomed 5" id=-1}
+"gr4-6" {name="Doomed 6" id=-1}
+"gr4-7" {name="Doomed 7" id=-1}
+"gr4-8" {name="Doomed 8" id=-1}
+"gr4-9" {name="Doomed 9" id=-1}
+"gr4-10" {name="Doomed 10" id=-1}
+"gr4-10x" {name="Doomed 10" id=-1}
+"gr4-1x" {name="Doomed 1" id=-1}
+"g6-1" {name="Mortal 1" id=-1}
+"g6-2" {name="Mortal 2" id=-1}
+"g6-3" {name="Mortal 3" id=-1}
+"g6-4" {name="Mortal 4" id=-1}
+"g6-5" {name="Mortal 5" id=-1}
+"g6-6" {name="Mortal 6" id=-1}
+"g6-7" {name="Mortal 7" id=-1}
+"g6-8" {name="Mortal 8" id=-1}
+"g6-9" {name="Mortal 9" id=-1}
+"g6-10" {name="Mortal 10" id=-1}
+"g6-10x" {name="Mortal 10" id=-1}
+"g6-1x" {name="Mortal 1" id=-1}
+"g7-1" {name="Microbe Platformer 1" id=-1}
+"g7-2" {name="Microbe Platformer 2" id=-1}
+"g7-3" {name="Microbe Platformer 3" id=-1}
+"g7-4" {name="Microbe Platformer 4" id=-1}
+"g7-5" {name="Microbe Platformer 5" id=-1}
+"g7-6" {name="Microbe Platformer 6" id=-1}
+"g7-7" {name="Microbe Platformer 7" id=-1}
+"g7-8" {name="Microbe Platformer 8" id=-1}
+"g7-9" {name="Microbe Platformer 9" id=-1}
+"g7-10" {name="Microbe Platformer 10" id=-1}
+"g7-10x" {name="Microbe Platformer 10" id=-1}
+"g7-1x" {name="Microbe Platformer 1" id=-1}
+"6bx-1" {name="???" id=-1}
+"6bx-2" {name="???" id=1}
+"6bx-3" {name="???" id=1}
+"6bx-4" {name="???" id=-1}
+"6b-1" {name="Atlantis 1" id=-1}
+"6b-2" {name="Atlantis 2" id=-1}
+"6b-3" {name="Atlantis 3" id=-1}
+"6b-4" {name="Atlantis 4" id=-1}
+"6b-5" {name="Atlantis 5" id=-1}
+"6b-6" {name="Atlantis 6" id=-1}
+"6b-7" {name="Atlantis 7" id=-1}
+"6b-8" {name="Atlantis 8" id=-1}
+"6b-9" {name="Atlantis 9" id=-1}
+"6b-9x" {name="Atlantis 10" id=-1}
+"6b-10" {name="Atlantis 11" id=-1}
+"6b-11" {name="Atlantis 12" id=-1}
+"6b-12" {name="Atlantis 13" id=-1}
+"6b-13" {name="Atlantis 14" id=-1}
+"6b-14" {name="Atlantis 15" id=-1}
+"6b-15" {name="Atlantis 16" id=-1}
+"6b-16" {name="Atlantis 17" id=-1}
+"6b-17" {name="Atlantis 18" id=-1}
+"6b-18" {name="Atlantis 19" id=-1}
+"6b-19" {name="Atlantis 20" id=-1}
+"6b-20" {name="Atlantis 21" id=-1}
+"6b-21" {name="Atlantis 22" id=-1}
+"6b-22" {name="Atlantis 23" id=-1}
+"6b-23" {name="The Shore" id=-1}
+"6c-1" {name="Sheol 1" id=-1}
+"6c-2" {name="Sheol 2" id=-1}
+"6c-3" {name="Sheol 3" id=-1}
+"6c-4" {name="Sheol 4" id=-1}
+"6c-5" {name="Sheol 5" id=-1}
+"6c-6" {name="Sheol 6" id=-1}
+"6c-7" {name="Sheol 7" id=-1}
+"6c-8" {name="Sheol 8" id=-1}
+"6c-9" {name="Sheol 9" id=-1}
+"6c-10" {name="Sheol 10" id=-1}
+"6c-11" {name="Sheol 11" id=-1}
+"6c-12" {name="Sheol 12" id=-1}
+"6c-13" {name="Sheol 13" id=-1}
+"6c-14" {name="Sheol 14" id=-1}
+"6c-15" {name="Sheol 15" id=-1}
+"6c-16" {name="Sheol 16" id=-1}
+"6c-17" {name="Sheol 17" id=-1}
+"6c-18" {name="Sheol 18" id=-1}
+"6c-19" {name="Sheol 19" id=-1}
+"6a-1" {name="Insanity 1" id=-1}
+"6a-2" {name="Insanity 2" id=-1}
+"6a-3" {name="Insanity 3" id=-1}
+"6a-4" {name="Insanity 4" id=-1}
+"6a-5" {name="Insanity 5" id=-1}
+"6a-5x" {name="Insanity" id=-1}
+"6a-6" {name="Insanity 6" id=-1}
+"6a-7" {name="Insanity 7" id=-1}
+"6a-8" {name="Insanity 8" id=-1}
+"6a-9x" {name="Insanity 9" id=-1}
+"6a-9" {name="Insanity 10" id=-1}
+"6a-10" {name="Insanity 11" id=-1}
+"6a-11" {name="Insanity 12" id=-1}
+"6a-12" {name="Insanity 13" id=-1}
+"6a-13" {name="Insanity 14" id=-1}
+"6a-14" {name="Insanity 15" id=-1}
+"6a-15" {name="Insanity 16" id=-1}
+"6a-16" {name="???" id=-1}
+"6ax-1" {name="???" id=1}
+"6ax-2" {name="???" id=2}
+"6ax-3" {name="???" id=-1}
+"6ax-4" {name="???" id=1}
+"butx-0" {name="???" id=-1}
+"butx-1" {name="???" id=2}
+"butx-2" {name="???" id=-1}
+"butx-3" {name="???" id=-1}
+"butx-4" {name="???" id=-1}
+"butx-5" {name="???" id=1}
+"butx-6" {name="???" id=-1}
+"but-0" {name="The Tracks" id=-1}
+"but-1" {name="The Tracks 1" id=1}
+"but-2" {name="The Tracks 2" id=2}
+"but-3" {name="The Tracks 3" id=3}
+"but-4" {name="The Tracks 4" id=4}
+"but-5" {name="The Tracks 5" id=5}
+"but-6" {name="The Tracks 6" id=6}
+"but-7" {name="The Tracks 7" id=7}
+"but-8" {name="The Tracks 8" id=8}
+"but-9" {name="The Tracks 9" id=9}
+"but-10" {name="The Tracks 10" id=10}
+"but-11" {name="The Tracks 11" id=11}
+"but2-1" {name="The Tracks 12" id=-1}
+"but2-2" {name="The Tracks 13" id=-1}
+"but2-3" {name="The Tracks 14" id=-1}
+"but2-4" {name="The Tracks 15" id=-1}
+"but2-5" {name="The Tracks 16" id=-1}
+"but2b-6" {name="The Train" id=-1}
+"but2b-7" {name="The Train" id=1}
+"but3-7" {name="The Train" id=-1}
+"but3-8" {name="The Train" id=-1}
+"but3-9" {name="The Train" id=-1}
+"g99-1x" {name="- FINALE 1 -" id=-1}
+"g99-2x" {name="- FINALE 2 -" id=-1}
+"g99-3x" {name="- FINALE 3 -" id=-1}
+"g99-4x" {name="- FINALE 4 -" id=-1}
+"g99-5x" {name="- FINALE 5 -" id=-1}
+"g99-6x" {name="- FINALE 6 -" id=-1}
+"g99-7x" {name="- FINALE 7 -" id=-1}
+"g99-8x" {name="- FINALE 8 -" id=-1}
+"g99-9" {name="- FINALE 9 -" id=-1}
+"g99-10" {name="INVALID ADRESS 0x01010A" id=-1}
+"g99-11" {name="INVALID ADRESS 0x02020B" id=-1}
+"g99-12" {name="INVALID ADRESS 0x03030C" id=-1}
+"g99-13" {name="INVALID ADRESS 0x12040D" id=-1}
+"g99-14" {name="INVALID ADRESS 0x22050E" id=-1}
+"g99-15" {name="INVALID ADRESS 0x10060F" id=-1}
+"g99-16" {name="INVALID ADRESS 0x200610" id=-1}
+"g99-17" {name="INVALID ADRESS 0x110711" id=-1}
+"g99-18" {name="INVALID ADRESS 0x210812" id=-1}
+"g99-19" {name="INVALID ADRESS 0x300913" id=-1}
+"g99-20" {name="INVALID ADRESS 0x010114" id=-1}
+"g99-21" {name="INVALID ADRESS 0x020215" id=-1}
+"g99-22" {name="INVALID ADRESS 0x030316" id=-1}
+"g99-23" {name="INVALID ADRESS 0x040417" id=-1}
+"g99-24" {name="INVALID ADRESS 0x050518" id=-1}
+"g99-25" {name="INVALID ADRESS 0x060619" id=-1}
+"g99-26" {name="INVALID ADRESS 0x07071A" id=-1}
+"g99-27" {name="INVALID ADRESS 0x08081B" id=-1}
+"g99-28" {name="INVALID ADRESS 0x09031C" id=-1}
+"g99-29" {name="INVALID ADRESS 0x0A091D" id=-1}
+"g99-30" {name="INVALID ADRESS 0x0B061E" id=-1}
+"g99-31" {name="INVALID ADRESS 0x0C0A1F" id=-1}
+"g99-32" {name="INVALID ADRESS 0x0D0120" id=-1}
+"g99-33" {name="INVALID ADRESS 0x0E0121" id=-1}
+"g99-34" {name="INVALID ADRESS 0xFFFFFF" id=-1}
+"7d-1" {name="Lemniscateum 1" id=-1}
+"7d-2" {name="Lemniscateum 2" id=-1}
+"7d-3" {name="Lemniscateum 3" id=-1}
+"7d-4" {name="Lemniscateum 4" id=-1}
+"7d-5" {name="Lemniscateum 5" id=-1}
+"7d-6" {name="Lemniscateum 6" id=-1}
+"7d-7" {name="Lemniscateum 7" id=-1}
+"7d-8" {name="Lemniscateum 8" id=-1}
+"7d-9" {name="Lemniscateum 9" id=-1}
+"7d-10" {name="Lemniscateum 10" id=-1}
+"7d-11" {name="Lemniscateum 11" id=-1}
+"7d-12" {name="Lemniscateum 12" id=-1}
+"7d-13" {name="Lemniscateum 13" id=-1}
+"7d-14" {name="Lemniscateum 14" id=-1}
+"7d-15" {name="???" id=-1}
+"7d-16" {name="???" id=-1}
+"7d-16x" {name="Superposition" id=-1}
+"t-15" {name="%%%%%%%% %%%%%%%%" id=-1}
+"t-16" {name="%%r%%%%% %%%%%%t%" id=-1}
+"t-17" {name="%%r%i%%% %%c%%%t%" id=-1}
+"t-18" {name="T%r%i%%% %%c%%%ty" id=-1}
+"t-19" {name="T%r%i%a% L%c%%%ty" id=-1}
+"t-18" {name="T%r%i%al L%c%d%ty" id=-1}
+"t-19" {name="T%rmi%al Luc%d%ty" id=-1}
+"t-20" {name="T%rminal Luc%dity" id=-1}
+"t-21" {name="Terminal Lucidity" id=-1}
+"t-22" {name=". . ." id=-1}
+"hub-4" {name=". . ." id=-1}
+"hub-5" {name="The Grave" id=-1}
+"gr1-1" {name="OE Fake 1" id=-1}
+"gr1-2" {name="OE Fake 2" id=-1}
+"gr1-3" {name="OE Fake 3" id=-1}
+"gr1-4" {name="OE Fake 4" id=-1}
+"gr1-5" {name="OE Fake 5" id=-1}
+"gr1-6" {name="OE Fake 6" id=-1}
+"gr1-7" {name="OE Fake 7" id=-1}
+"gr1-8" {name="OE Fake 8" id=-1}
+"gr1-9" {name="OE Fake 9" id=-1}
+"gr1-10" {name="OE Fake 10" id=-1}
+"gr1-10x" {name="OE Fake 10" id=-1}
+"gr1-1x" {name="OE Fake 1" id=-1}
+"gr2-1" {name="Untitled Bruise Game 1" id=-1}
+"gr2-2" {name="Untitled Bruise Game 2" id=-1}
+"gr2-3" {name="Untitled Bruise Game 3" id=-1}
+"gr2-4" {name="Untitled Bruise Game 4" id=-1}
+"gr2-5" {name="Untitled Bruise Game 5" id=-1}
+"gr2-6" {name="Untitled Bruise Game 6" id=-1}
+"gr2-7" {name="Untitled Bruise Game 7" id=-1}
+"gr2-8" {name="Untitled Bruise Game 8" id=-1}
+"gr2-9" {name="Untitled Bruise Game 9" id=-1}
+"gr2-10" {name="Untitled Bruise Game 10" id=-1}
+"gr2-10x" {name="Untitled Bruise Game 10" id=-1}
+"gr2-1x" {name="Untitled Bruise Game 1" id=-1}
+"gr3-1" {name="E-Coli Bridge 1" id=-1}
+"gr3-2" {name="E-Coli Bridge 2" id=-1}
+"gr3-3" {name="E-Coli Bridge 3" id=-1}
+"gr3-4" {name="E-Coli Bridge 4" id=-1}
+"gr3-5" {name="E-Coli Bridge 5" id=-1}
+"gr3-6" {name="E-Coli Bridge 6" id=-1}
+"gr3-7" {name="E-Coli Bridge 7" id=-1}
+"gr3-8" {name="E-Coli Bridge 8" id=-1}
+"gr3-9" {name="E-Coli Bridge 9" id=-1}
+"gr3-10" {name="E-Coli Bridge 10" id=-1}
+"gr3-10x" {name="E-Coli Bridge 10" id=-1}
+"gr3-1x" {name="E-Coli Bridge 1" id=-1}
+"g6d-1" {name="I am Dead 1" id=-1}
+"g6d-2" {name="I am Dead 2" id=-1}
+"g6d-3" {name="I am Dead 3" id=-1}
+"g6d-4" {name="I am Dead 4" id=-1}
+"g6d-5" {name="I am Dead 5" id=-1}
+"g6d-6" {name="I am Dead 6" id=-1}
+"g6d-7" {name="I am Dead 7" id=-1}
+"g6d-8" {name="I am Dead 8" id=-1}
+"g6d-9" {name="I am Dead 9" id=-1}
+"g6d-10" {name="I am Dead 10" id=-1}
+"g6d-10x" {name="I am Dead 10" id=-1}
+"g6d-1x" {name="I am Dead 1" id=-1}
+"gbt-1" {name="Spinecraft 1" id=-1}
+"gbt-2" {name="Spinecraft 2" id=-1}
+"gbt-3" {name="Spinecraft 3" id=-1}
+"gbt-4" {name="Spinecraft 4" id=-1}
+"gbt-5" {name="Spinecraft 5" id=-1}
+"gbt-6" {name="Spinecraft 6" id=-1}
+"gbt-7" {name="Spinecraft 7" id=-1}
+"gbt-8" {name="Spinecraft 8" id=-1}
+"gbt-9" {name="Spinecraft 9" id=-1}
+"gbt-10" {name="Spinecraft 10" id=1}
+"gbt-10x" {name="Spinecraft 10" id=-1}
+"g6c-1" {name="Tragicka 1" id=-1}
+"g6c-2" {name="Tragicka 2" id=-1}
+"g6c-3" {name="Tragicka 3" id=-1}
+"g6c-4" {name="Tragicka 4" id=-1}
+"g6c-5" {name="Tragicka 5" id=-1}
+"g6c-6" {name="Tragicka 6" id=-1}
+"g6c-7" {name="Tragicka 7" id=-1}
+"g6c-8" {name="Tragicka 8" id=-1}
+"g6c-9" {name="Tragicka 9" id=-1}
+"g6c-10" {name="Tragicka 10" id=-1}
+"g6c-10x" {name="Tragicka 10" id=-1}
+"g6c-1x" {name="Tragicka 1" id=-1}
+"g6a-1" {name="Evisceration 1" id=-1}
+"g6a-2" {name="Evisceration 2" id=-1}
+"g6a-3" {name="Evisceration 3" id=-1}
+"g6a-4" {name="Evisceration 4" id=-1}
+"g6a-5" {name="Evisceration 5" id=-1}
+"g6a-6" {name="Evisceration 6" id=-1}
+"g6a-7" {name="Evisceration 7" id=-1}
+"g6a-8" {name="Evisceration 8" id=-1}
+"g6a-9" {name="Evisceration 9" id=-1}
+"g6a-10" {name="Evisceration 10" id=-1}
+"g6a-10x" {name="Evisceration 10" id=-1}
+"g6a-1x" {name="Evisceration 1" id=-1}
+"5-0" {name="???" id=-1}
+"5-0x" {name="???" id=-1}
+"5-0y" {name="???" id=-1}
+"5-0z" {name="???" id=-1}
+"5x-1" {name="???" id=-1}
+"5x-2" {name="???" id=2}
+"5-1" {name="The Castle 1" id=-1}
+"5-2" {name="The Castle 2" id=-1}
+"5-3" {name="The Castle 3" id=-1}
+"5-4" {name="The Castle 4" id=-1}
+"5-5" {name="The Castle 5" id=-1}
+"5-6" {name="The Castle 6" id=-1}
+"5-7" {name="The Castle 7" id=-1}
+"5-8" {name="The Castle 8" id=-1}
+"5-9" {name="The Castle 9" id=-1}
+"5-10" {name="The Castle 10" id=-1}
+"5-11" {name="The Castle 11" id=-1}
+"5-12" {name="The Castle 12" id=-1}
+"5-13" {name="The Castle 13" id=-1}
+"5-14" {name="The Castle 14" id=-1}
+"5-15" {name="The Castle 15" id=-1}
+"5-16" {name="The Castle 16" id=-1}
+"5-17" {name="The Castle 17" id=-1}
+"5-18" {name="The Castle 18" id=-1}
+"5-19" {name="The Castle 19" id=-1}
+"5-20" {name="The Castle 20" id=1}
+"5-21" {name="???" id=-1}
+"5-22" {name="???" id=-1}
+"7c-1" {name="The Pit 1" id=-1}
+"7c-2" {name="The Pit 2" id=-1}
+"7c-3" {name="The Pit 3" id=-1}
+"7c-4" {name="The Pit 4" id=-1}
+"7c-5" {name="The Pit 5" id=-1}
+"7c-6" {name="The Pit 6" id=-1}
+"7c-7" {name="The Pit 7" id=-1}
+"7c-8" {name="The Pit 8" id=-1}
+"7c-9" {name="The Pit 9" id=-1}
+"7c-20" {name="The Pit 10" id=2}
+"7c-10" {name="???" id=-1}
+"7c-11" {name="???" id=-1}
+"7c-12" {name="???" id=-1}
+"7c-13" {name="???" id=-1}
+"7b-1" {name="The Gallery 1" id=-1}
+"7b-2" {name="The Gallery 2" id=-1}
+"7b-3" {name="The Gallery 3" id=-1}
+"7b-4" {name="The Gallery 4" id=-1}
+"7b-5" {name="The Gallery 5" id=-1}
+"7b-6" {name="The Gallery 6" id=-1}
+"7b-7" {name="The Gallery 7" id=-1}
+"7b-8" {name="The Gallery 8" id=-1}
+"7b-9" {name="The Gallery 9" id=-1}
+"7b-10" {name="The Gallery 10" id=-1}
+"7b-11" {name="The Gallery 11" id=-1}
+"7b-12" {name="The Gallery 12" id=-1}
+"7b-13" {name="The Gallery 13" id=-1}
+"7b-14" {name="The Gallery 14" id=-1}
+"7b-20" {name="The Gallery 15" id=2}
+"7a-1" {name="The Sky 1" id=-1}
+"7a-2" {name="The Sky 2" id=-1}
+"7a-3" {name="The Sky 3" id=-1}
+"7a-4" {name="The Sky 4" id=-1}
+"7a-5" {name="The Sky 5" id=-1}
+"7a-6" {name="The Sky 6" id=-1}
+"7a-7" {name="The Sky 7" id=-1}
+"7a-8" {name="The Sky 8" id=-1}
+"7a-9" {name="The Sky 9" id=-1}
+"7a-10" {name="The Sky 10" id=-1}
+"7a-11" {name="The Sky 11" id=-1}
+"7a-12" {name="The Sky 12" id=-1}
+"7a-13" {name="The Sky 13" id=-1}
+"7a-14" {name="The Sky 14" id=-1}
+"7a-17" {name="The Sky 15" id=2}
+"8-0" {name="Stormscapes 1" id=-1}
+"8-1" {name="Stormscapes 2" id=-1}
+"8-2" {name="Stormscapes 3" id=-1}
+"8-3" {name="Stormscapes 4" id=-1}
+"8-4" {name="Stormscapes 5" id=-1}
+"8-5" {name="Stormscapes 6" id=-1}
+"8-6" {name="Stormscapes 7" id=-1}
+"8-7" {name="Stormscapes 8" id=-1}
+"8-8" {name="Stormscapes 9" id=-1}
+"8-9" {name="Stormscapes 10" id=-1}
+"8-10" {name="Stormscapes 11" id=-1}
+"8-11" {name="Stormscapes 12" id=-1}
+"8-12" {name="Stormscapes 13" id=-1}
+"8-12x" {name="Stormscapes" id=-1}
+"8-13" {name="Stormscapes 14" id=-1}
+"8-14" {name="Stormscapes 15" id=-1}
+"8xd-1" {name="???" id=1}
+"j-1hub" {name="The Juxtaposition" id=-1}
+"gx-1" {name="Undead-chamber 1" id=-1}
+"gx-2" {name="Undead-chamber 2" id=-1}
+"gx-3" {name="Undead-chamber 3" id=-1}
+"gx-4" {name="Undead-chamber 4" id=-1}
+"gx-5" {name="Undead-chamber 5" id=-1}
+"gx-6" {name="Undead-chamber 6" id=-1}
+"gx-7" {name="Undead-chamber 7" id=-1}
+"gx-8" {name="Undead-chamber 8" id=-1}
+"gx-9" {name="Undead-chamber 9" id=-1}
+"gx-10" {name="Undead-chamber 10" id=-1}
+"gx-10x" {name="Undead-chamber 10" id=-1}
+"gx-1x" {name="Undead-chamber 1" id=-1}
+"g7c-1" {name="Nauseous 1" id=-1}
+"g7c-2" {name="Nauseous 2" id=-1}
+"g7c-3" {name="Nauseous 3" id=-1}
+"g7c-4" {name="Nauseous 4" id=-1}
+"g7c-5" {name="Nauseous 5" id=-1}
+"g7c-6" {name="Nauseous 6" id=-1}
+"g7c-7" {name="Nauseous 7" id=-1}
+"g7c-8" {name="Nauseous 8" id=-1}
+"g7c-9" {name="Nauseous 9" id=-1}
+"g7c-10" {name="Nauseous 10" id=-1}
+"g7c-10x" {name="Nauseous 10" id=-1}
+"g7c-1x" {name="Nauseous 1" id=-1}
+"mx-1" {name="???" id=1}
+"mx-2" {name="???" id=1}
+"m-1" {name="The Maze 1" id=-1}
+"m-2" {name="The Maze" id=-1}
+"m-3" {name="The Maze 2" id=-1}
+"m-4" {name="The Maze" id=-1}
+"m-4a" {name="The Maze" id=-1}
+"m-6" {name="The Maze 3" id=-1}
+"m-7" {name="The Maze 4" id=-1}
+"m-8" {name="The Maze 5" id=-1}
+"m-9" {name="The Maze 6" id=-1}
+"m-10" {name="The Maze 7" id=-1}
+"r4x-1" {name="???" id=1}
+"r4-1" {name="The Flip 1" id=-1}
+"r4-2" {name="The Flip 2" id=-1}
+"r4-3" {name="The Flip 3" id=-1}
+"r4-4" {name="The Flip 4" id=-1}
+"r4-5" {name="The Flip 5" id=-1}
+"r4-6" {name="The Flip 6" id=-1}
+"r4-7" {name="The Flip 7" id=-1}
+"r4-8" {name="The Flip 8" id=-1}
+"r4-9" {name="The Flip 9" id=-1}
+"r4-10" {name="The Flip 10" id=-1}
+"r4-11" {name="The Flip 11" id=-1}
+"r4-12" {name="The Flip 12" id=-1}
+"r4-13" {name="The Flip 13" id=-1}
+"r4-14" {name="The Flip 14" id=-1}
+"r4-15" {name="The Flip 15" id=-1}
+"r5x-1" {name="???" id=1}
+"r5-1" {name="Desintegration 1" id=-1}
+"r5-2" {name="Desintegration 2" id=-1}
+"r5-3" {name="Desintegration 3" id=-1}
+"r5-4" {name="Desintegration 4" id=-1}
+"r5-5" {name="Desintegration 5" id=-1}
+"r5-6" {name="Desintegration 6" id=-1}
+"r5-7" {name="Desintegration 7" id=-1}
+"r5-8" {name="Desintegration 8" id=-1}
+"r5-9" {name="Desintegration 9" id=-1}
+"r5-10" {name="Desintegration 10" id=-1}
+"r5-11" {name="Desintegration 11" id=-1}
+"r5-12" {name="Desintegration 12" id=-1}
+"r5-13" {name="Desintegration 13" id=-1}
+"r5-14" {name="Desintegration 14" id=-1}
+"r5-15" {name="Desintegration 15" id=-1}
+"r5-16" {name="Desintegration 16" id=-1}
+"r5-17" {name="Desintegration 17" id=-1}
+"r5-18" {name="Desintegration 18" id=-1}
+"r5-19" {name="Desintegration 19" id=-1}
+"r5-20" {name="Desintegration 20" id=-1}
+"8a-0" {name="???" id=-1}
+"8a-1" {name="Hidden Glade 1" id=-1}
+"8a-2" {name="Hidden Glade 2" id=-1}
+"8a-3" {name="Hidden Glade 3" id=-1}
+"8a-4" {name="Hidden Glade 4" id=-1}
+"8a-5" {name="Hidden Glade 5" id=-1}
+"8a-6" {name="Hidden Glade 6" id=-1}
+"8a-7" {name="Hidden Glade 7" id=-1}
+"8a-8" {name="Hidden Glade 8" id=-1}
+"8a-9" {name="Hidden Glade 9" id=-1}
+"8a-10" {name="Hidden Glade 10" id=-1}
+"8a-11" {name="Hidden Glade 11" id=-1}
+"8a-12" {name="Hidden Glade 12" id=-1}
+"8a-13" {name="Hidden Glade 13" id=-1}
+"8a-14" {name="Hidden Glade 14" id=-1}
+"8a-15" {name="Hidden Glade 15" id=-1}
+"8a-16" {name="Hidden Glade 16" id=-1}
+"8a-17" {name="Hidden Glade 17" id=-1}
+"8a-18" {name="Hidden Glade 18" id=-1}
+"8a-19" {name="Hidden Glade 19" id=-1}
+"8a-20" {name="Hidden Glade 20" id=-1}
+"8bbd-3" {name="Dark Hell 3" id=-1}
+"8bb-1x" {name="Hell!" id=-1}
+"8bb-1" {name="Hell! 1" id=-1}
+"8bb-2" {name="Hell! 3" id=-1}
+"8bb-3" {name="Hell! 5" id=-1}
+"8bb-4" {name="Hell! 7" id=-1}
+"8bb-5" {name="Hell! 9" id=-1}
+"8bb-6" {name="Hell! 11" id=-1}
+"8bb-7" {name="Hell! 13" id=-1}
+"8bb-8" {name="Hell! 15" id=-1}
+"8bbx-1" {name="Hell? 2" id=-1}
+"8bbx-2" {name="Hell? 4" id=-1}
+"8bbx-3" {name="Hell? 6" id=-1}
+"8bbx-4" {name="Hell? 8" id=-1}
+"8bbx-5" {name="Hell? 10" id=-1}
+"8bbx-6" {name="Hell? 12" id=-1}
+"8bbx-7" {name="Hell? 14" id=-1}
+"8cx-1" {name="???" id=1} #biglife
+"8cx-2" {name="???" id=-1}
+"8cx-3" {name="???" id=2} #biglife
+"8c-0" {name="???" id=-1}
+"8c-1" {name="Breeze 1" id=-1}
+"8c-2" {name="Breeze 2" id=-1}
+"8c-3" {name="Breeze 3" id=-1}
+"8c-4" {name="Breeze 4" id=-1}
+"8c-5" {name="Breeze 5" id=-1}
+"8c-6" {name="Breeze 6" id=-1}
+"8c-7" {name="Breeze 7" id=-1}
+"8c-8" {name="Breeze 8" id=-1}
+"8c-9" {name="Breeze 9" id=-1}
+"8c-10" {name="Breeze 10" id=-1}
+"8c-11" {name="Breeze 11" id=-1}
+"8c-12" {name="Breeze 12" id=-1}
+"8c-13" {name="Breeze 13" id=-1}
+"8c-14" {name="Breeze 14" id=-1}
+"8c-15" {name="Breeze 15" id=-1}
+"8c-16" {name="Breeze 16" id=-1}
+"8c-17" {name="Breeze 17" id=-1}
+"8c-18" {name="Breeze 18" id=-1}
+"8c-19" {name="Breeze 19" id=-1}
+"8c-20" {name="Breeze 20" id=-1}
+"r1d-1" {name="Dark Rapture 1" id=-1}
+"r1d-2" {name="Dark Rapture 2" id=-1}
+"r1d-3" {name="Dark Rapture 3" id=-1}
+"r1d-4" {name="Dark Rapture 4" id=-1}
+"r1d-5" {name="Dark Rapture 5" id=-1}
+"r1d-6" {name="Dark Rapture 6" id=-1}
+"r1d-7" {name="Dark Rapture 7" id=-1}
+"r1d-8" {name="Dark Rapture 8" id=-1}
+"r1d-9" {name="Dark Rapture 9" id=-1}
+"r1d-10" {name="Dark Rapture 10" id=-1}
+"r1d-11" {name="Dark Rapture 11" id=-1}
+"r1d-12" {name="Dark Rapture 12" id=-1}
+"r1d-13" {name="Dark Rapture 13" id=-1}
+"r1d-14" {name="Dark Rapture 14" id=-1}
+"r1d-15" {name="Dark Rapture 15" id=-1}
+"r1d-16" {name="Dark Rapture 16" id=-1}
+"r1d-17" {name="Dark Rapture 17" id=-1}
+"r1d-18" {name="Dark Rapture 18" id=-1}
+"r1d-19" {name="Dark Rapture 19" id=-1}
+"r1d-20" {name="Dark Rapture 20" id=-1}
+"r1d-1x" {name="Dark Rapture 21" id=-1}
+"r1d-2x" {name="Dark Rapture 22" id=-1}
+"r1d-3x" {name="Dark Rapture 23" id=-1}
+"r1d-4x" {name="Dark Rapture 24" id=-1}
+"r1d-5x" {name="Dark Rapture 25" id=-1}
+"r1d-6x" {name="Dark Rapture 26" id=-1}
+"r1d-7x" {name="Dark Rapture 27" id=-1}
+"r1d-8x" {name="Dark Rapture 28" id=-1}
+"r1d-9x" {name="Dark Rapture 29" id=-1}
+"r1d-10x" {name="Dark Rapture 30" id=-1}
+"r1d-11x" {name="Dark Rapture 31" id=-1}
+"r1d-12x" {name="Dark Rapture 32" id=-1}
+"r1d-13x" {name="Dark Rapture 33" id=-1}
+"r1d-14x" {name="Dark Rapture 34" id=-1}
+"6x-9" {name="???" id=-1}
+"6x-10" {name="???" id=-1}
+"1xu-5a" {name="???" id=-1}
+"1xu-6a" {name="???" id=-1}
+"1-2b" {name="???" id=-1}
+"1d-2b" {name="???" id=-1}
+"a-1" {name="Skyfolding 1" id=1}
+"a-2" {name="Skyfolding 2" id=2}
+"a-3" {name="Skyfolding 3" id=3}
+"a-4" {name="Skyfolding 4" id=4}
+"a-5" {name="Skyfolding 5" id=-1}
+"a-6" {name="Skyfolding 6" id=-1}
+"a-7" {name="Skyfolding 7" id=-1}
+"a-8" {name="Skyfolding 8" id=-1}
+"a-9" {name="Skyfolding 9" id=-1}
+"a-10" {name="Skyfolding 10" id=-1}
+"a-11" {name="Skyfolding 11" id=-1}
+"a-12" {name="Skyfolding 12" id=-1}
+"a-13" {name="Skyfolding 13" id=-1}
+"a-14" {name="Skyfolding 14" id=-1}
+"a-15" {name="Skyfolding 15" id=-1}
+"a-16" {name="Skyfolding 16" id=-1}
+"a-17" {name="Skyfolding 17" id=5}
+"a-18" {name="Skyfolding 18" id=-1}
+"a-19" {name="Skyfolding 19" id=-1}
+"a-20" {name="Skyfolding 20" id=1}
+"ax-1" {name="???" id=1}
+"1b-1" {name="Floating City 1" id=1}
+"1b-2" {name="Floating City 2" id=2}
+"1b-3" {name="Floating City 3" id=3}
+"1b-4" {name="Floating City 4" id=4}
+"1b-5" {name="Floating City 5" id=5}
+"1b-6" {name="Floating City 6" id=6}
+"1b-7" {name="Floating City 7" id=7}
+"1b-8" {name="Floating City 8" id=8}
+"1b-9" {name="Floating City 9" id=9}
+"1b-11" {name="Floating City 10" id=10}
+"1b-12" {name="Floating City 11" id=11}
+"1b-13" {name="Floating City 12" id=12}
+"1b-14" {name="Floating City 13" id=13}
+"1b-16" {name="Floating City 14" id=14}
+"1b-17" {name="Floating City 15" id=15}
+"1b-18" {name="Floating City 16" id=16}
+"1bx-1" {name="???" id=1}
+"1bx-2" {name="Floating City" id=1}
+"1bx-3" {name="Floating City" id=1}
+"1bx-4" {name="Floating City" id=1}
+"1bx-5" {name="Floating City" id=1}
+"1db-1" {name="Decline 1" id=-1}
+"1db-2" {name="Decline 2" id=-1}
+"1db-3" {name="Decline 3" id=-1}
+"1db-4" {name="Decline 4" id=-1}
+"1db-5" {name="Decline 5" id=-1}
+"1db-6" {name="Decline 6" id=-1}
+"1db-7" {name="Decline 7" id=-1}
+"1db-8" {name="Decline 8" id=-1}
+"1db-9" {name="Decline 9" id=-1}
+"1db-10" {name="Decline 10" id=-1}
+"1db-11" {name="Decline 11" id=-1}
+"1db-12" {name="Decline 12" id=-1}
+"1db-13" {name="Decline 13" id=-1}
+"1db-14" {name="Decline 14" id=-1}
+"1db-15" {name="Decline 15" id=-1}
+"1db-16" {name="Decline 16" id=-1}
+"1db-17" {name="Decline 17" id=-1}
+"1db-18" {name="Decline 18" id=-1}
+"1dbx-1" {name="???" id=-1}
+"1dbx-2" {name="???" id=-1}
+"r1b-1" {name="Solitude 1" id=-1}
+"r1b-2" {name="Solitude 2" id=-1}
+"r1b-3" {name="Solitude 3" id=-1}
+"r1b-4" {name="Solitude 4" id=-1}
+"r1b-5" {name="Solitude 5" id=-1}
+"r1b-6" {name="Solitude 6" id=-1}
+"r1b-7" {name="Solitude 7" id=-1}
+"r1b-8" {name="Solitude 8" id=-1}
+"r1b-9" {name="Solitude 9" id=-1}
+"r1b-10" {name="Solitude 10" id=-1}
+"r1b-11" {name="Solitude 11" id=-1}
+"r1b-12" {name="Solitude 12" id=-1}
+"r1b-13" {name="Solitude 13" id=-1}
+"r1b-14" {name="Solitude 14" id=-1}
+"r1b-15" {name="Solitude 15" id=-1}
+"r1b-16" {name="Solitude 16" id=-1}
+"r1b-17" {name="Solitude 17" id=-1}
+"r1b-18" {name="Solitude 18" id=-1}
+"r1b-19" {name="Solitude 19" id=-1}
+"r1b-20" {name="Solitude 20" id=-1}
+"i0-0" {name="The Impossible Cyst" id=-1}
+"i0-1" {name="I Wanna be The Rising Platform!" id=-1}
+"i0-2x" {name="Potassium's favorite" id=-1}
+"i0-3x" {name="Guns & Guns & Guns & Guns & Guns & Guns & Guns & Guns & Guns & Guns" id=-1}
+"i0-4x" {name="Ruin 20 Jump" id=-1}
+"i0-5x" {name="SCAB OR DIE 6" id=-1}
+"i0-6x" {name="RETINARAS LOOK LIKE AMONG US" id=-1}
+"i0-7x" {name="\"Worst level in the game\"" id=-1}
+"i0-8x" {name="IS THIS ANNIVERSARRY 7?" id=-1}
+"i0-9x" {name="LSD RADIX SORT" id=-1}
+"i0-10x" {name="- TRUE FINALE -" id=-1}
+//}
+//{ Surreal
+	//{ CARTS
+"csd1-1" {name="Darkanoid-1" id=-1}
+"csd1-10" {name="Darkanoid-10" id=-1}
+"csd1-2" {name="Darkanoid-2" id=-1}
+"csd1-3" {name="Darkanoid-3" id=-1}
+"csd1-4" {name="Darkanoid-4" id=-1}
+"csd1-5" {name="Darkanoid-5" id=-1}
+"csd1-6" {name="Darkanoid-6" id=-1}
+"csd1-7" {name="Darkanoid-7" id=-1}
+"csd1-8" {name="Darkanoid-8" id=-1}
+"csd1-9" {name="Darkanoid-9" id=-1}
+
+"csd2-1" {name="Surreal's Favorite" id=-1}
+
+"gn1-1" {name="Ash's Carnage Roll 1" id=-1}
+"gn1-2" {name="Ash's Carnage Roll 2" id=-1}
+"gn1-3" {name="Ash's Carnage Roll 3" id=-1}
+"gn1-4" {name="Ash's Carnage Roll 4" id=-1}
+"gn1-5" {name="Ash's Carnage Roll 5" id=-1}
+"gn1-6" {name="Ash's Carnage Roll 6" id=-1}
+"gn1-7" {name="Ash's Carnage Roll 7" id=-1}
+"gn1-8" {name="Ash's Carnage Roll 8" id=-1}
+"gn1-9" {name="Ash's Carnage Roll 9" id=-1}
+"gn1-10" {name="Ash's Carnage Roll 10" id=-1}
+
+"gn2-1" {name="Ulcer Wilds 1" id=-1}
+"gn2-2" {name="Ulcer Wilds 2" id=-1}
+"gn2-3" {name="Ulcer Wilds 3" id=-1}
+"gn2-4" {name="Ulcer Wilds 4" id=-1}
+"gn2-5" {name="Ulcer Wilds 5" id=-1}
+"gn2-6" {name="Ulcer Wilds 6" id=-1}
+"gn2-7" {name="Ulcer Wilds 7" id=-1}
+"gn2-8" {name="Ulcer Wilds 8" id=-1}
+"gn2-9" {name="Ulcer Wilds 9" id=-1}
+"gn2-10" {name="Ulcer Wilds 10" id=-1}
+
+"gn3-1" {name="Death Spoor 1" id=-1}
+"gn3-2" {name="Death Spoor 2" id=-1}
+"gn3-3" {name="Death Spoor 3" id=-1}
+"gn3-4" {name="Death Spoor 4" id=-1}
+"gn3-5" {name="Death Spoor 5" id=-1}
+"gn3-6" {name="Death Spoor 6" id=-1}
+"gn3-7" {name="Death Spoor 7" id=-1}
+"gn3-8" {name="Death Spoor 8" id=-1}
+"gn3-9" {name="Death Spoor 9" id=-1}
+"gn3-10" {name="Death Spoor 10" id=-1}
+
+"gn4-1" {name="Frighten The Moods 1" id=-1}
+"gn4-2" {name="Frighten The Moods 2" id=-1}
+"gn4-3" {name="Frighten The Moods 3" id=-1}
+"gn4-4" {name="Frighten The Moods 4" id=-1}
+"gn4-5" {name="Frighten The Moods 5" id=-1}
+"gn4-6" {name="Frighten The Moods 6" id=-1}
+"gn4-7" {name="Frighten The Moods 7" id=-1}
+"gn4-8" {name="Frighten The Moods 8" id=-1}
+"gn4-9" {name="Frighten The Moods 9" id=-1}
+"gn4-10" {name="Frighten The Moods 10" id=-1}
+
+"gn5-1" {name="Mori 1" id=-1}
+"gn5-2" {name="Mori 2" id=-1}
+"gn5-3" {name="Mori 3" id=-1}
+"gn5-4" {name="Mori 4" id=-1}
+"gn5-5" {name="Mori 5" id=-1}
+"gn5-6" {name="Mori 6" id=-1}
+"gn5-7" {name="Mori 7" id=-1}
+"gn5-8" {name="Mori 8" id=-1}
+"gn5-9" {name="Mori 9" id=-1}
+"gn5-10" {name="Mori 10" id=-1}
+
+"gn6-1" {name="Lunatic 1" id=-1}
+"gn6-2" {name="Lunatic 2" id=-1}
+"gn6-3" {name="Lunatic 3" id=-1}
+"gn6-4" {name="Lunatic 4" id=-1}
+"gn6-5" {name="Lunatic 5" id=-1}
+"gn6-6" {name="Lunatic 6" id=-1}
+"gn6-7" {name="Lunatic 7" id=-1}
+"gn6-8" {name="Lunatic 8" id=-1}
+"gn6-9" {name="Lunatic 9" id=-1}
+"gn6-10" {name="Lunatic 10" id=-1}
+
+"gn7-1" {name="Goop Hero 1" id=-1}
+"gn7-2" {name="Goop Hero 2" id=-1}
+"gn7-3" {name="Goop Hero 3" id=-1}
+"gn7-4" {name="Goop Hero 4" id=-1}
+"gn7-5" {name="Goop Hero 5" id=-1}
+"gn7-6" {name="Goop Hero 6" id=-1}
+"gn7-7" {name="Goop Hero 7" id=-1}
+"gn7-8" {name="Goop Hero 8" id=-1}
+"gn7-9" {name="Goop Hero 9" id=-1}
+"gn7-10" {name="Goop Hero 10" id=-1}
+
+"gn8-1" {name="Herpes 1" id=-1}
+"gn8-2" {name="Herpes 2" id=-1}
+"gn8-3" {name="Herpes 3" id=-1}
+"gn8-4" {name="Herpes 4" id=-1}
+"gn8-5" {name="Herpes 5" id=-1}
+"gn8-6" {name="Herpes 6" id=-1}
+"gn8-7" {name="Herpes 7" id=-1}
+"gn8-8" {name="Herpes 8" id=-1}
+"gn8-9" {name="Herpes 9" id=-1}
+"gn8-10" {name="Herpes 10" id=-1}
+
+"gn9-1" {name="Afraid 1" id=-1}
+"gn9-2" {name="Afraid 2" id=-1}
+"gn9-3" {name="Afraid 3" id=-1}
+"gn9-4" {name="Afraid 4" id=-1}
+"gn9-5" {name="Afraid 5" id=-1}
+"gn9-6" {name="Afraid 6" id=-1}
+"gn9-7" {name="Afraid 7" id=-1}
+"gn9-8" {name="Afraid 8" id=-1}
+"gn9-9" {name="Afraid 9" id=-1}
+"gn9-10" {name="Afraid 10" id=-1}
+
+"gn10-1" {name="The Lonely Mutable 1" id=-1}
+"gn10-2" {name="The Lonely Mutable 2" id=-1}
+"gn10-3" {name="The Lonely Mutable 3" id=-1}
+"gn10-4" {name="The Lonely Mutable 4" id=-1}
+"gn10-5" {name="The Lonely Mutable 5" id=-1}
+"gn10-6" {name="The Lonely Mutable 6" id=-1}
+"gn10-7" {name="The Lonely Mutable 7" id=-1}
+"gn10-8" {name="The Lonely Mutable 8" id=-1}
+"gn10-9" {name="The Lonely Mutable 9" id=-1}
+"gn10-10" {name="The Lonely Mutable 10" id=-1}
+
+"gj-1" {name=" " id=-1}
+"gj-2" {name=" " id=-1}
+"gj-3" {name=" " id=-1}
+"gj-4" {name=" " id=-1}
+
+"gn11-1" {name="Doomed Island 1" id=-1}
+"gn11-2" {name="Doomed Island 2" id=-1}
+"gn11-3" {name="Doomed Island 3" id=-1}
+"gn11-4" {name="Doomed Island 4" id=-1}
+"gn11-5" {name="Doomed Island 5" id=-1}
+"gn11-6" {name="Doomed Island 6" id=-1}
+"gn11-7" {name="Doomed Island 7" id=-1}
+"gn11-8" {name="Doomed Island 8" id=-1}
+"gn11-9" {name="Doomed Island 9" id=-1}
+"gn11-10" {name="Doomed Island 10" id=-1}
+
+"gnr1-1" {name="World Of Flu 1" id=-1}
+"gnr1-2" {name="World Of Flu 2" id=-1}
+"gnr1-3" {name="World Of Flu 3" id=-1}
+"gnr1-4" {name="World Of Flu 4" id=-1}
+"gnr1-5" {name="World Of Flu 5" id=-1}
+"gnr1-6" {name="World Of Flu 6" id=-1}
+"gnr1-7" {name="World Of Flu 7" id=-1}
+"gnr1-8" {name="World Of Flu 8" id=-1}
+"gnr1-9" {name="World Of Flu 9" id=-1}
+"gnr1-10" {name="World Of Flu 10" id=-1}
+
+"gnr2-1" {name="Keep Trying And Nobody Dies 1" id=-1}
+"gnr2-2" {name="Keep Trying And Nobody Dies 2" id=-1}
+"gnr2-3" {name="Keep Trying And Nobody Dies 3" id=-1}
+"gnr2-4" {name="Keep Trying And Nobody Dies 4" id=-1}
+"gnr2-5" {name="Keep Trying And Nobody Dies 5" id=-1}
+"gnr2-6" {name="Keep Trying And Nobody Dies 6" id=-1}
+"gnr2-7" {name="Keep Trying And Nobody Dies 7" id=-1}
+"gnr2-8" {name="Keep Trying And Nobody Dies 8" id=-1}
+"gnr2-9" {name="Keep Trying And Nobody Dies 9" id=-1}
+"gnr2-10" {name="Keep Trying And Nobody Dies 10" id=-1}
+
+"gnr3-1" {name="Prescryption 1" id=-1}
+"gnr3-2" {name="Prescryption 2" id=-1}
+"gnr3-3" {name="Prescryption 3" id=-1}
+"gnr3-4" {name="Prescryption 4" id=-1}
+"gnr3-5" {name="Prescryption 5" id=-1}
+"gnr3-6" {name="Prescryption 6" id=-1}
+"gnr3-7" {name="Prescryption 7" id=-1}
+"gnr3-8" {name="Prescryption 8" id=-1}
+"gnr3-9" {name="Prescryption 9" id=-1}
+"gnr3-10" {name="Prescryption 10" id=-1}
+	//}
+
+"2b-0" {name="???" id=1}
+"2b-1" {name="Mirror Planetarium" id=-1}
+"2bx-1" {name="Mirror Planetarium" id=-1}
+"2bx-2" {name="Mirror Planetarium" id=-1}
+"2bx-3" {name="Mirror Planetarium" id=-1}
+"2bx-4" {name="Mirror Planetarium" id=-1}
+"2bx-5" {name="Mirror Planetarium" id=-1}
+"2bx-6" {name="Mirror Planetarium" id=-1}
+"2bx-7" {name="Mirror Planetarium" id=-1}
+"2bx-8" {name="Mirror Planetarium" id=-1}
+"2bx-9" {name="Mirror Planetarium" id=-1}
+"2bx-10" {name="Mirror Planetarium" id=-1}
+"2bx-11" {name="Mirror Planetarium" id=-1}
+"2bx-12" {name="Mirror Planetarium" id=-1}
+"2bx-13" {name="Mirror Planetarium" id=-1}
+"2bx-14" {name="Mirror Planetarium" id=-1}
+"2bx-15" {name="Mirror Planetarium" id=-1}
+"2bx-16" {name="Mirror Planetarium" id=-1}
+"2bx-17" {name="Mirror Planetarium" id=-1}
+"2bx-18" {name="Mirror Planetarium" id=-1}
+"2bx-13b" {name="Mirror Planetarium" id=-1}
+"2bx-14b" {name="Mirror Planetarium" id=-1}
+"2bx-15b" {name="Mirror Planetarium" id=-1}
+"2bx-16b" {name="Mirror Planetarium" id=-1}
+"2bx-17b" {name="Mirror Planetarium" id=-1}
+"2bx-18b" {name="Mirror Planetarium" id=-1}
+"2bx-19" {name="Mirror Planetarium" id=-1}
+"2bx-20" {name="Mirror Planetarium" id=-1}
+"2bx-21" {name="Mirror Planetarium" id=-1}
+"2bx-22" {name="Mirror Planetarium" id=-1}
+"2bx-23" {name="Mirror Planetarium" id=-1}
+"2bx-24" {name="Mirror Planetarium" id=-1}
+
+"sl-0" {name="???" id=-1}
+"sl-1" {name="???" id=-1}
+"sl-2" {name="The Wailing Sepulcher" id=-1}
+"sl-3" {name="The Wailing Sepulcher" id=-1}
+"sl-4" {name="The Wailing Sepulcher" id=-1}
+"sl-5" {name="The Wailing Sepulcher" id=-1}
+"sl-6" {name="The Wailing Sepulcher" id=-1}
+"sl-7" {name="The Wailing Sepulcher" id=-1}
+"sl-8" {name="The Wailing Sepulcher" id=-1}
+"sl-9" {name="The Wailing Sepulcher" id=-1}
+"sl-10" {name="The Wailing Sepulcher" id=-1}
+
+"6cx-1" {name="???" id=1}
+"6cx-2" {name="???" id=1}
+"6cx-3" {name="???" id=-1}
+"6cx-4" {name="???" id=-1}
+"6cx-5" {name="???" id=2}
+"7cx-1" {name="???" id=1}
+"7bx-1" {name="???" id=1}
+
+"aus-1" {name="Australia 1" id=-1}
+
+"7bx-2" {name="???" id=-1}
+"7bx-3" {name="???" id=-1}
+"7bx-4" {name="???" id=1}
+"6cx-4x" {name="???" id=-1}
+"7cx-5" {name="???" id=-1}
+"7cx-6" {name="???" id=1}
+"7cx-7" {name="???" id=-1}
+"7cx-8" {name="???" id=-1}
 
 "dud3-1" {name="Wreckage 1" id=1} 
 "dud3-2" {name="Wreckage 2" id=2} 
@@ -21,19 +1210,6 @@
 "dud3xu-8" {name="???" id=-1}
 "dud3xu-9" {name="???" id=1}
 
-"csd1-1" {name="Darkanoid-1" id=-1}
-"csd1-10" {name="Darkanoid-10" id=-1}
-"csd1-2" {name="Darkanoid-2" id=-1}
-"csd1-3" {name="Darkanoid-3" id=-1}
-"csd1-4" {name="Darkanoid-4" id=-1}
-"csd1-5" {name="Darkanoid-5" id=-1}
-"csd1-6" {name="Darkanoid-6" id=-1}
-"csd1-7" {name="Darkanoid-7" id=-1}
-"csd1-8" {name="Darkanoid-8" id=-1}
-"csd1-9" {name="Darkanoid-9" id=-1}
-
-"csd2-1" {name="Surreal's Favorite" id=-1}
-
 "9-0" {name="???" id=-1}
 "9-0x" {name="???" id=-1}
 "9-1x" {name="???" id=-1}
@@ -45,12 +1221,9 @@
 "9-13" {name="The Farlands 13" id=13} #life
 "9-14" {name="The Farlands 14" id=14} #life
 "9-15" {name="The Farlands 15" id=15} #life
-"9-16" {name="The Farlands 16" id=16} #life
-"9-17" {name="The Farlands 17" id=17} #life
-"9-18" {name="The Farlands 18" id=18} #life
-"9-19" {name="The Farlands 19" id=19} #life
+"9-19" {name="???" id=2} #cart
+"9-20" {name="End of the Road" id=-1}
 "9-2" {name="The Farlands 2" id=2} #life
-"9-20" {name="The Farlands 20" id=20} #life
 "9-3" {name="The Farlands 3" id=3} #life
 "9-4" {name="The Farlands 4" id=4} #life
 "9-5" {name="The Farlands 5" id=5} #life
@@ -59,33 +1232,32 @@
 "9-8" {name="The Farlands 8" id=8} #life
 "9-9" {name="The Farlands 9" id=9} #life
 
-"9xd-1" {name="???" id=2}
-"9xd-2" {name="???" id=1}
-"9xd-3" {name="???" id=3}
-"9xd-4" {name="???" id=4}
-"9xu-1" {name="???" id=5}
-"9xu-2" {name="???" id=6}
-"9xu-3" {name="???" id=7}
-
-"9xx-0" {name=". . ." id=-1}
-"9xx-1" {name=". . ." id=1}
+"9xd-2" {name="???" id=3}
+"9xd-3" {name="???" id=4}
+"9xd-4" {name="???" id=6}
+"9xd-5" {name="???" id=7}
+"9xd-6" {name="???" id=1}
+"9xu-1" {name="???" id=1}
+"9xu-2" {name="???" id=2}
+"9xu-3" {name="???" id=5}
 
 "9d-0" {name="???" id=-1}
-"9d-1" {name="The Fartherlands 1" id=-1} #life
-"9d-10" {name="The Fartherlands 10" id=-1} #life
-"9d-11" {name="The Fartherlands" id=-1} #life
-"9d-12" {name="The Fartherlands" id=-1} #life
-"9d-2" {name="The Fartherlands 2" id=-1} #life
-"9d-3" {name="The Fartherlands 3" id=-1} #life
-"9d-4" {name="The Fartherlands 4" id=-1} #life
-"9d-5" {name="The Fartherlands 5" id=-1} #life
-"9d-6" {name="The Fartherlands 6" id=-1} #life
-"9d-7" {name="The Fartherlands 7" id=-1} #life
-"9d-8" {name="The Fartherlands 8" id=-1} #life
-"9d-9" {name="The Fartherlands 9" id=-1} #life
+"9d-1" {name="The Fartherlands 1" id=-1}
+"9d-10" {name="The Fartherlands 10" id=-1}
+"9d-11" {name="The Fartherlands" id=-1}
+"9d-12" {name="The Fartherlands" id=-1}
+"9d-2" {name="The Fartherlands 2" id=-1}
+"9d-3" {name="The Fartherlands 3" id=-1}
+"9d-4" {name="The Fartherlands 4" id=-1}
+"9d-5" {name="The Fartherlands 5" id=-1}
+"9d-6" {name="The Fartherlands 6" id=-1}
+"9d-7" {name="The Fartherlands 7" id=-1}
+"9d-8" {name="The Fartherlands 8" id=-1}
+"9d-9" {name="The Fartherlands 9" id=-1}
 
 "9dx-1" {name="???" id=-1}
 "9dx-2" {name="???" id=-1}
 "9dx-3" {name="???" id=-1}
 "9dx-4" {name="???" id=-1}
 "9dx-5" {name="???" id=-1}
+//}

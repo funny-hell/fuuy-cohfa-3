@@ -1,0 +1,181 @@
+//{CHANGES
+c1 {
+	background_graphics bgretrox
+}
+c2 {
+	background_graphics bgretrox
+}
+c4a {
+	background_graphics bgretrox
+}
+c5a {
+	background_graphics bgretrox
+}
+c4b {
+	background_graphics bgretrox
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, Floater2][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][CreepingMass, CreepingMassRetro]
+    ]
+}
+c4c {
+	background_graphics bgretrox
+}
+c5b {
+	background_graphics bgretrox
+}
+c5c {
+	background_graphics bgretrox
+}
+c6 {
+	background_graphics bgretrox
+}
+
+1 {
+    2b {
+	area_label_frame 0
+	art_alts [
+        [Floater, Floater][OrbSmall, BalloonSmall][OrbLarge, BalloonLarge][ChainLink2, BalloonLink2]
+	]
+    }
+}
+1xd {
+	palette 201
+	global_particle_1 rain
+	global_particle_2 fog
+	global_particle_3 fogbg2
+}
+1xu {
+	palette 200
+	global_particle_4 cloudwind
+	6a {
+		npc_1 NPCdudx11
+		area_label_frame 0
+	}
+}
+1d {
+	fx_shader_mid fire
+	midfx_graphics ShadeBox
+	midfx_layer 2
+	palette 7
+	foreground_graphics none
+	2b {
+		area_label_frame 0
+	}
+}
+2xd {
+	palette 203
+}
+2xu {
+	palette 202
+}
+3xd {
+	palette 205
+}
+3xu {
+	palette 204
+}
+4ax {
+	palette 206
+}
+4bx {
+	palette 207
+}
+4cx {
+	palette 208
+	background_graphics bgsolid
+	fx_shader_mid lightingmodded
+	3 {
+		fx_shader_mid lighting
+		midfx_layer 2
+	}
+	10 {
+		shader_param .4
+	}
+	11 {
+		shader_param .4
+	}
+	12 {
+		shader_param .5
+	}
+	
+	npc_2 NPCdud34
+}
+5cx {
+	palette 209
+}
+5ax {
+	palette 210
+}
+5bxu {
+	palette 211
+}
+5bxd {
+	palette 212
+}
+6x {
+	palette 213
+	9 {
+        music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
+        tile_graphics Tilehell
+        fx_shader ripples
+        fx_shader_mid fire
+        midfx_graphics ShadeBox
+        midfx_layer 2
+        toxic_timer 0
+    }
+
+    10 {
+        music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
+        tile_graphics Tilehell
+        fx_shader ripples
+        fx_shader_mid fire
+        midfx_graphics ShadeBox
+        midfx_layer 2
+        toxic_timer 0
+    }
+}
+2d {
+	fx_shader_mid lightingmodded
+	midfx_graphics ShadeBox
+	midfx_layer 2
+	shader_param 0.6
+}
+7x {
+	palette 214
+	fx_shader_mid lightingmodded
+	
+	7 {
+		npc_1 NPCdud21
+		global_particle_1 fallout2
+		music [gymnopedies_intro.ogg, gymnopedies_loop.ogg]
+	}
+}
+3d {
+	fx_shader_mid radiation
+	midfx_graphics SolidBox
+	midfx_layer 2
+}
+8x {
+	palette 215
+}
+9x {
+	palette 216
+}
+4 {
+	music [gameover.ogg, none]
+}
+4c {
+	fx_shader_mid lightingmodded
+}
+7 {
+	npc_1 NPCH6
+}
+10x {
+	area_name "The Future"
+}
+
+//}

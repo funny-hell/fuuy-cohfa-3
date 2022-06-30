@@ -1,0 +1,54 @@
+c1 {
+	decoration_1 warpzone_arrow
+	art_alts.append[
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro]
+	]
+}
+c2 {
+	decoration_1 warpzone_arrow
+	art_alts.append[
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro]
+	]
+}
+c3 {
+	decoration_1 warpzone_arrow
+	art_alts.append[
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro]
+	]
+}
+c4a {
+	decoration_1 warpzone_arrow
+	art_alts.append[
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro]
+	]
+}
+c5a {
+	decoration_1 warpzone_arrow
+	art_alts.append[
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro]
+	]
+}
+c4b {
+	decoration_1 warpzone_arrow
+	art_alts.append[
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro]
+	]
+}
+c5b {
+	decoration_1 warpzone_arrow
+	art_alts.append[
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro]
+	]
+}
+c4c {
+	decoration_1 warpzone_arrow
+	art_alts.append[
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro]
+	]
+}
+c5c {
+	decoration_1 warpzone_arrow
+	art_alts.append[
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro]
+	]
+}

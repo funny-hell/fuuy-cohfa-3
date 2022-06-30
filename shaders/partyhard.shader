@@ -12,9 +12,9 @@ uniform float timer;
 varying vec2 worldPos;
 
 const vec4  pulse_color = vec4(1,0.0,1,1); // the color to pulse to
-const float pulse_speed = 20.0;           // the speed at which to pulse (lower = slower)
-const float max_color_intensity = 0.1;  // how close to the desired color the pulse will get
-const float speed = 15.0;                 // the speed at which to shake the screen (lower = slower)
+const float pulse_speed = 2.0;           // the speed at which to pulse (lower = slower)
+const float max_color_intensity = 0.01;  // how close to the desired color the pulse will get
+const float speed = 5.0;                 // the speed at which to shake the screen (lower = slower)
 const vec2  intensity = vec2(0.05, 0.35); // the intensity of the screen shake in the x and y directions
 
 #if COMPILING_VERTEX_PROGRAM
@@ -43,7 +43,7 @@ void frag()
     screencoords.x /= screensize.x;
     screencoords.y /= screensize.y;
 
-    float time_value = -timer * pulse_speed;
+    float time_value = -timer * 0.5;
     float mix_value = sin_range(0, max_color_intensity, time_value);
 	
     float scale_x = screensize.x / 1280.0, scale_y = screensize.y / 720.0;
