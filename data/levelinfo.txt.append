@@ -1124,38 +1124,60 @@
 "gnr3-10" {name="Prescryption 10" id=-1}
 	//}
 
-"2b-0" {name="???" id=1}
-"2b-1" {name="Mirror Planetarium" id=-1}
-"2bx-1" {name="Mirror Planetarium" id=-1}
-"2bx-2" {name="Mirror Planetarium" id=-1}
-"2bx-3" {name="Mirror Planetarium" id=-1}
-"2bx-4" {name="Mirror Planetarium" id=-1}
-"2bx-5" {name="Mirror Planetarium" id=-1}
-"2bx-6" {name="Mirror Planetarium" id=-1}
-"2bx-7" {name="Mirror Planetarium" id=-1}
-"2bx-8" {name="Mirror Planetarium" id=-1}
-"2bx-9" {name="Mirror Planetarium" id=-1}
-"2bx-10" {name="Mirror Planetarium" id=-1}
-"2bx-11" {name="Mirror Planetarium" id=-1}
-"2bx-12" {name="Mirror Planetarium" id=-1}
-"2bx-13" {name="Mirror Planetarium" id=-1}
-"2bx-14" {name="Mirror Planetarium" id=-1}
-"2bx-15" {name="Mirror Planetarium" id=-1}
-"2bx-16" {name="Mirror Planetarium" id=-1}
-"2bx-17" {name="Mirror Planetarium" id=-1}
-"2bx-18" {name="Mirror Planetarium" id=-1}
-"2bx-13b" {name="Mirror Planetarium" id=-1}
-"2bx-14b" {name="Mirror Planetarium" id=-1}
-"2bx-15b" {name="Mirror Planetarium" id=-1}
-"2bx-16b" {name="Mirror Planetarium" id=-1}
-"2bx-17b" {name="Mirror Planetarium" id=-1}
-"2bx-18b" {name="Mirror Planetarium" id=-1}
-"2bx-19" {name="Mirror Planetarium" id=-1}
-"2bx-20" {name="Mirror Planetarium" id=-1}
-"2bx-21" {name="Mirror Planetarium" id=-1}
-"2bx-22" {name="Mirror Planetarium" id=-1}
-"2bx-23" {name="Mirror Planetarium" id=-1}
-"2bx-24" {name="Mirror Planetarium" id=-1}
+"2-0b" {name="???" id=-1}
+"2b-1" {name="Depths Of Despair 1" id=1}
+"2b-2" {name="Depths Of Despair 2" id=2}
+"2b-3" {name="Depths Of Despair 3" id=3}
+"2b-4" {name="Depths Of Despair 4" id=4}
+"2b-5" {name="Depths Of Despair 5" id=5}
+"2b-6" {name="Depths Of Despair 6" id=6}
+"2b-7" {name="Depths Of Despair 7" id=7}
+"2b-8" {name="Depths Of Despair 8" id=8}
+"2b-9" {name="Depths Of Despair 9" id=9}
+"2b-10" {name="Depths Of Despair 10" id=10}
+"2b-11" {name="Depths Of Despair 11" id=11}
+"2b-12" {name="Depths Of Despair 12" id=-1}
+"2b-13" {name="Depths Of Despair 13" id=-1}
+"2b-14" {name="Depths Of Despair 14" id=-1}
+"2b-15" {name="Depths Of Despair 15" id=-1}
+"2b-16" {name="Depths Of Despair 16" id=-1}
+"2b-17" {name="Depths Of Despair 17" id=-1}
+"2b-18" {name="Depths Of Despair 18" id=-1}
+"2b-19" {name="Depths Of Despair 19" id=-1}
+"2b-20" {name="Depths Of Despair 20" id=-1}
+
+"2c-0" {name="???" id=1}
+"2c-1" {name="Mirror Planetarium" id=-1}
+"2cx-1" {name="Mirror Planetarium" id=-1}
+"2cx-2" {name="Mirror Planetarium" id=-1}
+"2cx-3" {name="Mirror Planetarium" id=-1}
+"2cx-4" {name="Mirror Planetarium" id=-1}
+"2cx-5" {name="Mirror Planetarium" id=-1}
+"2cx-6" {name="Mirror Planetarium" id=-1}
+"2cx-7" {name="Mirror Planetarium" id=-1}
+"2cx-8" {name="Mirror Planetarium" id=-1}
+"2cx-9" {name="Mirror Planetarium" id=-1}
+"2cx-10" {name="Mirror Planetarium" id=-1}
+"2cx-11" {name="Mirror Planetarium" id=-1}
+"2cx-12" {name="Mirror Planetarium" id=-1}
+"2cx-13" {name="Mirror Planetarium" id=-1}
+"2cx-14" {name="Mirror Planetarium" id=-1}
+"2cx-15" {name="Mirror Planetarium" id=-1}
+"2cx-16" {name="Mirror Planetarium" id=-1}
+"2cx-17" {name="Mirror Planetarium" id=-1}
+"2cx-18" {name="Mirror Planetarium" id=-1}
+"2cx-13b" {name="Mirror Planetarium" id=-1}
+"2cx-14b" {name="Mirror Planetarium" id=-1}
+"2cx-15b" {name="Mirror Planetarium" id=-1}
+"2cx-16b" {name="Mirror Planetarium" id=-1}
+"2cx-17b" {name="Mirror Planetarium" id=-1}
+"2cx-18b" {name="Mirror Planetarium" id=-1}
+"2cx-19" {name="Mirror Planetarium" id=-1}
+"2cx-20" {name="Mirror Planetarium" id=-1}
+"2cx-21" {name="Mirror Planetarium" id=-1}
+"2cx-22" {name="Mirror Planetarium" id=-1}
+"2cx-23" {name="Mirror Planetarium" id=-1}
+"2cx-24" {name="Mirror Planetarium" id=-1}
 
 "sl-0" {name="???" id=-1}
 "sl-1" {name="???" id=-1}

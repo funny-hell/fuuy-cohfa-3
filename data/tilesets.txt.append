@@ -2605,6 +2605,49 @@ m {
     music [bumblebee_intro.ogg, bumblebee_loop.ogg]
     ambience castle.ogg
 }
+2b {
+    area_name "Despair"
+    area_label_frame 46
+    tile_graphics Tiletox2
+    overlay_graphics Overlaystox2
+    background_graphics Background
+    foreground_graphics none
+    fx_shader ripples
+    fx_shader_mid lightingmodded
+    midfx_graphics ShadeBox
+    midfx_layer 2
+    shader_param 0
+    palette 195
+    
+    tile_particle_1 dust
+    
+    ambience_volume 4
+    
+    area_type normal
+
+    npc_1 warningghost
+    npc_2 platform
+    
+    art_alts [
+        [OrbSmall, orbblob]
+        [ChainLink2, None]
+    ]
+
+    music [dante2_intro.ogg, dante2_loop.ogg]
+    ambience caves.ogg
+    1 {
+        shader_param 0.7
+    }
+    2 {
+        shader_param 0.5
+    }
+    3 {
+        shader_param 0.3
+    }
+    4 {
+        shader_param 0.1
+    }
+}
 
 r1d {
     area_name "Dark Rapture"
@@ -5481,7 +5524,7 @@ dud3 {
 	}
 }
 
-2b {
+2c {
     area_name "Mirror Planetarium"
     area_label_frame 46
     tile_graphics Tilecrystal
@@ -5520,7 +5563,7 @@ dud3 {
 		music none
 	}
 }
-2bx {
+2cx {
     area_name "Mirror Planetarium"
     area_label_frame 46
     tile_graphics Tilecrystal

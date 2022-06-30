@@ -307,20 +307,19 @@ nodes {
 	
 	DepthsOfDespair {
         clipname depthsofdespair
-        entrylevel none
+        entrylevel 2b-1
         page lightworld
-		levelgroups [2c]
+		levelgroups [2b]
         
         up AridFlats
-		select DepthsOfDespair
 		right Planetarium
     }
 	
 	Planetarium {
         clipname planetarium
-        entrylevel 2b-1
+        entrylevel 2c-1
         page lightworld
-		levelgroups [2b]
+		levelgroups [2c]
         
         left DepthsOfDespair
 		select Planetarium

@@ -1,4 +1,21 @@
 //{FC original
+warningghost {
+#first_sign
+    movieclip NPC0
+    sound_id NPCSkull
+    text [
+        "\n."
+    ]
+}
+platform {
+#first_sign
+    movieclip NPC0
+    sound_id NPCSkull
+    text [
+        "\n."
+    ]
+}
+
 NPC_Sign1 {
 #first_sign
     movieclip NPCSign
