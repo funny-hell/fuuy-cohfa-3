@@ -1,0 +1,91 @@
+
+"dud3-1" {name="Wreckage 1" id=1} 
+"dud3-2" {name="Wreckage 2" id=2} 
+"dud3-3" {name="Wreckage 3" id=3} 
+"dud3-4" {name="Wreckage 4" id=4}
+"dud3-5" {name="Wreckage 5" id=5} 
+"dud3-6" {name="Wreckage 6" id=6} 
+"dud3-7" {name="Wreckage 7" id=7} 
+"dud3-8" {name="Wreckage 8" id=8} 
+"dud3-9" {name="Wreckage 9" id=9} 
+"dud3-10" {name="Wreckage 10" id=10}
+"dud3-11" {name="Wreckage 11" id=-1}
+"dud3-12" {name="???" id=-1}
+
+"dud3xu-2" {name="???" id=-1}
+"dud3xu-4" {name="???" id=1}
+"dud3xu-5" {name="???" id=-1}
+"dud3xu-6" {name="???" id=2}
+"dud3x-4" {name="???" id=3}
+"dud3xu-7" {name="???" id=4}
+"dud3xu-8" {name="???" id=-1}
+"dud3xu-9" {name="???" id=1}
+
+"csd1-1" {name="Darkanoid-1" id=-1}
+"csd1-10" {name="Darkanoid-10" id=-1}
+"csd1-2" {name="Darkanoid-2" id=-1}
+"csd1-3" {name="Darkanoid-3" id=-1}
+"csd1-4" {name="Darkanoid-4" id=-1}
+"csd1-5" {name="Darkanoid-5" id=-1}
+"csd1-6" {name="Darkanoid-6" id=-1}
+"csd1-7" {name="Darkanoid-7" id=-1}
+"csd1-8" {name="Darkanoid-8" id=-1}
+"csd1-9" {name="Darkanoid-9" id=-1}
+
+"csd2-1" {name="Surreal's Favorite" id=-1}
+
+"9-0" {name="???" id=-1}
+"9-0x" {name="???" id=-1}
+"9-1x" {name="???" id=-1}
+"9-0z" {name="???" id=-1}
+"9-1" {name="The Farlands 1" id=1} #life
+"9-10" {name="The Farlands 10" id=10} #life
+"9-11" {name="The Farlands 11" id=11} #life
+"9-12" {name="The Farlands 12" id=12} #life
+"9-13" {name="The Farlands 13" id=13} #life
+"9-14" {name="The Farlands 14" id=14} #life
+"9-15" {name="The Farlands 15" id=15} #life
+"9-16" {name="The Farlands 16" id=16} #life
+"9-17" {name="The Farlands 17" id=17} #life
+"9-18" {name="The Farlands 18" id=18} #life
+"9-19" {name="The Farlands 19" id=19} #life
+"9-2" {name="The Farlands 2" id=2} #life
+"9-20" {name="The Farlands 20" id=20} #life
+"9-3" {name="The Farlands 3" id=3} #life
+"9-4" {name="The Farlands 4" id=4} #life
+"9-5" {name="The Farlands 5" id=5} #life
+"9-6" {name="The Farlands 6" id=6} #life
+"9-7" {name="The Farlands 7" id=7} #life
+"9-8" {name="The Farlands 8" id=8} #life
+"9-9" {name="The Farlands 9" id=9} #life
+
+"9xd-1" {name="???" id=2}
+"9xd-2" {name="???" id=1}
+"9xd-3" {name="???" id=3}
+"9xd-4" {name="???" id=4}
+"9xu-1" {name="???" id=5}
+"9xu-2" {name="???" id=6}
+"9xu-3" {name="???" id=7}
+
+"9xx-0" {name=". . ." id=-1}
+"9xx-1" {name=". . ." id=1}
+
+"9d-0" {name="???" id=-1}
+"9d-1" {name="The Fartherlands 1" id=-1} #life
+"9d-10" {name="The Fartherlands 10" id=-1} #life
+"9d-11" {name="The Fartherlands" id=-1} #life
+"9d-12" {name="The Fartherlands" id=-1} #life
+"9d-2" {name="The Fartherlands 2" id=-1} #life
+"9d-3" {name="The Fartherlands 3" id=-1} #life
+"9d-4" {name="The Fartherlands 4" id=-1} #life
+"9d-5" {name="The Fartherlands 5" id=-1} #life
+"9d-6" {name="The Fartherlands 6" id=-1} #life
+"9d-7" {name="The Fartherlands 7" id=-1} #life
+"9d-8" {name="The Fartherlands 8" id=-1} #life
+"9d-9" {name="The Fartherlands 9" id=-1} #life
+
+"9dx-1" {name="???" id=-1}
+"9dx-2" {name="???" id=-1}
+"9dx-3" {name="???" id=-1}
+"9dx-4" {name="???" id=-1}
+"9dx-5" {name="???" id=-1}

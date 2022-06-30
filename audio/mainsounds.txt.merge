@@ -1,0 +1,23 @@
+SoundEffectGroups {
+	# Example {                                  # the name of the sound effect trigger for the engine to access (PlaySound("Example"))
+    #    files [file1.wav, file2.wav, file3.wav] # triggering this sound chooses 1 file from here at random
+    #    pitch 5                                 # shortcut for pitch_range [5,5]  (constant pitch)
+    #    volume 5                                # shortcut for volume_range [5,5] (constant volume)
+    #    pitch_range [.8, 1.2]                   # pitch randomized between .8 and 1.2
+    #    volume_range [.8, 1.2]                  # volume randomized between .8 and 1.2
+    #    falloff .5                              # multiplied by volume_falloff_range global setting
+    #    falloff_range [1, 1]                    # same but as a range [.5, 2] with a base settingh of [10, 20] results in a new range of [5, 40]
+    #    pan_falloff .5                          # multiplied by pan_falloff_range global setting (should not need)
+    #    pan_falloff_range [1, 1]                # same but as a range [.5, 2] with a base settingh of [10, 20] results in a new range of [5, 40] (should not need)
+    # }
+	
+	NPCRobot{
+        files [TVup.wav]
+        volume 1.6
+		pitch_range [.5, .7]
+    }
+	NPCNAN {
+		files [bigslugcharge-003.wav, backwarp5.wav, cartridgecollect.wav, demonattack-001.wav, frogjump9.wav, ghostuichoose.wav]
+		pitch_range [.1, .3]
+	}
+}

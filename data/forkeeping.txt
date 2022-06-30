@@ -1,0 +1,102 @@
+    //TheDarkFuture
+    TheFuture {
+//        clipname Future
+//        entrylevel none
+//        page xdarkworld
+//       unlock_condition visited_levels_all
+        unlock_condition_levels [1d-1]
+        
+        select TheFuture
+        down Rapture
+    }
+    
+    Rapture {
+        clipname darkcity
+        entrylevel r1-1
+        page xdarkworld
+        levelgroups [r1]
+        
+        up TheFuture
+        right Wastelands
+    }
+    
+    Wastelands {
+        clipname darkfields
+        entrylevel r2-1
+        page xdarkworld
+        levelgroups [r2]
+        
+        left Rapture
+        right Collapse
+    }
+    
+    Collapse {
+        clipname darkbridge
+        entrylevel r3-1
+        page xdarkworld
+        levelgroups [r3 r3x]
+        
+        left Wastelands
+        right Hub
+    }
+
+    Hub {
+        clipname darkbridge
+        entrylevel hub-1
+        page xdarkworld
+        levelgroups [hub]
+        
+        left Collapse
+        up Excruciance
+        down Shock
+    }
+
+    Excruciance {
+        clipname darkbridge
+        entrylevel ex-1
+        page xdarkworld
+        levelgroups [ex]
+        
+        up XSExodus
+        down Hub
+    }
+
+    XSExodus {
+        clipname darkbridge
+        entrylevel ex-1
+        page xdarkworld
+        levelgroups [xs]
+        
+        right Quantum
+        down Excruciance
+    }
+
+    Quantum {
+        clipname darkbridge
+        entrylevel ex-1
+        page xdarkworld
+        levelgroups [xs]
+        
+        right GunsBlazing
+        left XSExodus
+    }
+
+    Shock {
+        clipname sewers
+        entrylevel 6-1
+        page xdarkworld
+        levelgroups [6d 6dx]
+        
+        up hub
+        left Lemniscatea
+    }
+    
+    Lemniscatea {
+        clipname superhell
+        entrylevel 7-0
+        page xdarkworld
+        levelgroups [7d]
+        
+        right Shock
+    }
+

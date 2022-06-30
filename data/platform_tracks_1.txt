@@ -1,0 +1,32 @@
+MovingPlatformSpeedLow 5
+MovingPlatformSpeedMed 10
+MovingPlatformSpeedHigh 20
+
+SmoothMovingPlatformSpeedLow 1
+SmoothMovingPlatformSpeedMed 5
+SmoothMovingPlatformSpeedHigh 25
+SmoothMovingPlatformSpeedXSlow .5
+
+FallingPlatformGravitytLow .25
+FallingPlatformGravitytMed 1
+FallingPlatformGravitytHigh 4
+
+CrumblingPlatformGravitytLow .5
+CrumblingPlatformGravitytMed 1
+CrumblingPlatformGravitytHigh 2
+
+
+
+SmasherSpeedLow 3
+SmasherDelayLow 2
+
+SmasherSpeedMed 5
+SmasherDelayMed 1
+
+SmasherSpeedHigh 10
+SmasherDelayHigh 1
+
+WeightedPlatformSpeedLow 1
+WeightedPlatformSpeedMed 2
+WeightedPlatformSpeedHigh 10
+

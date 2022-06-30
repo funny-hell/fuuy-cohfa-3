@@ -1,0 +1,5 @@
+loader endloader.swf
+
+game [
+    endnigh.swf
+]
