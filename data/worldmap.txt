@@ -965,6 +965,16 @@ nodes {
         left Wastelands
 		right Hubz
 		down Beseech
+		up Frost
+    }
+
+	Frost {
+        clipname frost
+        entrylevel r4b-1
+        page darkerworld
+        levelgroups [r4b r4bx]
+        
+		down Collapse
     }
 
 	Eidolon {

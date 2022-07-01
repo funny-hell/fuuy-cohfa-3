@@ -1,54 +1,90 @@
 c1 {
+	
 	decoration_1 warpzone_arrow
 	art_alts.append[
 		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro]
 	]
+	x {
+	music.append [retro/warpzone_intro.ogg, retro/danse_loop.ogg]
+	}
 }
 c2 {
+	
 	decoration_1 warpzone_arrow
 	art_alts.append[
 		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro]
 	]
+	x {
+	music [retro/warpzone_intro.ogg, retro/newworld_loop.ogg]
+	}
 }
 c3 {
+	
 	decoration_1 warpzone_arrow
 	art_alts.append[
 		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro]
 	]
+	x {
+	music [retro/warpzone_intro.ogg, retro/1812_loop.ogg]
+	}
 }
 c4a {
+	
 	decoration_1 warpzone_arrow
 	art_alts.append[
 		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro]
 	]
+	x {
+	music [retro/warpzone_intro.ogg, retro/hungarian_rhapsody_loop.ogg]
+	}
 }
 c5a {
+	
 	decoration_1 warpzone_arrow
 	art_alts.append[
 		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro]
 	]
+	x {
+	music [retro/warpzone_intro.ogg, retro/slave_loop.ogg]
+	}
 }
 c4b {
+	
 	decoration_1 warpzone_arrow
 	art_alts.append[
 		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro]
 	]
+	x {
+	music [retro/warpzone_intro.ogg, retro/fields_loop.ogg]
+	}
 }
 c5b {
+	
 	decoration_1 warpzone_arrow
 	art_alts.append[
 		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro]
 	]
+	x {
+	music [retro/warpzone_intro.ogg, retro/bumblebee_loop.ogg]
+	}
 }
 c4c {
+	
 	decoration_1 warpzone_arrow
 	art_alts.append[
 		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro]
 	]
+	x {
+	music [retro/warpzone_intro.ogg, retro/dante_loop.ogg]
+	}
 }
 c5c {
+	
 	decoration_1 warpzone_arrow
 	art_alts.append[
 		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro]
 	]
+	x {
+	music [retro/warpzone_intro.ogg, retro/hell_loop.ogg]
+	}
 }

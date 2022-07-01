@@ -231,6 +231,43 @@ r4 {
     music [dance_intro_dark.ogg, dance_loop_dark.ogg]
     ambience wind.ogg
 }
+r4b {
+    area_name "Frost"
+    area_label_frame 3
+    tile_graphics Tilehell
+    overlay_graphics Overlaystheglow
+    background_graphics ch3bg
+    foreground_graphics None
+    fx_shader reflectionripples
+    fx_shader_mid distortionparticles
+    palette 228
+    midfx_layer 1
+
+    tile_particle_1 waterfall
+    tile_particle_2 waterfall_splash
+    tile_particle_3 bubbles
+    tile_particle_4 drip    
+    global_particle_1 fgsnowstorm
+    global_particle_2 bgsnowstorm
+    global_particle_4 rocks
+
+    #decoration_1 Decoration4
+    #decoration_2 Decoration5
+    
+    area_type dark
+
+    npc_1 NPCC1
+    npc_2 NPC13
+
+    art_alts[
+        [OrbSmall, orbblob][ChainLink2, none][OrbLarge, OrbLarge2]
+    ]
+
+    music [rapture_intro.ogg, rapture_loop.ogg]
+    ambience ruins.ogg
+
+    player_physics "data/player_physics/playerphysicsfrost.txt"
+}
 r5 {
     area_name "Desintegration"
     area_label_frame 42
@@ -2445,6 +2482,10 @@ j {
 	14 {
     ambience_volume 0.2
     global_particle_3 none
+	
+	art_alts[
+		[OrbSmall, just_a_block]
+	]
     }
 }
 
@@ -2607,7 +2648,7 @@ m {
 }
 2b {
     area_name "Despair"
-    area_label_frame 46
+    area_label_frame 47
     tile_graphics Tiletox2
     overlay_graphics Overlaystox2
     background_graphics Background
@@ -2620,6 +2661,7 @@ m {
     palette 195
     
     tile_particle_1 dust
+	decoration_1 SpiderHang
     
     ambience_volume 4
     
@@ -4043,6 +4085,10 @@ butx {
     ambience_volume 0.3
 
     npc_1 NPCdud26
+	
+	2 {
+		area_label_frame 0
+	}
 }
 mx {
     area_name "The Maze"
