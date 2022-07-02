@@ -656,9 +656,9 @@ nodes {
         unlock_condition_levels [7c-1]
 		
 	left Sheol
-	right Australia
+	right Breeze
 	select PitArrow
-	down Australia
+	down Breeze
     }
 	SkyArrow {
         clipname rightworldarrow_1
@@ -711,20 +711,20 @@ nodes {
         page rightworld
         levelgroups [7c 7cx]
         
-        left Australia
+        left Breeze
 		up Juxtaposition
     }
 	
-	Breeze {
+	HellArea {
         clipname breeze #actually hell
         entrylevel 8bb-1x
         page rightworld
-        levelgroups [8bb 8bbx 8bbd]
+        levelgroups [8bb 8bbx 8bbd 8as]
         
         up Stormscapes
     }
 	
-	Australia {
+	Breeze {
         clipname australia #actually breeze
         entrylevel 8c-1
         page rightworld
@@ -749,7 +749,7 @@ nodes {
         levelgroups [7b 7bx]
         
         left Atlantis2
-        down Australia
+        down Breeze
 		right Juxtaposition
     }
 
@@ -784,7 +784,7 @@ nodes {
         levelgroups [8 8xd]
         
         left Castle
-        down Breeze
+        down HellArea
 		right Wreckage
     }
 	

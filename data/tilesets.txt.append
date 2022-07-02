@@ -5911,6 +5911,357 @@ dud3 {
         shader_param 0.7
     }
 }
+8as {
+
+ ### LIMBO
+
+    1{
+    area_name "Limbo"
+    area_label_frame 0
+    tile_graphics Tilecaves
+    overlay_graphics Overlaystheglow
+    background_graphics ch4abg
+    foreground_graphics None
+    fx_shader_mid sun
+    fx_shader limbo
+    midfx_layer 2
+    palette 235
+
+
+    water_physics "data/player_physics/playerphysics_water_sky.txt"
+    global_particle_1 wind2
+    global_particle_2 wind
+    global_particle_3 cloudwind_light
+
+    tile_particle_1 dust
+    tile_particle_2 dustspikes
+    tile_particle_3 drip
+    tile_particle_4 spark3
+
+    npc_1 NPC16
+    decoration_1 EscapeEnd
+
+    music [requiem20000volts_intro.ogg, requiem20000volts_loop.ogg]
+    ambience ruins.ogg
+    }
+
+### LUST
+
+    2{
+    area_name "Lust"
+    area_label_frame 0
+    tile_graphics Tilecity
+    overlay_graphics Overlayscity
+    background_graphics bg2
+    foreground_graphics None
+    palette 229
+    fx_shader_mid lust
+    midfx_graphics ShadeBox
+    midfx_layer 2
+
+    shader_param 0.75
+
+    do_wobble false
+    #palette 10
+
+    global_particle_1 cloudwind
+    global_particle_2 bgsnow
+    global_particle_3 fgsnow_light
+
+    decoration_1 Deco10
+    decoration_2 Deco11
+    decoration_3 none
+    
+    npc_1 NPCHX
+    npc_2 TestNPC
+
+    area_type normal
+    
+    ambience coldsweat.ogg
+    art_alts [
+        [OrbChomp, MovingOrbBlob]
+        [AimSpitter, AimSpitter2]
+        [Cartridge, cart3]
+    ]
+
+    music [requiem20000volts_intro.ogg, requiem20000volts_loop.ogg]
+}
+
+ ### GLUTTONY
+
+    3{
+    area_name "Gluttony"
+    area_label_frame 0
+    tile_graphics Tilefleshy
+    overlay_graphics Overlaysfleshy
+    background_graphics bgsolid
+    foreground_graphics None
+    fx_shader ripples
+    palette 233
+    fx_shader_mid gluttony
+    midfx_graphics ShadeBox
+    midfx_layer 0
+    shader_param 0.5
+    
+    toxic_timer 1.2
+    tile_particle_1 waterfall
+    tile_particle_2 waterfall_splash
+    tile_particle_3 bubbles
+    tile_particle_4 drip
+    
+    global_particle_1 stench
+    
+
+    decoration_1 eyeball
+   
+
+    music [requiem20000volts_intro.ogg, requiem20000volts_loop.ogg]
+    ambience fleshx.ogg
+
+    art_alts [
+        [OrbSmall, OrbBlob2]
+        [ChainLink2, None]
+        [OrbChomp, MovingOrbBlob]
+        [OrbLarge, OrbLarge2]
+    ]
+    }
+
+ ### GREED
+
+    4{
+    area_name "Greed"
+    area_label_frame 0
+    tile_graphics theglow
+    overlay_graphics Overlaystheglow
+    background_graphics ch4abg
+    foreground_graphics None
+    fx_shader_mid sun
+    midfx_graphics ShadeBox
+    midfx_layer 2
+    palette 232
+
+    midfx_layer 2
+
+    global_particle_1 wind2
+    global_particle_2 wind
+    global_particle_3 cloudwind_light
+
+    tile_particle_1 dust
+    tile_particle_2 dustspikes
+    tile_particle_3 drip
+    tile_particle_4 spark3
+
+    npc_1 NPC16
+    decoration_1 EscapeEnd
+
+    music [requiem20000volts_intro.ogg, requiem20000volts_loop.ogg]
+    ambience ruins.ogg
+    }
+
+ ### WRATH
+
+    5{
+    area_name "Wrath"
+    area_label_frame 0
+    tile_graphics Tileairship
+    overlay_graphics Overlayscaves
+    background_graphics bg2
+    foreground_graphics None
+    fx_shader reflectionripples
+    palette 234
+    fx_shader_mid thesunfuckingdied
+    midfx_graphics ShadeBox
+    midfx_layer 2
+
+    shader_param 0.5
+
+    global_particle_1 cloudwind_light
+    global_particle_2 bgrain3
+    global_particle_3 fgrain3
+    global_particle_4 lightning
+    tile_particle_1 waterfall_thin
+    tile_particle_2 sidesplash
+    tile_particle_3 smoke
+    tile_particle_4 drip
+    tile_particle_5 toxicbubbles
+
+    area_type normal
+
+    music [requiem20000volts_intro.ogg, requiem20000volts_loop.ogg]
+    ambience ocean.ogg
+    
+    music_volume 1.3
+    ambience_volume 1
+    
+    art_alts [[GlowShroom, GlowBulb][GlowShroomSmall, GlowBulbSmall]]
+    npc_1 NPCB2
+    npc_2 NPCG5
+    npc_3 none
+    }
+### HERESY
+
+    6{
+    area_name "Heresy"
+    area_label_frame 0
+    tile_graphics Tilefield
+    overlay_graphics Overlaysfield
+    background_graphics field2bg
+    foreground_graphics None
+    fx_shader radiation
+    fx_shader_mid fire
+    midfx_graphics SolidBox
+    midfx_layer 2
+    palette 236
+
+    npc_1 NPC15
+    npc_2 none
+    npc_3 none
+    decoration_1 inst11
+    
+    area_type normal
+
+    art_alts [
+        [AimSpitter,eyeshooter]
+        [Bullet,eyebullet][MiniFrog, MiniFlea]
+    ]
+    
+    global_particle_1 rocks
+    global_particle_2 fallout2
+    
+    music [requiem20000volts_intro.ogg, requiem20000volts_loop.ogg]
+    ambience flesh.ogg
+   }
+### FRAUD
+
+    8{
+    area_name "Fraud"
+    area_label_frame 0
+    tile_graphics Tilefield
+    overlay_graphics Overlaysface
+    background_graphics neverbg
+    foreground_graphics None
+    fx_shader ripples
+    palette 237
+    fx_shader_mid lightingmodded
+    midfx_graphics ShadeBox
+    midfx_layer 2
+    shader_param 0.75
+
+    tile_particle_1 waterfall
+    tile_particle_2 waterfall_splash
+    tile_particle_3 bubbles
+    tile_particle_4 drip
+    
+    global_particle_1 none
+    global_particle_2 bgrain2
+    global_particle_3 lightning
+    global_particle_4 cloudwindlight
+    
+
+    player_physics "data/player_physics/playerphysicsletitsinkin.txt"
+
+    decoration_1 eyeball
+
+    music [requiem20000volts_intro.ogg, requiem20000volts_loop.ogg]
+    ambience vinyl.ogg
+
+    art_alts [
+        [OrbSmall, OrbBlob2]
+        [ChainLink2, None]
+        [OrbChomp, MovingOrbBlob]
+        [OrbLarge, OrbLarge2]
+        [AimSpitter,eyeshooter]
+        [Bullet,eyebullet]
+        [Cartridge, cart3]
+    ]
+    }
+
+ ### VIOLENCE
+
+    7{
+    area_name "Violence"
+    area_label_frame 0
+    tile_graphics Tilefleshy
+    overlay_graphics Overlaysfleshy
+    background_graphics bgsolid
+    foreground_graphics None
+    fx_shader ripples
+    palette 227
+    fx_shader_mid postal
+    midfx_graphics ShadeBox
+    midfx_layer 2
+    shader_param 0.6
+    
+    toxic_timer 1.2
+
+    npc_1 NPCP
+    tile_particle_1 waterfall
+    tile_particle_2 waterfall_splash
+    tile_particle_3 bubbles
+    tile_particle_4 drip
+    
+    global_particle_1 stench 
+
+    decoration_1 CreepingMass
+
+    music [requiem20000volts_intro.ogg, requiem20000volts_loop.ogg]
+    ambience vinyl.ogg
+
+    art_alts [
+        [OrbSmall, Saw1][OrbLarge, Saw2]
+        [ChainLink2, None]
+        [OrbChomp, MovingOrbBlob]
+        [AimSpitter,eyeshooter]
+        [Bullet,eyebullet]
+        [Cartridge, cart3]
+    ]
+    }
+
+ ### TREACHERY
+    9{
+    area_name "Treachery"
+    area_label_frame 0
+    tile_graphics Tiletox
+    overlay_graphics Overlaysface
+    background_graphics airshipbg
+    foreground_graphics None
+    fx_shader ripples
+    palette 230
+    fx_shader_mid bleach
+    midfx_graphics ShadeBox
+    midfx_layer 2
+    shader_param 1
+    
+    area_type normal
+
+    tile_particle_1 waterfall
+    tile_particle_2 waterfall_splash
+    tile_particle_3 bubbles
+    tile_particle_4 drip
+    
+    global_particle_1 none
+    global_particle_4 cloudwindlight
+    
+
+    player_physics "data/player_physics/playerphysicsletitsinkin.txt"
+    water_physics "data/player_physics/playerphysics_water_sky2.txt"
+
+    decoration_1 eyeball
+
+    ambience shiny.ogg
+
+    art_alts [
+        [OrbSmall, OrbBlob2]
+        [ChainLink2, None]
+        [OrbChomp, MovingOrbBlob]
+        [OrbLarge, OrbLarge2]
+        [AimSpitter,eyeshooter]
+        [Bullet,eyebullet]
+        [Cartridge, cart3]
+	[ToxicParticle, None]
+    ]
+    }
+}
 
 9 {
     area_name "The Farlands"
