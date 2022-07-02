@@ -5914,7 +5914,7 @@ dud3 {
 8as {
 
  ### LIMBO
-
+	
     1{
     area_name "Limbo"
     area_label_frame 0
@@ -5939,6 +5939,34 @@ dud3 {
     tile_particle_4 spark3
 
     npc_1 NPC16
+    decoration_1 EscapeEnd
+
+    music [requiem20000volts_intro.ogg, requiem20000volts_loop.ogg]
+    ambience ruins.ogg
+    }
+	0{
+    area_name "Limbo"
+    area_label_frame 0
+    tile_graphics Tilecaves
+    overlay_graphics Overlaystheglow
+    background_graphics ch4abg
+    foreground_graphics None
+    fx_shader_mid sun
+    fx_shader limbo
+    midfx_layer 2
+    palette 235
+
+    water_physics "data/player_physics/playerphysics_water_sky.txt"
+    global_particle_1 wind2
+    global_particle_2 wind
+    global_particle_3 cloudwind_light
+
+    tile_particle_1 dust
+    tile_particle_2 dustspikes
+    tile_particle_3 drip
+    tile_particle_4 spark3
+
+    npc_1 NPCdud39
     decoration_1 EscapeEnd
 
     music [requiem20000volts_intro.ogg, requiem20000volts_loop.ogg]

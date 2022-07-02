@@ -938,6 +938,20 @@ NPCdud38 {
 		"\nwink wink"
     ]
 }
+NPCdud39{
+#letitsinkin
+    movieclip NPC8
+    sound_id NPCSkull
+    text [
+		"\nhehe"
+		"\ni was thinking"
+		"i would sure\nlove me some\ninkin tits"
+		"\nyou know?"
+		"i\njust want\nle tits inkin!"
+		"why\ndoes noone\nunderstand?"
+		"oh well,\nthey them\nlosers!"
+    ]
+}
 
 NPCdudH1 {
 #basic sideways
