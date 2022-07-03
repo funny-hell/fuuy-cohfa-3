@@ -2134,6 +2134,19 @@ but3 {
         [MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite][SkullFloater, DeadSkullCrow][Fish, FlyingFish]
 	]
 	
+	11 {
+		sfx_file mainsounds_mirror.txt
+	}
+	12 {
+		sfx_file mainsounds_mirror.txt
+	}
+	13 {
+		sfx_file mainsounds_mirror.txt
+	}
+	14 {
+		sfx_file mainsounds_mirror.txt
+	}
+	
 	17 {
 		art_alts [
         [MiniFly, MiniWisp][MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite][SkullFloater, DeadSkullCrow][Fish, FlyingFish][Cartridge, CartCoin]
@@ -4485,7 +4498,7 @@ rr3x {
     tile_particle_5 toxicbubbles
 }
 
-8bx {
+8cx {
     area_name "The Breeze"
     area_label_frame 45
     tile_graphics Tilebreeze
@@ -5780,7 +5793,7 @@ dud3 {
 	//}
 }
 
-8bb {
+8a {
     area_name "Hell"
     area_label_frame 0
     tile_graphics Tilehell
@@ -5818,7 +5831,7 @@ dud3 {
 		music_volume 0.6
 	}
 }
-8bbd {
+8ad {
     area_name "Dark Hell"
     area_label_frame 0
     tile_graphics Tilehell
@@ -5850,7 +5863,7 @@ dud3 {
     [OrbSmall, Saw1][OrbLarge, Saw2][ChainLink, none][ChainLink2, none]
     ]
 }
-8bbx {
+8ax {
     area_name "Hell?"
     area_label_frame 0
     tile_graphics Tilehell
@@ -5941,7 +5954,7 @@ dud3 {
     npc_1 NPC16
     decoration_1 EscapeEnd
 
-    music [requiem20000volts_intro.ogg, requiem20000volts_loop.ogg]
+    music limbo.ogg
     ambience ruins.ogg
     }
 	0{
@@ -5969,7 +5982,7 @@ dud3 {
     npc_1 NPCdud39
     decoration_1 EscapeEnd
 
-    music [requiem20000volts_intro.ogg, requiem20000volts_loop.ogg]
+    music limbo.ogg
     ambience ruins.ogg
     }
 
@@ -6115,7 +6128,6 @@ dud3 {
 
     area_type normal
 
-    music [requiem20000volts_intro.ogg, requiem20000volts_loop.ogg]
     ambience ocean.ogg
     
     music_volume 1.3
@@ -6156,7 +6168,7 @@ dud3 {
     global_particle_1 rocks
     global_particle_2 fallout2
     
-    music [requiem20000volts_intro.ogg, requiem20000volts_loop.ogg]
+    music acompleteandutterdestructionofthesenses_loop.ogg
     ambience flesh.ogg
    }
 ### FRAUD
@@ -6190,7 +6202,7 @@ dud3 {
 
     decoration_1 eyeball
 
-    music [requiem20000volts_intro.ogg, requiem20000volts_loop.ogg]
+    music [rostrum_5_intro.ogg, rostrum_5_loop.ogg]
     ambience vinyl.ogg
 
     art_alts [
@@ -6232,7 +6244,7 @@ dud3 {
 
     decoration_1 CreepingMass
 
-    music [requiem20000volts_intro.ogg, requiem20000volts_loop.ogg]
+    music [postal_intro.ogg, postal_loop.ogg]
     ambience vinyl.ogg
 
     art_alts [
@@ -6535,7 +6547,7 @@ dud3 {
 	}
 }
 
-sl {
+wlspl {
     area_name "The Wailing Sepulcher"
     area_label_frame 1
     tile_graphics Tilecaves
@@ -6657,7 +6669,7 @@ ad {
 
 }
 1db {
-    area_name "Decline"
+    area_name "Decay"
     area_label_frame 44
     tile_graphics Tilefci
     overlay_graphics Overlayscaves
@@ -6719,7 +6731,12 @@ ad {
 	16 {
 		background_graphics bg2xl
 	}
-    18 {
+    17 {
+        art_alts [
+            [OrbSmall, dudsawsmall][OrbLarge, dudsawbig]
+            [ChainLink2, None]]
+    }
+	18 {
         art_alts [
             [OrbSmall, dudsawsmall][OrbLarge, dudsawbig]
             [ChainLink2, None]]
@@ -6806,7 +6823,7 @@ r1b {
 //}
 //{ THE CUTTING FLOOR
 
-	8a {
+	8hid {
     area_name "Hidden Glade"
     area_label_frame 1
     tile_graphics Tileglade

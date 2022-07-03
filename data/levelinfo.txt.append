@@ -754,45 +754,45 @@
 "r5-18" {name="Desintegration 18" id=-1}
 "r5-19" {name="Desintegration 19" id=-1}
 "r5-20" {name="Desintegration 20" id=-1}
-"8a-0" {name="???" id=-1}
-"8a-1" {name="Hidden Glade 1" id=-1}
-"8a-2" {name="Hidden Glade 2" id=-1}
-"8a-3" {name="Hidden Glade 3" id=-1}
-"8a-4" {name="Hidden Glade 4" id=-1}
-"8a-5" {name="Hidden Glade 5" id=-1}
-"8a-6" {name="Hidden Glade 6" id=-1}
-"8a-7" {name="Hidden Glade 7" id=-1}
-"8a-8" {name="Hidden Glade 8" id=-1}
-"8a-9" {name="Hidden Glade 9" id=-1}
-"8a-10" {name="Hidden Glade 10" id=-1}
-"8a-11" {name="Hidden Glade 11" id=-1}
-"8a-12" {name="Hidden Glade 12" id=-1}
-"8a-13" {name="Hidden Glade 13" id=-1}
-"8a-14" {name="Hidden Glade 14" id=-1}
-"8a-15" {name="Hidden Glade 15" id=-1}
-"8a-16" {name="Hidden Glade 16" id=-1}
-"8a-17" {name="Hidden Glade 17" id=-1}
-"8a-18" {name="Hidden Glade 18" id=-1}
-"8a-19" {name="Hidden Glade 19" id=-1}
-"8a-20" {name="Hidden Glade 20" id=-1}
-"8bbd-3" {name="Dark Hell 3" id=-1}
-"8bb-1x" {name="Hell!" id=-1}
-"8bbx-0" {name="Hell! 1" id=-1}
-"8bb-1" {name="Hell! 2" id=-1}
-"8bb-2" {name="Hell! 4" id=-1}
-"8bb-3" {name="Hell! 6" id=-1}
-"8bb-4" {name="Hell! 8" id=-1}
-"8bb-5" {name="Hell! 10" id=-1}
-"8bb-6" {name="Hell! 12" id=-1}
-"8bb-7" {name="Hell! 14" id=-1}
-"8bb-8" {name="Hell! 16" id=-1}
-"8bbx-1" {name="Hell? 3" id=-1}
-"8bbx-2" {name="Hell? 5" id=-1}
-"8bbx-3" {name="Hell? 7" id=-1}
-"8bbx-4" {name="Hell? 9" id=-1}
-"8bbx-5" {name="Hell? 11" id=-1}
-"8bbx-6" {name="Hell? 13" id=-1}
-"8bbx-7" {name="Hell? 15" id=-1}
+"8hid-0" {name="???" id=-1}
+"8hid-1" {name="Hidden Glade 1" id=-1}
+"8hid-2" {name="Hidden Glade 2" id=-1}
+"8hid-3" {name="Hidden Glade 3" id=-1}
+"8hid-4" {name="Hidden Glade 4" id=-1}
+"8hid-5" {name="Hidden Glade 5" id=-1}
+"8hid-6" {name="Hidden Glade 6" id=-1}
+"8hid-7" {name="Hidden Glade 7" id=-1}
+"8hid-8" {name="Hidden Glade 8" id=-1}
+"8hid-9" {name="Hidden Glade 9" id=-1}
+"8hid-10" {name="Hidden Glade 10" id=-1}
+"8hid-11" {name="Hidden Glade 11" id=-1}
+"8hid-12" {name="Hidden Glade 12" id=-1}
+"8hid-13" {name="Hidden Glade 13" id=-1}
+"8hid-14" {name="Hidden Glade 14" id=-1}
+"8hid-15" {name="Hidden Glade 15" id=-1}
+"8hid-16" {name="Hidden Glade 16" id=-1}
+"8hid-17" {name="Hidden Glade 17" id=-1}
+"8hid-18" {name="Hidden Glade 18" id=-1}
+"8hid-19" {name="Hidden Glade 19" id=-1}
+"8hid-20" {name="Hidden Glade 20" id=-1}
+"8ad-3" {name="Dark Hell 3" id=-1}
+"8a-1x" {name="Hell!" id=-1}
+"8ax-0" {name="Hell! 1" id=-1}
+"8a-1" {name="Hell! 2" id=-1}
+"8a-2" {name="Hell! 4" id=-1}
+"8a-3" {name="Hell! 6" id=-1}
+"8a-4" {name="Hell! 8" id=-1}
+"8a-5" {name="Hell! 10" id=-1}
+"8a-6" {name="Hell! 12" id=-1}
+"8a-7" {name="Hell! 14" id=-1}
+"8a-8" {name="Hell! 16" id=-1}
+"8ax-1" {name="Hell? 3" id=-1}
+"8ax-2" {name="Hell? 5" id=-1}
+"8ax-3" {name="Hell? 7" id=-1}
+"8ax-4" {name="Hell? 9" id=-1}
+"8ax-5" {name="Hell? 11" id=-1}
+"8ax-6" {name="Hell? 13" id=-1}
+"8ax-7" {name="Hell? 15" id=-1}
 "8as-0" {name="???" id=-1}
 "8as-1" {name="???" id=-1}
 "8as-2" {name="???" id=-1}
@@ -909,24 +909,24 @@
 "1bx-3" {name="Floating City" id=1}
 "1bx-4" {name="Floating City" id=1}
 "1bx-5" {name="Floating City" id=1}
-"1db-1" {name="Decline 1" id=-1}
-"1db-2" {name="Decline 2" id=-1}
-"1db-3" {name="Decline 3" id=-1}
-"1db-4" {name="Decline 4" id=-1}
-"1db-5" {name="Decline 5" id=-1}
-"1db-6" {name="Decline 6" id=-1}
-"1db-7" {name="Decline 7" id=-1}
-"1db-8" {name="Decline 8" id=-1}
-"1db-9" {name="Decline 9" id=-1}
-"1db-10" {name="Decline 10" id=-1}
-"1db-11" {name="Decline 11" id=-1}
-"1db-12" {name="Decline 12" id=-1}
-"1db-13" {name="Decline 13" id=-1}
-"1db-14" {name="Decline 14" id=-1}
-"1db-15" {name="Decline 15" id=-1}
-"1db-16" {name="Decline 16" id=-1}
-"1db-17" {name="Decline 17" id=-1}
-"1db-18" {name="Decline 18" id=-1}
+"1db-1" {name="Decay 1" id=-1}
+"1db-2" {name="Decay 2" id=-1}
+"1db-3" {name="Decay 3" id=-1}
+"1db-4" {name="Decay 4" id=-1}
+"1db-5" {name="Decay 5" id=-1}
+"1db-6" {name="Decay 6" id=-1}
+"1db-7" {name="Decay 7" id=-1}
+"1db-8" {name="Decay 8" id=-1}
+"1db-9" {name="Decay 9" id=-1}
+"1db-10" {name="Decay 10" id=-1}
+"1db-11" {name="Decay 11" id=-1}
+"1db-12" {name="Decay 12" id=-1}
+"1db-13" {name="Decay 13" id=-1}
+"1db-14" {name="Decay 14" id=-1}
+"1db-15" {name="Decay 15" id=-1}
+"1db-16" {name="Decay 16" id=-1}
+"1db-17" {name="Decay 17" id=-1}
+"1db-18" {name="Decay 18" id=-1}
 "1dbx-1" {name="???" id=-1}
 "1dbx-2" {name="???" id=-1}
 "r1b-1" {name="Solitude 1" id=-1}
@@ -1191,17 +1191,17 @@
 "2cx-23" {name="Mirror Planetarium" id=-1}
 "2cx-24" {name="Mirror Planetarium" id=-1}
 
-"sl-0" {name="???" id=-1}
-"sl-1" {name="???" id=-1}
-"sl-2" {name="The Wailing Sepulcher" id=-1}
-"sl-3" {name="The Wailing Sepulcher" id=-1}
-"sl-4" {name="The Wailing Sepulcher" id=-1}
-"sl-5" {name="The Wailing Sepulcher" id=-1}
-"sl-6" {name="The Wailing Sepulcher" id=-1}
-"sl-7" {name="The Wailing Sepulcher" id=-1}
-"sl-8" {name="The Wailing Sepulcher" id=-1}
-"sl-9" {name="The Wailing Sepulcher" id=-1}
-"sl-10" {name="The Wailing Sepulcher" id=-1}
+"wlspl-0" {name="???" id=-1}
+"wlspl-1" {name="???" id=-1}
+"wlspl-2" {name="The Wailing Sepulcher" id=-1}
+"wlspl-3" {name="The Wailing Sepulcher" id=-1}
+"wlspl-4" {name="The Wailing Sepulcher" id=-1}
+"wlspl-5" {name="The Wailing Sepulcher" id=-1}
+"wlspl-6" {name="The Wailing Sepulcher" id=-1}
+"wlspl-7" {name="The Wailing Sepulcher" id=-1}
+"wlspl-8" {name="The Wailing Sepulcher" id=-1}
+"wlspl-9" {name="The Wailing Sepulcher" id=-1}
+"wlspl-10" {name="The Wailing Sepulcher" id=-1}
 
 "6cx-1" {name="???" id=1}
 "6cx-2" {name="???" id=1}

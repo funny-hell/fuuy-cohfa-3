@@ -42,20 +42,20 @@ meta {
 		c1-x 2xu-1 3xd-2 4a-15 5a-18 4cx-3 5cx-7 4bx-7 5b-23 5-25
 	]
     upwipes [4-1hub 4a-16 4c-1 5c-1 6-1 7-0 4b-15 ex-15 hub-3 6d-1 m-1 7c-12 7d-16 7d-16x 6b-1 7d-17x 8-14]
-    downwipes [4-1hub 4c-15 5a-1 3d-23 4a-1 5bxu-5 6-21 hub-1 xs-1 xs-10 5b-23 xs-20 ex-1 5bxd-7 6b-23x r1-1 r4b-1 r3-1 6d-23 7d-16x 2-0 7c-6 5-22 7ax-4 1bx-5 dud3-1 8bb-0x]
+    downwipes [4-1hub 4c-15 5a-1 3d-23 4a-1 5bxu-5 6-21 hub-1 xs-1 xs-10 5b-23 xs-20 ex-1 5bxd-7 6b-23x r1-1 r4b-1 r3-1 6d-23 7d-16x 2-0 7c-6 5-22 7ax-4 1bx-5 dud3-1 8a-0x]
     
     stevenheads [NPCH1 NPCH2 NPCH3 NPCH4 NPCH5 NPCH5b NPCH5c NPCH6 NPCHX NPCdudH1 NPCdudH2 NPCHM NPCSDR2warp1 NPCSDR2warp2 NPCSDR2warp3 NPCSDR2warp4]
     steventhreshtumors [50 100 170 300 450 450 450 530 689 600 1 650 1 1 1 1] //tumors: light-506 right-95 console-93 total-689
     stevenlevels [10x-7 10x-5 10x-3 10x-1 15x-1 15x-5 15x-7 7d-15 r1d-1 9d-1 9-19 15x-3 $g6b-1x $g6a-1x $gn3-1x $gn4-1x]
     
-    mainworlds [1 2 3 4 4a 4b 4c 5a 5b 5c 1d 2d 3d 6 7 8 9 r1 r2 r3 r4 r5 6d ex xs qu gb 7d t but 6a 6b 6c hub m 7a 7b 7c j 5 8 9 9d 9xx 8a 8bb 8bbx 8bbd 8c 1b a r1d dud3 2b but2 but2b rr1 rr2 rr3 1db ad r1b] //if you pause on these worlds, it lets you open the map. otherwise you get "exit area"
+    mainworlds [1 2 3 4 4a 4b 4c 5a 5b 5c 1d 2d 3d 6 7 8 9 r1 r2 r3 r4 r5 6d ex xs qu gb 7d t but 6a 6b 6c hub m 7a 7b 7c j 5 8 9 9d 9xx 8a 8ax 8ad 8c 1b a r1d dud3 2b 2c but2 but2b rr1 rr2 rr3 1db ad r1b] //if you pause on these worlds, it lets you open the map. otherwise you get "exit area"
     cartworlds [c1 c2 c3 c4a c4b c4c c5a c5b c5c c6 c9 g0 g1 g2 g3 g4 g5 g6 g9 i1 i2 i3 i4 i5 c0 gbt gr1 gr2 gr3 gr5 g4a g5a gr4 gi0 g6d g6c g6a g6b g99 gr6 csd1 csd2 g7a g7b g7c g7 gx gn1 gn2 gn3 gn4 gn5 gn6 gn7 gn8 gn9 gn10 gn11 gnr1 gnr2 gnr3 gj] //launch console automatically when you exit from these worlds
     
     headlevel 5a-22
     bodylevel 5c-21
     heartlevel 5b-23
     
-    mute_warpunlock_message [5a-22 5b-23 5c-21 1-1 1d-1 6d-23 6 hub-4 hub-5 6b-23 a-20 2bx-1 2bx-2 2bx-3 2bx-4 2bx-5 2bx-6 2bx-7 2bx-8 2bx-9 2bx-10 2bx-11 2bx-12 2bx-13 2bx-14 2bx-15 2bx-16 2bx-17 2bx-18 2bx-19 2bx-20 2bx-21 2bx-22 2bx-23 2bx-24 2bx-9b 2bx-8b but3-7 but3-8 but3-9 8c-16] //levels that have a warp point but shouldnt show the "warp point unlocked" message
+    mute_warpunlock_message [5a-22 5b-23 5c-21 1-1 1d-1 6d-23 6 hub-4 hub-5 6b-23 a-20 2cx-1 2cx-2 2cx-3 2cx-4 2cx-5 2cx-6 2cx-7 2cx-8 2cx-9 2cx-10 2cx-11 2cx-12 2cx-13 2cx-14 2cx-15 2cx-16 2cx-17 2cx-18 2cx-19 2cx-20 2cx-21 2cx-22 2cx-23 2cx-24 2cx-9b 2cx-8b but3-7 but3-8 but3-9 8c-16] //levels that have a warp point but shouldnt show the "warp point unlocked" message
     
     game_over_checkpoints [[1d 1d-1] [2d 2d-0] [3d 3d-1] [6 6-1] [7 7-0] [r1 r1-1] [r2 r2-1] [r3 r3-1] [rr1 rr1-1] [rr2 rr2-1] [rr3 rr3-1] [hub hub-1] [6d 6d-1] [7d 7d-1] [ex ex-1] [xs xs-1] [qu qu-1] [gb gb-1] [r4 r4-1] [9d 9d-1]] //if you game over in world "1d", spawn back to 1d-1, etc. this only matters when loading from a save file, otherwise it uses the last checkpoint you visited
     iron_cart_entrypoints [gr6-1 1-1 2-0 3-1 4-1hub 4c-1 4a-1 4b-1 5c-1 5a-2 5b-1 but-1 6c-1 6a-2 6b-1 1d-1 2d-0 3d-1 6-1 7-0 r1-1 r2-1 r3-1 hub-1 6d-1 i1-1 i2-1 i3-1 i4-1 $i1-1] //used to set the respawn point in an iron cart
@@ -351,9 +351,9 @@ nodes {
 	//{DESPAIR MIRROR THING
 	DsM1 {
         clipname despairmap_1
-        entrylevel 2bx-1
+        entrylevel 2cx-1
         page despairmap
-        levelgroups [2bx]
+        levelgroups [2cx]
         unlock_condition always_unlocked
         
 		up DsM2
@@ -364,7 +364,7 @@ nodes {
 	//{Past Wing
 	DsM2 {
         clipname despairmap_2
-        entrylevel 2bx-2
+        entrylevel 2cx-2
         page despairmap
         levelgroups none
         unlock_condition always_unlocked
@@ -376,7 +376,7 @@ nodes {
     }
 	DsM3 {
         clipname despairmap_3
-        entrylevel 2bx-3
+        entrylevel 2cx-3
         page despairmap
         levelgroups none
         unlock_condition visited_levels_any
@@ -388,7 +388,7 @@ nodes {
     }
 	DsM4 {
         clipname despairmap_4
-        entrylevel 2bx-4
+        entrylevel 2cx-4
         page despairmap
         levelgroups none
         unlock_condition visited_levels_any
@@ -400,7 +400,7 @@ nodes {
     }
 	DsM5 {
         clipname despairmap_5
-        entrylevel 2bx-5
+        entrylevel 2cx-5
         page despairmap
         levelgroups none
         unlock_condition visited_levels_any
@@ -412,7 +412,7 @@ nodes {
     }
 	DsM6 {
         clipname despairmap_6
-        entrylevel 2bx-6
+        entrylevel 2cx-6
         page despairmap
         levelgroups none
         unlock_condition always_unlocked
@@ -423,7 +423,7 @@ nodes {
     }
 	DsM7 {
         clipname despairmap_7
-        entrylevel 2bx-7
+        entrylevel 2cx-7
         page despairmap
         levelgroups none
         unlock_condition visited_levels_any
@@ -435,7 +435,7 @@ nodes {
     }
 	DsM8 {
         clipname despairmap_8
-        entrylevel 2bx-8b
+        entrylevel 2cx-8b
         page despairmap
         levelgroups none
         unlock_condition visited_levels_any
@@ -445,7 +445,7 @@ nodes {
     }
 	DsM9 {
         clipname despairmap_9
-        entrylevel 2bx-9b
+        entrylevel 2cx-9b
         page despairmap
         levelgroups none
         unlock_condition visited_levels_any
@@ -455,7 +455,7 @@ nodes {
     }
 	DsM8b {
         clipname despairmap_8b
-        entrylevel 2bx-8
+        entrylevel 2cx-8
         page despairmap
         levelgroups none
         unlock_condition visited_levels_any
@@ -465,7 +465,7 @@ nodes {
     }
 	DsM9b {
         clipname despairmap_9b
-        entrylevel 2bx-9
+        entrylevel 2cx-9
         page despairmap
         levelgroups none
         unlock_condition visited_levels_any
@@ -478,7 +478,7 @@ nodes {
 	
 	DsM10 {
         clipname despairmap_10
-        entrylevel 2bx-10
+        entrylevel 2cx-10
         page despairmap
         levelgroups none
         unlock_condition visited_levels_any
@@ -489,7 +489,7 @@ nodes {
     }
 	DsM11 {
         clipname despairmap_11
-        entrylevel 2bx-11
+        entrylevel 2cx-11
         page despairmap
         levelgroups none
         unlock_condition visited_levels_any
@@ -501,7 +501,7 @@ nodes {
     }
 	DsM12 {
         clipname despairmap_12
-        entrylevel 2bx-12
+        entrylevel 2cx-12
         page despairmap
         levelgroups none
         unlock_condition visited_levels_any
@@ -514,7 +514,7 @@ nodes {
 	//{Carts Wing
 	DsM13 {
         clipname despairmap_13
-        entrylevel 2bx-15
+        entrylevel 2cx-15
         page despairmap
         levelgroups none
         unlock_condition visited_levels_any
@@ -527,17 +527,17 @@ nodes {
     }
 	DsM14 {
         clipname despairmap_14
-        entrylevel 2bx-14
+        entrylevel 2cx-14
         page despairmap
         levelgroups none
         unlock_condition visited_levels_any
-		unlock_condition_levels [9-1 dud3-1 8bb-1 8c-1 8a-1 9d-1]
+		unlock_condition_levels [9-1 dud3-1 8c-1 8a-1 9d-1]
 		
 		up DsM13
     }
 	DsM15 {
         clipname despairmap_15
-        entrylevel 2bx-13
+        entrylevel 2cx-13
         page despairmap
         levelgroups none
         unlock_condition visited_levels_any
@@ -547,7 +547,7 @@ nodes {
     }
 	DsM16 {
         clipname despairmap_16
-        entrylevel 2bx-16
+        entrylevel 2cx-16
         page despairmap
         levelgroups none
         unlock_condition visited_levels_any
@@ -558,7 +558,7 @@ nodes {
     }
 	DsM17 {
         clipname despairmap_17
-        entrylevel 2bx-17
+        entrylevel 2cx-17
         page despairmap
         levelgroups none
         unlock_condition visited_levels_any
@@ -569,7 +569,7 @@ nodes {
     }
 	DsM18 {
         clipname despairmap_18
-        entrylevel 2bx-18
+        entrylevel 2cx-18
         page despairmap
         levelgroups none
         unlock_condition visited_levels_any
@@ -580,7 +580,7 @@ nodes {
     }
 	DsM19 {
         clipname despairmap_19
-        entrylevel 2bx-19
+        entrylevel 2cx-19
         page despairmap
         levelgroups none
         unlock_condition visited_levels_any
@@ -592,7 +592,7 @@ nodes {
 	//{Puzzle Wing
 	DsMP1 {
         clipname despairmap_puzzle1
-        entrylevel 2bx-20
+        entrylevel 2cx-20
         page despairmap
         levelgroups none
         unlock_condition always_unlocked
@@ -604,7 +604,7 @@ nodes {
     }
 	DsMP2 {
         clipname despairmap_puzzle2
-        entrylevel 2bx-21
+        entrylevel 2cx-21
         page despairmap
         levelgroups none
         unlock_condition always_unlocked
@@ -615,7 +615,7 @@ nodes {
     }
 	DsMP3 {
         clipname despairmap_puzzle3
-        entrylevel 2bx-22
+        entrylevel 2cx-22
         page despairmap
         levelgroups none
         unlock_condition always_unlocked
@@ -626,7 +626,7 @@ nodes {
     }
 	DsMP4 {
         clipname despairmap_puzzle4
-        entrylevel 2bx-23
+        entrylevel 2cx-23
         page despairmap
         levelgroups none
         unlock_condition always_unlocked
@@ -717,9 +717,9 @@ nodes {
 	
 	HellArea {
         clipname breeze #actually hell
-        entrylevel 8bb-1x
+        entrylevel 8a-1x
         page rightworld
-        levelgroups [8bb 8bbx 8bbd 8as]
+        levelgroups [8a 8ax 8ad 8as]
         
         up Stormscapes
     }
@@ -834,7 +834,7 @@ nodes {
         
         select TheFuture
         right Anguish
-		up Decline
+		up Decay
 		down FutureFuture
     }
     
@@ -848,13 +848,23 @@ nodes {
         right Gloom
     }
     
-	Decline {
+	Decay {
         clipname decline
         entrylevel 1db-1
         page darkworld
         levelgroups [1db 1dbx]
         
         down ThePast
+		right SkyfB
+    }
+	SkyfB {
+        clipname skyfoldingb
+        entrylevel ad-1
+        page darkworld
+        levelgroups [ad adx]
+        
+        left Decay
+		select SkyfB
     }
 	
     Gloom {
@@ -975,6 +985,7 @@ nodes {
         levelgroups [r4b r4bx]
         
 		down Collapse
+		select Frost
     }
 
 	Eidolon {
@@ -1687,7 +1698,7 @@ nodes {
         cart_cheevolevel gn10-all
         cart_splashframe glitch
         unlock_condition collected_carts_all
-        unlock_condition_levels [8a-16]
+        unlock_condition_levels [replace-1]
         
         down GMurdertale
         up GAfraid
@@ -1747,7 +1758,7 @@ nodes {
         cart_cheevolevel gn11-all
         cart_splashframe finale
         unlock_condition collected_carts_all
-        unlock_condition_levels [butx-5 6cx-1 6ax-1 6bx-2 7cx-1 7ax-1 7bx-1 1bx-1 ax-1 5x-2 8xd-1 dud3xu-9 9xd-6 mx-2 8c-16 8c-16 8a-16]
+        unlock_condition_levels [butx-5 6cx-1 6ax-1 6bx-2 7cx-1 7ax-1 7bx-1 1bx-1 ax-1 5x-2 8xd-1 dud3xu-9 9xd-6 mx-2 8c-16 8c-16 replace-1]
         
         down GSpinecraft
         up GPrescryption
@@ -2026,7 +2037,7 @@ nodes {
         cart_cheevolevel csd2-all
         cart_splashframe glitch
         unlock_condition collected_carts_all
-        unlock_condition_levels [2bx-1x]   
+        unlock_condition_levels [2cx-1x]   
         
         down GFinale
         up GDarkanoid
