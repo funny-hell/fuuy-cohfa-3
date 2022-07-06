@@ -35,7 +35,7 @@ pages {
 meta {
     default_node TheEnd
     
-    leftwipes [2-0 3-1 4-1hub 4b-1 5b-1 2d-0 3d-1 r2-1 r3-1 hub-1 9-0x but-0x 6a-1 7a-1 6c-1 5-0 7d-14 r4-1 a-1 but2-1 1bx-1 1db-1 1b-1
+    leftwipes [2-0 3-1 4-1hub 4b-1 5b-1 2d-0 3d-1 r2-1 r3-1 hub-1 9-0x but-0x 6a-1 7a-1 6c-1 5-0 7d-14 r4-1 a-1 but2-1 1bx-1 1bd-1 1b-1
 		1-0 c2-x c3-x c4a-x c5a-x c4c-x c5c-x c4b-x c5b-x 8-0
 	]
     rightwipes [1-20 2-19 3-20 4-1hub 4b-15 1d-20 2d-19 r1-20 r2-20 r3-20 qu-3 5bxu-10 5c-21 5a-22 hub-1 hub-5 3d-21 dud3-12 6a-16 7b-20 j-1hub t-15 1xu-5a but-11 a-8 1d-2b 1-2b
@@ -48,7 +48,7 @@ meta {
     steventhreshtumors [50 100 170 300 450 450 450 530 689 600 1 650 1 1 1 1] //tumors: light-506 right-95 console-93 total-689
     stevenlevels [10x-7 10x-5 10x-3 10x-1 15x-1 15x-5 15x-7 7d-15 r1d-1 9d-1 9-19 15x-3 $g6b-1x $g6a-1x $gn3-1x $gn4-1x]
     
-    mainworlds [1 2 3 4 4a 4b 4c 5a 5b 5c 1d 2d 3d 6 7 8 9 r1 r2 r3 r4 r5 6d ex xs qu gb 7d t but 6a 6b 6c hub m 7a 7b 7c j 5 8 9 9d 9xx 8a 8ax 8ad 8c 1b a r1d dud3 2b 2c but2 but2b rr1 rr2 rr3 1db ad r1b] //if you pause on these worlds, it lets you open the map. otherwise you get "exit area"
+    mainworlds [1 2 3 4 4a 4b 4c 5a 5b 5c 1d 2d 3d 6 7 8 9 r1 r2 r3 r4 r5 6d ex xs qu gb 7d t but 6a 6b 6c hub m 7a 7b 7c j 5 8 9 9d 9xx 8a 8ax 8ad 8c 1b a r1d dud3 2b 2c but2 but2b rr1 rr2 rr3 1bd ad r1b] //if you pause on these worlds, it lets you open the map. otherwise you get "exit area"
     cartworlds [c1 c2 c3 c4a c4b c4c c5a c5b c5c c6 c9 g0 g1 g2 g3 g4 g5 g6 g9 i1 i2 i3 i4 i5 c0 gbt gr1 gr2 gr3 gr5 g4a g5a gr4 gi0 g6d g6c g6a g6b g99 gr6 csd1 csd2 g7a g7b g7c g7 gx gn1 gn2 gn3 gn4 gn5 gn6 gn7 gn8 gn9 gn10 gn11 gnr1 gnr2 gnr3 gj] //launch console automatically when you exit from these worlds
     
     headlevel 5a-22
@@ -850,9 +850,9 @@ nodes {
     
 	Decay {
         clipname decline
-        entrylevel 1db-1
+        entrylevel 1bd-1
         page darkworld
-        levelgroups [1db 1dbx]
+        levelgroups [1bd 1bdx]
         
         down ThePast
 		right SkyfB
@@ -1659,6 +1659,7 @@ nodes {
         up GLunatic
 		left IronCart4
 		right GTower1
+		select GGoopHero
     }
 	
 	GHerpes {
@@ -1674,6 +1675,7 @@ nodes {
         up GGoopHero
 		left TowerCart
 		right GTower2
+		select GHerpes
     }
 	
 	GAfraid {
@@ -1704,6 +1706,7 @@ nodes {
         up GAfraid
 		left GlitchCart3
 		right GTower4
+		select GTLMutable
     }
 
 	GMurdertale {
@@ -1719,6 +1722,7 @@ nodes {
         up GTLMutable
 		left GlitchCart4
 		right GTower5
+		select GMurdertale
     }
     
 	GKTAND {
@@ -1734,6 +1738,7 @@ nodes {
         up GMurdertale
 		left GlitchCart5
 		right GTower6
+		select GKTAND
     }
     
 	GPrescryption {
@@ -1749,6 +1754,7 @@ nodes {
         up GKTAND
 		left GlitchCart1
 		right GSurrealsFavorite
+		select GPrescryption
     }
 	
 	GNMega {
@@ -1949,6 +1955,7 @@ nodes {
         down GTower2
         up GUndeadChamber
 		left GGoopHero
+		select GTower1
     }
 	GTower2 {
         clipname ix2
@@ -1962,6 +1969,7 @@ nodes {
         down GTower3
         up GTower1
 		left GHerpes
+		select GTower2
     }
 	GTower3 {
         clipname ix3
@@ -1975,6 +1983,7 @@ nodes {
         down GTower4
         up GTower2
 		left GAfraid
+		select GTower3
     }
 	GTower4 {
         clipname ix4
@@ -1988,6 +1997,7 @@ nodes {
         down GTower5
         up GTower3
 		left GTLMutable
+		select GTower4
     }
 	GTower5 {
         clipname ix5
@@ -2001,6 +2011,7 @@ nodes {
         down GTower6
         up GTower4
 		left GMurdertale
+		select GTower5
     }
 	GTower6 {
         clipname ix6
@@ -2014,6 +2025,7 @@ nodes {
         down GDarkanoid
         up GTower5
 		left GKTAND
+		select GTower6
     }
     
     GDarkanoid {

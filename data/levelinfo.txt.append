@@ -1,64 +1,64 @@
 //{ FC
-"rr1-1" {name="Eidolon 1" id=-1}
-"rr1-2" {name="Eidolon 2" id=-1}
-"rr1-3" {name="Eidolon 3" id=-1}
-"rr1-4" {name="Eidolon 4" id=-1}
-"rr1-5" {name="Eidolon 5" id=-1}
-"rr1-6" {name="Eidolon 6" id=-1}
-"rr1-7" {name="Eidolon 7" id=-1}
-"rr1-8" {name="Eidolon 8" id=-1}
-"rr1-9" {name="Eidolon 9" id=-1}
-"rr1-10" {name="Eidolon 10" id=-1}
-"rr1-11" {name="Eidolon 11" id=-1}
-"rr1-12" {name="Eidolon 12" id=-1}
-"rr1-13" {name="Eidolon 13" id=-1}
-"rr1-14" {name="Eidolon 14" id=-1}
-"rr1-15" {name="Eidolon 15" id=-1}
-"rr1-16" {name="Eidolon 16" id=-1}
-"rr1-17" {name="Eidolon 17" id=-1}
-"rr1-18" {name="Eidolon 18" id=-1}
-"rr1-19" {name="Eidolon 19" id=-1}
-"rr1-20" {name="Eidolon 20" id=-1}
-"rr2-1" {name="Throes 1" id=-1}
-"rr2-2" {name="Throes 2" id=-1}
-"rr2-3" {name="Throes 3" id=-1}
-"rr2-4" {name="Throes 4" id=-1}
-"rr2-5" {name="Throes 5" id=-1}
-"rr2-6" {name="Throes 6" id=-1}
-"rr2-7" {name="Throes 7" id=-1}
-"rr2-8" {name="Throes 8" id=-1}
-"rr2-9" {name="Throes 9" id=-1}
-"rr2-10" {name="Throes 10" id=-1}
-"rr2-11" {name="Throes 11" id=-1}
-"rr2-12" {name="Throes 12" id=-1}
-"rr2-13" {name="Throes 13" id=-1}
-"rr2-14" {name="Throes 14" id=-1}
-"rr2-15" {name="Throes 15" id=-1}
-"rr2-16" {name="Throes 16" id=-1}
-"rr2-17" {name="Throes 17" id=-1}
-"rr2-18" {name="Throes 18" id=-1}
-"rr2-19" {name="Throes 19" id=-1}
-"rr2-20" {name="Throes 20" id=-1}
-"rr3-1" {name="Beseech 1" id=-1}
-"rr3-2" {name="Beseech 2" id=-1}
-"rr3-3" {name="Beseech 3" id=-1}
-"rr3-4" {name="Beseech 4" id=-1}
-"rr3-5" {name="Beseech 5" id=-1}
-"rr3-6" {name="Beseech 6" id=-1}
-"rr3-7" {name="Beseech 7" id=-1}
-"rr3-8" {name="Beseech 8" id=-1}
-"rr3-9" {name="Beseech 9" id=-1}
-"rr3-10" {name="Beseech 10" id=-1}
-"rr3-11" {name="Beseech 11" id=-1}
-"rr3-12" {name="Beseech 12" id=-1}
-"rr3-13" {name="Beseech 13" id=-1}
-"rr3-14" {name="Beseech 14" id=-1}
-"rr3-15" {name="Beseech 15" id=-1}
-"rr3-16" {name="Beseech 16" id=-1}
-"rr3-17" {name="Beseech 17" id=-1}
-"rr3-18" {name="Beseech 18" id=-1}
-"rr3-19" {name="Beseech 19" id=-1}
-"rr3-20" {name="Beseech 20" id=-1}
+"rr1-1" {name="Denial 1" id=-1}
+"rr1-2" {name="Denial 2" id=-1}
+"rr1-3" {name="Denial 3" id=-1}
+"rr1-4" {name="Denial 4" id=-1}
+"rr1-5" {name="Denial 5" id=-1}
+"rr1-6" {name="Denial 6" id=-1}
+"rr1-7" {name="Denial 7" id=-1}
+"rr1-8" {name="Denial 8" id=-1}
+"rr1-9" {name="Denial 9" id=-1}
+"rr1-10" {name="Denial 10" id=-1}
+"rr1-11" {name="Denial 11" id=-1}
+"rr1-12" {name="Denial 12" id=-1}
+"rr1-13" {name="Denial 13" id=-1}
+"rr1-14" {name="Denial 14" id=-1}
+"rr1-15" {name="Denial 15" id=-1}
+"rr1-16" {name="Denial 16" id=-1}
+"rr1-17" {name="Denial 17" id=-1}
+"rr1-18" {name="Denial 18" id=-1}
+"rr1-19" {name="Denial 19" id=-1}
+"rr1-20" {name="Denial 20" id=-1}
+"rr2-1" {name="Anger 1" id=-1}
+"rr2-2" {name="Anger 2" id=-1}
+"rr2-3" {name="Anger 3" id=-1}
+"rr2-4" {name="Anger 4" id=-1}
+"rr2-5" {name="Anger 5" id=-1}
+"rr2-6" {name="Anger 6" id=-1}
+"rr2-7" {name="Anger 7" id=-1}
+"rr2-8" {name="Anger 8" id=-1}
+"rr2-9" {name="Anger 9" id=-1}
+"rr2-10" {name="Anger 10" id=-1}
+"rr2-11" {name="Anger 11" id=-1}
+"rr2-12" {name="Anger 12" id=-1}
+"rr2-13" {name="Anger 13" id=-1}
+"rr2-14" {name="Anger 14" id=-1}
+"rr2-15" {name="Anger 15" id=-1}
+"rr2-16" {name="Anger 16" id=-1}
+"rr2-17" {name="Anger 17" id=-1}
+"rr2-18" {name="Anger 18" id=-1}
+"rr2-19" {name="Anger 19" id=-1}
+"rr2-20" {name="Anger 20" id=-1}
+"rr3-1" {name="Bargaining 1" id=-1}
+"rr3-2" {name="Bargaining 2" id=-1}
+// "rr3-3" {name="Bargaining 3" id=-1}
+// "rr3-4" {name="Bargaining 4" id=-1}
+// "rr3-5" {name="Bargaining 5" id=-1}
+// "rr3-6" {name="Bargaining 6" id=-1}
+// "rr3-7" {name="Bargaining 7" id=-1}
+// "rr3-8" {name="Bargaining 8" id=-1}
+// "rr3-9" {name="Bargaining 9" id=-1}
+// "rr3-10" {name="Bargaining 10" id=-1}
+// "rr3-11" {name="Bargaining 11" id=-1}
+// "rr3-12" {name="Bargaining 12" id=-1}
+// "rr3-13" {name="Bargaining 13" id=-1}
+// "rr3-14" {name="Bargaining 14" id=-1}
+// "rr3-15" {name="Bargaining 15" id=-1}
+// "rr3-16" {name="Bargaining 16" id=-1}
+// "rr3-17" {name="Bargaining 17" id=-1}
+// "rr3-18" {name="Bargaining 18" id=-1}
+// "rr3-19" {name="Bargaining 19" id=-1}
+// "rr3-20" {name="Bargaining 20" id=-1}
 
 "c1-x" {name="Warpzone!" id=-1}
 "c2-x" {name="Warpzone!" id=-1}
@@ -230,8 +230,6 @@
 "xs-18" {name="XS Exodus 18" id=-1}
 "xs-19" {name="XS Exodus 19" id=-1}
 "xs-20" {name="XS Exodus 20" id=-1}
-"xs-21" {name="XS Exodus" id=-1}
-"xs-22" {name="Friend Boss" id=-1}
 "qux-1" {name="???" id=1}
 "qu-1" {name="???" id=-1}
 "qu-2" {name="Quantum Undersides" id=-1}
@@ -389,10 +387,10 @@
 "6c-13" {name="Sheol 13" id=-1}
 "6c-14" {name="Sheol 14" id=-1}
 "6c-15" {name="Sheol 15" id=-1}
-"6c-16" {name="Sheol 16" id=-1}
-"6c-17" {name="Sheol 17" id=-1}
-"6c-18" {name="Sheol 18" id=-1}
-"6c-19" {name="Sheol 19" id=-1}
+// "6c-16" {name="Sheol 16" id=-1}
+// "6c-17" {name="Sheol 17" id=-1}
+// "6c-18" {name="Sheol 18" id=-1}
+// "6c-19" {name="Sheol 19" id=-1}
 "6a-1" {name="Insanity 1" id=-1}
 "6a-2" {name="Insanity 2" id=-1}
 "6a-3" {name="Insanity 3" id=-1}
@@ -415,7 +413,7 @@
 "6ax-2" {name="???" id=2}
 "6ax-3" {name="???" id=-1}
 "6ax-4" {name="???" id=1}
-"butx-0" {name="???" id=-1}
+"but-0x" {name="???" id=-1}
 "butx-1" {name="???" id=2}
 "butx-2" {name="???" id=-1}
 "butx-3" {name="???" id=-1}
@@ -777,7 +775,6 @@
 "8hid-20" {name="Hidden Glade 20" id=-1}
 "8ad-3" {name="Dark Hell 3" id=-1}
 "8a-1x" {name="Hell!" id=-1}
-"8ax-0" {name="Hell! 1" id=-1}
 "8a-1" {name="Hell! 2" id=-1}
 "8a-2" {name="Hell! 4" id=-1}
 "8a-3" {name="Hell! 6" id=-1}
@@ -786,6 +783,7 @@
 "8a-6" {name="Hell! 12" id=-1}
 "8a-7" {name="Hell! 14" id=-1}
 "8a-8" {name="Hell! 16" id=-1}
+"8ax-0" {name="Hell? 1" id=-1}
 "8ax-1" {name="Hell? 3" id=-1}
 "8ax-2" {name="Hell? 5" id=-1}
 "8ax-3" {name="Hell? 7" id=-1}
@@ -827,8 +825,8 @@
 "8c-18" {name="Breeze 18" id=-1}
 "8c-19" {name="Breeze 19" id=-1}
 "8c-20" {name="Breeze 20" id=-1}
-"r1d-1" {name="Dark Rapture 1" id=-1}
-"r1d-2" {name="Dark Rapture 2" id=-1}
+"r1d-1" {name="???" id=-1}
+"r1d-2" {name="Dark Rapture" id=-1}
 "r1d-3" {name="Dark Rapture 3" id=-1}
 "r1d-4" {name="Dark Rapture 4" id=-1}
 "r1d-5" {name="Dark Rapture 5" id=-1}
@@ -909,24 +907,24 @@
 "1bx-3" {name="Floating City" id=1}
 "1bx-4" {name="Floating City" id=1}
 "1bx-5" {name="Floating City" id=1}
-"1db-1" {name="Decay 1" id=-1}
-"1db-2" {name="Decay 2" id=-1}
-"1db-3" {name="Decay 3" id=-1}
-"1db-4" {name="Decay 4" id=-1}
-"1db-5" {name="Decay 5" id=-1}
-"1db-6" {name="Decay 6" id=-1}
-"1db-7" {name="Decay 7" id=-1}
-"1db-8" {name="Decay 8" id=-1}
-"1db-9" {name="Decay 9" id=-1}
-"1db-10" {name="Decay 10" id=-1}
-"1db-11" {name="Decay 11" id=-1}
-"1db-12" {name="Decay 12" id=-1}
-"1db-13" {name="Decay 13" id=-1}
-"1db-14" {name="Decay 14" id=-1}
-"1db-15" {name="Decay 15" id=-1}
-"1db-16" {name="Decay 16" id=-1}
-"1db-17" {name="Decay 17" id=-1}
-"1db-18" {name="Decay 18" id=-1}
+"1bd-1" {name="Decay 1" id=-1}
+"1bd-2" {name="Decay 2" id=-1}
+"1bd-3" {name="Decay 3" id=-1}
+"1bd-4" {name="Decay 4" id=-1}
+"1bd-5" {name="Decay 5" id=-1}
+"1bd-6" {name="Decay 6" id=-1}
+"1bd-7" {name="Decay 7" id=-1}
+"1bd-8" {name="Decay 8" id=-1}
+"1bd-9" {name="Decay 9" id=-1}
+"1bd-10" {name="Decay 10" id=-1}
+"1bd-11" {name="Decay 11" id=-1}
+"1bd-12" {name="Decay 12" id=-1}
+"1bd-13" {name="Decay 13" id=-1}
+"1bd-14" {name="Decay 14" id=-1}
+"1bd-15" {name="Decay 15" id=-1}
+"1bd-16" {name="Decay 16" id=-1}
+"1bd-17" {name="Decay 17" id=-1}
+"1bd-18" {name="Decay 18" id=-1}
 "1dbx-1" {name="???" id=-1}
 "1dbx-2" {name="???" id=-1}
 "r1b-1" {name="Solitude 1" id=-1}

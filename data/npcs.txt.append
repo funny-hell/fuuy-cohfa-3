@@ -1,10 +1,17 @@
 //{FC original
 warningghost {
 #first_sign
-    movieclip NPC0
-    sound_id NPCSkull
+    movieclip NPCG2
+    sound_id NPCGhost
     text [
-        "\n."
+        "\n. . ."
+		"\nuh, yeah so"
+		"you should probably\nlike, stop and\nturn around now"
+		"see, there should\nbe a warning\nsign here"
+		"but noone\never bothered\nputting one"
+		"so, uh\nhere we\nare"
+		"\n. . ."
+		"\ndon't die!"
     ]
 }
 platform {
@@ -12,7 +19,12 @@ platform {
     movieclip NPC0
     sound_id NPCSkull
     text [
-        "\n."
+        "\n. . ."
+		"\nplatforms"
+		"\nfucking hate em"
+		"always getting\nstuck on em\nand all"
+		"\n. . ."
+		"i would stay\naway from them\nwere i you"
     ]
 }
 
@@ -41,11 +53,6 @@ NPC_Helper {
 		". . .\na strong one\nfor a fact"
 		"since even now\nalls gone to shit\nthe wind's still here"
 		"\nhowlin away."
-		"\n. . ."
-		"at least its\na nice view\nup here"
-		"you know, with\nthe water below\nand all"
-		"\n. . ."
-		"careful\nnot to fall\nnow!"
     ]
 }
 NPC_Soldier {
@@ -953,6 +960,7 @@ NPCdud39{
     ]
 }
 
+
 NPCdudH1 {
 #basic sideways
 	movieclip NPCHX
@@ -1239,7 +1247,7 @@ NPCdudx1 {
 	sound_id ChompDash
 	text [
 	"GOD FUCKING\ndamnit\nKRIS"
-	"I TOLD YOU\ni dont like\nDEAD JOKES"
+	"I TOLD YOU\ni dont like\nDEAD GAMES"
 	]
 }
 NPCdudx2 {
@@ -1488,6 +1496,32 @@ NPCNAN0 {
 		"not to worry, eternity with you will be oh so fun"
 		"just smile with me and do what i do"
 		":)"
+    ]
+}
+NPCNAN1{
+#unfinished
+    movieclip NPCdudNAN2
+    sound_id NPCNAN
+    text [
+		"\n. . ."
+		"we have\nsome loose ends\nhere, dont we"
+		"ah,\nhow unfortunate,\nno?"
+		"\nhee hee"
+		"\ndont worry"
+		"itll\nall be\nover soon"
+    ]
+}
+NPCNAN2{
+#unfinished
+    movieclip NPCdudNAN2
+    sound_id NPCNAN
+    text [
+		"we have\nsome loose ends\nhere, dont we"
+		"\nhm . . ."
+		"but,\nthis\nearly?"
+		"oh, it would\nbe a shame to\nleave it at that"
+		"why dont you\njust keep going\nforward"
+		"go on then,\ni will be\nwatching"
     ]
 }
 
