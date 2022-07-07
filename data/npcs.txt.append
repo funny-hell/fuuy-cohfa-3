@@ -1139,7 +1139,25 @@ NPCdudp7{
     movieclip NPCdudm4
     sound_id NPCDefault
     text [
-		"here\nlies\nblockbite"
+		"\n???"
+		"nobody\nlies here,\napparently"
+    ]
+}
+NPCdudp7a{
+#museum picture
+    movieclip NPCdudm4
+    sound_id NPCDefault
+    text [
+		"here\nlies\nblockbyte"
+		"\n(WIP)"
+    ]
+}
+NPCdudp7b{
+#museum picture
+    movieclip NPCdudm4
+    sound_id NPCDefault
+    text [
+		"here\nlies\nhinge"
 		"\n(WIP)"
     ]
 }
@@ -1500,28 +1518,27 @@ NPCNAN0 {
 }
 NPCNAN1{
 #unfinished
-    movieclip NPCdudNAN2
-    sound_id NPCNAN
+    movieclip NPCdudNAN3
+sound_id NPCBlob
     text [
-		"\n. . ."
 		"we have\nsome loose ends\nhere, dont we"
-		"ah,\nhow unfortunate,\nno?"
-		"\nhee hee"
-		"\ndont worry"
-		"itll\nall be\nover soon"
+		"ah,\nhow\nunfortunate"
+		"\nbut dont worry!"
+		"itll\nall be\nover soon!"
     ]
 }
 NPCNAN2{
 #unfinished
-    movieclip NPCdudNAN2
-    sound_id NPCNAN
+    movieclip NPCdudNAN3
+    sound_id NPCBlob
     text [
 		"we have\nsome loose ends\nhere, dont we"
 		"\nhm . . ."
 		"but,\nthis\nearly?"
 		"oh, it would\nbe a shame to\nleave it at that"
+		"\ntell you what"
 		"why dont you\njust keep going\nforward"
-		"go on then,\ni will be\nwatching"
+		"surely\nnothing can\ngo wrong"
     ]
 }
 

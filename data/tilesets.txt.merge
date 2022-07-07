@@ -43,13 +43,13 @@ c6 {
     }
 }
 1xd {
-	palette 201
+	palette 1201
 	global_particle_1 rain
 	global_particle_2 fog
 	global_particle_3 fogbg2
 }
 1xu {
-	palette 200
+	palette 1200
 	global_particle_4 cloudwind
 	6a {
 		npc_1 NPCdudx11
@@ -67,25 +67,25 @@ c6 {
 	}
 }
 2xd {
-	palette 203
+	palette 1203
 }
 2xu {
-	palette 202
+	palette 1202
 }
 3xd {
-	palette 205
+	palette 1205
 }
 3xu {
-	palette 204
+	palette 1204
 }
 4ax {
-	palette 206
+	palette 1206
 }
 4bx {
-	palette 207
+	palette 1207
 }
 4cx {
-	palette 208
+	palette 1208
 	background_graphics bgsolid
 	fx_shader_mid lightingmodded
 	3 {
@@ -105,19 +105,19 @@ c6 {
 	npc_2 NPCdud34
 }
 5cx {
-	palette 209
+	palette 1209
 }
 5ax {
-	palette 210
+	palette 1210
 }
 5bxu {
-	palette 211
+	palette 1211
 }
 5bxd {
-	palette 212
+	palette 1212
 }
 6x {
-	palette 213
+	palette 1213
 	9 {
         music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
         tile_graphics Tilehell
@@ -145,7 +145,7 @@ c6 {
 	shader_param 0.6
 }
 7x {
-	palette 214
+	palette 1214
 	fx_shader_mid lightingmodded
 	
 	7 {
@@ -160,10 +160,10 @@ c6 {
 	midfx_layer 2
 }
 8x {
-	palette 215
+	palette 1215
 }
 9x {
-	palette 216
+	palette 1216
 }
 4 {
 	music [gameover.ogg, none]

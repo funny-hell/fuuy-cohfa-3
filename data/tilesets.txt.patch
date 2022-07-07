@@ -88,3 +88,19 @@ c5c {
 	music [retro/warpzone_intro.ogg, retro/hell_loop.ogg]
 	}
 }
+
+7c {
+	npc_1 NPCNAN2
+}
+7a {
+	npc_3 NPCNAN2
+}
+7b {
+	npc_3 NPCNAN2
+}
+9 {
+	npc_3 NPCNAN1
+}
+rr3 {
+	npc_3 NPCNAN1
+}

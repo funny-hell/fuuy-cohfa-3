@@ -2088,7 +2088,7 @@ nodes {
 		levelgroups [but3]
         page trainmenu
         unlock_condition collected_carts_all
-        unlock_condition_levels [7c-20 7b-20 7a-17]    
+        unlock_condition_levels [7c-20 7b-20 7a-20]    
         
         up Rail1
 		down Rail3
@@ -2109,7 +2109,7 @@ nodes {
 		levelgroups none
         page trainmenu
         unlock_condition collected_carts_all
-        unlock_condition_levels [7c-20 7b-20 7a-17]    
+        unlock_condition_levels [7c-20 7b-20 7a-20]    
 	}
 		//}
 }
