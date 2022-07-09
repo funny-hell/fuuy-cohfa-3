@@ -1691,6 +1691,7 @@ nodes {
         up GHerpes
 		left GlitchCart2
 		right GTower3
+		select GAfraid
     }
 	
 	GTLMutable {
@@ -2099,7 +2100,7 @@ nodes {
 		levelgroups [but3]
         page trainmenu
         unlock_condition visited_levels_any
-        unlock_condition_levels [r1d-20]    
+        unlock_condition_levels [r1d-20 9-7 hub-5]    
         
         up Rail2
     }

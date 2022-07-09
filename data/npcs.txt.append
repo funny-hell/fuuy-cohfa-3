@@ -1441,8 +1441,8 @@ NPCdudx13 {
 	]
 }
 NPCdudx14 {
-# <- you - unused
-	movieclip NPCD1
+# <- you
+	movieclip NPCdud20
 	sound_id NPCBlob
 	text [
 	"\ngah!"
@@ -1541,5 +1541,14 @@ NPCNAN2{
 		"surely\nnothing can\ngo wrong"
     ]
 }
+NPCNAN3{
+#unfinished
+    movieclip NPCdudNAN4
+    sound_id NPCBlob
+    text [
+		"\n. . ."
+    ]
+}
+
 
 //}

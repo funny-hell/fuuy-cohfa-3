@@ -594,6 +594,7 @@
 "5-0z" {name="???" id=-1}
 "5x-1" {name="???" id=-1}
 "5x-2" {name="???" id=2}
+"5x-3" {name="???" id=-1}
 "5-1" {name="The Castle 1" id=-1}
 "5-2" {name="The Castle 2" id=-1}
 "5-3" {name="The Castle 3" id=-1}
@@ -735,6 +736,7 @@
 "r4-14" {name="The Flip 14" id=-1}
 "r4-15" {name="The Flip 15" id=-1}
 "r5x-1" {name="???" id=1}
+"r5-unf" {name="???" id=-1}
 "r5-1" {name="Desintegration 1" id=-1}
 "r5-2" {name="Desintegration 2" id=-1}
 "r5-3" {name="Desintegration 3" id=-1}

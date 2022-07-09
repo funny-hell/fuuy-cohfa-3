@@ -280,7 +280,7 @@ r5 {
     palette 1133
     midfx_layer 2
 
-    npc_1 NPC15
+    npc_1 NPCNAN3
     npc_2 NPCH5c
     npc_3 none
     decoration_1 inst11
@@ -604,140 +604,6 @@ gb {
 	do_tilt false
 	}
 }
-t {
-    area_name "Terminal Lucidity"
-    area_label_frame 40
-    overlay_graphics Overlaysend
-    tile_graphics Tileairship
-    background_graphics airshipbg
-    foreground_graphics None
-    fx_shader ripples
-    palette 1092
-    fx_shader_mid heatwave2
-    midfx_graphics SolidBox
-    midfx_layer 2
-    
-    area_type dark
-
-    //do_tilt true
-
-    tile_particle_1 waterfall
-    tile_particle_2 waterfall_splash
-    tile_particle_3 bubbles
-    tile_particle_4 drip
-    
-    #global_particle_1 fgrain
-    #global_particle_2 bgrain
-    #global_particle_3 lightning and another one bites the dust!
-    #global_particle_4 cloudwindlight
-    
-
-    decoration_1 eyeball
-   
-
-    music [terminal_intro.ogg, terminal_loop.ogg]
-    ambience vinyl.ogg
-
-    art_alts [
-        [OrbSmall, OrbBlob2]
-        [ChainLink2, None]
-        [OrbChomp, MovingOrbBlob]
-        [OrbLarge, OrbLarge2]
-        [AimSpitter,eyeshooter]
-        [Bullet,eyebullet]
-        [Cartridge, cart2]
-    ]
-
-
-
-#bonus levels before the proper ones kick in
-    1 {
-    tile_graphics Tilecitygirders
-    background_graphics bg2
-    music [gnossiennes_intro.ogg, gnossiennes_loop.ogg]
-    }
-    2 {
-    tile_graphics Tilecaves
-    background_graphics ch3bg
-    music [gnossiennes_intro.ogg, gnossiennes_loop.ogg]
-    }
-    3 {
-    tile_graphics Tilefield
-    background_graphics field2bg
-    music [gnossiennes_intro.ogg, gnossiennes_loop.ogg]
-    }
-    4 {
-    tile_graphics Tileairship
-    background_graphics airshipbg
-    music [gnossiennes_intro.ogg, gnossiennes_loop.ogg]
-    }
-
-
-    music [terminal_intro.ogg, terminal_loop.ogg]
-    
-    8 {
-    background_graphics bgsolidchunky
-    }
-
-    10 {
-    background_graphics bgsolidchunky
-    }
-
-#levels before the grave
-    15 {
-    tile_graphics Tilecitygirders
-    palette 1099
-    music [terminal_intro.ogg, terminal_loop.ogg]
-    }
-
-    16 {
-    tile_graphics Tilefield
-    palette 1100
-    music [terminal_intro.ogg, terminal_loop.ogg]
-    }
-
-    17 {
-    tile_graphics Tilecaves
-    palette 1101
-    music [terminal_intro.ogg, terminal_loop.ogg]
-    }
-
-    18 {
-    tile_graphics Tiletox
-    palette 1103
-    music [terminal_intro.ogg, terminal_loop.ogg]
-    }
-
-    19 {
-    tile_graphics Tileairship
-    palette 1102
-    music [terminal_intro.ogg, terminal_loop.ogg]
-    }
-
-    20 {
-    tile_graphics Tilehell
-    palette 1104
-    music [terminal_intro.ogg, terminal_loop.ogg]
-    }
-
-    21 {
-    tile_graphics theglow
-    palette 1105
-    music [terminal_intro.ogg, terminal_loop.ogg]
-    }
-
-    22 {
-    tile_graphics TileEnd
-    background_graphics neverbg
-    music [terminal_intro.ogg, terminal_loop.ogg]
-    }
-
-    28 {
-    tile_graphics Tileairship
-    background_graphics airshipbg
-    }
-
-}
 
 gi0 {
     tile_graphics TileGlitch
@@ -746,7 +612,7 @@ gi0 {
     foreground_graphics none
     palette 1071
 
-    cart_intro_png Acceptance
+    cart_intro_png carts/cart_wip
     cart_intro_palette 1073
     
     music [glitch/nobm2_intro.ogg, glitch/nobm2_loop.ogg]
@@ -773,7 +639,7 @@ g6 {
     foreground_graphics none
     palette 1070
 
-    cart_intro_png acceptance
+    cart_intro_png carts/cart_wip
     cart_intro_palette 1059
     
     music [glitch/beeth5_intro.ogg, glitch/beeth5_loop.ogg]
@@ -829,7 +695,7 @@ g99 {
     foreground_graphics none
     palette 1096
 
-    cart_intro_png Acceptance
+    cart_intro_png carts/cart_wip
     cart_intro_palette 1312
 
     music [glitch/tein_intro.ogg, glitch/tein_loop.ogg]
@@ -856,7 +722,7 @@ g98 {
     foreground_graphics none
     palette 1095
 
-    cart_intro_png Acceptance
+    cart_intro_png carts/cart_wip
     cart_intro_palette 1311
 
     music [glitch/nobm_intro.ogg, glitch/nobm_loop.ogg]
@@ -888,7 +754,7 @@ gr1 {
     music_volume 1
     ambience_volume 1
 
-    cart_intro_png mortaman
+    cart_intro_png carts/cart_wip
     cart_intro_palette 1311
     
     area_type glitch
@@ -909,7 +775,7 @@ gr2 {
     foreground_graphics none
     palette 1093
 
-    cart_intro_png Acceptance
+    cart_intro_png carts/cart_wip
     cart_intro_palette 1183
 
     music [glitch/newworld2_intro.ogg, glitch/newworld2_loop.ogg]
@@ -937,7 +803,7 @@ gr3 {
     palette 1108
     toxic_timer 1.05
 
-    cart_intro_png Acceptance
+    cart_intro_png carts/cart_wip
     cart_intro_palette 1363
 
     music [glitch/bumblebee2_intro.ogg, glitch/bumblebee2_loop.ogg]
@@ -992,7 +858,7 @@ gr5 {
     foreground_graphics none
     palette 1133
 
-    cart_intro_png Acceptance
+    cart_intro_png carts/cart_wip
     cart_intro_palette 410
 
     music [glitch/homk2_intro.ogg, glitch/homk2_loop.ogg]
@@ -1019,7 +885,7 @@ gr6 {
     foreground_graphics none
     palette 1117
 
-    cart_intro_png Acceptance
+    cart_intro_png carts/cart_wip
     cart_intro_palette 380
 
     music [retro/knights_intro.ogg, retro/knights_loop.ogg]
@@ -1048,7 +914,7 @@ g6d {
     foreground_graphics none
     palette 1110
 
-    cart_intro_png Acceptance
+    cart_intro_png carts/cart_wip
     cart_intro_palette 364
 
     music [glitch/homk2_intro.ogg, glitch/homk2_loop.ogg]
@@ -1075,7 +941,7 @@ g4a {
     foreground_graphics none
     palette 1063
 
-    cart_intro_png ashclimber
+    cart_intro_png carts/cart_wip
     cart_intro_palette 1061
     
     music [glitch/hungarian_rhapsody_intro.ogg, glitch/hungarian_rhapsody_loop.ogg]
@@ -1105,7 +971,7 @@ g5a {
     foreground_graphics none
     palette 1062
 
-    cart_intro_png Acceptance
+    cart_intro_png carts/cart_wip
     cart_intro_palette 1060
     
     music [glitch/slave_intro.ogg, glitch/slave_loop.ogg]
@@ -1135,7 +1001,7 @@ g6c {
 	
 	npc_1 NPCNAN1
 	
-    cart_intro_png Acceptance
+    cart_intro_png carts/cart_wip
     cart_intro_palette 360
     
     music [retro/funeral_intro.ogg, retro/funeral_loop.ogg]
@@ -1195,7 +1061,7 @@ g6b {
 	
 	npc_1 NPCNAN1
 
-    cart_intro_png Acceptance
+    cart_intro_png carts/cart_wip
     cart_intro_palette 1054
     
     music [glitch/1812_intro.ogg, glitch/1812_loop.ogg]
@@ -1259,7 +1125,7 @@ g7a {
 	
 	npc_1 NPCNAN1
 
-    cart_intro_png Acceptance
+    cart_intro_png carts/cart_wip
     cart_intro_palette 1183
     
     music [retro/waltzflowers_intro.ogg, retro/waltzflowers_loop.ogg]
@@ -1314,7 +1180,7 @@ gx {
     foreground_graphics none
     palette 1114
 
-    cart_intro_png Acceptance
+    cart_intro_png carts/cart_wip
     cart_intro_palette 1370
 
     music [glitch/knights_intro.ogg, glitch/knights_loop.ogg]
@@ -1341,7 +1207,7 @@ g8 {
     foreground_graphics none
     palette 1129
 
-    cart_intro_png Acceptance
+    cart_intro_png carts/cart_wip
     cart_intro_palette 404
 
     music [glitch/waltzflowers_intro.ogg, glitch/waltzflowers_loop.ogg]
@@ -1397,7 +1263,7 @@ g10 {
     foreground_graphics none
     palette 1132
 
-    cart_intro_png Acceptance
+    cart_intro_png carts/cart_wip
     cart_intro_palette 408
 
     music [glitch/gymnopedies_intro.ogg, glitch/gymnopedies_loop.ogg]
@@ -1435,7 +1301,7 @@ g100 {
     music_volume 1
     ambience_volume 1
 
-    cart_intro_png mortaman
+    cart_intro_png carts/cart_wip
     cart_intro_palette 1091
 
     area_type glitch
@@ -1461,7 +1327,7 @@ n1 {
     music_volume 1
     ambience_volume 1
 
-    cart_intro_png PusMan
+    cart_intro_png carts/cart_wip
     cart_intro_palette 253
     
     area_type glitch
@@ -2667,7 +2533,7 @@ m {
 	
     area_type normal
 
-    npc_1 NPC14
+    npc_1 NPCNAN1
 
     music [bumblebee_intro.ogg, bumblebee_loop.ogg]
     ambience castle.ogg
@@ -3640,6 +3506,286 @@ rr3 {
     tile_particle_5 toxicbubbles
 }
 
+o {
+    area_name "Omnificance"
+    area_label_frame 40
+    overlay_graphics Overlaysend
+    tile_graphics Tileairship
+    background_graphics airshipbg
+    foreground_graphics None
+    fx_shader ripples
+    palette 547
+    fx_shader_mid heatwave2
+    midfx_graphics SolidBox
+    midfx_layer 2
+    
+    area_type dark
+
+    do_tilt true
+
+    tile_particle_1 waterfall
+    tile_particle_2 waterfall_splash
+    tile_particle_3 bubbles
+    tile_particle_4 drip
+    
+    #global_particle_1 fgrain
+    #global_particle_2 bgrain
+    #global_particle_3 lightning and another one bites the dust!
+    #global_particle_4 cloudwindlight
+    
+
+    decoration_1 eyeball
+    
+    2{
+    palette 456
+    tile_graphics Tilehell
+    }
+
+    3{
+    palette 546
+    tile_graphics Tilefield
+    }
+
+    4{
+    palette 561
+    tile_graphics Tilecity
+    }
+
+    5{
+    palette 516
+    tile_graphics Tilecomplex
+    }
+
+    6{
+    palette 415
+    tile_graphics Tiletracks
+    }
+
+    #music [terminal_intro.ogg, terminal_loop.ogg]
+    ambience vinyl.ogg
+
+    art_alts [
+        [OrbSmall, OrbBlob2]
+        [OrbLarge, OrbLarge2]
+        [ChainLink2, None]
+        [OrbChomp, MovingOrbBlob]
+        [AimSpitter,eyeshooter]
+        [Bullet,eyebullet]
+        [Cartridge, cart3]
+    ]
+}
+t {
+    area_name "Terminal Lucidity"
+    area_label_frame 40
+    overlay_graphics Overlaysend
+    tile_graphics Tileairship
+    background_graphics airshipbg
+    foreground_graphics None
+    fx_shader ripples
+    palette 1092
+    fx_shader_mid heatwave2
+    midfx_graphics SolidBox
+    midfx_layer 2
+    
+    area_type dark
+
+    //do_tilt true
+	
+	npc_1 NPCNAN3
+
+    tile_particle_1 waterfall
+    tile_particle_2 waterfall_splash
+    tile_particle_3 bubbles
+    tile_particle_4 drip
+    
+    #global_particle_1 fgrain
+    #global_particle_2 bgrain
+    #global_particle_3 lightning and another one bites the dust!
+    #global_particle_4 cloudwindlight
+    
+
+    decoration_1 eyeball
+   
+
+    music [terminal_intro.ogg, terminal_loop.ogg]
+    ambience vinyl.ogg
+
+    art_alts [
+        [OrbSmall, OrbBlob2]
+        [ChainLink2, None]
+        [OrbChomp, MovingOrbBlob]
+        [OrbLarge, OrbLarge2]
+        [AimSpitter,eyeshooter]
+        [Bullet,eyebullet]
+        [Cartridge, cart2]
+    ]
+
+
+
+#bonus levels before the proper ones kick in
+    1 {
+    tile_graphics Tilecitygirders
+    background_graphics bg2
+    music [gnossiennes_intro.ogg, gnossiennes_loop.ogg]
+    }
+    2 {
+    tile_graphics Tilecaves
+    background_graphics ch3bg
+    music [gnossiennes_intro.ogg, gnossiennes_loop.ogg]
+    }
+    3 {
+    tile_graphics Tilefield
+    background_graphics field2bg
+    music [gnossiennes_intro.ogg, gnossiennes_loop.ogg]
+    }
+    4 {
+    tile_graphics Tileairship
+    background_graphics airshipbg
+    music [gnossiennes_intro.ogg, gnossiennes_loop.ogg]
+    }
+
+
+    music [terminal_intro.ogg, terminal_loop.ogg]
+    
+    8 {
+    background_graphics bgsolidchunky
+    }
+
+    10 {
+    background_graphics bgsolidchunky
+    }
+
+#levels before the grave
+    15 {
+    tile_graphics Tilecitygirders
+    palette 1099
+    music [terminal_intro.ogg, terminal_loop.ogg]
+    }
+
+    16 {
+    tile_graphics Tilefield
+    palette 1100
+    music [terminal_intro.ogg, terminal_loop.ogg]
+    }
+
+    17 {
+    tile_graphics Tilecaves
+    palette 1101
+    music [terminal_intro.ogg, terminal_loop.ogg]
+    }
+
+    18 {
+    tile_graphics Tiletox
+    palette 1103
+    music [terminal_intro.ogg, terminal_loop.ogg]
+    }
+
+    19 {
+    tile_graphics Tileairship
+    palette 1102
+    music [terminal_intro.ogg, terminal_loop.ogg]
+    }
+
+    20 {
+    tile_graphics Tilehell
+    palette 1104
+    music [terminal_intro.ogg, terminal_loop.ogg]
+    }
+
+    21 {
+    tile_graphics theglow
+    palette 1105
+    music [terminal_intro.ogg, terminal_loop.ogg]
+    }
+
+    22 {
+    tile_graphics TileEnd
+    background_graphics neverbg
+    music [terminal_intro.ogg, terminal_loop.ogg]
+    }
+
+    28 {
+    tile_graphics Tileairship
+    background_graphics airshipbg
+    }
+
+}
+
+ki {
+    area_name "Aqueros Coast"
+    area_label_frame 0
+    tile_graphics theglow
+    background_graphics coastbg
+    foreground_graphics none
+    fx_shader sludgeripples
+    shader_param .6
+    palette 728
+    overlay_graphics Overlayshell
+    player_physics "data/playerphysics_sckrunkly.txt"
+    decoration_1 inst10
+    global_particle_1 cloudwind_stormy
+    global_particle_2 bgrain3
+    global_particle_3 fgrain3
+    global_particle_4 lightning
+    tile_particle_1 waterfall_thin
+    tile_particle_2 waterfall_splash
+    tile_particle_3 smoke
+    tile_particle_4 drip
+    tile_particle_5 surface_splash  
+}
+k2 {
+    area_name "Mount Hydredron"
+    area_label_frame 0
+    tile_graphics theglow
+    background_graphics Background
+    foreground_graphics none
+    fx_shader sludgeripples
+	fx_shader_mid lightingmodded
+	midfx_graphics ShadeBox
+	midfx_layer 2
+    shader_param .6
+    #palette 728
+	palette 751
+    overlay_graphics Overlayshell
+    player_physics "data/playerphysics_sckrunkly.txt"
+	
+    decoration_1 BlockSnow
+	
+    global_particle_1 cloudwind_stormy
+    global_particle_2 bgsnowstormright
+    global_particle_3 fgsnowstormright
+    global_particle_4 lightning
+    tile_particle_1 waterfall_thin
+    tile_particle_2 waterfall_splash
+    tile_particle_3 smoke
+    tile_particle_4 drip
+    tile_particle_5 surface_splash 
+	
+	art_alts [
+		[GlowShroomSmall,GlowBulbSmall]
+	]
+	
+	1 {
+		background_graphics coastbg
+		global_particle_2 bgrain3
+		global_particle_3 fgrain3
+	}
+	2 {
+		background_graphics coastbg
+		global_particle_2 bgrain3
+		global_particle_3 fgrain3
+	}
+	3 {
+		background_graphics coastbg
+		global_particle_2 bgrain3
+		global_particle_3 fgrain3
+	}
+	4 {
+		global_particle_2 bgrain3
+		global_particle_3 fgrain3
+	}
+}
+
 //}
 //{	 Secrets	
 
@@ -4108,6 +4254,7 @@ butx {
     toxic_timer 0
 
     npc_1 NPCdudx6
+	npc_2 NPCdudx14
 	
 	art_alts[
 		[MiniFly, MiniWisp][Cartridge, cart2]
@@ -4117,7 +4264,11 @@ butx {
 	stop_previous_music false
     ambience castle.ogg
 	music_volume 1.3
-	
+	3 {
+		fx_shader_mid distortionparticles
+		midfx_graphics none
+		midfx_layer 0
+	}
 }
 8xd {
     area_name "Stormscapes"
@@ -5292,7 +5443,7 @@ gn10 {
 
 	npc_1 NPCNAN1
 
-    cart_intro_png carts/cart_ulcerwilds
+    cart_intro_png carts/cart_wip
     cart_intro_palette 1175
 	
 	decoration_1 RetroLeaves1
@@ -5335,7 +5486,7 @@ gnr1 {
 	
 	npc_1 NPCNAN1
 
-    cart_intro_png mortaman
+    cart_intro_png carts/cart_wip
     cart_intro_palette 311
     
     area_type glitch
@@ -5356,7 +5507,7 @@ gnr2 {
     foreground_graphics none
     palette 1093
 
-    cart_intro_png Acceptance
+    cart_intro_png carts/cart_wip
     cart_intro_palette 1183
 	
 	npc_1 NPCNAN1
@@ -5386,7 +5537,7 @@ gnr3 {
     palette 1108
     toxic_timer 1.05
 
-    cart_intro_png Acceptance
+    cart_intro_png carts/cart_wip
     cart_intro_palette 363
 	
 	npc_1 NPCNAN1
@@ -6662,6 +6813,9 @@ wlspl {
 		npc_1 NPCdudp12
 		npc_2 NPCdudp13
 		npc_3 NPCdudp12
+	}
+	8 {
+		npc_1 NPCNAN1
 	}
 }
 
