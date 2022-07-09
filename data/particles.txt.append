@@ -272,17 +272,17 @@ snowdist {
     #emitter properties
     emit_rate 10
     emit_amount 5
-    emit_direction [1, 1]
+    emit_direction [-1, -1]
     emit_spread 0
     emit_box [81, 0]      #54 for "level width", 32 for "level height"    
-    emit_offset [27,0]    #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
+    emit_offset [27,34]    #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
     
     #particle animation properties
     particle_lifetime 1
     initial_speed [30, 50]
     initial_rotation 0
     rotation_speed 0
-    force [2, 10]
+    force [-2, -2]
     friction 1
     size_start 3
     size_end 1
@@ -299,7 +299,7 @@ fullsnow {
 snowpart {
     #system TestParticle
     movieclip snowpart
-    max_particles 3000
+    max_particles 1000
     layer 2
     livebounds [-32, 64, -10, 50]
     prewarm [20,48]
@@ -308,26 +308,26 @@ snowpart {
     #emitter properties
     emit_rate 250
     emit_amount 5
-    emit_direction [1, 1]
+    emit_direction [-1, -1]
     emit_spread 20
     emit_box [81, 0]      #54 for "level width", 32 for "level height"    
-    emit_offset [8,0]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
+    emit_offset [27,32]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
     
     #particle animation properties
     particle_lifetime 30
-    initial_speed [3, 12]
+    initial_speed [4, 6]
     initial_rotation [0,360]
     rotation_speed [-200, 200]
-    force [.5, .5]
+    force [-2, -2]
     friction 1
-    size_start [.10,1]
+    size_start [.1,1]
     size_end 1
     alpha_start 1
     alpha_end 1
-    face_moving_direction false
+    face_moving_direction true
     speed_scale 0
     inherit_speed 0
-    tags [collide_tile]
+    tags []
 }
 snowpart2 {
     #system TestParticle
@@ -341,19 +341,19 @@ snowpart2 {
     #emitter properties
     emit_rate 100
     emit_amount 1
-    emit_direction [1, -1]
+    emit_direction [-1, -1]
     emit_spread 20
     emit_box [81, 0]      #54 for "level width", 32 for "level height"    
-    emit_offset [8,40]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
+    emit_offset [27,32]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
     
     #particle animation properties
     particle_lifetime 30
-    initial_speed [.15, 5]
+    initial_speed [2, 5]
     initial_rotation [0,360]
     rotation_speed [-200, 200]
-    force [.5, -.5]
+    force [-2, -2]
     friction 1
-    size_start [.10,1]
+    size_start [.1,1]
     size_end 1
     alpha_start 1
     alpha_end 1

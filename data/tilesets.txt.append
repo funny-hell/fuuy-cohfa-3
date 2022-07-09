@@ -233,22 +233,20 @@ r4 {
 }
 r4b {
     area_name "Frost"
-    area_label_frame 3
+    area_label_frame 64
     tile_graphics Tilehell
     overlay_graphics Overlaystheglow
     background_graphics ch3bg
     foreground_graphics None
-    fx_shader reflectionripples
-    fx_shader_mid distortionparticles
-    palette 1228
-    midfx_layer 1
+    fx_shader distortionparticles
+    palette 474
 
     tile_particle_1 waterfall
     tile_particle_2 waterfall_splash
     tile_particle_3 bubbles
     tile_particle_4 drip    
-    global_particle_1 fgsnowstorm
-    global_particle_2 bgsnowstorm
+    global_particle_1 fullsnow
+    global_particle_2 snowdist
     global_particle_4 rocks
 
     #decoration_1 Decoration4
@@ -258,6 +256,7 @@ r4b {
 
     npc_1 NPCC1
     npc_2 NPC13
+	npc_3 NPCNAN1
 
     art_alts[
         [OrbSmall, orbblob][ChainLink2, none][OrbLarge, OrbLarge2]
@@ -267,6 +266,7 @@ r4b {
     ambience ruins.ogg
 
     player_physics "data/player_physics/playerphysicsfrost.txt"
+	
 }
 r5 {
     area_name "Desintegration"
