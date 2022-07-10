@@ -2454,7 +2454,7 @@ a {
     
     palette 1084
 
-    music [newworld2_intro.ogg, newworld2_loop.ogg]
+    music [newworld_intro.ogg, newworld3_loop.ogg]
     ambience wind.ogg
     
     music_volume 1
@@ -5070,7 +5070,7 @@ gn1 {
     foreground_graphics none
 	palette 1167
 	
-	music [glitch/funeral_intro.ogg, glitch/funeral_loop.ogg]
+	music [retro/newworld3_intro.ogg, retro/newworld3_loop.ogg]
     
     music_volume 1
     ambience_volume 1
@@ -6893,10 +6893,10 @@ ad {
     
     palette 1196
 
-    music [newworld_intro_dark.ogg, newworld_loop_dark.ogg]
+    music [newworld2_intro_dark.ogg, newworld3_loop_dark.ogg]
     ambience wind.ogg
     
-    music_volume 1
+    music_volume 2
     ambience_volume 1
 
 	tile_particle_1 bubbles
