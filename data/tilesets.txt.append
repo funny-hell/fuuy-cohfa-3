@@ -594,7 +594,7 @@ gb {
 		global_particle_4 fallout2
 		midfx_graphics superp1
 		palette 1061
-		shader_param 141
+		shader_param 1141
 		
 	do_tilt false
 	}
@@ -4415,7 +4415,7 @@ r2x {
 	fx_shader_mid superposition
 	midfx_graphics superp2
 	palette 1060
-	shader_param 185
+	shader_param 1185
 	global_particle_2 rocks
 
 	art_alts [
