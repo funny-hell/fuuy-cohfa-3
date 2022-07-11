@@ -2454,7 +2454,7 @@ a {
     
     palette 1084
 
-    music [newworld_intro.ogg, newworld3_loop.ogg]
+    music [newworld2_intro.ogg, newworld3_loop.ogg]
     ambience wind.ogg
     
     music_volume 1
@@ -2550,7 +2550,7 @@ m {
     midfx_graphics ShadeBox
     midfx_layer 2
     shader_param 0
-    palette 1195
+    palette 500
     
     tile_particle_1 dust
 	decoration_1 SpiderHang
@@ -2561,6 +2561,7 @@ m {
 
     npc_1 warningghost
     npc_2 platform
+	npc_3 2bNPC3
     
     art_alts [
         [OrbSmall, orbblob]
@@ -2581,6 +2582,9 @@ m {
     4 {
         shader_param 0.1
     }
+	20 {
+		npc_1 NPCNAN1
+	}
 }
 
 r1d {
@@ -3558,7 +3562,9 @@ o {
 
     6{
     palette 415
-    tile_graphics Tiletracks
+    tile_graphics Tiletracksdud
+    decoration_1 dudropedeco
+    decoration_2 windowdeco
     }
 
     #music [terminal_intro.ogg, terminal_loop.ogg]
@@ -3736,7 +3742,7 @@ ki {
 k2 {
     area_name "Mount Hydredron"
     area_label_frame 0
-    tile_graphics theglow
+    tile_graphics Tilehydredron
     background_graphics Background
     foreground_graphics none
     fx_shader sludgeripples
@@ -3747,9 +3753,12 @@ k2 {
     #palette 728
 	palette 751
     overlay_graphics Overlayshell
-    player_physics "data/playerphysics_sckrunkly.txt"
+    player_physics "data/player_physics/playerphysics_sckrunkly.txt"
+	
+	sfx_file hydredronsounds.txt
 	
     decoration_1 BlockSnow
+	decoration_2 HydredronFlag
 	
     global_particle_1 cloudwind_stormy
     global_particle_2 bgsnowstormright
@@ -3761,31 +3770,50 @@ k2 {
     tile_particle_4 drip
     tile_particle_5 surface_splash 
 	
+	music [vivaldiwinter_intro.ogg, vivaldiwinter_loop.ogg]
+	ambience wind.ogg
+	
+	npc_1 NPC_HYDREDRONSUMMIT
+	
 	art_alts [
 		[GlowShroomSmall,GlowBulbSmall]
+		[AimSpitter,eyeshooter][Bullet,eyebullet]
 	]
 	
 	1 {
 		background_graphics coastbg
 		global_particle_2 bgrain3
 		global_particle_3 fgrain3
+		ambience storm.ogg
 	}
 	2 {
 		background_graphics coastbg
 		global_particle_2 bgrain3
 		global_particle_3 fgrain3
+		ambience storm.ogg
 	}
 	3 {
 		background_graphics coastbg
 		global_particle_2 bgrain3
 		global_particle_3 fgrain3
+		ambience storm.ogg
 	}
 	4 {
 		global_particle_2 bgrain3
 		global_particle_3 fgrain3
+		ambience storm.ogg
+	}
+	21 {
+		global_particle_1 cloudwind_light
+		global_particle_2 cold
+		global_particle_3 cold
+		global_particle_4 cold
+		
+		player_physics "data/playerphysics.txt"
+		
+		music none
 	}
 }
-
 //}
 //{	 Secrets	
 
@@ -6907,7 +6935,7 @@ ad {
 	global_particle_2 rocks2
 	global_particle_3 declinelights
     
-    npc_1 waterguide
+    npc_1 waterguidesreturn
     npc_2 fly
 
 

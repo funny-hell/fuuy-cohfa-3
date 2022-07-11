@@ -1,4 +1,25 @@
 //{ FC
+"k2-1" {name="Mount Hydredron 1" id=1}
+"k2-2" {name="Mount Hydredron 2" id=2}
+"k2-3" {name="Mount Hydredron 3" id=3}
+"k2-4" {name="Mount Hydredron 4" id=4}
+"k2-5" {name="Mount Hydredron 5" id=5}
+"k2-6" {name="Mount Hydredron 6" id=6}
+"k2-7" {name="Mount Hydredron 7" id=7}
+"k2-8" {name="Mount Hydredron 8" id=8}
+"k2-9" {name="Mount Hydredron 9" id=9}
+"k2-10" {name="Mount Hydredron 10" id=10}
+"k2-11" {name="Mount Hydredron 11" id=11}
+"k2-12" {name="Mount Hydredron 12" id=12}
+"k2-13" {name="Mount Hydredron 13" id=13}
+"k2-14" {name="Mount Hydredron 14" id=14}
+"k2-15" {name="Mount Hydredron 15" id=15}
+"k2-16" {name="Mount Hydredron 16" id=16}
+"k2-17" {name="Mount Hydredron 17" id=17}
+"k2-18" {name="Mount Hydredron 18" id=18}
+"k2-19" {name="Mount Hydredron 19" id=19}
+"k2-20" {name="Mount Hydredron 20" id=20}
+"k2-21" {name="The Summit" id=-1}
 "rr1-1" {name="Denial 1" id=-1}
 "rr1-2" {name="Denial 2" id=-1}
 "rr1-3" {name="Denial 3" id=-1}

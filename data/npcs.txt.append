@@ -1,31 +1,89 @@
 //{FC original
-warningghost {
-#first_sign
-    movieclip NPCG2
-    sound_id NPCGhost
-    text [
-        "\n. . ."
-		"\nuh, yeah so"
-		"you should probably\nlike, stop and\nturn around now"
-		"see, there should\nbe a warning\nsign here"
-		"but noone\never bothered\nputting one"
-		"so, uh\nhere we\nare"
-		"\n. . ."
-		"\ndon't die!"
-    ]
+waterguidesreturn {
+	movieclip NPC0
+	sound_id NPCSkull
+	text [
+		"\n hi again"
+		"was my information \n useful"
+		"i really hope so \n anyway"
+		"when you left the city started decaying"
+		"and less things are working now"
+		"im not sure why you came back \n this city is ruined"
+		"i really hope you werent \n involved in this"
+		"\n this is my home now"
+		"\n . . ."
+	]
 }
-platform {
-#first_sign
-    movieclip NPC0
-    sound_id NPCSkull
-    text [
-        "\n. . ."
-		"\nplatforms"
-		"\nfucking hate em"
-		"always getting\nstuck on em\nand all"
+warningghost {
+	movieclip NPCG5
+	sound_id NPCGhost
+	text [
+		"\nunless you want agony"
+		"\ni suggest you go no further"
+	]
+}
+
+platform { 
+	movieclip NPC2
+	sound_id NPCSkull
+	text [
+		"\nHEY! IDIOT!"
+		"ive got something to explain to you"
+		"\nthe platforms there"
+		"\ndont have collision when"
+		"\nthey're below another platform"
+		"\nwhy?"
+		"\nits just something strange with them"
+		"\nim not exactly sure why"
+	]
+}
+fghla {
+	movieclip NPCG5
+	sound_id NPCSkull
+	text [
+		"54Au93&*$Yh \n hGSD*9034 \n VBNa3102"
+		"Pelasbgyhe HeAIlpSdk mHBeN#U9"
+	]
+}
+NPCH7 {
+#basic sideways
+	movieclip NPCH3
+	sound_id NPCSteven
+	text [
+		"\nYou have done well."
+		"However, you do not have enough tumors to enter."
+	]
+	
+	alt_text [
+		"\nDo you enjoy going through hell?"
+	]
+}
+2bNPC3 {
+#low skull no jaw warp
+	movieclip NPC4
+	sound_id NPCSkull
+	text [
 		"\n. . ."
-		"i would stay\naway from them\nwere i you"
-    ]
+		"\n. . ."
+		"\nwait you're not a hallucination?"
+		"wow its been so long since ive seen another"
+		"living thing come down here"
+		"how does it feel to be the first living thing"
+		"to be down here in years?"
+		"lonely? thats kinda sad"
+		"\ncant fix that for you"
+		"\n. . ."
+		"\nyou seem stuck here"
+		"\ndo you want help?"
+		"dont bother answering that"
+		"i want you to pay attention to the hole in the ceiling"
+		"unlike previous holes that one is reachable"
+		"im not sure how you reach it though"
+		"maybe try breaking something"
+		"it could trigger a collapse of some of the cave"
+		"you could use falling objects to climb up"
+		"but good luck finding something to break"
+	]
 }
 
 NPC_Sign1 {
@@ -1017,7 +1075,6 @@ NPCdud1m{
     movieclip NPCdudm1
     sound_id NPCBlob
     text [
-		". . .\n(the mirror)\n. . ."
 		"\n. . ."
     ]
 }
@@ -1167,7 +1224,15 @@ NPCdudp8{
     sound_id NPCDefault
     text [
 		"here\nlies\nderzox"
-		"\n(WIP)"
+        "he wasn't a very\nexpirienced\nmodder"
+        "and although he was\nfilling the mod\nwith trash areas"
+        "\nhe enjoyed working on them"
+        "he truly wished he\ncould have made\n the collab better"
+        "\nand not make it worse"
+        "\nwhich he did"
+        "but he was happy that\nhe tried."
+        "he was very\nthankful\nfor the chance"
+		"he\nwill be\nremembered"
     ]
 }
 NPCdudp9{

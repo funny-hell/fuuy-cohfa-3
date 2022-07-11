@@ -2099,8 +2099,8 @@ nodes {
         entrylevel but3-9
 		levelgroups [but3]
         page trainmenu
-        unlock_condition visited_levels_any
-        unlock_condition_levels [r1d-20 9-7 hub-5]    
+        unlock_condition visited_levels_all
+        unlock_condition_levels [7c-20 7b-20 7a-20 hub-5]  
         
         up Rail2
     }
