@@ -376,7 +376,7 @@ hub {
 
     npc_1 NPCHX
     npc_2 NPC17
-    npc_3 none
+    npc_3 NPCdudp0
     decoration_1 Decoration5
     decoration_2 Decoration6
     decoration_3 Decoration7
@@ -3727,7 +3727,7 @@ ki {
     shader_param .6
     palette 728
     overlay_graphics Overlayshell
-    player_physics "data/playerphysics_sckrunkly.txt"
+    player_physics "data/player_physics/playerphysics_sckrunkly.txt"
     decoration_1 inst10
     global_particle_1 cloudwind_stormy
     global_particle_2 bgrain3
@@ -3737,7 +3737,14 @@ ki {
     tile_particle_2 waterfall_splash
     tile_particle_3 smoke
     tile_particle_4 drip
-    tile_particle_5 surface_splash  
+    tile_particle_5 surface_splash
+    npc_1 NPCKI9
+    npc_3 NPCNAN1
+
+	ambience ocean.ogg
+	
+	music_volume 1.3
+    ambience_volume 1
 }
 k2 {
     area_name "Mount Hydredron"
@@ -6838,9 +6845,9 @@ wlspl {
 		npc_3 NPCdudp7b
 	}
 	7 {
-		npc_1 NPCdudp12
+		npc_1 NPCdudp12a
 		npc_2 NPCdudp13
-		npc_3 NPCdudp12
+		npc_3 NPCdudp12b
 	}
 	8 {
 		npc_1 NPCNAN1

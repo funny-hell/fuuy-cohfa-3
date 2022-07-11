@@ -1,4 +1,25 @@
 //{ FC
+
+"ki-1" {name="Aqueros Coast 1" id=1}
+"ki-2" {name="Aqueros Coast 2" id=2}
+"ki-3" {name="Aqueros Coast 3" id=3}
+"ki-4" {name="Aqueros Coast 4" id=4}
+"ki-5" {name="Aqueros Coast 5" id=5}
+"ki-6" {name="Aqueros Coast 6" id=6}
+"ki-7" {name="Aqueros Coast 7" id=7}
+"ki-8" {name="Aqueros Coast 8" id=8}
+"ki-9" {name="Aqueros Coast 9" id=9}
+"ki-10" {name="Aqueros Coast 10" id=10}
+"ki-11" {name="Aqueros Coast 11" id=11}
+"ki-12" {name="Aqueros Coast 12" id=12}
+"ki-13" {name="Aqueros Coast 13" id=13}
+"ki-14" {name="Aqueros Coast 14" id=14}
+"ki-15" {name="Aqueros Coast 15" id=15}
+"ki-16" {name="Aqueros Coast 16" id=16}
+"ki-17" {name="Aqueros Coast 17" id=17}
+"ki-18" {name="Aqueros Coast 18" id=18}
+"ki-19" {name="Aqueros Coast 19" id=19}
+"ki-20" {name="Aqueros Coast 20" id=20}
 "k2-1" {name="Mount Hydredron 1" id=1}
 "k2-2" {name="Mount Hydredron 2" id=2}
 "k2-3" {name="Mount Hydredron 3" id=3}

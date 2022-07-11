@@ -92,6 +92,32 @@ NPCH7 {
 	]
 }
 
+NPCKI9 {
+#basic sideways
+    movieclip NPCD6
+    sound_id NPCBlob
+    text [
+    "mmh\n. . .\nhi."
+    "welcome to uh,\nAQUEROS COAST!\n. . ."
+    "ow, my throat hurts\nits quite epic though"
+    "well anyways, the\nrocky sea\nis this way."
+    "although this one\nisnt actually any sea\nthis is more of lake"
+    "the sea's actually\nbehind that mountain\nover there"
+    "its more convenient\nto call it\n a sea"
+    "so uh, you might\nhave noticed\n. . ."
+    "the rain's preety bad here\nit rains here ALL\nthe time!"
+    "something wacky happened\nafter the bombings\nto the clouds here"
+    "im not a nerd\nso i dont know\n all the details"
+    "but you can\nkinda jump on\nthe rain here"
+    "\ni dont really jump much."
+    "anyways, if you wanna go\nfurther\n. . ."
+    "\ngood luck!"
+    "\nsorry for the long talk"
+    "\ni dont get much visitors"
+    "\nbye!"   	
+        ]
+}
+
 NPC_Sign1 {
 #first_sign
     movieclip NPCSign
@@ -1291,12 +1317,47 @@ NPCdudp11{
 		"he will\nbe remembered,\nbut not missed"
     ]
 }
-NPCdudp12{
+NPCdudp12a{
 #museum picture
     movieclip NPCdudm6
     sound_id NPCDefault
     text [
-		""
+		"funny collab\nhas had a\nlong history"
+		"as such, there are many\nquestions that will\nnever be answered"
+		"like,\nwhere did it\ncome from?"
+		"or, will\nit ever be\nfinished?"
+		"or, why the fuck are\nthere 5 different exodus\nships existing all at once"
+		"seriously,\nwhats up\nwith that?"
+		"but there are\nsome things we\nknow about fc"
+		"like, it used\nto be a trainwreck\nof a mod"
+		"\n(it still is)"
+		"or,\nnoone ever\nliked it"
+		"\n(they still dont)"
+		"also, a lot of\nareas were pulled\nfrom dead mods"
+		"and they were\ngiven a special place\nhere in fc"
+		"and now they\nalso are in\na dead mod"
+		"a dead mod\nthat was pulled\nfrom being dead"
+		"\n. . ."
+		"can we certainly\nsay fc is truly a\ndead mod?"
+		"nope,\nof course\nthe fuck not"
+		"because fc\nisnt even a mod\nat this point"
+		"\nthats right . . ."
+		"the true fc was\nthe | s we made\nalong the way"
+    ]
+}
+NPCdudp12b{
+#museum picture
+    movieclip NPCdudm6
+    sound_id NPCDefault
+    text [
+		"fc2 was made\nas a long last\ngoodbye to fc"
+		"except instead of being\na goodbye it was more\nlike defiling a grave"
+		"a grave which\nwas already defiled\nto begin with"
+		"fc2 was such a\nwaste of time, you\nwouldnt ever know"
+		"but at\nleast its\nover now"
+		"\n. . ."
+		"\nwait . . ."
+		"\nits not?"
     ]
 }
 NPCdudp13{
@@ -1314,6 +1375,17 @@ NPCdudp13{
 		"yeah, safe to say, this mod was too fucking ambitious"
 		"but its also\nwhat makes\nit so special!"
 		". . .\nmoving on"
+    ]
+}
+
+NPCdudp0{
+#museum picture
+    movieclip NPCdudm4
+    sound_id NPCDefault
+    text [
+		"\nhere lies Ash"
+		"\n. . ."
+		"(something has been\nunlocked in a\ntrain somewhere)"
     ]
 }
 
@@ -1643,6 +1715,5 @@ NPCNAN3{
 		"\n. . ."
     ]
 }
-
 
 //}
