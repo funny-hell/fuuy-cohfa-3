@@ -3810,6 +3810,66 @@ k2 {
 		global_particle_3 fgrain3
 		ambience storm.ogg
 	}
+	17 {
+		global_particle_1 cloudwind_light
+		global_particle_2 cold
+		global_particle_3 cold
+		global_particle_4 cold
+		
+		player_physics "data/playerphysics.txt"
+	}
+	18 {
+		global_particle_1 cloudwind_light
+		global_particle_2 cold
+		global_particle_3 cold
+		global_particle_4 cold
+		
+		player_physics "data/playerphysics.txt"
+	}
+	19 {
+		global_particle_1 cloudwind_light
+		global_particle_2 cold
+		global_particle_3 cold
+		global_particle_4 cold
+		
+		player_physics "data/playerphysics.txt"
+	}
+	20 {
+		global_particle_1 cloudwind_light
+		global_particle_2 cold
+		global_particle_3 cold
+		global_particle_4 cold
+		
+		player_physics "data/playerphysics.txt"
+	}
+	21 {
+		global_particle_1 cloudwind_light
+		global_particle_2 cold
+		global_particle_3 cold
+		global_particle_4 cold
+		
+		player_physics "data/playerphysics.txt"
+		
+		music none
+	}
+	
+	9unf {
+		music none
+		
+		npc_1 NPCNAN1
+	}
+	20unf {
+		global_particle_1 cloudwind_light
+		global_particle_2 cold
+		global_particle_3 cold
+		global_particle_4 cold
+		
+		player_physics "data/playerphysics.txt"
+		
+		music none
+		
+		npc_1 NPCNAN1
+	}
 	21 {
 		global_particle_1 cloudwind_light
 		global_particle_2 cold
