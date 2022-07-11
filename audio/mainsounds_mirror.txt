@@ -63,13 +63,13 @@ SoundEffectGroups {
     }
 
     UnderwaterDeath{
-        files[Drowndeath1.wav,Drowndeath2.wav,Drowndeath3.wav,Drowndeath4.wav,Drowndeath5.wav,Drowndeath6.wav,Drowndeath6.wav,Drowndeath7.wav,Drowndeath8.wav,Drowndeath9.wav]
-        volume 1.1
+        files[death1_v2.wav,death2_v2.wav,death3_v2.wav,death4_v2.wav,death5_v2.wav,death6_v2.wav]
+        volume 1.2
     }
 
     DrownDeath{
-        files[Drowndeath1.wav,Drowndeath2.wav,Drowndeath3.wav,Drowndeath4.wav,Drowndeath5.wav,Drowndeath6.wav,Drowndeath6.wav,Drowndeath7.wav,Drowndeath8.wav,Drowndeath9.wav]
-        volume 1.1
+        files[death1_v2.wav,death2_v2.wav,death3_v2.wav,death4_v2.wav,death5_v2.wav,death6_v2.wav]
+        volume 1.2
 }
 
     Splash { #testlevels: 3-0

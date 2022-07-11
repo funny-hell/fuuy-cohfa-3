@@ -1,0 +1,15 @@
+PlayerDeath_Pop2 {
+	livebounds [-30, 102, -30, 102]
+}
+PlayerDeath_Pop {
+	livebounds [-30, 102, -30, 102]
+}
+PlayerDeath_Gibs {
+	livebounds [-30, 102, -30, 102]
+}
+PlayerAir_Gibs {
+    livebounds [-102, 102, -102, 102]
+}
+drip {
+    tags [collide_tile collide_water]
+}
