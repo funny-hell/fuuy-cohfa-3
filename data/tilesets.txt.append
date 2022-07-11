@@ -7036,11 +7036,13 @@ ad {
 		background_graphics bg2xl
 	}
     17 {
+		tile_graphics Tileairship
         art_alts [
             [OrbSmall, dudsawsmall][OrbLarge, dudsawbig]
             [ChainLink2, None]]
     }
 	18 {
+		tile_graphics Tileairship
         art_alts [
             [OrbSmall, dudsawsmall][OrbLarge, dudsawbig]
             [ChainLink2, None]]
