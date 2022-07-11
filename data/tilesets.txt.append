@@ -6958,11 +6958,6 @@ ad {
             [OrbSmall, dudsawsmall][OrbLarge, dudsawbig]
             [ChainLink2, None]]
     }
-    10 {
-        player_physics "data/player_physics/playerphysics_ibelieveicanfly.txt"
-		global_particle_1 cloudwind2
-		global_particle_2 wind_up
-    }
     14 {
 		tile_graphics Tileairship
 	}

@@ -18,8 +18,14 @@ warningghost {
 	movieclip NPCG5
 	sound_id NPCGhost
 	text [
-		"\nunless you want agony"
-		"\ni suggest you go no further"
+		"\n. . ."
+		"\nuh, yeah so"
+		"you should probably\nlike, stop and\nturn around now"
+		"see, there should\nbe a warning\nsign here"
+		"but noone\never bothered\nputting one"
+		"so, uh\nhere we\nare"
+		"\n. . ."
+		"\ndon't die!"
 	]
 }
 
@@ -1142,6 +1148,8 @@ NPCdudp1{
     text [
 		"here\nlies\npotassium"
 		"\n(WIP)"
+        "\n. . ."
+        "just like\neverything else\nhe makes!"
     ]
 }
 NPCdudp2{
@@ -1150,7 +1158,7 @@ NPCdudp2{
     sound_id NPCDefault
     text [
 		"here\nlies\nbuddermario"
-		"\n(WIP)"
+		"we will miss\nyou very\nfondly"
     ]
 }
 NPCdudp3{
@@ -1159,7 +1167,9 @@ NPCdudp3{
     sound_id NPCDefault
     text [
 		"here\nlies\nmysterytank"
-		"\n(WIP)"
+		"this person was an uncreative\nsadist who made areas that\nhad to be revamped"
+		"he had caused another person\nsuffering for no reason\nat all"
+		"\ngood riddance hes gone"
     ]
 }
 
@@ -1169,7 +1179,11 @@ NPCdudp4{
     sound_id NPCDefault
     text [
 		"here\nlies\nbutcherberries"
-		"\n(WIP)"
+		"renowned speedrunner\nmoderator, modder\nand overall cool guy"
+		"we remember\nhim for\nhis feats"
+		"such as\nbuilding our entire\nrailing system"
+		"even if\nit was never\ntruly finished"
+		"he will be\nremembered\nand dearly missed"
     ]
 }
 NPCdudp5{
@@ -1177,8 +1191,12 @@ NPCdudp5{
     movieclip NPCdudm4
     sound_id NPCDefault
     text [
-		"here\nlies\nadenator09"
-		"\n(WIP)"
+		"here\nlies\nadenator"
+		"tried to sculpt\na mountain next\nto a windy"
+		"and i say\nvery windy\ncoast"
+		"he dug the\ntunnels that would\nmake it climbable"
+		"but somewhere\nalong the way\nhe stopped"
+		". . . for he\nknew it was\nhis last day"
     ]
 }
 NPCdudp6{
@@ -1187,7 +1205,7 @@ NPCdudp6{
     sound_id NPCDefault
     text [
 		"here\nlies\nmeh32"
-		"\n(WIP)"
+		"we will miss\nyou very\nfondly"
     ]
 }
 
@@ -1206,7 +1224,7 @@ NPCdudp7a{
     sound_id NPCDefault
     text [
 		"here\nlies\nblockbyte"
-		"\n(WIP)"
+		"we will miss\nyou very\nfondly"
     ]
 }
 NPCdudp7b{
@@ -1215,7 +1233,7 @@ NPCdudp7b{
     sound_id NPCDefault
     text [
 		"here\nlies\nhinge"
-		"\n(WIP)"
+		"we will miss\nyou very\nfondly"
     ]
 }
 NPCdudp8{
@@ -1224,7 +1242,7 @@ NPCdudp8{
     sound_id NPCDefault
     text [
 		"here\nlies\nderzox"
-        "he wasn't a very\nexpirienced\nmodder"
+        "he wasn't a very\nexperienced\nmodder"
         "and although he was\nfilling the mod\nwith trash areas"
         "\nhe enjoyed working on them"
         "he truly wished he\ncould have made\n the collab better"
@@ -1232,7 +1250,6 @@ NPCdudp8{
         "\nwhich he did"
         "but he was happy that\nhe tried."
         "he was very\nthankful\nfor the chance"
-		"he\nwill be\nremembered"
     ]
 }
 NPCdudp9{
@@ -1241,7 +1258,10 @@ NPCdudp9{
     sound_id NPCDefault
     text [
 		"here\nlie the\nplayesters"
-		"\n(WIP)"
+		"for those\nwho helped\nshare the word"
+		"and for those\nwho helped shape up\nour hearts"
+		"Br0k4n, NotWendy,\nKeehle, Lightingreed,\nPatchouli"
+		"we will\nremember you\nfondly"
     ]
 }
 NPCdudp10{
@@ -1250,7 +1270,10 @@ NPCdudp10{
     sound_id NPCDefault
     text [
 		"here\nlies the\nTEIN community"
-		"\n(WIP)"
+		"for those so talented\nand gifted, who fought\nfor a better future"
+		"those whose\nnames have been\nlong forgotten"
+		"we mourn for them,\nfor they helped\ninspire all of us"
+		"live on, blazing souls,\nand rest in peace\nwherever you are"
     ]
 }
 NPCdudp11{
@@ -1259,7 +1282,13 @@ NPCdudp11{
     sound_id NPCDefault
     text [
 		"here\nlies\nsurrealdude"
-		"\n(WIP)"
+		"when peace finally\nfell upon this\ncursed land . . ."
+		"it was then when\nhe decided to bring\neverything back together"
+		"if he couldnt\npeacefully move on,\nthen noone else could"
+		"some might say that\nbringing dead land to life\nwas a show of mercy"
+		"but some others, far\nmore wise, know that\nwhat he did . . ."
+		"\nwas a dick move"
+		"he will\nbe remembered,\nbut not missed"
     ]
 }
 NPCdudp12{
@@ -1267,7 +1296,7 @@ NPCdudp12{
     movieclip NPCdudm6
     sound_id NPCDefault
     text [
-		"\n(WIP)"
+		""
     ]
 }
 NPCdudp13{
