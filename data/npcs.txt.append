@@ -1665,6 +1665,31 @@ NPCdudx17 {
 	]
 }
 
+NPC_HYDREDRONSUMMIT {
+# god fucking dammit how could i forget this guy -adenator
+	movieclip NPCsummit
+	sound_id NPCSteven
+	text [
+		"\nah!"
+		"finally, someone\nkinda similar\nto me!"
+		"\n. . ."
+		"yeah, we both\nlost one of\nour eyes"
+		"i lost mine\nwhen i got\nbullied . . ."
+		". . . for not\nhaving any cool\ntime-related powers"
+		"\n. . ."
+		"how did you\nlose your\nother eye?"
+		"\n. . ."
+		"eh, it's\nprobably\nno big deal"
+		"\n. . ."
+		"\n. . ."
+		"the thing\nup there on\nthe summit?"
+		"i don't really\nhave any use\nfor it anyways"
+		"you can\nhave it\nif you want"
+		"\n. . ."
+		"the view is\nnice all the\nway up here"
+	]
+}
+
 //}
 //{OUT OF BOUNDS. GO BACK
 NPCNAN0 {
