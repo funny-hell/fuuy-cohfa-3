@@ -6910,6 +6910,11 @@ wlspl {
 		npc_3 NPCdudp12b
 	}
 	8 {
+		npc_1 NPCdudp14a
+		npc_2 NPCdudp14b
+		npc_3 NPCdudp14c
+	}
+	9 {
 		npc_1 NPCNAN1
 	}
 }
