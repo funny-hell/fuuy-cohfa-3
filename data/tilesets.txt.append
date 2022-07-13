@@ -2565,6 +2565,7 @@ m {
     
     art_alts [
         [OrbSmall, orbblob]
+		[OrbLarge, LargeGlub]
         [ChainLink2, None]
     ]
 
