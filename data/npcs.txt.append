@@ -22,7 +22,7 @@ warningghost {
 		"\nuh, yeah so"
 		"you should probably\nlike, stop and\nturn around now"
 		"see, there should\nbe a warning\nsign here"
-		"but noone\never bothered\nputting one"
+		"but no one\never bothered\nputting one"
 		"so, uh\nhere we\nare"
 		"\n. . ."
 		"\ndon't die!"
@@ -116,6 +116,30 @@ NPCKI9 {
     "\ni dont get much visitors"
     "\nbye!"   	
         ]
+}
+NPC_HYDREDRONSUMMIT {
+# god fucking dammit how could i forget this guy -adenator
+	movieclip NPCsummit
+	sound_id NPCSteven
+	text [
+		"\nah!"
+		"finally, someone\nkinda similar\nto me!"
+		"\n. . ."
+		"yeah, we both\nlost one of\nour eyes"
+		"i lost mine\nwhen i got\nbullied . . ."
+		". . . for not\nhaving any cool\ntime-related powers"
+		"\n. . ."
+		"how did you\nlose your\nother eye?"
+		"\n. . ."
+		"eh, it's\nprobably\nno big deal"
+		"\n. . ."
+		"\n. . ."
+		"the thing\nup there on\nthe summit?"
+		"i don't really\nhave any use\nfor it anyways"
+		"you can\nhave it\nif you want"
+		"\n. . ."
+		"the view is\nnice all the\nway up here"
+	]
 }
 
 NPC_Sign1 {
@@ -444,7 +468,7 @@ NPCdud2 {
 	"when no matter\nwhat, you cant\nchange shit"
 	"there is all\nsorts of fucked\nup people"
 	"who say\nand do fucked\nup stuff"
-	"and noone\ncan do anything\nabout it"
+	"and no one\ncan do anything\nabout it"
 	"is it\ntoo much\nto ask?"
 	"\nguess so, huh"
 	"\n. . ."
@@ -501,7 +525,7 @@ NPCdud8 {
 	text [
 		"\n. . ."
 		"\nhey"
-		"havent seen\nnoone in\na long time"
+		"havent seen\nno one in\na long time"
 		"welcome\nto the\nfarlands"
 		"these are the\nfar reaches\nof the world"
 		"everything\ngets fucky\nfrom here on"
@@ -717,7 +741,7 @@ NPCdud22{
 		"\n. . ."
 		"the\ntracks\nend here"
 		"but\nwhat lies\nbeyond?"
-		"well noone has\ngotten past\nthe tunnel"
+		"well no one has\ngotten past\nthe tunnel"
 		"things get\nquite hectic\ndown there"
 		"a friend of mine\ntried to follow\nthat path"
 		"\n. . ."
@@ -756,7 +780,7 @@ NPCdud23{
 		"they\nwerent really\nalive"
 		"at the end it\nwas just a bunch\nof meat and bones"
 		"and the\ngravedigger\nfelt lonely"
-		"for there\nwas noone else\nbut him . . ."
+		"for there\nwas no one else\nbut him . . ."
 		"him and\nthe rotting\npile of meat"
 		"\n. . ."
 		"where did i\nget this story\nfrom, you ask?"
@@ -1045,11 +1069,61 @@ NPCdud39{
 		"i would sure\nlove me some\ninkin tits"
 		"\nyou know?"
 		"i\njust want\nle tits inkin!"
-		"why\ndoes noone\nunderstand?"
+		"why\ndoes no one\nunderstand?"
 		"oh well,\nthey them\nlosers!"
     ]
 }
-
+NPCdud40{
+#tutorial
+    movieclip NPC6
+    sound_id NPCSkull
+    text [
+		"\nhey kiddo"
+		"this here is\na spring in\nsome hot water"
+		"a spring\nin a\nspring!"
+		"\n. . ."
+		"\nnevertheless . . !"
+		"youll find that\nsometimes, water\ngets in the way"
+		"like, youll\nwant to jump\non that spring"
+		"but you cant,\ncause its\nunder water"
+		"you just have\nto break the\nsurface!"
+		"so jump as\nhigh as you\ncan . . ."
+		"then hold down\nwith all of your\nmight . . ."
+		"and just\nkeep holding both\nup and down!"
+		"\n. . ."
+		"youll get\nthe hang\nof it"
+    ]
+}
+NPCdud41 {
+#low skull alt looking right 4a locked out
+    movieclip NPC10
+    sound_id NPCSkull
+    text [
+        "HEY!\n. . .\nGET OUTTA HERE!"
+        "I FOUND\nTHAT GAME CART\nFIRST!"
+        "ITS RIGHTFULLY\nMINE SO BACK\n OFF UGLY!"
+		"THIS CART\nIS uh this\ncart . . ."
+		"the cart\n. . . where\ndid it go?"
+		"there was\na cart here,\nright?"
+        "\n. . ."
+		"am i\nlosing\nit?"
+		"no,\nno! it\ncant be!"
+		"im a\ngamer, i\nnever lose!"
+    ]
+}
+NPCdud42 {
+#rapture guy
+    movieclip NPCB1
+    sound_id NPCBlob
+    text [
+        "\n\nWHAT???"
+		"\n\nIM SORRY. . ."
+		"\nCOULD YOU\nSPEAK UP?"
+		"\nI CANT\nHEAR YOU"
+		"\n\nHUH???"
+		"\nSAY THAT\nAGAIN??"
+    ]
+}
 
 NPCdudH1 {
 #basic sideways
@@ -1183,10 +1257,19 @@ NPCdudp2{
     movieclip NPCdudm4
     sound_id NPCDefault
     text [
-		"here\nlies\nbuddermario"
-		"we will miss\nyou very\nfondly"
+		"here\nlies\nadenator"
+		"tried to sculpt\na mountain next\nto a windy"
+		"and i say\nvery windy\ncoast"
+		"he dug the\ntunnels that would\nmake it climbable"
+		"but somewhere\nalong the way\nhe stopped"
+		". . . for he\nknew it was\nhis last day"
+		"\n. . ."
+		". . . \n(there's a mysterious note here)"
+		"come on, there's\nway more\nthan just that!"
+		"what about the coast?\ndidn't he revise\nthat as well?"
     ]
 }
+
 NPCdudp3{
 #museum picture
     movieclip NPCdudm4
@@ -1217,12 +1300,8 @@ NPCdudp5{
     movieclip NPCdudm4
     sound_id NPCDefault
     text [
-		"here\nlies\nadenator"
-		"tried to sculpt\na mountain next\nto a windy"
-		"and i say\nvery windy\ncoast"
-		"he dug the\ntunnels that would\nmake it climbable"
-		"but somewhere\nalong the way\nhe stopped"
-		". . . for he\nknew it was\nhis last day"
+		"here\nlies\nmeh32"
+		"\nyou will be missed"
     ]
 }
 NPCdudp6{
@@ -1230,10 +1309,14 @@ NPCdudp6{
     movieclip NPCdudm4
     sound_id NPCDefault
     text [
-		"here\nlies\nmeh32"
-		"we will miss\nyou very\nfondly"
+		"here\nlies\nbuddermario"
+		"he left the next\nmessage behind,\nfor all of us:"
+		"\n^"
+		"\n. . ."
+		"whatever\nthat's supposed\nto mean"
     ]
 }
+
 
 NPCdudp7{
 #museum picture
@@ -1250,7 +1333,7 @@ NPCdudp7a{
     sound_id NPCDefault
     text [
 		"here\nlies\nblockbyte"
-		"we will miss\nyou very\nfondly"
+		"\nyou will be missed"
     ]
 }
 NPCdudp7b{
@@ -1259,7 +1342,7 @@ NPCdudp7b{
     sound_id NPCDefault
     text [
 		"here\nlies\nhinge"
-		"we will miss\nyou very\nfondly"
+		"\nyou will be missed"
     ]
 }
 NPCdudp8{
@@ -1310,7 +1393,7 @@ NPCdudp11{
 		"here\nlies\nsurrealdude"
 		"when peace finally\nfell upon this\ncursed land . . ."
 		"it was then when\nhe decided to bring\neverything back together"
-		"if he couldnt\npeacefully move on,\nthen noone else could"
+		"if he couldnt\npeacefully move on,\nthen no one else could"
 		"some might say that\nbringing dead land to life\nwas a show of mercy"
 		"but some others, far\nmore wise, know that\nwhat he did . . ."
 		"\nwas a dick move"
@@ -1331,7 +1414,7 @@ NPCdudp12a{
 		"but there are\nsome things we\nknow about fc"
 		"like, it used\nto be a trainwreck\nof a mod"
 		"\n(it still is)"
-		"or,\nnoone ever\nliked it"
+		"or,\nno one ever\nliked it"
 		"\n(they still dont)"
 		"also, a lot of\nareas were pulled\nfrom dead mods"
 		"and they were\ngiven a special place\nhere in fc"
@@ -1375,6 +1458,35 @@ NPCdudp13{
 		"yeah, safe to say, this mod was too fucking ambitious"
 		"but its also\nwhat makes\nit so special!"
 		". . .\nmoving on"
+    ]
+}
+NPCdudp14a{
+#museum picture
+    movieclip NPCdudm6
+    sound_id NPCDefault
+    text [
+		"in this world,\nmany people have been\ncursed to dream"
+		"dream about a better\nfuture, about a better\ntime and place"
+		"but only few of them\ncould bring those\ndreams to reality"
+		"and they hope\nyou would experience\nthose dreams"
+		"this one reads:\nShattered Spectrum - Beta\nby NotWendy"
+    ]
+}
+NPCdudp14b{
+#museum picture
+    movieclip NPCdudm8
+    sound_id NPCDefault
+    text [
+		"this one reads:\nFuture Spectrum Collab\nby peepperson (and others)"
+    ]
+}
+NPCdudp14c{
+#museum picture
+    movieclip NPCdudm6
+    sound_id NPCDefault
+    text [
+		"\n. . ."
+		"looks like some\ndreams havent been\nfully dreamed yet"
     ]
 }
 
@@ -1513,14 +1625,16 @@ NPCdudx7 {
     ]
 }
 NPCdudx8 {
-#funny ghost - unused
-    movieclip NPC9
+#funny ghost
+    movieclip NPCG4
     sound_id NPCGhost
     text [
         "yea yea\neveryones\ndead"
 		"but you know\nit isnt\nthat bad really"
 		"now i have\nall this place\n for myself !"
 		"or i would\nif i wasnt\ndead too"
+		"it is\nwhat\nit is:"
+		"\nloads of ass"
     ]
 }
 NPCdudx9 {

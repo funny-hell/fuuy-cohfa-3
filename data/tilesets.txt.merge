@@ -109,6 +109,9 @@ c6 {
 }
 5ax {
 	palette 1210
+	15 {
+		music none
+	}
 }
 5bxu {
 	palette 1211
