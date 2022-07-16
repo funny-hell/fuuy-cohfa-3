@@ -11,15 +11,6 @@
 "ki-9" {name="Aqueros Coast 9" id=9}
 "ki-10" {name="Aqueros Coast 10" id=10}
 "ki-11" {name="Aqueros Coast 11" id=11}
-"ki-12" {name="Aqueros Coast 12" id=12}
-"ki-13" {name="Aqueros Coast 13" id=13}
-"ki-14" {name="Aqueros Coast 14" id=14}
-"ki-15" {name="Aqueros Coast 15" id=15}
-"ki-16" {name="Aqueros Coast 16" id=16}
-"ki-17" {name="Aqueros Coast 17" id=17}
-"ki-18" {name="Aqueros Coast 18" id=18}
-"ki-19" {name="Aqueros Coast 19" id=19}
-"ki-20" {name="Aqueros Coast 20" id=20}
 "k2-1" {name="Mount Hydredron 1" id=1}
 "k2-2" {name="Mount Hydredron 2" id=2}
 "k2-3" {name="Mount Hydredron 3" id=3}
@@ -28,19 +19,19 @@
 "k2-6" {name="Mount Hydredron 6" id=6}
 "k2-7" {name="Mount Hydredron 7" id=7}
 "k2-8" {name="Mount Hydredron 8" id=8}
-"k2-9" {name="Mount Hydredron 9" id=9}
-"k2-10" {name="Mount Hydredron 10" id=10}
-"k2-11" {name="Mount Hydredron 11" id=11}
-"k2-12" {name="Mount Hydredron 12" id=12}
-"k2-13" {name="Mount Hydredron 13" id=13}
-"k2-14" {name="Mount Hydredron 14" id=14}
-"k2-15" {name="Mount Hydredron 15" id=15}
-"k2-16" {name="Mount Hydredron 16" id=16}
-"k2-17" {name="Mount Hydredron 17" id=17}
-"k2-18" {name="Mount Hydredron 18" id=18}
-"k2-19" {name="Mount Hydredron 19" id=19}
-"k2-20" {name="Mount Hydredron 20" id=20}
-"k2-21" {name="The Summit" id=-1}
+// "k2-9" {name="Mount Hydredron 9" id=9}
+// "k2-10" {name="Mount Hydredron 10" id=10}
+// "k2-11" {name="Mount Hydredron 11" id=11}
+// "k2-12" {name="Mount Hydredron 12" id=12}
+// "k2-13" {name="Mount Hydredron 13" id=13}
+// "k2-14" {name="Mount Hydredron 14" id=14}
+// "k2-15" {name="Mount Hydredron 15" id=15}
+// "k2-16" {name="Mount Hydredron 16" id=16}
+// "k2-17" {name="Mount Hydredron 17" id=17}
+// "k2-18" {name="Mount Hydredron 18" id=18}
+// "k2-19" {name="Mount Hydredron 19" id=19}
+// "k2-20" {name="Mount Hydredron 20" id=20}
+// "k2-21" {name="The Summit" id=-1}
 "rr1-1" {name="Denial 1" id=-1}
 "rr1-2" {name="Denial 2" id=-1}
 "rr1-3" {name="Denial 3" id=-1}
@@ -137,6 +128,8 @@
 "r1x-4" {name="???" id=-1}
 "r1x-5" {name="???" id=-1}
 "r1x-6" {name="???" id=2}
+"r1x-7" {name="???" id=-1}
+"r1x-8" {name="???" id=-1}
 "r1-1" {name="Rapture 1" id=-1}
 "r1-2" {name="Rapture 2" id=-1}
 "r1-3" {name="Rapture 3" id=-1}
@@ -440,17 +433,14 @@
 "6c-6" {name="Sheol 6" id=-1}
 "6c-7" {name="Sheol 7" id=-1}
 "6c-8" {name="Sheol 8" id=-1}
-"6c-9" {name="Sheol 9" id=-1}
-"6c-10" {name="Sheol 10" id=-1}
-"6c-11" {name="Sheol 11" id=-1}
-"6c-12" {name="Sheol 12" id=-1}
-"6c-13" {name="Sheol 13" id=-1}
-"6c-14" {name="Sheol 14" id=-1}
-"6c-15" {name="Sheol 15" id=-1}
-// "6c-16" {name="Sheol 16" id=-1}
-// "6c-17" {name="Sheol 17" id=-1}
-// "6c-18" {name="Sheol 18" id=-1}
-// "6c-19" {name="Sheol 19" id=-1}
+"6c-8x" {name="Sheol 9" id=-1}
+"6c-9" {name="Sheol 10" id=-1}
+"6c-10" {name="Sheol 11" id=-1}
+"6c-11" {name="Sheol 12" id=-1}
+"6c-12" {name="Sheol 13" id=-1}
+"6c-13" {name="Sheol 14" id=-1}
+"6c-14" {name="Sheol 15" id=-1}
+"6c-15" {name="Sheol 16" id=-1}
 "6a-1" {name="Insanity 1" id=-1}
 "6a-2" {name="Insanity 2" id=-1}
 "6a-3" {name="Insanity 3" id=-1}
@@ -473,6 +463,7 @@
 "6ax-2" {name="???" id=2}
 "6ax-3" {name="???" id=-1}
 "6ax-4" {name="???" id=1}
+"5ax-15" {name="???" id=-1}
 "but-0x" {name="???" id=-1}
 "butx-1" {name="???" id=2}
 "butx-2" {name="???" id=-1}
@@ -648,13 +639,14 @@
 "g6a-10" {name="Evisceration 10" id=-1}
 "g6a-10x" {name="Evisceration 10" id=-1}
 "g6a-1x" {name="Evisceration 1" id=-1}
-"5-0" {name="???" id=-1}
-"5-0x" {name="???" id=-1}
-"5-0y" {name="???" id=-1}
-"5-0z" {name="???" id=-1}
+"5x-0" {name="???" id=-1}
+"5x-0x" {name="???" id=-1}
+"5x-0y" {name="???" id=-1}
+"5x-0z" {name="???" id=-1}
 "5x-1" {name="???" id=-1}
-"5x-2" {name="???" id=2}
+"5x-2" {name="???" id=1}
 "5x-3" {name="???" id=-1}
+"5x-4" {name="???" id=-1}
 "5-1" {name="The Castle 1" id=-1}
 "5-2" {name="The Castle 2" id=-1}
 "5-3" {name="The Castle 3" id=-1}
@@ -742,6 +734,7 @@
 "8-14" {name="Stormscapes 15" id=-1}
 "8xd-1" {name="???" id=1}
 "8xd-2" {name="???" id=-1}
+"8xd-3" {name="???" id=-1}
 "j-1hub" {name="The Juxtaposition" id=-1}
 "gx-1" {name="Undead-chamber 1" id=-1}
 "gx-2" {name="Undead-chamber 2" id=-1}
@@ -885,7 +878,7 @@
 "8c-13" {name="Breeze 13" id=-1}
 "8c-14" {name="Breeze 14" id=-1}
 "8c-15" {name="Breeze 15" id=-1}
-"8c-16" {name="Breeze 16" id=-1}
+"8c-16" {name="Breeze 16" id=1}
 "8c-17" {name="Breeze 17" id=-1}
 "8c-18" {name="Breeze 18" id=-1}
 "8c-19" {name="Breeze 19" id=-1}
@@ -1307,9 +1300,9 @@
 "dud3xu-8" {name="???" id=-1}
 "dud3xu-9" {name="???" id=1}
 
-"9-0" {name="???" id=-1}
-"9-0x" {name="???" id=-1}
-"9-1x" {name="???" id=-1}
+"9xd-0" {name="???" id=-1}
+"9xd-0x" {name="???" id=-1}
+"9xd-1x" {name="???" id=-1}
 "9-0z" {name="???" id=-1}
 "9-1" {name="The Farlands 1" id=1} #life
 "9-10" {name="The Farlands 10" id=10} #life

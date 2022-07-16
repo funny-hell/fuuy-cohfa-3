@@ -1,6 +1,6 @@
 pages {
     lightworld {
-        collectibles 238 //lives + biglives + carts + bodyparts (used for "percent complete" display)
+        collectibles 283 //lives + biglives + carts + bodyparts (used for "percent complete" display)
     }
     
     darkworld {
@@ -8,15 +8,15 @@ pages {
     }
 	
 	rightworld {
-        collectibles 0
+        collectibles 58
     }
 	
 	darkerworld {
-        collectibles 0
+        collectibles 12
     }
 	
 	darkrapture {
-        collectibles 0
+        collectibles 1
     }
     
     console {
@@ -35,10 +35,10 @@ pages {
 meta {
     default_node TheEnd
     
-    leftwipes [2-0 3-1 4-1hub 4b-1 5b-1 2d-0 3d-1 r2-1 r3-1 hub-1 9-0x but-0x 6a-1 7a-1 6c-1 5-0 7d-14 r4-1 a-1 but2-1 1bx-1 1bd-1 1b-1
+    leftwipes [2-0 3-1 4-1hub 4b-1 5b-1 2d-0 3d-1 r2-1 r3-1 hub-1 9xd-0x but-0x 6a-1 7a-1 6c-1 5-0 7d-14 r4-1 a-1 but2-1 1bx-1 1bd-1 1b-1
 		1-0 c2-x c3-x c4a-x c5a-x c4c-x c5c-x c4b-x c5b-x 8-0 k2-1
 	]
-    rightwipes [1-20 2-19 3-20 4-1hub 4b-15 1d-20 2d-19 r1-20 r2-20 r3-20 qu-3 5bxu-10 5c-21 5a-22 hub-1 hub-5 3d-21 dud3-12 6a-16 7b-20 j-1hub t-15 1xu-5a but-11 a-8 1d-2b 1-2b
+    rightwipes [1-20 2-19 3-20 4-1hub 4b-15 1d-20 2d-19 r1-20 r2-20 r3-20 qu-3 5bxu-10 5c-21 5ax-15 hub-1 hub-5 3d-21 dud3-12 6a-16 7b-20 j-1hub t-15 1xu-5a but-11 a-8 1d-2b 1-2b
 		c1-x 2xu-1 3xd-2 4a-15 5a-18 4cx-3 5cx-7 4bx-7 5b-23 5-25 ki-11
 	]
     upwipes [4-1hub 4a-16 4c-1 5c-1 6-1 7-0 4b-15 ex-15 hub-3 6d-1 m-1 7c-12 7d-16 7d-16x 6b-1 7d-17x 8-14 ]
@@ -205,7 +205,7 @@ nodes {
         clipname sheol
         entrylevel 6c-1
         page lightworld
-        levelgroups [6c 6x]
+        levelgroups [6c 6cx]
         
         left Golgotha
 	up Golgotha
@@ -656,7 +656,7 @@ nodes {
         unlock_condition_levels [7c-1]
 		
 	left Sheol
-	right Breeze
+	right Pit2
 	select PitArrow
 	down Breeze
     }
@@ -711,8 +711,10 @@ nodes {
         page rightworld
         levelgroups [7c 7cx]
         
-        left Breeze
+        left PitArrow
 		up Juxtaposition
+		right Breeze
+		down Breeze
     }
 	
 	HellArea {
@@ -730,9 +732,8 @@ nodes {
         page rightworld
         levelgroups [8c 8cx]
         
-        up Gallery
-		right Pit2
-		left PitArrow
+        up Pit2
+		left Pit2
     }
 	
 	Meta {

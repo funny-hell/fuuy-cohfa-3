@@ -169,8 +169,9 @@ SoundEffectGroups {
     }
 
     CollectCart {
-        files [CartridgeCollect.wav]
-        volume 1
+        files [coin1.wav]
+        volume 3
+        pitch_range [.8, 1.2]
     }
 
     LandCloudHard {
