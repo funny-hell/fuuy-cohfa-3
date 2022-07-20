@@ -1,6 +1,6 @@
 pages {
     lightworld {
-        collectibles 285 //lives + biglives + carts + bodyparts (used for "percent complete" display)
+        collectibles 286 //lives + biglives + carts + bodyparts (used for "percent complete" display)
     }
     
     darkworld {

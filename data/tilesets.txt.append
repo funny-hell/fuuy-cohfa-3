@@ -1556,6 +1556,14 @@ ambience_volume 0.3
 global_particle_1 cloudwind_light2
 }
 
+	8x {
+background_graphics trainbg_n_xlarge
+palette 1067
+music_volume 1
+ambience_volume 0.3
+global_particle_1 cloudwind_light2
+}
+
 	9 {
 background_graphics trainbg_n_large
 palette 1067
