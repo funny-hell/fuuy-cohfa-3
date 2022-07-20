@@ -1,6 +1,6 @@
 pages {
     lightworld {
-        collectibles 283 //lives + biglives + carts + bodyparts (used for "percent complete" display)
+        collectibles 285 //lives + biglives + carts + bodyparts (used for "percent complete" display)
     }
     
     darkworld {
@@ -30,6 +30,12 @@ pages {
 	console3 {
         collectibles 0
     }
+	despairmap {
+        collectibles 0
+    }
+	trainmenu {
+        collectibles 0
+    }
 }
 
 meta {
@@ -39,13 +45,13 @@ meta {
 		1-0 c2-x c3-x c4a-x c5a-x c4c-x c5c-x c4b-x c5b-x 8-0 k2-1
 	]
     rightwipes [1-20 2-19 3-20 4-1hub 4b-15 1d-20 2d-19 r1-20 r2-20 r3-20 qu-3 5bxu-10 5c-21 5ax-15 hub-1 hub-5 3d-21 dud3-12 6a-16 7b-20 j-1hub t-15 1xu-5a but-11 a-8 1d-2b 1-2b
-		c1-x 2xu-1 3xd-2 4a-15 5a-18 4cx-3 5cx-7 4bx-7 5b-23 5-25 ki-11
+		c1-x 2xu-1 3xd-2 4a-15 5a-18 4cx-3 5cx-7 4bx-7 5b-23 5-25 ki-11 1-3b
 	]
     upwipes [4-1hub 4a-16 4c-1 5c-1 6-1 7-0 4b-15 ex-15 hub-3 6d-1 m-1 7c-12 7d-16 7d-16x 6b-1 7d-17x 8-14 ]
     downwipes [4-1hub 4c-15 5a-1 3d-23 4a-1 5bxu-5 6-21 hub-1 xs-1 xs-10 5b-23 xs-20 ex-1 5bxd-7 6b-23x r1-1 r4b-1 r3-1 6d-23 7d-16x 2-0 7c-6 5-22 7ax-4 1bx-5 dud3-1 8a-0x]
     
     stevenheads [NPCH1 NPCH2 NPCH3 NPCH4 NPCH5 NPCH5b NPCH5c NPCH6 NPCHX NPCdudH1 NPCdudH2 NPCHM NPCSDR2warp1 NPCSDR2warp2 NPCSDR2warp3 NPCSDR2warp4]
-    steventhreshtumors [50 100 170 300 450 450 450 530 689 600 1 650 1 1 1 1] //tumors: light-506 right-95 console-93 total-689
+    steventhreshtumors [50 100 170 300 450 450 450 530 689 600 1 650 1 1 1 1] //tumors: light-506 right-95 console-93 total-689 (outdated)
     stevenlevels [10x-7 10x-5 10x-3 10x-1 15x-1 15x-5 15x-7 7d-15 r1d-1 9d-1 9-19 15x-3 $g6b-1x $g6a-1x $gn3-1x $gn4-1x]
     
     mainworlds [1 2 3 4 4a 4b 4c 5a 5b 5c 1d 2d 3d 6 7 8 9 r1 r2 r3 r4 r5 6d ex xs qu gb 7d t but 6a 6b 6c hub m 7a 7b 7c j 5 8 9 9d 9xx 8a 8ax 8ad 8c 1b a r1d dud3 2b 2c but2 but2b rr1 rr2 rr3 1bd ad r1b r4b] //if you pause on these worlds, it lets you open the map. otherwise you get "exit area"
@@ -73,7 +79,7 @@ meta {
     cart_title_overrides [[$c1-1 "AllStars"] [$i1-1 "Acceptance"] [$gr1-1 "N++"] [$gn1-1x "StashPros"]]
     
     savefile_completion_counter_max 285 //count of total collectible tumors, carts, body parts (3), cart achievements, map warp points (number of levels in the array below), and endings (2)
-    savefile_completion_warpoints [1-1 2-0 3-1 4a-1 4b-1 4c-1 5a-1 5b-1 5c-1 4-1hub 1d-1 2d-0 3d-1 6-1 6-21 7-0 r1-1 r2-1 r3-1 6d-3 7d-1 hub-5 hub-1 ex-1 xs-1 qu-1 gb-1 qu-8 7a-1 7b-1 7c-1 6a-1 6b-1 6c-1 j-1hub 5-1 8-1 9-1] //visiting these levels counts for save file completion
+    savefile_completion_warpoints [1-1 2-0 3-1 4a-1 4b-1 4c-1 5a-1 5b-1 5c-1 4-1hub 1d-1 2d-0 3d-1 6-1 6-21 7-0 r1-1 r2-1 r3-1 6d-3 7d-1 hub-5 hub-1 ex-1 xs-1 qu-1 gb-1 qu-8 7a-1 7b-1 7c-1 6a-1 6b-1 6c-1 j-1hub 5-1 8-0 9-1 a-1 1b-1 1bd-1 2b-1 m-1 but-0 but2b-6 j-1hub dud3-1 8a-1x 8c-1] //visiting these levels counts for save file completion
     save_initiallevel c9-0
     save_lightspawn 1-1
     save_darkspawn 1d-1
@@ -750,7 +756,6 @@ nodes {
         levelgroups [7b 7bx]
         
         left Atlantis2
-        down Breeze
 		right Juxtaposition
     }
 
@@ -856,16 +861,6 @@ nodes {
         levelgroups [1bd 1bdx]
         
         down ThePast
-		right SkyfB
-    }
-	SkyfB {
-        clipname skyfoldingb
-        entrylevel ad-1
-        page darkworld
-        levelgroups [ad adx]
-        
-        left Decay
-		select SkyfB
     }
 	
     Gloom {

@@ -41,6 +41,13 @@ c6 {
         [Floater, Floater][OrbSmall, BalloonSmall][OrbLarge, BalloonLarge][ChainLink2, BalloonLink2]
 	]
     }
+	3b {
+	palette 1200
+	area_label_frame 0
+	art_alts [
+        [Floater, Floater][OrbSmall, BalloonSmall][OrbLarge, BalloonLarge][ChainLink2, BalloonLink2]
+	]
+    }
 }
 1xd {
 	palette 1201
@@ -49,7 +56,7 @@ c6 {
 	global_particle_3 fogbg2
 }
 1xu {
-	palette 1200
+	palette 1001
 	global_particle_4 cloudwind
 	6a {
 		npc_1 NPCdudx11

@@ -922,6 +922,7 @@
 "1xu-5a" {name="???" id=-1}
 "1xu-6a" {name="???" id=-1}
 "1-2b" {name="???" id=-1}
+"1-3b" {name="???" id=-1}
 "1d-2b" {name="???" id=-1}
 "a-1" {name="Skyfolding 1" id=1}
 "a-2" {name="Skyfolding 2" id=2}
@@ -945,21 +946,23 @@
 "a-20" {name="Skyfolding 20" id=1}
 "ax-1" {name="???" id=1}
 "1b-1" {name="Floating City 1" id=1}
-"1b-2" {name="Floating City 2" id=2}
-"1b-3" {name="Floating City 3" id=3}
-"1b-4" {name="Floating City 4" id=4}
-"1b-5" {name="Floating City 5" id=5}
-"1b-6" {name="Floating City 6" id=6}
-"1b-7" {name="Floating City 7" id=7}
-"1b-8" {name="Floating City 8" id=8}
-"1b-9" {name="Floating City 9" id=9}
-"1b-11" {name="Floating City 10" id=10}
-"1b-12" {name="Floating City 11" id=11}
-"1b-13" {name="Floating City 12" id=12}
-"1b-14" {name="Floating City 13" id=13}
-"1b-16" {name="Floating City 14" id=14}
-"1b-17" {name="Floating City 15" id=15}
-"1b-18" {name="Floating City 16" id=16}
+"1b-2x" {name="Floating City 2" id=2}
+"1b-2" {name="Floating City 3" id=3}
+"1b-3" {name="Floating City 4" id=4}
+"1b-4" {name="Floating City 5" id=5}
+"1b-4x" {name="Floating City 6" id=6}
+"1b-5" {name="Floating City 7" id=7}
+"1b-6" {name="Floating City 8" id=8}
+"1b-7" {name="Floating City 9" id=9}
+"1b-8" {name="Floating City 10" id=10}
+"1b-9" {name="Floating City 11" id=11}
+"1b-11" {name="Floating City 12" id=12}
+"1b-12" {name="Floating City 13" id=13}
+"1b-13" {name="Floating City 14" id=14}
+"1b-14" {name="Floating City 15" id=15}
+"1b-16" {name="Floating City 16" id=16}
+"1b-17" {name="Floating City 17" id=17}
+"1b-18" {name="Floating City 18" id=18}
 "1bx-1" {name="???" id=1}
 "1bx-2" {name="Floating City" id=1}
 "1bx-3" {name="Floating City" id=1}

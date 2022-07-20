@@ -1468,7 +1468,7 @@ NPCdudp14a{
 		"in this world,\nmany people have been\ncursed to dream"
 		"dream about a better\nfuture, about a better\ntime and place"
 		"but only few of them\ncould bring those\ndreams to reality"
-		"and they hope\nyou would experience\nthose dreams"
+		"and they hope\nyou would experience\nthose dreams aswell"
 		"this one reads:\nShattered Spectrum - Beta\nby NotWendy"
     ]
 }
@@ -1762,20 +1762,25 @@ NPCdudx16 {
 }
 NPCdudx17 {
 # <- you2 - unused
-	movieclip NPCD1
+	movieclip NPCdud21
 	sound_id NPCBlob
 	text [
-	"scrapping,\ngnashing, ugly\nthoughts"
-	"that scratch\nmy scalp and\nrot my soul"
-	"and let all\nlife die down\nto soil"
-	"but in no hole\nthere aint\nno voice"
-	"that will\nsing me songs\nof fear"
-	"so in no\nhole i shall\nremain . . ."
-	"waiting until\nim left\nto rot"
+	"\nah . . ."
+	"all of us\nhave regrets,\ndont we?"
+	"regrets,\ndespicable,\nmeasly things"
+	"so small\nyou could\ncrush them"
+	"not\nmine,\nhowever"
+	"ive been\nrunning from mine\nfor too long"
+	"recently theyve\nbeen catching\nup to me"
+	"they drag me\ndown and make\nme suffer"
+	"i wish they\nwould vanish\nfor good"
+	"but thats\nnot fair,\nis it"
+	"i have\nto live with\nthem now"
+	"do you\nunderstand,\nlittle one?"
 	"\n. . ."
-	"you see\nhow it is,\ndont you?"
-	"of\ncourse\nyou do"
-	"youre\njust like me\nafter all"
+	"of\ncourse\nyou dont!"
+	"ive been\nthrough way\nmore than you!"
+	"cant prove\notherwise,\nsucker!"
 	]
 }
 
