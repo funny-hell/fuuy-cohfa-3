@@ -664,7 +664,7 @@ nodes {
 	left Sheol
 	right Pit2
 	select PitArrow
-	down Breeze
+	down Pit2
     }
 	SkyArrow {
         clipname rightworldarrow_1
