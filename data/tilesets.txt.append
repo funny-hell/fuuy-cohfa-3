@@ -476,6 +476,10 @@ gb {
 
     music [hell_intro_superdark.ogg, hell_loop_superdark.ogg]
     ambience volcano.ogg
+	
+	art_alts[
+		[OrbLarge, just_a_block][Floater, fire_my_guy]
+	]
 }
 6d {
     area_name "Shock"
@@ -3917,7 +3921,7 @@ ax {
     fx_shader reflectionripples
     
 
-    fx_shader_mid cloudripples
+    fx_shader_mid distortionparticles
     midfx_layer 2
     
     palette 1222
@@ -3930,7 +3934,7 @@ ax {
     ambience_volume 1
 
 	tile_particle_1 bubbles
-	tile_particle_2 waterfall
+	tile_particle_2 waterfall_thin
 	tile_particle_3 waterfall_splash
 	tile_particle_4 drip
     decoration_1 decorationfci1
