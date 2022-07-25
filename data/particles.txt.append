@@ -1135,6 +1135,105 @@ bgrain3 {
     inherit_speed 0
     tags []
 }
+bgsnow {
+	#system TestParticle
+	movieclip spark
+	max_particles 500
+	layer 0
+	livebounds [-10, 64, -10, 52]
+	prewarm [20,6]
+	batched true
+	
+	#emitter properties
+	emit_rate 50
+	emit_amount 10
+	emit_direction [0.8, -1]
+	emit_spread 0
+	emit_box [54, 42]	  #54 for "level width", 32 for "level height"	
+	emit_offset [27,16]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
+	
+	#particle animation properties
+	particle_lifetime [1,2]
+	initial_speed [10, 25]
+	initial_rotation 0
+	rotation_speed 0
+	force [0, -.5]
+	friction 1
+	size_start [.6,1]
+	size_end [.1, .2]
+	alpha_start 1
+	alpha_end 1
+	face_moving_direction true
+	speed_scale 0
+	inherit_speed 0
+	tags [collide_water]
+}
+fgsnow_light {
+	#system TestParticle
+	movieclip spark
+	max_particles 500
+	layer 4
+	livebounds [-10, 74, -10, 52]
+	prewarm [20,6]
+	batched true
+	
+	#emitter properties
+	emit_rate 20
+	emit_amount 10
+	emit_direction [0.3, -1]
+	emit_spread 0
+	emit_box [64, 42]	  #54 for "level width", 32 for "level height"	
+	emit_offset [27,16]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
+	
+	#particle animation properties
+	particle_lifetime [1,2]
+	initial_speed [10, 25]
+	initial_rotation 0
+	rotation_speed 0
+	force [0, -.5]
+	friction 1
+	size_start [.7,1.2]
+	size_end [.1,.3]
+	alpha_start 1
+	alpha_end 1
+	face_moving_direction true
+	speed_scale 0
+	inherit_speed 0
+	tags []
+}
+bgsnow_light {
+	#system TestParticle
+	movieclip spark
+	max_particles 500
+	layer 0
+	livebounds [-10, 64, -10, 42]
+	prewarm [20,6]
+	batched true
+	
+	#emitter properties
+	emit_rate 20
+	emit_amount 10
+	emit_direction [0.3, -1]
+	emit_spread 0
+	emit_box [54, 32]	  #54 for "level width", 32 for "level height"	
+	emit_offset [27,16]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
+	
+	#particle animation properties
+	particle_lifetime [1,2]
+	initial_speed [10, 25]
+	initial_rotation 0
+	rotation_speed 0
+	force [0, -.5]
+	friction 1
+	size_start [.6,1]
+	size_end [.1, .2]
+	alpha_start 1
+	alpha_end 1
+	face_moving_direction true
+	speed_scale 0
+	inherit_speed 0
+	tags []
+}
 cold_train {
     #system TestParticle
     movieclip cloud
@@ -1597,6 +1696,71 @@ spark3 {
 }
 waterfall_thin {
     combo [waterfall_parts_thin, waterfall_distortion_thin]
+}
+waterfall_thin_wind {
+    #system properties
+    movieclip TestParticle2
+    max_particles 1500
+    layer 2
+    livebounds [-10, 64, -10, 42]
+    batched false
+    
+    #emitter properties
+    emit_rate 52
+    emit_amount 3
+    emit_direction [0, -1]
+    emit_spread 0
+    emit_box [0.8, 0]      #54 for "level width", 32 for "level height"    
+    emit_offset [0, 0.2]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
+    
+    #particle animation properties
+    particle_lifetime 2
+    initial_speed [30, 50]
+    initial_rotation 0
+    rotation_speed 0
+    force [180, -250]
+    friction [.8, .9]
+    size_start 1
+    size_end 1
+    alpha_start 1
+    alpha_end 1
+    face_moving_direction true
+    speed_scale .2
+    inherit_speed 0
+    tags [collide_tile, collide_water, player_bounce_waterfall]
+}
+
+waterfall_hail {
+    #system properties
+    movieclip TestParticle2
+    max_particles 150
+    layer 2
+    livebounds [-10, 64, -10, 42]
+    batched false
+    
+    #emitter properties
+    emit_rate 52
+    emit_amount 3
+    emit_direction [0, -1]
+    emit_spread 90
+    emit_box [0.8, 0]      #54 for "level width", 32 for "level height"    
+    emit_offset [0, 0.5]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
+    
+    #particle animation properties
+    particle_lifetime 0.1
+    initial_speed [5, 10]
+    initial_rotation 0
+    rotation_speed 0
+    force [0, -150]
+    friction [.8, .9]
+    size_start 1
+    size_end 1
+    alpha_start [0,0.6]
+    alpha_end 0
+    face_moving_direction true
+    speed_scale .2
+    inherit_speed 0
+    tags [collide_tile, collide_water, player_bounce_waterfall]
 }
 
 waterfall_parts_thin {
@@ -2560,14 +2724,14 @@ coldfog {
 fastcoldfog {
     #system properties
     movieclip WindCloud
-    max_particles 1000
+    max_particles 100
     layer 7
     livebounds [-10, 64, -10, 42]
     prewarm 50
     batched true
     
     #emitter properties
-    emit_rate 80
+    emit_rate 8
     emit_amount 12
     emit_direction [1, 0]
     emit_spread 30
@@ -2624,9 +2788,12 @@ hail {
     inherit_speed 0
     tags [collide_tile]
 }
-hailblood {
+hail_tile {
+	combo [waterfall_hail, hail_tile2]
+}
+hail_tile2 {
     #system properties
-    movieclip cloudblood
+    movieclip cloud
     max_particles 500
     layer 2
     livebounds [-10, 64, -10, 42]
@@ -2634,34 +2801,34 @@ hailblood {
     batched true
     
     #emitter properties
-    emit_rate 10
-    emit_amount 5
+    emit_rate [5, 30]
+    emit_amount [1, 5]
     emit_direction [0, -1]
-    emit_spread 0
+    emit_spread 90
     emit_box [1, 0]      #54 for "level width", 32 for "level height"    
-    emit_offset [.5,0]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
+    emit_offset [0,.5]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
     
     #particle animation properties
     particle_lifetime 1.5
-    initial_speed [30,40]
+    initial_speed [5,10]
     initial_rotation [1,360]
     rotation_speed 0
-    force [-2, -10]
+    force [-2, -150]
     friction 1
-    size_start 1
+    size_start [.8, 1.3]
     size_end 1
     alpha_start 1
     alpha_end 1
     face_moving_direction true
     speed_scale .01
     inherit_speed 0
-    tags [collide_tile]
+    tags [collide_tile, collide_water]
 }
 
 hailsplash {
     #system properties
     movieclip cloud
-    max_particles 800
+    max_particles 80
     layer 2
     livebounds [-10, 64, -10, 42]
     batched true

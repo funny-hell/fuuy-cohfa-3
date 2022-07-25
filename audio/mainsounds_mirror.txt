@@ -108,16 +108,18 @@ SoundEffectGroups {
     }
 
     Drown1 {  #testlevels: 3-8, 6-4
-        files [Drown_v3-001.wav]
-        volume 1.2
+        files [medmeat4nopop.wav]
+	pitch_range [1.4, 1.4]
+        volume 1.8
     }
     Drown2 {  #testlevels: 3-8, 6-4
-        files [Drown_v3-002.wav]
-        volume 1.2
+        files [medmeat4nopop.wav]
+	pitch_range [1.2, 1.2]
+        volume 1.9
     }
     Drown3 {  #testlevels: 3-8, 6-4
-        files [Drown_v3-003.wav]
-        volume 1.2
+        files [medmeat4nopop.wav]
+        volume 2
     }
 
     BackWarp {  #testlevels: 1xd-2

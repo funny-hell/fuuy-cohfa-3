@@ -259,7 +259,7 @@ r4b {
 	npc_3 NPCNAN1
 
     art_alts[
-        [OrbSmall, orbblob][ChainLink2, none][OrbLarge, OrbLarge2]
+        [OrbSmall, orbblob][ChainLink2, none][OrbLarge, OrbLarge2][Player, PlayerCold]
     ]
 
     music [rapture_intro.ogg, rapture_loop.ogg]
@@ -391,21 +391,44 @@ hub {
         [Bullet,eyebullet][MiniFrog, MiniFlea][OrbSmall, OrbBlob2][OrbLarge, OrbLarge2]
 		[Cartridge, cart2]
     ]
-	4 {
-	area_label_frame 0
-	}
-	5 {
-	area_label_frame 56
-	}
-	0x {
-	area_label_frame 56
-	}
+	
 	2x {
 		art_alts [
         [AimSpitter,eyeshooter][ChainLink2, None]
         [Bullet,eyebullet][MiniFrog, MiniFlea][OrbSmall, OrbBlob2][OrbLarge, OrbLarge2]
 		[Cartridge, cart3]
 		]
+	}
+}
+hub2 {
+    area_name "The Grave"
+    area_label_frame 56
+    tile_graphics Tilecaves
+    overlay_graphics Overlaystox
+    background_graphics bg2
+    foreground_graphics None
+    fx_shader reflectionripples
+    palette 1074
+
+    npc_1 NPCHX
+    npc_2 NPC17
+    npc_3 NPCdudp0
+    decoration_1 Decoration5
+    decoration_2 Decoration6
+    decoration_3 Decoration7
+    
+    area_type dark
+    
+    music [split_intro_superdark.ogg, none]
+    ambience wind.ogg
+
+    art_alts [
+        [AimSpitter,eyeshooter][ChainLink2, None]
+        [Bullet,eyebullet][MiniFrog, MiniFlea][OrbSmall, OrbBlob2][OrbLarge, OrbLarge2]
+		[Cartridge, cart2]
+    ]
+	4 {
+	area_label_frame 0
 	}
 }
 qu {
@@ -583,9 +606,6 @@ gb {
         [Cartridge, cart2]
 		[GlowShroom, GlowCandle][GlowShroomSmall, GlowCandle]
     ]
-	1x {
-		decoration_3 cutscene1_sw
-	}
 	15 {
 		overlay_graphics Overlaysend
 	}
@@ -1958,6 +1978,7 @@ but3 {
 	art_alts [
         [MiniFly, MiniWisp][MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite]
 		[GlowShroom, just_a_block][GlowShroomSmall, just_a_block]
+		[ThwampGear, ThwampGearFastRight][ThwampEye, ThwampGearFastLeft]
 	]
 
 	1 {
@@ -1966,28 +1987,26 @@ but3 {
 		[GlowShroom, just_a_block][GlowShroomSmall, just_a_block]
 		]
 	}
-    1x {
-        music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
-    }
-	5x {
-	area_label_frame 0
+    7 {
+		tile_graphics Tiletox
 	}
-	6x {
-	area_label_frame 0
-	}
-	7x {
-	area_label_frame 0
-	}
-	8x {
-	area_label_frame 0
+	8 {
+		tile_graphics Tiletox
 	}
 	20 {
+		tile_graphics Tiletox
 		sfx_file mainsounds_mirror.txt
 		art_alts [
         [MiniFly, MiniWisp][MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite]
 		[GlowShroom, just_a_block][GlowShroomSmall, just_a_block][Cartridge, CartCoin]
 		]
-	}  
+	}
+	21 {
+		tile_graphics Tiletox
+	}
+	23 {
+		tile_graphics Tiletox
+	}
 }
 7a {
     area_name "The Sky"
@@ -2021,13 +2040,22 @@ but3 {
     ambience caves.ogg
 	
 	art_alts [
-        [MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite][SkullFloater, DeadSkullCrow][Fish, FlyingFish]
+        [MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite][SkullFloater, DeadSkullCrow][Fish, FlyingFish][ButtonBlock_Out, just_a_block]
 	]
 	
+	10x {
+		sfx_file mainsounds_mirror.txt
+	}
 	11 {
 		sfx_file mainsounds_mirror.txt
 	}
+	11x {
+		sfx_file mainsounds_mirror.txt
+	}
 	12 {
+		sfx_file mainsounds_mirror.txt
+	}
+	12x {
 		sfx_file mainsounds_mirror.txt
 	}
 	13 {
@@ -2053,21 +2081,34 @@ but3 {
     area_name "The Breeze"
     area_label_frame 45
     tile_graphics Tilebreeze
-    overlay_graphics Overlaystox2
-    background_graphics Background
+    overlay_graphics Overlayscaves
+    background_graphics hellbg
     foreground_graphics None
     fx_shader sludgeripples
     palette 1143
     toxic_timer 1.3
 
     tile_particle_1 hailsplash
-	tile_particle_2 hailblood
+	tile_particle_2 waterfall_thin
+	tile_particle_3 waterfall_splash
+	tile_particle_4 drip
+	tile_particle_5 hail_tile
     global_particle_1 cold
     global_particle_2 mist2
     global_particle_3 coldfog
     decoration_1 IceShine
-    decoration_2 IceShine2
-    decoration_3 IceShine3
+    decoration_2 sidestone_left
+    decoration_3 sidestone_right
+	
+	fx_shader_mid lightingmodded
+    midfx_graphics ShadeBox
+    midfx_layer 2
+	
+	npc_1 NPCdud29
+	
+    ambience_volume .8
+    area_type normal
+    shader_param .8
 	
 	lowgrav_physics "data/player_physics/icephysics.txt"
     
@@ -2075,78 +2116,65 @@ but3 {
     ambience wind.ogg
 	art_alts [
     [MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite][OrbSmall, frozenorbsmall][Cartridge, cart2]
+	[Player, PlayerCold][ThwampGear, ThwampGearFastRight]
 	]
-
-	
-	0 {
-	area_label_frame 0
-	music none
-	}
 	
     6 {
     global_particle_3 fastcoldfog
-    ambience wind.ogg
-    ambience_volume 20
+    ambience_volume 1.2
+	tile_particle_2 waterfall_thin_wind
+	tile_particle_4 dripwindright
     }
     
     7 {
     global_particle_3 fastcoldfog
-    ambience wind.ogg
-    ambience_volume 20
+    ambience_volume 1.2
+	tile_particle_2 waterfall_thin_wind
+	tile_particle_4 dripwindright
     }
     
     8 {
     global_particle_3 fastcoldfog
-    global_particle_4 hail
-    ambience wind.ogg
-    ambience_volume 20
+    ambience_volume 1.2
+	tile_particle_2 waterfall_thin_wind
+	tile_particle_4 dripwindright
+    }
+	
+	8x {
+    global_particle_3 fastcoldfog
+    ambience_volume 1.2
+	tile_particle_2 waterfall_thin_wind
+	tile_particle_4 dripwindright
     }
 
     9 {
-    global_particle_3 coldfog
-    global_particle_4 hail
-    ambience wind.ogg
-    ambience_volume 20
+	sfx_file mainsounds_mirror.txt
     }
 
     10 {
-    global_particle_3 coldfog
-    global_particle_4 hail
-    ambience wind.ogg
-    ambience_volume 20
+	sfx_file mainsounds_mirror.txt
     }
 
     11 {
-    global_particle_3 fastcoldfog
-    global_particle_4 hail
-    ambience wind.ogg
-    ambience_volume 20
+	sfx_file mainsounds_mirror.txt
     }
     
 	12 {
-		fx_shader distortionparticles
+		shader_param 0.6
 	}
 	
     13 {
-		fx_shader distortionparticles
+		shader_param 0.6
 	}
     
     14 {
-		fx_shader distortionparticles
+		shader_param 0.6
 	}
 	
 	15 {
-		fx_shader distortionparticles
+		shader_param 0.6
 	}
 	
-    fx_shader_mid lightingmodded
-    midfx_graphics ShadeBox
-    midfx_layer 2
-
-    npc_1 NPCdud29
-    ambience_volume 1
-    area_type normal
-    shader_param .6
 }
 
 j {
@@ -3604,8 +3632,6 @@ t {
 
     decoration_1 eyeball
    
-
-    music [terminal_intro.ogg, terminal_loop.ogg]
     ambience vinyl.ogg
 
     art_alts [
@@ -3624,26 +3650,21 @@ t {
     1 {
     tile_graphics Tilecitygirders
     background_graphics bg2
-    music [gnossiennes_intro.ogg, gnossiennes_loop.ogg]
     }
     2 {
     tile_graphics Tilecaves
     background_graphics ch3bg
-    music [gnossiennes_intro.ogg, gnossiennes_loop.ogg]
     }
     3 {
     tile_graphics Tilefield
     background_graphics field2bg
-    music [gnossiennes_intro.ogg, gnossiennes_loop.ogg]
     }
     4 {
     tile_graphics Tileairship
     background_graphics airshipbg
-    music [gnossiennes_intro.ogg, gnossiennes_loop.ogg]
     }
 
-
-    music [terminal_intro.ogg, terminal_loop.ogg]
+    music [gnossiennes_intro.ogg, gnossiennes_loop.ogg]
     
     8 {
     background_graphics bgsolidchunky
@@ -3656,54 +3677,63 @@ t {
 #levels before the grave
     15 {
     tile_graphics Tilecitygirders
+	fx_shader_mid filmgrain
     palette 1099
     music [terminal_intro.ogg, terminal_loop.ogg]
     }
 
     16 {
     tile_graphics Tilefield
+	fx_shader_mid filmgrain
     palette 1100
     music [terminal_intro.ogg, terminal_loop.ogg]
     }
 
     17 {
     tile_graphics Tilecaves
+	fx_shader_mid filmgrain
     palette 1101
     music [terminal_intro.ogg, terminal_loop.ogg]
     }
 
     18 {
     tile_graphics Tiletox
+	fx_shader_mid filmgrain
     palette 1103
     music [terminal_intro.ogg, terminal_loop.ogg]
     }
 
     19 {
     tile_graphics Tileairship
+	fx_shader_mid filmgrain
     palette 1102
     music [terminal_intro.ogg, terminal_loop.ogg]
     }
 
     20 {
     tile_graphics Tilehell
+	fx_shader_mid filmgrain
     palette 1104
     music [terminal_intro.ogg, terminal_loop.ogg]
     }
 
     21 {
     tile_graphics theglow
+	fx_shader_mid filmgrain
     palette 1105
     music [terminal_intro.ogg, terminal_loop.ogg]
     }
 
     22 {
     tile_graphics TileEnd
+	fx_shader_mid filmgrain
     background_graphics neverbg
     music [terminal_intro.ogg, terminal_loop.ogg]
     }
 
     28 {
     tile_graphics Tileairship
+	fx_shader_mid filmgrain
     background_graphics airshipbg
     }
 
@@ -3732,6 +3762,8 @@ ki {
     tile_particle_5 surface_splash
     npc_1 NPCKI9
     npc_3 NPCNAN1
+
+	art_alts[[Player, PlayerCold]]
 
 	ambience ocean.ogg
 	
@@ -3776,7 +3808,7 @@ k2 {
 	
 	art_alts [
 		[GlowShroomSmall,GlowBulbSmall]
-		[AimSpitter,eyeshooter][Bullet,eyebullet]
+		[AimSpitter,eyeshooter][Bullet,eyebullet][Player, PlayerCold]
 	]
 	
 	1 {
@@ -4222,6 +4254,8 @@ butx {
     decoration_1 Deco10
     decoration_2 Deco11
     decoration_3 none
+	
+	npc_1 NPCdudx10
     
     toxic_timer 999999
     area_type normal
@@ -4236,7 +4270,7 @@ butx {
     ambience caves.ogg
 	
 	art_alts [
-        [MiniFly, MiniWisp][MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite][SkullFloater, DeadSkullCrow][Fish, FlyingFish][Cartridge, cart2]
+        [MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite][SkullFloater, DeadSkullCrow][Fish, FlyingFish][Cartridge, cart2]
 	]
 }
 7bx {
@@ -4277,9 +4311,9 @@ butx {
 7cx {
     area_name "The Pit"
     area_label_frame 24
-    tile_graphics Tiletox
-    overlay_graphics Overlaystox
-    background_graphics bg2
+    tile_graphics Tilecitygirders
+    overlay_graphics Overlayscaves
+    background_graphics bgpit
     foreground_graphics None
     palette 1221
 	
@@ -4303,6 +4337,9 @@ butx {
         [MiniFly, MiniWisp][MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite]
 		[GlowShroom, just_a_block][GlowShroomSmall, just_a_block][Cartridge, cart2]
 	]
+	1 {
+		music [gymnopedies_intro.ogg, gymnopedies_loop.ogg]
+	}
 	5 {
 		area_label_frame 0
 	}
@@ -4828,15 +4865,17 @@ rr3x {
     area_name "The Breeze"
     area_label_frame 45
     tile_graphics Tilebreeze
-    overlay_graphics Overlaystox2
-    background_graphics Background
+    overlay_graphics Overlayscaves
+    background_graphics hellbg
     foreground_graphics None
-    fx_shader ripples
+    fx_shader sludgeripples
     palette 1143
     toxic_timer 1.3
 
     tile_particle_1 hailsplash
-	tile_particle_2 hailblood
+	tile_particle_2 waterfall_thin
+	tile_particle_3 waterfall_splash
+	tile_particle_4 drip
     global_particle_1 cold
     global_particle_2 mist2
     global_particle_3 mist2
@@ -4852,14 +4891,21 @@ rr3x {
 	npc_2 NPCdud28
     ambience_volume 1
     area_type normal
-    shader_param .6
+    shader_param .8
     
     music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
 	stop_previous_music false
     ambience wind.ogg
 	art_alts [
         [MiniFly, MiniWisp][MiniRat, MiniRatWhite][OrbSmall, frozenorbsmall][MiniFrog, MiniFrogWhite]
+		[Player, PlayerCold][ThwampGear, ThwampGearFastRight]
 	]
+	
+	0 {
+	area_label_frame 0
+	palette 1221
+	ambience ruins.ogg
+	}
 }
 /* 
 
@@ -6047,7 +6093,7 @@ dud3 {
 	0x {
 		area_label_frame 0
 		palette 1227
-		music [torrent_intro.ogg, torrent_loop.ogg]
+		music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
 		music_volume 0.6
 	}
 	0 {
@@ -6107,7 +6153,7 @@ dud3 {
     global_particle_2 bgsnow
     global_particle_3 fgsnow_light
 
-    decoration_1 Deco10
+    decoration_1 decorationminejump
     decoration_2 Deco11
     decoration_3 none
     
@@ -6120,16 +6166,19 @@ dud3 {
         [OrbChomp, MovingOrbBlob]
         [AimSpitter, AimSpitter2]
         [Cartridge, cart3]
+		[Player, PlayerCold]
     ]
 
     music [requiem20000volts_intro.ogg, requiem20000volts_loop.ogg]
-    0 { art_alts[
-	[OrbSmall, Saw1]
+    0 { 
+	art_alts[
+		[OrbSmall, Saw1]
         [ChainLink2, None]
         [OrbChomp, MovingOrbBlob]
         [OrbLarge, Saw2]
         [AimSpitter, AimSpitter2]
-        [Cartridge, cart3]]
+        [Cartridge, cart3][Player, PlayerCold]
+	]
         ambience coldsweatunderground.ogg
     }
     1 { art_alts[
@@ -6138,7 +6187,7 @@ dud3 {
         [OrbChomp, MovingOrbBlob]
         [OrbLarge, Saw2]
         [AimSpitter, AimSpitter2]
-        [Cartridge, cart3]]
+        [Cartridge, cart3][Player, PlayerCold]]
         ambience coldsweatunderground.ogg
     }
     8 {
@@ -6805,6 +6854,8 @@ wlspl {
 	}
 	4 {
 		npc_1 NPCdudp7
+		npc_2 NPCdudp7c
+		npc_3 NPCdudp7d
 	}
 	5 {
 		npc_1 NPCdudp8
@@ -6827,6 +6878,10 @@ wlspl {
 		npc_3 NPCdudp14c
 	}
 	9 {
+		//npc_1 NPCdudp15
+		npc_1 NPCdudp7d
+	}
+	10 {
 		npc_1 NPCNAN1
 	}
 }

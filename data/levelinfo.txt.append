@@ -202,6 +202,9 @@
 "hub-1" {name="The Hub" id=-1}
 "hub-2" {name="The Hub" id=-1}
 "hub-3" {name="The Hub" id=-1}
+"hub2-0x" {name="???" id=-1}
+"hub-1x" {name="???" id=-1}
+"hub-2x" {name="???" id=1}
 "6dx-1" {name="???" id=-1}
 "6dx-2" {name="???" id=1}
 "6d-1" {name="???" id=-1}
@@ -555,8 +558,8 @@
 "t-20" {name="T%rminal Luc%dity" id=-1}
 "t-21" {name="Terminal Lucidity" id=-1}
 "t-22" {name=". . ." id=-1}
-"hub-4" {name=". . ." id=-1}
-"hub-5" {name="The Grave" id=-1}
+"hub2-4" {name=". . ." id=1}
+"hub2-5" {name="The Grave" id=-1}
 "gr1-1" {name="OE Fake 1" id=-1}
 "gr1-2" {name="OE Fake 2" id=-1}
 "gr1-3" {name="OE Fake 3" id=-1}
@@ -675,18 +678,28 @@
 "5-25" {name="???" id=-1}
 "7c-1" {name="The Pit 1" id=-1}
 "7c-2" {name="The Pit 2" id=-1}
-"7c-3" {name="The Pit 3" id=-1}
-"7c-4" {name="The Pit 4" id=-1}
-"7c-5" {name="The Pit 5" id=-1}
-"7c-6" {name="The Pit 6" id=-1}
-"7c-7" {name="The Pit 7" id=-1}
-"7c-8" {name="The Pit 8" id=-1}
-"7c-9" {name="The Pit 9" id=-1}
+"7c-2x" {name="The Pit 3" id=-1}
+"7c-3" {name="The Pit 4" id=-1}
+"7c-4" {name="The Pit 5" id=-1}
+"7c-5" {name="The Pit 6" id=-1}
+"7c-6" {name="The Pit 7" id=-1}
+"7c-7" {name="The Pit 8" id=-1}
+"7c-8" {name="The Pit 9" id=-1}
+"7c-9" {name="The Pit 10" id=-1}
+"7c-10" {name="The Pit 11" id=-1}
+"7c-11" {name="The Pit 12" id=-1}
+"7c-12" {name="The Pit 13" id=-1}
+"7c-13" {name="The Pit 14" id=-1}
+"7c-14" {name="The Pit 15" id=-1}
+"7c-15" {name="The Pit 16" id=-1}
+"7c-16" {name="The Pit 17" id=-1}
+"7c-17" {name="The Pit 18" id=-1}
+"7c-18" {name="The Pit 19" id=-1}
 "7c-20" {name="The Pit 20" id=2}
-"7c-10" {name="???" id=-1}
-"7c-11" {name="???" id=-1}
-"7c-12" {name="???" id=-1}
-"7c-13" {name="???" id=-1}
+"7c-21" {name="???" id=-1}
+"7c-22" {name="???" id=-1}
+"7c-23" {name="???" id=-1}
+"7c-24" {name="???" id=-1}
 "7b-1" {name="The Gallery 1" id=-1}
 "7b-2" {name="The Gallery 2" id=-1}
 "7b-3" {name="The Gallery 3" id=-1}
@@ -702,6 +715,11 @@
 "7b-13" {name="The Gallery 13" id=-1}
 "7b-14" {name="The Gallery 14" id=-1}
 "7b-20" {name="The Gallery 20" id=2}
+"7ax-1" {name="???" id=1}
+"7ax-2" {name="???" id=-1}
+"7ax-3" {name="???" id=-1}
+"7ax-4" {name="???" id=-1}
+"7ax-5" {name="???" id=-1}
 "7a-1" {name="The Sky 1" id=-1}
 "7a-2" {name="The Sky 2" id=-1}
 "7a-3" {name="The Sky 3" id=-1}
@@ -712,10 +730,13 @@
 "7a-8" {name="The Sky 8" id=-1}
 "7a-9" {name="The Sky 9" id=-1}
 "7a-10" {name="The Sky 10" id=-1}
-"7a-11" {name="The Sky 11" id=-1}
-"7a-12" {name="The Sky 12" id=-1}
-"7a-13" {name="The Sky 13" id=-1}
-"7a-14" {name="The Sky 14" id=-1}
+"7a-10x" {name="The Sky 11" id=-1}
+"7a-11x" {name="The Sky 12" id=-1}
+"7a-11" {name="The Sky 13" id=-1}
+"7a-12x" {name="The Sky 14" id=-1}
+"7a-12" {name="The Sky 15" id=-1}
+"7a-13" {name="The Sky 16" id=-1}
+"7a-14" {name="The Sky 17" id=-1}
 "7a-20" {name="The Sky 20" id=2}
 "8-0" {name="Stormscapes 1" id=-1}
 "8-1" {name="Stormscapes 2" id=-1}
@@ -730,9 +751,9 @@
 "8-10" {name="Stormscapes 11" id=-1}
 "8-11" {name="Stormscapes 12" id=-1}
 "8-12" {name="Stormscapes 13" id=-1}
-"8-12x" {name="Stormscapes" id=-1}
-"8-13" {name="Stormscapes 14" id=-1}
-"8-14" {name="Stormscapes 15" id=-1}
+"8-12x" {name="Stormscapes 14" id=-1}
+"8-13" {name="Stormscapes 15" id=-1}
+"8-14" {name="Stormscapes 16" id=-1}
 "8xd-1" {name="???" id=1}
 "8xd-2" {name="???" id=-1}
 "8xd-3" {name="???" id=-1}
@@ -860,30 +881,32 @@
 "8as-7" {name="???" id=-1}
 "8as-8" {name="???" id=-1}
 "8as-9" {name="???" id=1}
-"8cx-1" {name="???" id=1} #biglife
+"8cx-1" {name="???" id=1} #cart
 "8cx-2" {name="???" id=-1}
 "8cx-3" {name="???" id=2} #biglife
-"8c-0" {name="???" id=-1}
+"8cx-4" {name="???" id=-1} #biglife
+"8cx-5" {name="???" id=1} #biglife
+"8cx-0" {name="???" id=-1}
 "8c-1" {name="Breeze 1" id=-1}
 "8c-2" {name="Breeze 2" id=-1}
 "8c-3" {name="Breeze 3" id=-1}
 "8c-4" {name="Breeze 4" id=-1}
-"8c-5" {name="Breeze 5" id=-1}
-"8c-6" {name="Breeze 6" id=-1}
-"8c-7" {name="Breeze 7" id=-1}
-"8c-8" {name="Breeze 8" id=-1}
-"8c-9" {name="Breeze 9" id=-1}
-"8c-10" {name="Breeze 10" id=-1}
-"8c-11" {name="Breeze 11" id=-1}
-"8c-12" {name="Breeze 12" id=-1}
-"8c-13" {name="Breeze 13" id=-1}
-"8c-14" {name="Breeze 14" id=-1}
-"8c-15" {name="Breeze 15" id=-1}
-"8c-16" {name="Breeze 16" id=1}
-"8c-17" {name="Breeze 17" id=-1}
-"8c-18" {name="Breeze 18" id=-1}
-"8c-19" {name="Breeze 19" id=-1}
-"8c-20" {name="Breeze 20" id=-1}
+"8c-4x" {name="Breeze 5" id=-1}
+"8c-5" {name="Breeze 6" id=-1}
+"8c-5x" {name="Breeze 7" id=-1}
+"8c-6x" {name="Breeze 8" id=-1}
+"8c-6" {name="Breeze 9" id=-1}
+"8c-7" {name="Breeze 10" id=-1}
+"8c-8" {name="Breeze 11" id=-1}
+"8c-8x" {name="Breeze 12" id=-1}
+"8c-9" {name="Breeze 13" id=-1}
+"8c-10" {name="Breeze 14" id=-1}
+"8c-11" {name="Breeze 15" id=-1}
+"8c-12" {name="Breeze 16" id=-1}
+"8c-13" {name="Breeze 17" id=-1}
+"8c-14" {name="Breeze 18" id=-1}
+"8c-15" {name="Breeze 19" id=-1}
+"8c-16" {name="Breeze 20" id=-1}
 "r1d-1" {name="???" id=-1}
 "r1d-2" {name="Dark Rapture" id=-1}
 "r1d-3" {name="Dark Rapture 3" id=-1}

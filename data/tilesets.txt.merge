@@ -35,6 +35,7 @@ c6 {
 }
 
 1 {
+	palette 1001
     2b {
 	area_label_frame 0
 	art_alts [
@@ -56,7 +57,7 @@ c6 {
 	global_particle_3 fogbg2
 }
 1xu {
-	palette 1001
+	palette 1200
 	global_particle_4 cloudwind
 	6a {
 		npc_1 NPCdudx11

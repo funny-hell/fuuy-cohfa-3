@@ -7,8 +7,9 @@ backgrounds/FC_backgrounds.swf
 tilesets/tilegraveyard.swf
 tilesets/funny_jumpluff_eat_a_pepsi.swf
 tilesets/tilecity_new.swf
+tilesets/es_tilesets.swf
 tilesets/FC_tilesets.swf
-tilesets/FC_tilesets2.swf
+tilesets/FC_decorations.swf
 tilesets/adenators_dumb_assets.swf
 
 area_labels/area_labels.swf
@@ -25,6 +26,9 @@ miscellaneous/FC_mirrors.swf
 miscellaneous/FC_nod_npcs.swf
 miscellaneous/FC_npcs.swf
 miscellaneous/FC_particles.swf
+miscellaneous/FC_pickups.swf
+miscellaneous/cold_breath.swf
+miscellaneous/FC_loadscreen.swf
 miscellaneous/Minecraft_Blocks.swf
 miscellaneous/Portals.swf
 miscellaneous/FC_trollface_font.swf

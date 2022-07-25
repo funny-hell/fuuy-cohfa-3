@@ -44,34 +44,34 @@ meta {
     leftwipes [2-0 3-1 4-1hub 4b-1 5b-1 2d-0 3d-1 r2-1 r3-1 hub-1 9xd-0x but-0x 6a-1 7a-1 6c-1 5-0 7d-14 r4-1 a-1 but2-1 1bx-1 1bd-1 1b-1
 		1-0 c2-x c3-x c4a-x c5a-x c4c-x c5c-x c4b-x c5b-x 8-0 k2-1
 	]
-    rightwipes [1-20 2-19 3-20 4-1hub 4b-15 1d-20 2d-19 r1-20 r2-20 r3-20 qu-3 5bxu-10 5c-21 5ax-15 hub-1 hub-5 3d-21 dud3-12 6a-16 7b-20 j-1hub t-15 1xu-5a but-11 a-8 1d-2b 1-2b
+    rightwipes [1-20 2-19 3-20 4-1hub 4b-15 1d-20 2d-19 r1-20 r2-20 r3-20 qu-3 5bxu-10 5c-21 5ax-15 hub-1 hub2-5 3d-21 dud3-12 6a-16 7b-20 j-1hub t-15 1xu-5a but-11 a-8 1d-2b 1-2b
 		c1-x 2xu-1 3xd-2 4a-15 5a-18 4cx-3 5cx-7 4bx-7 5b-23 5-25 ki-11 1-3b
 	]
-    upwipes [4-1hub 4a-16 4c-1 5c-1 6-1 7-0 4b-15 ex-15 hub-3 6d-1 m-1 7c-12 7d-16 7d-16x 6b-1 7d-17x 8-14 ]
-    downwipes [4-1hub 4c-15 5a-1 3d-23 4a-1 5bxu-5 6-21 hub-1 xs-1 xs-10 5b-23 xs-20 ex-1 5bxd-7 6b-23x r1-1 r4b-1 r3-1 6d-23 7d-16x 2-0 7c-6 5-22 7ax-4 1bx-5 dud3-1 8a-0x]
+    upwipes [4-1hub 4a-16 4c-1 5c-1 6-1 7-0 4b-15 ex-15 hub-3 6d-1 m-1 7c-12 7d-16 7d-16x 6b-1 7d-17x 8-14 8c-1]
+    downwipes [4-1hub 4c-15 5a-1 3d-23 4a-1 5bxu-5 6-21 hub-1 xs-1 xs-10 5b-23 xs-20 ex-1 5bxd-7 6b-23x r1-1 r4b-1 r3-1 6d-23 7d-16x 2-0 8cx-0 5-22 7ax-4 1bx-5 dud3-1 8a-0x]
     
     stevenheads [NPCH1 NPCH2 NPCH3 NPCH4 NPCH5 NPCH5b NPCH5c NPCH6 NPCHX NPCdudH1 NPCdudH2 NPCHM NPCSDR2warp1 NPCSDR2warp2 NPCSDR2warp3 NPCSDR2warp4]
     steventhreshtumors [50 100 170 300 450 450 450 530 689 600 1 650 1 1 1 1] //tumors: light-506 right-95 console-93 total-689 (outdated)
     stevenlevels [10x-7 10x-5 10x-3 10x-1 15x-1 15x-5 15x-7 7d-15 r1d-1 9d-1 9-19 15x-3 $g6b-1x $g6a-1x $gn3-1x $gn4-1x]
     
-    mainworlds [1 2 3 4 4a 4b 4c 5a 5b 5c 1d 2d 3d 6 7 8 9 r1 r2 r3 r4 r5 6d ex xs qu gb 7d t but 6a 6b 6c hub m 7a 7b 7c j 5 8 9 9d 9xx 8a 8ax 8ad 8c 1b a r1d dud3 2b 2c but2 but2b rr1 rr2 rr3 1bd ad r1b r4b] //if you pause on these worlds, it lets you open the map. otherwise you get "exit area"
+    mainworlds [1 2 3 4 4a 4b 4c 5a 5b 5c 1d 2d 3d 6 7 8 9 r1 r2 r3 r4 r5 6d ex xs qu gb 7d t o 12 but 6a 6b 6c hub m 7a 7b 7c j 5 8 9 9d 9xx 8a 8ax 8ad 8c 1b a r1d dud3 2b 2c but2 but2b rr1 rr2 rr3 1bd ad r1b r4b hub2] //if you pause on these worlds, it lets you open the map. otherwise you get "exit area"
     cartworlds [c1 c2 c3 c4a c4b c4c c5a c5b c5c c6 c9 g0 g1 g2 g3 g4 g5 g6 g9 i1 i2 i3 i4 i5 c0 gbt gr1 gr2 gr3 gr5 g4a g5a gr4 gi0 g6d g6c g6a g6b g99 gr6 csd1 csd2 g7a g7b g7c g7 gx gn1 gn2 gn3 gn4 gn5 gn6 gn7 gn8 gn9 gn10 gn11 gnr1 gnr2 gnr3 gj] //launch console automatically when you exit from these worlds
     
     headlevel 5a-22
     bodylevel 5c-21
     heartlevel 5b-23
     
-    mute_warpunlock_message [5a-22 5b-23 5c-21 1-1 1d-1 6d-23 6 hub-4 hub-5 6b-23 a-20 2cx-1 2cx-2 2cx-3 2cx-4 2cx-5 2cx-6 2cx-7 2cx-8 2cx-9 2cx-10 2cx-11 2cx-12 2cx-13 2cx-14 2cx-15 2cx-16 2cx-17 2cx-18 2cx-19 2cx-20 2cx-21 2cx-22 2cx-23 2cx-24 2cx-9b 2cx-8b but3-7 but3-8 but3-9 8c-16] //levels that have a warp point but shouldnt show the "warp point unlocked" message
+    mute_warpunlock_message [5a-22 5b-23 5c-21 1-1 1d-1 6d-23 6 hub2-4 hub2-5 6b-23 a-20 2cx-1 2cx-2 2cx-3 2cx-4 2cx-5 2cx-6 2cx-7 2cx-8 2cx-9 2cx-10 2cx-11 2cx-12 2cx-13 2cx-14 2cx-15 2cx-16 2cx-17 2cx-18 2cx-19 2cx-20 2cx-21 2cx-22 2cx-23 2cx-24 2cx-9b 2cx-8b but3-7 but3-8 but3-9 8c-16] //levels that have a warp point but shouldnt show the "warp point unlocked" message
     
-    game_over_checkpoints [[1d 1d-1] [2d 2d-0] [3d 3d-1] [6 6-1] [7 7-0] [r1 r1-1] [r2 r2-1] [r3 r3-1] [rr1 rr1-1] [rr2 rr2-1] [rr3 rr3-1] [hub hub-1] [6d 6d-1] [7d 7d-1] [ex ex-1] [xs xs-1] [qu qu-1] [gb gb-1] [r4 r4-1] [9d 9d-1]] //if you game over in world "1d", spawn back to 1d-1, etc. this only matters when loading from a save file, otherwise it uses the last checkpoint you visited
+    game_over_checkpoints [[1d 1d-1] [2d 2d-0] [3d 3d-1] [6 6-1] [7 7-0] [r1 r1-1] [r2 r2-1] [r3 r3-1] [rr1 rr1-1] [rr2 rr2-1] [rr3 rr3-1] [hub hub-1] [hub2 hub2-5] [6d 6d-1] [7d 7d-1] [ex ex-1] [xs xs-1] [qu qu-1] [gb gb-1] [r4 r4-1] [9d 9d-1] [t 7d-1]] //if you game over in world "1d", spawn back to 1d-1, etc. this only matters when loading from a save file, otherwise it uses the last checkpoint you visited
     iron_cart_entrypoints [gr6-1 1-1 2-0 3-1 4-1hub 4c-1 4a-1 4b-1 5c-1 5a-2 5b-1 but-1 6c-1 6a-2 6b-1 1d-1 2d-0 3d-1 6-1 7-0 r1-1 r2-1 r3-1 hub-1 6d-1 i1-1 i2-1 i3-1 i4-1 $i1-1] //used to set the respawn point in an iron cart
     timed_cart_entrypoints [g5-1 g99-1 g99-3 g99-5 g99-7 gr6-1] //maybe you want to put a timer on other carts?
-    console_entry_levels [1-1 1d-1 hub-5]
-    nevermore_entry [7-0 7d-15]
+    console_entry_levels [1-1 1d-1 hub2-5]
+    nevermore_entry 7-0
     escape_entry 6-21
-    nevermore_tumorthresh [450 450]
+    nevermore_tumorthresh 450
     timer_bypass_levels [6-1]
-    timer_buttonopen_levels [9x-6 hub-4] //if the timer is open, button4 has its state toggled in these rooms
+    timer_buttonopen_levels [9x-6 hub2-4] //if the timer is open, button4 has its state toggled in these rooms
     
     megacart_entry_levels [$c1-1]
     towercart_entry_levels [$i1-1]
@@ -79,7 +79,7 @@ meta {
     cart_title_overrides [[$c1-1 "AllStars"] [$i1-1 "Acceptance"] [$gr1-1 "N++"] [$gn1-1x "StashPros"]]
     
     savefile_completion_counter_max 285 //count of total collectible tumors, carts, body parts (3), cart achievements, map warp points (number of levels in the array below), and endings (2)
-    savefile_completion_warpoints [1-1 2-0 3-1 4a-1 4b-1 4c-1 5a-1 5b-1 5c-1 4-1hub 1d-1 2d-0 3d-1 6-1 6-21 7-0 r1-1 r2-1 r3-1 6d-3 7d-1 hub-5 hub-1 ex-1 xs-1 qu-1 gb-1 qu-8 7a-1 7b-1 7c-1 6a-1 6b-1 6c-1 j-1hub 5-1 8-0 9-1 a-1 1b-1 1bd-1 2b-1 m-1 but-0 but2b-6 j-1hub dud3-1 8a-1x 8c-1] //visiting these levels counts for save file completion
+    savefile_completion_warpoints [1-1 2-0 3-1 4a-1 4b-1 4c-1 5a-1 5b-1 5c-1 4-1hub 1d-1 2d-0 3d-1 6-1 6-21 7-0 r1-1 r2-1 r3-1 6d-3 7d-1 hub2-5 hub-1 ex-1 xs-1 qu-1 gb-1 qu-8 7a-1 7b-1 7c-1 6a-1 6b-1 6c-1 j-1hub 5-1 8-0 9-1 a-1 1b-1 1bd-1 2b-1 m-1 but-0 but2b-6 dud3-1 8a-1x 8c-1] //visiting these levels counts for save file completion
     save_initiallevel c9-0
     save_lightspawn 1-1
     save_darkspawn 1d-1
@@ -840,7 +840,6 @@ nodes {
         
         select TheFuture
         right Anguish
-		up Decay
 		down FutureFuture
     }
     
@@ -852,6 +851,7 @@ nodes {
         
         left ThePast
         right Gloom
+		up Decay
     }
     
 	Decay {
@@ -860,7 +860,8 @@ nodes {
         page darkworld
         levelgroups [1bd 1bdx]
         
-        down ThePast
+        down Anguish
+		right Anguish
     }
 	
     Gloom {
@@ -1110,14 +1111,16 @@ nodes {
         levelgroups [7d 7dx]
         
         right Shock
-	left TerminalLucidity
+	left Grave
     }
 
-    TerminalLucidity {
-        clipname terminal
-        entrylevel hub-5
+    Grave {
+        clipname grave
+        entrylevel hub2-5
         page darkerworld
-        levelgroups [t tx]
+        levelgroups hub2
+		unlock_condition visited_levels_any
+		unlock_condition_levels [hub2-4 hub2-5]
         
         right Lemniscateum
     }
@@ -1130,8 +1133,36 @@ nodes {
         page darkrapture
         levelgroups [r1d r1dx]
         
-		select FutureFuture    
+		down FutureFuture   
 	}
+	Terminal {
+        clipname terminal
+        entrylevel t-1
+        page darkrapture
+        levelgroups [t tx]
+		unlock_condition visited_levels_any
+		unlock_condition_levels [t-15 t-1]
+        
+        up Omni
+		down FutureFuture
+		select Terminal
+    }
+	Omni {
+        clipname omni
+        entrylevel o-1
+        page darkrapture
+        levelgroups [o]
+        
+		down Terminal
+    }
+	Heartbreak {
+        clipname heartbreak
+        entrylevel 12-1
+        page darkrapture
+        levelgroups [12]
+        
+		down FutureFuture
+    }
 
 	//}
     //{carts
@@ -1918,7 +1949,7 @@ nodes {
         cart_cheevolevel g7-all
         cart_splashframe glitch
         unlock_condition collected_carts_all
-        unlock_condition_levels [hub-4]
+        unlock_condition_levels [hub2-4]
         
         down GUndeadChamber
         up GIAmDead
@@ -2095,7 +2126,7 @@ nodes {
 		levelgroups [but3]
         page trainmenu
         unlock_condition visited_levels_all
-        unlock_condition_levels [5-22 hub-5]  
+        unlock_condition_levels [5-22 hub2-5]  
         
         up Rail2
     }

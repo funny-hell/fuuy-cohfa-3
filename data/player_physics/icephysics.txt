@@ -1,5 +1,5 @@
 gravity 40
-leniency .1
+leniency .01
 max_fallspeed -60
 
 maxspeed 10
@@ -16,7 +16,7 @@ fastfall_maxspeed -90
 
 float_time 1
 
-jumpheight 0.1
+jumpheight 0.01
 release_jumpheight 0
 
 longjump_slidethreshold 5

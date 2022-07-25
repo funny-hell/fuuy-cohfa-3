@@ -1323,8 +1323,27 @@ NPCdudp7{
     movieclip NPCdudm4
     sound_id NPCDefault
     text [
-		"\n???"
-		"nobody\nlies here,\napparently"
+		"here\nlies\nNotWendy"
+		"we\nremember\nyou fondly"
+    ]
+}
+NPCdudp7c{
+#museum picture
+    movieclip NPCdudm4
+    sound_id NPCDefault
+    text [
+		"here\nlies\npixlie"
+		"we\nremember\nyou fondly"
+    ]
+}
+NPCdudp7d{
+#museum picture
+    movieclip NPCdudm4
+    sound_id NPCDefault
+    text [
+		"\n. . ."
+		"this\ngrave\nis empty"
+		"someone might be\nburied here at\nsome point"
     ]
 }
 NPCdudp7a{
@@ -1405,27 +1424,31 @@ NPCdudp12a{
     movieclip NPCdudm6
     sound_id NPCDefault
     text [
-		"funny collab\nhas had a\nlong history"
+		"tenacious entanglement\nhas had a\nlong history"
+		"it first began\nas another mod called\nfunny collab"
+		"many claimed that\nFC sucked, and they\nwerent wrong"
+		"so we thought it\nwould be funny to bring\nit back for anni 5"
+		"so now the mod\nhas a very confusing\nhistory behind it"
 		"as such, there are many\nquestions that will\nnever be answered"
 		"like,\nwhere did it\ncome from?"
 		"or, will\nit ever be\nfinished?"
 		"or, why the fuck are\nthere 5 different exodus\nships existing all at once"
 		"seriously,\nwhats up\nwith that?"
-		"but there are\nsome things we\nknow about fc"
+		"but there are\nsome things we\nknow about TE"
 		"like, it used\nto be a trainwreck\nof a mod"
 		"\n(it still is)"
 		"or,\nno one ever\nliked it"
 		"\n(they still dont)"
 		"also, a lot of\nareas were pulled\nfrom dead mods"
-		"and they were\ngiven a special place\nhere in fc"
+		"and they were\ngiven a special place\nhere in FC"
 		"and now they\nalso are in\na dead mod"
 		"a dead mod\nthat was pulled\nfrom being dead"
 		"\n. . ."
-		"can we certainly\nsay fc is truly a\ndead mod?"
+		"can we certainly\nsay FC is truly a\ndead mod?"
 		"nope,\nof course\nthe fuck not"
-		"because fc\nisnt even a mod\nat this point"
+		"because FC\nisnt even a mod\nat this point"
 		"\nthats right . . ."
-		"the true fc was\nthe | s we made\nalong the way"
+		"the true FC was\nthe | s we made\nalong the way"
     ]
 }
 NPCdudp12b{
@@ -1433,10 +1456,10 @@ NPCdudp12b{
     movieclip NPCdudm6
     sound_id NPCDefault
     text [
-		"fc2 was made\nas a long last\ngoodbye to fc"
+		"anni5 was made\nas a long last\ngoodbye to funny collab"
 		"except instead of being\na goodbye it was more\nlike defiling a grave"
 		"a grave which\nwas already defiled\nto begin with"
-		"fc2 was such a\nwaste of time, you\nwouldnt even know"
+		"anni5 was such a\nwaste of time, you\nwouldnt even know"
 		"but at\nleast its\nover now"
 		"\n. . ."
 		"\nwait . . ."
@@ -1448,12 +1471,12 @@ NPCdudp13{
     movieclip NPCdudm7
     sound_id NPCDefault
     text [
-		"this is\nwhat FCs map\nlooks like"
+		"this is\nwhat the full\nmap looks like"
 		"or, you know,\nat least a\nconcept art of it"
-		"one thing to say about FC is that its fucking huge"
+		"one thing to say about anni 5 is that its fucking huge"
 		"and im here to say that thats not a good thing"
 		"can you imagine how many hours were spent working on every single area?"
-		"also, as huge as this map looks, it doesnt even have half of FC"
+		"also, as huge as this map looks, it doesnt even have half of the mod"
 		"since it only has the past areas on it but not the far future areas or the carts"
 		"yeah, safe to say, this mod was too fucking ambitious"
 		"but its also\nwhat makes\nit so special!"
@@ -1489,6 +1512,16 @@ NPCdudp14c{
 		"looks like some\ndreams havent been\nfully dreamed yet"
     ]
 }
+NPCdudp15{
+#museum picture
+    movieclip NPCdudm9
+    sound_id NPCDefault
+    text [
+		"here\nlies\nunfinished level npc"
+		"our lives\nhave been gloomier\nwithout him around"
+		"who will fill the\nhard-hat shaped hole\nin our hearts now?"
+    ]
+}
 
 NPCdudp0{
 #museum picture
@@ -1511,8 +1544,15 @@ NPCdud1x {
 	"\n. . ."
 	"\nthis is it"
 	"the bottom \nof the\nhole"
+	"\n. . ."
 	"\nha!"
 	"makes you\nfeel hopeless\ndont it?"
+	"\nbut fear not!"
+	"im sure there\nare deeper holes\nout there!"
+	"\nlike my asshole!"
+	"\n. . ."
+	"\njust kidding"
+	"i dont\neven have\nan ass!"
 	]
 }
 NPCdud2x {
@@ -1761,7 +1801,7 @@ NPCdudx16 {
 	]
 }
 NPCdudx17 {
-# <- you2 - unused
+# <- regretful guy
 	movieclip NPCdud21
 	sound_id NPCBlob
 	text [
@@ -1776,11 +1816,8 @@ NPCdudx17 {
 	"i wish they\nwould vanish\nfor good"
 	"but thats\nnot fair,\nis it"
 	"i have\nto live with\nthem now"
-	"do you\nunderstand,\nlittle one?"
 	"\n. . ."
-	"of\ncourse\nyou dont!"
-	"ive been\nthrough way\nmore than you!"
-	"cant prove\notherwise,\nsucker!"
+	"what do\nyour regrets\nlook like?"
 	]
 }
 
