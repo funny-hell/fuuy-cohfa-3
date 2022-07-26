@@ -1741,6 +1741,15 @@ but3 {
 		palette 1081
 		tile_particle_2 drip
 	}
+	10 {
+		npc_1 NPCbut1
+		npc_2 NPCdud2mo
+		do_tilt false
+		palette 1241
+		overlay_graphics Overlaystox
+		global_particle_1 cold_train
+		global_particle_2 declinelights
+	}
 }
 
 6c {
@@ -2174,7 +2183,27 @@ but3 {
 	15 {
 		shader_param 0.6
 	}
+	17 {
+		area_name "Shore"
+		area_label_frame 0
 	
+		overlay_graphics Overlayshell
+		background_graphics coastbg
+		palette 728
+		fx_shader reflectionripples
+		
+		fx_shader_mid distortionparticles
+		midfx_graphics none
+		midfx_layer 2
+
+		global_particle_2 cloudwind_stormy
+		global_particle_3 lightning
+		global_particle_4 bgrain3  
+
+		music none
+		ambience ocean.ogg
+		ambience_volume 0.4
+    }
 }
 
 j {
@@ -2560,9 +2589,9 @@ m {
 2b {
     area_name "Despair"
     area_label_frame 47
-    tile_graphics Tiletox2
-    overlay_graphics Overlaystox2
-    background_graphics Background
+    tile_graphics Tiledod
+    overlay_graphics Overlaysdod
+    background_graphics hellbg
     foreground_graphics none
     fx_shader ripples
     fx_shader_mid lightingmodded
@@ -2571,36 +2600,36 @@ m {
     shader_param 0
     palette 500
     
-    tile_particle_1 dust
+    tile_particle_1 dustspikes
 	decoration_1 SpiderHang
     
     ambience_volume 4
     
     area_type normal
 
-    npc_1 warningghost
-    npc_2 platform
-	npc_3 2bNPC3
+    #npc_1 warningghost
+    #npc_2 platform
+	#npc_3 2bNPC3
     
     art_alts [
         [OrbSmall, orbblob]
-		[OrbLarge, LargeGlub]
         [ChainLink2, None]
+[MiniFly, MiniWisp]
     ]
 
     music [dante2_intro.ogg, dante2_loop.ogg]
-    ambience caves.ogg
+    ambience ruins.ogg
     1 {
-        shader_param 0.7
+        shader_param 0.6
     }
     2 {
-        shader_param 0.5
+        shader_param 0.4
     }
     3 {
-        shader_param 0.3
+        shader_param 0.2
     }
     4 {
-        shader_param 0.1
+        shader_param 0
     }
 	20 {
 		npc_1 NPCNAN1
@@ -3072,8 +3101,9 @@ r4ad {
     palette 1089
     midfx_layer 2
 
-    global_particle_1 rain
-    global_particle_2 rocks2
+    global_particle_1 windsf
+    global_particle_2 wind2sf
+	global_particle_3 cloudwindsf
     
     music [hungarian_intro_dark.ogg, hungarian_loop_dark.ogg]
     ambience flesh.ogg
@@ -3741,7 +3771,7 @@ t {
 
 ki {
     area_name "Aqueros Coast"
-    area_label_frame 0
+    area_label_frame 48
     tile_graphics theglow
     background_graphics coastbg
     foreground_graphics none
@@ -3763,8 +3793,6 @@ ki {
     npc_1 NPCKI9
     npc_3 NPCNAN1
 
-	art_alts[[Player, PlayerCold]]
-
 	ambience ocean.ogg
 	
 	music_volume 1.3
@@ -3772,7 +3800,7 @@ ki {
 }
 k2 {
     area_name "Mount Hydredron"
-    area_label_frame 0
+    area_label_frame 49
     tile_graphics Tilehydredron
     background_graphics Background
     foreground_graphics none
@@ -3808,7 +3836,7 @@ k2 {
 	
 	art_alts [
 		[GlowShroomSmall,GlowBulbSmall]
-		[AimSpitter,eyeshooter][Bullet,eyebullet][Player, PlayerCold]
+		[AimSpitter,eyeshooter][Bullet,eyebullet]
 	]
 	
 	1 {
@@ -3904,6 +3932,95 @@ k2 {
 		
 		music none
 	}
+}
+
+o1 {
+    area_name "Fuelyard"
+	area_label_frame 50
+    tile_graphics Tilespace
+    overlay_graphics Overlaystox
+    background_graphics ch4abg
+    foreground_graphics None
+    palette 1240
+	fx_shader nooverlay
+
+	tile_particle_1 smoke2
+	tile_particle_2 boostpad_left
+	tile_particle_3 boostpad_bottom
+	tile_particle_4 boostpad_right
+	tile_particle_5 rocket_particle
+
+	global_particle_1 rocks
+	global_particle_2 declinelights
+	global_particle_3 declinestars
+
+	npc_1 NPCbut2
+	npc_2 NPCbut3
+	npc_3 NPCbutNAN1
+
+	decoration_1 RocketTip
+	decoration_2 RocketWindow
+
+    toxic_timer 999999999
+
+    lowgrav_physics "data/player_physics/playerphysics_boostpad.txt"
+
+    art_alts [
+        [GasCloud, None]
+	[ElectroBall, RocketThruster]
+	[Gasser, LargeFloast]
+    ]
+
+	sfx_file mainsounds_rocket.txt
+
+	start {
+		area_label_frame 0
+		decoration_1 windowdeco
+		decoration_2 decotrackswheel
+		decoration_3 trackdeco
+
+		art_alts [
+			[GlowShroom, just_a_block]
+		]
+	}
+}
+o1x {
+    area_name "Fuelyard"
+    tile_graphics Tilespace
+	area_label_frame 50
+    overlay_graphics Overlaystox
+    background_graphics ch4abg
+    foreground_graphics None
+    palette 1240
+	fx_shader nooverlay
+
+	tile_particle_1 smoke2
+	tile_particle_2 boostpad_left
+	tile_particle_3 boostpad_bottom
+	tile_particle_4 boostpad_right
+	tile_particle_5 rocket_particle
+
+	global_particle_1 rocks2
+	global_particle_2 declinelights
+	global_particle_3 declinestars
+
+	npc_1 NPCbut4
+
+	decoration_1 RocketTip
+	decoration_2 RocketWindow
+
+    toxic_timer 999999999
+
+    lowgrav_physics "data/player_physics/playerphysics_boostpad.txt"
+
+    art_alts [
+        [GasCloud, None]
+	[ElectroBall, RocketThruster]
+	[Gasser, LargeFloast]
+    ]
+
+	sfx_file mainsounds_rocket.txt
+
 }
 //}
 //{	 Secrets	

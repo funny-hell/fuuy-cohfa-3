@@ -384,6 +384,92 @@ NPCHX {
 	]
 }
 
+NPCbut1{
+#train guy
+    movieclip NPC5
+    sound_id NPCSkull
+    text [
+		"and . . .\n. . .\nhere we are"
+		"wait . . .\n. . .\nwhere are we?"
+		". . .\nthe wonders . . .\nof public transport!"
+    ]
+}
+NPCbut2 {
+#warning not to enter
+    movieclip NPC13
+    sound_id NPCSkull
+    text [
+        "im getting\na strange feeling\nthat"
+		"if you drop\noff that ledge\nin front of us"
+		"you will not\nreturn for\nquite some time"
+		"\n. . ."
+		"or\nthats what\ni would say"
+		"IF THESE GUYS\nWOULD DO THEIR\nFUCKING JOBS"
+		"YOU HEAR THAT\nMODDERS!\nDUMBASSES!"
+		"anyways\nits totally safe\nhop down!"
+    ]
+}
+NPCbut3 {
+#under rocket guy
+    movieclip NPC7
+    sound_id NPCSkull
+    text [
+	"haha you can TELL\nthese guys just\ndidnt want me here"
+	"but\nhere i am!\nanyways!"
+	"and in revenge\nwhat can they\ndo about it?"
+	"i dunno\nkill my family?\nstarve me?"
+        "really taking\nSCORCHED EARTH\nto another level!"
+	" "
+	" "
+	" "
+	" "
+	" "
+	" "
+	" "
+	" "
+	" "
+	" "
+	" "
+	" "
+	" "
+	"sorry it still           \nhurts\n        to think"
+    ]
+}
+NPCbut4 {
+#secret hard as balls npc
+    movieclip NPCG6
+    sound_id NPCBlob
+    text [
+        "we would build\nupon the backs\nof the many"
+        "and we would stand\nin our ivory tower\nand we would stare"
+        "with such longing\n. . .\nat them"
+        "our gods\nhidden in the stars\never higher yet"
+        "a collaborative\npursuit of knowledge\nand of truth"
+        "of course each\nand every\none of us"
+        "would betray it all\nfor just a glimpse\nat glory"
+        "ee-hee-hee!\ndoes that\nworry you?"
+        "be not afraid!\nsoon youll be\nall thats left!"
+    ]
+}
+NPCbutNAN1{
+#unfinished
+    movieclip NPCdudNAN3
+    sound_id NPCBlob
+    text [
+		"we have\nsome loose ends\nhere, dont we"
+		"ooh,\n\nsucks. . ."
+		"hows it feel\nto get spiketrapped\nbitch"
+    ]
+}
+NPCdud2mo{
+#train screen
+    movieclip NPCtrainsystem
+    sound_id ConsoleUp
+    text [
+		"TRAIN HAS\nARRIVED\nSUCCESSFULLY"
+		"\nEXIT SAFELY"
+    ]
+}
 //}
 //{FC surreal
 NPCSDR1 {
@@ -1843,10 +1929,10 @@ NPCNAN1{
     movieclip NPCdudNAN3
 sound_id NPCBlob
     text [
-		"we have\nsome loose ends\nhere, dont we"
+		"we have\nsome loose ends\nhere, don't we"
 		"ah,\nhow\nunfortunate"
-		"\nbut dont worry!"
-		"itll\nall be\nover soon!"
+		"\nbut don't worry!"
+		"it'll\nall be\nover soon!"
     ]
 }
 NPCNAN2{
@@ -1854,12 +1940,12 @@ NPCNAN2{
     movieclip NPCdudNAN3
     sound_id NPCBlob
     text [
-		"we have\nsome loose ends\nhere, dont we"
+		"we have\nsome loose ends\nhere, don't we"
 		"\nhm . . ."
 		"but,\nthis\nearly?"
 		"oh, it would\nbe a shame to\nleave it at that"
 		"\ntell you what"
-		"why dont you\njust keep going\nforward"
+		"why don't you\njust keep going\nforward"
 		"surely\nnothing can\ngo wrong"
     ]
 }

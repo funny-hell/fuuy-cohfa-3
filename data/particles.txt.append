@@ -10,8 +10,8 @@ rocket_thruster_part {
     batched false
     
     #emitter properties
-    emit_rate 60
-    emit_amount 4
+    emit_rate 40
+    emit_amount [2,4]
     emit_direction [0, -1]
     emit_spread 90
     emit_box [2.5, 0]      #54 for "level width", 32 for "level height"    
@@ -42,7 +42,7 @@ rocket_smoke_part {
     batched false
     
     #emitter properties
-    emit_rate 60
+    emit_rate 30
     emit_amount [2, 3]
     emit_direction [0, -1]
     emit_spread 90
@@ -64,6 +64,105 @@ rocket_smoke_part {
     speed_scale 0
     inherit_speed 1
     tags [player_push]
+}
+boostpad_left {
+    #system TestParticle
+    movieclip butcherStarParticle
+    max_particles 700
+    layer 1
+    livebounds [-10, 64, -10, 42]
+    prewarm [20,6]
+    batched true
+    
+    #emitter properties
+    emit_rate 30
+    emit_amount 1
+    emit_direction [1, 0]
+    emit_spread 3
+    emit_box [0, 1]      #54 for "level width", 32 for "level height"    
+    emit_offset [-0.65, 0.15]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
+    
+    #particle animation properties
+    particle_lifetime [0.5,1]
+    initial_speed [3, 5]
+    initial_rotation 0
+    rotation_speed 0
+    force [-1, 0]
+    friction 1
+    size_start [.3,.4]
+    size_end [0,0]
+    alpha_start 1
+    alpha_end 0
+    face_moving_direction true
+    speed_scale 0
+    inherit_speed 0
+    tags []
+}
+boostpad_bottom {
+    #system TestParticle
+    movieclip butcherStarParticle
+    max_particles 700
+    layer 1
+    livebounds [-10, 64, -10, 42]
+    prewarm [20,6]
+    batched true
+    
+    #emitter properties
+    emit_rate 30
+    emit_amount 2
+    emit_direction [0, 1]
+    emit_spread 3
+    emit_box [1, 0]      #54 for "level width", 32 for "level height"    
+    emit_offset [-0.15, -0.65]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
+    
+    #particle animation properties
+    particle_lifetime [0.5,1]
+    initial_speed [3, 5]
+    initial_rotation 0
+    rotation_speed 0
+    force [0, -1]
+    friction 1
+    size_start [.3,.4]
+    size_end [0,0]
+    alpha_start 1
+    alpha_end 0
+    face_moving_direction true
+    speed_scale 0
+    inherit_speed 0
+    tags []
+}
+boostpad_right {
+    #system TestParticle
+    movieclip butcherStarParticle
+    max_particles 700
+    layer 1
+    livebounds [-10, 64, -10, 42]
+    prewarm [20,6]
+    batched true
+    
+    #emitter properties
+    emit_rate 30
+    emit_amount 1
+    emit_direction [-1, 0]
+    emit_spread 3
+    emit_box [0, 1]      #54 for "level width", 32 for "level height"    
+    emit_offset [0.65, -0.15]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
+    
+    #particle animation properties
+    particle_lifetime [0.5,1]
+    initial_speed [3, 5]
+    initial_rotation 0
+    rotation_speed 0
+    force [-1, 0]
+    friction 1
+    size_start [.3,.4]
+    size_end [0,0]
+    alpha_start 1
+    alpha_end 0
+    face_moving_direction true
+    speed_scale 0
+    inherit_speed 0
+    tags []
 }
 
 declinelights {
@@ -631,6 +730,138 @@ shooting_star2 {
     tags []
 }
 
+windsf {
+    #system TestParticle
+    movieclip soliddrip
+    max_particles 300
+    layer 3
+    livebounds [-10, 64, -10, 42]
+    prewarm [20,6]
+    batched true
+    
+    #emitter properties
+    emit_rate 5
+    emit_amount 4
+    emit_direction [1, 0]
+    emit_spread 40
+    emit_box [54, 32]      #54 for "level width", 32 for "level height"    
+    emit_offset [27,16]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
+    
+    #particle animation properties
+    particle_lifetime [1,1.5]
+    initial_speed [-9, -4]
+    initial_rotation 0
+    rotation_speed 0
+    force [-30, 0]
+    friction 1
+    size_start [.6,.8]
+    size_end [0,.3]
+    alpha_start 1
+    alpha_end 1
+    face_moving_direction true
+    speed_scale 0
+    inherit_speed 0
+    tags []
+}
+wind2sf {
+    #system TestParticle
+    movieclip soliddrip
+    max_particles 300
+    layer 0
+    livebounds [-10, 64, -10, 42]
+    prewarm [20,6]
+    batched true
+    
+    #emitter properties
+    emit_rate 15
+    emit_amount 6
+    emit_direction [1, 0]
+    emit_spread 45
+    emit_box [54, 32]      #54 for "level width", 32 for "level height"    
+    emit_offset [27,16]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
+    
+    #particle animation properties
+    particle_lifetime [1,1.5]
+    initial_speed [-3.5, -.7]
+    initial_rotation 0
+    rotation_speed 0
+    force [-10, 0]
+    friction 1
+    size_start [.4,.6]
+    size_end [0,.3]
+    alpha_start 1
+    alpha_end 1
+    face_moving_direction true
+    speed_scale 0.3
+    inherit_speed 0
+    tags []
+}
+cloudwindsf {
+    #system properties
+    movieclip WindCloud
+    max_particles 500
+    layer 7
+    livebounds [-10, 64, -10, 42]
+    prewarm [20,12]
+    batched true
+    
+    #emitter properties
+    emit_rate 25
+    emit_amount 1
+    emit_direction [1, 0]
+    emit_spread 30
+    emit_box [0, 40]      #54 for "level width", 32 for "level height"    
+    emit_offset [64,16]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
+    
+    #particle animation properties
+    particle_lifetime 5
+    initial_speed [-120, -80]
+    initial_rotation 0
+    rotation_speed 0
+    force 0
+    friction 1
+    size_start [1.5,6]
+    size_end  1
+    alpha_start .05 #more than one alpha just means its full alpha for longer before it fades out
+    alpha_end 1
+    face_moving_direction true
+    speed_scale 0
+    inherit_speed 0
+    tags [player_push]
+}
+cloudwind2sf {
+    #system properties
+    movieclip WindCloud
+    max_particles 500
+    layer 7
+    livebounds [-10, 64, -10, 42]
+    prewarm [20,12]
+    batched true
+    
+    #emitter properties
+    emit_rate 25
+    emit_amount 1
+    emit_direction [1, 0]
+    emit_spread 30
+    emit_box [0, 40]      #54 for "level width", 32 for "level height"    
+    emit_offset [-10,16]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
+    
+    #particle animation properties
+    particle_lifetime 5
+    initial_speed [120, 80]
+    initial_rotation 0
+    rotation_speed 0
+    force 0
+    friction 1
+    size_start [1.5,6]
+    size_end  1
+    alpha_start .05 #more than one alpha just means its full alpha for longer before it fades out
+    alpha_end 1
+    face_moving_direction true
+    speed_scale 0
+    inherit_speed 0
+    tags [player_push]
+}
 
 windtile {
     #system TestParticle
