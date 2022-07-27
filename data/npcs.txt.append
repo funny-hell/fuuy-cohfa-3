@@ -482,7 +482,7 @@ NPCSDR1 {
 		"a"
 		"b"
 		"c"
-		"did\nyou\ndie yet"
+		"have\nyou\ndied yet"
     ]
 }
 NPCSDR2warp1 {
@@ -555,12 +555,12 @@ NPCdud2 {
 	"there is all\nsorts of fucked\nup people"
 	"who say\nand do fucked\nup stuff"
 	"and no one\ncan do anything\nabout it"
-	"is it\ntoo much\nto ask?"
-	"\nguess so, huh"
+	"well,\nnot anymore,\neveryones dead"
+	"\nbut still . . ."
 	"\n. . ."
 	"welp!\nheaven knows\ni tried"
 	"guess ill\njust lie here\nforever now"
-	"do you\nwant to\njoin me?"
+	"you\nshould do\nthe same"
     ]
 }
 
@@ -598,9 +598,11 @@ NPCdud7{
 	"did you know\nthat if you\nstop moving"
 	"you dont\nlose any\nmomentum ?"
 	"so you can\nstop mid-air without\nmoving an inch"
-	"and when you\nmove youll still\nhave the momentum!"
-	"momentum\nmomentum\nmomentum"
-	"god\ni love\nthat word"
+	"and when you\nmove youll still\nkeep the speed"
+	"\n. . ."
+	"but,\nif you do\nso . . ."
+	"youll realize you\nhavent achieved\nanything"
+	"have\nyou ever,\nthough?"
     ]
 }
 
@@ -614,12 +616,13 @@ NPCdud8 {
 		"havent seen\nno one in\na long time"
 		"welcome\nto the\nfarlands"
 		"these are the\nfar reaches\nof the world"
+		"or,\nyou know,\nthe great city"
 		"everything\ngets fucky\nfrom here on"
 		"whats beyond\nthe farlands\nyou ask?"
 		"\nhell do i know"
 		"there could\nbe anything\nout there"
 		"maybe there\nisnt even\nan out there!"
-		"blows\nmy mind\nman"
+		"blows\nmy mind,\nman"
 	]
 }
 
@@ -663,10 +666,13 @@ NPCdud11 {
 	"\n. . ."
 	"\nlisten kiddo"
 	"shits\ngetting\nreal"
-	"so\nplease\nbe careful"
-	"and dont\ntalk to\nstrangers"
+	"you should\ngo back while\nyou can"
+	"just stop\ndead in\nyour tracks"
+	"go\noutside,\nbe happy"
+	"why are you\nwasting your\nlife away?"
+	"when you\ncould be living\nhappily instead?"
 	"\n. . ."
-	"youve\nalready\nfailed me"
+	"do i\nknow\nyou?"
     ]
 }
 NPCdud12 {
@@ -1080,9 +1086,14 @@ NPCdud34 {
 		"something\nexciting,\nsomething new"
 		"\nanything . . ."
 		"but nope,\njust a\ndead end"
-		"maybe i\ncame here\ntoo late"
-		"or maybe\n. . .\ntoo early?"
+		"maybe\nthis is\na sign"
+		"that i should\nstop searching\nfor a purpose"
+		"that i should\ngive up on\nmy quest"
+		"and\nmaybe you\nshould too"
 		"\n. . ."
+		"go\nhome,\nsmall one"
+		"go home\nand sleep\naway"
+		"we cant\nfix the world\nanyways"
     ]
 }
 NPCdud35 {
@@ -1166,7 +1177,7 @@ NPCdud40{
     text [
 		"\nhey kiddo"
 		"this here is\na spring in\nsome hot water"
-		"a spring\nin a\nspring!"
+		"a spring\nin a\nhot spring!"
 		"\n. . ."
 		"\nnevertheless . . !"
 		"youll find that\nsometimes, water\ngets in the way"

@@ -493,6 +493,7 @@
 "6ax-3" {name="???" id=-1}
 "6ax-4" {name="???" id=1}
 "5ax-15" {name="???" id=-1}
+"5ax-16" {name="???" id=-1}
 "but-0x" {name="???" id=-1}
 "butx-1" {name="???" id=2}
 "butx-2" {name="???" id=-1}
@@ -703,14 +704,14 @@
 "5-23" {name="The Castle" id=-1}
 "5-24" {name="???" id=-1}
 "5-25" {name="???" id=-1}
-"7c-1" {name="The Pit 1" id=-1}
-"7c-2" {name="The Pit 2" id=-1}
-"7c-2x" {name="The Pit 3" id=-1}
-"7c-3" {name="The Pit 4" id=-1}
-"7c-4" {name="The Pit 5" id=-1}
-"7c-5" {name="The Pit 6" id=-1}
-"7c-6" {name="The Pit 7" id=-1}
-"7c-7" {name="The Pit 8" id=-1}
+"7c-1" {name="The Pit 1" id=1}
+"7c-2" {name="The Pit 2" id=2}
+"7c-2x" {name="The Pit 3" id=3}
+"7c-3" {name="The Pit 4" id=4}
+"7c-4" {name="The Pit 5" id=5}
+"7c-5" {name="The Pit 6" id=6}
+"7c-6" {name="The Pit 7" id=7}
+"7c-7" {name="The Pit 8" id=8}
 "7c-8" {name="The Pit 9" id=-1}
 "7c-9" {name="The Pit 10" id=-1}
 "7c-10" {name="The Pit 11" id=-1}

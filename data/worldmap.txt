@@ -1333,7 +1333,7 @@ nodes {
         cart_cheevolevel c6-all
         cart_splashframe allstar
         unlock_condition collected_carts_all
-        unlock_condition_levels [1xu-6 2xu-6 3xu-6 4ax-5 4bx-6 4cx-6 5ax-14 5bxd-4 5cx-12 5-21]
+        unlock_condition_levels [1xu-6 2xu-6 3xu-6 4ax-5 4bx-6 4cx-6 5ax-14 5bxd-4 5cx-12]
         
         down IronCart1
         up Cart5b

@@ -1894,8 +1894,9 @@ but3 {
     shader_param 0.8
     palette 1055
 	
+	do_wobble true
+	
 	npc_1 NPCdud35
-    
     area_type normal
 
     global_particle_1 wind
@@ -1979,6 +1980,7 @@ but3 {
 
 	area_type normal
     tile_particle_1 drip
+	tile_particle_2 debris
     
     #global_particle_1 lightingmoddedtest
     
@@ -1995,9 +1997,6 @@ but3 {
         [MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite]
 		[GlowShroom, just_a_block][GlowShroomSmall, just_a_block]
 		]
-	}
-    7 {
-		tile_graphics Tiletox
 	}
 	8 {
 		tile_graphics Tiletox
@@ -4188,6 +4187,8 @@ butx {
     midfx_graphics ShadeBox
     shader_param 0.8
     palette 1219
+	
+	do_wobble true
     
     area_type normal
 
@@ -6861,6 +6862,7 @@ dud3 {
 
     npc_1 NPCdud13
     npc_2 NPCdudH2
+	npc_3 NPCdud15
     decoration_1 EnderDeco
     
     area_type dark
@@ -6875,6 +6877,11 @@ dud3 {
 	1 {
 	art_alts [
 	[OrbSmall, OrbRocks][OrbLarge, OrbRocksBig][ChainLink2, None][Floater, LilBoro]
+	]
+	}
+	3 {
+	art_alts [
+	[OrbSmall, OrbRocks][OrbLarge, OrbRocksBig][ChainLink2, None][Floater, LilBoro][Player, Player_glitchleft]
 	]
 	}
 }

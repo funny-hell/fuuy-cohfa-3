@@ -120,6 +120,10 @@ c6 {
 	15 {
 		music none
 	}
+	16 {
+		music [insanity_stinger.ogg, none]
+		music_volume 2
+	}
 }
 5bxu {
 	palette 1211
