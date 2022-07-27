@@ -36,6 +36,9 @@ c6 {
 
 1 {
 	palette 1001
+	0 {
+		decoration_1 WarpzonePortal
+	}
     2b {
 	area_label_frame 0
 	art_alts [
@@ -79,9 +82,15 @@ c6 {
 }
 2xu {
 	palette 1202
+	1 {
+		decoration_1 WarpzonePortal
+	}
 }
 3xd {
 	palette 1205
+	2 {
+		decoration_1 WarpzonePortal
+	}
 }
 3xu {
 	palette 1204
@@ -89,8 +98,16 @@ c6 {
 4ax {
 	palette 1206
 }
+4a {
+	15 {
+		decoration_1 WarpzonePortal
+	}
+}
 4bx {
 	palette 1207
+	7 {
+		decoration_1 WarpzonePortal
+	}
 }
 4cx {
 	palette 1208
@@ -114,6 +131,11 @@ c6 {
 }
 5cx {
 	palette 1209
+}
+5a {
+	18 {
+		decoration_1 WarpzonePortal
+	}
 }
 5ax {
 	palette 1210

@@ -61,7 +61,7 @@ meta {
     bodylevel 5c-21
     heartlevel 5b-23
     
-    mute_warpunlock_message [5a-22 5b-23 5c-21 1-1 1d-1 6d-23 6 hub2-4 hub2-5 6b-23 a-20 2cx-1 2cx-2 2cx-3 2cx-4 2cx-5 2cx-6 2cx-7 2cx-8 2cx-9 2cx-10 2cx-11 2cx-12 2cx-13 2cx-14 2cx-15 2cx-16 2cx-17 2cx-18 2cx-19 2cx-20 2cx-21 2cx-22 2cx-23 2cx-24 2cx-9b 2cx-8b but3-7 but3-8 but3-9 8c-16] //levels that have a warp point but shouldnt show the "warp point unlocked" message
+    mute_warpunlock_message [5a-22 5b-23 5c-21 1-1 1d-1 6d-23 6 hub2-4 hub2-5 6b-23 a-20 2cx-1 2cx-2 2cx-3 2cx-4 2cx-5 2cx-6 2cx-7 2cx-8 2cx-9 2cx-10 2cx-11 2cx-12 2cx-13 2cx-14 2cx-15 2cx-16 2cx-17 2cx-18 2cx-19 2cx-20 2cx-21 2cx-22 2cx-23 2cx-24 2cx-9b 2cx-8b but3-7 but3-8 but3-9 but3-10 8c-16 qu-12] //levels that have a warp point but shouldnt show the "warp point unlocked" message
     
     game_over_checkpoints [[1d 1d-1] [2d 2d-0] [3d 3d-1] [6 6-1] [7 7-0] [r1 r1-1] [r2 r2-1] [r3 r3-1] [rr1 rr1-1] [rr2 rr2-1] [rr3 rr3-1] [hub hub-1] [hub2 hub2-5] [6d 6d-1] [7d 7d-1] [ex ex-1] [xs xs-1] [qu qu-1] [gb gb-1] [r4 r4-1] [9d 9d-1] [t 7d-1] [o 7d-1]] //if you game over in world "1d", spawn back to 1d-1, etc. this only matters when loading from a save file, otherwise it uses the last checkpoint you visited
     iron_cart_entrypoints [gr6-1 1-1 2-0 3-1 4-1hub 4c-1 4a-1 4b-1 5c-1 5a-2 5b-1 but-1 6c-1 6a-2 6b-1 1d-1 2d-0 3d-1 6-1 7-0 r1-1 r2-1 r3-1 hub-1 6d-1 i1-1 i2-1 i3-1 i4-1 $i1-1] //used to set the respawn point in an iron cart
