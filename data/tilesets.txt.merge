@@ -114,6 +114,7 @@ c6 {
 	background_graphics bgsolid
 	fx_shader_mid lightingmodded
 	3 {
+		decoration_1 WarpzonePortal
 		fx_shader_mid lighting
 		midfx_layer 2
 	}
@@ -131,9 +132,17 @@ c6 {
 }
 5cx {
 	palette 1209
+	7 {
+		decoration_1 WarpzonePortal
+	}
 }
 5a {
 	18 {
+		decoration_1 WarpzonePortal
+	}
+}
+5b {
+	23 {
 		decoration_1 WarpzonePortal
 	}
 }

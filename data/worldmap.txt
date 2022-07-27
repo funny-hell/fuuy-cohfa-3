@@ -124,7 +124,6 @@ nodes {
         
         left AridFlats
         right TheSplit
-		down DepthsOfDespair
     }
     
 	StevenHead {
@@ -327,17 +326,6 @@ nodes {
 		levelgroups [2b]
         
         up AridFlats
-		right Planetarium
-    }
-	
-	Planetarium {
-        clipname planetarium
-        entrylevel 2c-1
-        page lightworld
-		levelgroups [2c]
-        
-        left DepthsOfDespair
-		select Planetarium
     }
 	
 	Skyfolding {
