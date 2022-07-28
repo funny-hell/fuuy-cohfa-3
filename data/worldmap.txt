@@ -55,7 +55,7 @@ meta {
     stevenlevels [10x-7 10x-5 10x-3 10x-1 15x-1 15x-5 15x-7 7d-15 r1d-1 9d-1 9-19 15x-3 $g6b-1x $g6a-1x $gn3-1x $gn4-1x]
     
     mainworlds [1 2 3 4 4a 4b 4c 5a 5b 5c 1d 2d 3d 6 7 8 9 r1 r2 r3 r4 r5 6d ex xs qu gb 7d t o 12 but 6a 6b 6c hub m 7a 7b 7c j 5 8 9 9d 9xx 8a 8ax 8ad 8c 1b a r1d dud3 2b 2c but2 but2b rr1 rr2 rr3 1bd ad r1b r4b hub2 ki k2 o1] //if you pause on these worlds, it lets you open the map. otherwise you get "exit area"
-    cartworlds [c1 c2 c3 c4a c4b c4c c5a c5b c5c c6 c9 g0 g1 g2 g3 g4 g5 g6 g9 i1 i2 i3 i4 i5 c0 gbt gr1 gr2 gr3 gr5 g4a g5a gr4 gi0 g6d g6c g6a g6b g99 gr6 csd1 csd2 g7a g7b g7c g7 gx gn1 gn2 gn3 gn4 gn5 gn6 gn7 gn8 gn9 gn10 gn11 gnr1 gnr2 gnr3 gj] //launch console automatically when you exit from these worlds
+    cartworlds [c1 c2 c3 c4a c4b c4c c5a c5b c5c c6 c9 g0 g1 g2 g3 g4 g5 g6 g9 i1 i2 i3 i4 i5 ix0 ix1 ix2 ix3 ix4 ix5 ix6 c0 gbt gr1 gr2 gr3 gr5 g4a g5a gr4 gi0 g6d g6c g6a g6b g99 gr6 csd1 csd2 g7a g7b g7c g7 gx gn1 gn2 gn3 gn4 gn5 gn6 gn7 gn8 gn9 gn10 gn11 gnr1 gnr2 gnr3 gj] //launch console automatically when you exit from these worlds
     
     headlevel 5a-22
     bodylevel 5c-21
@@ -64,7 +64,7 @@ meta {
     mute_warpunlock_message [5a-22 5b-23 5c-21 1-1 1d-1 6d-23 6 hub2-4 hub2-5 6b-23 a-20 2cx-1 2cx-2 2cx-3 2cx-4 2cx-5 2cx-6 2cx-7 2cx-8 2cx-9 2cx-10 2cx-11 2cx-12 2cx-13 2cx-14 2cx-15 2cx-16 2cx-17 2cx-18 2cx-19 2cx-20 2cx-21 2cx-22 2cx-23 2cx-24 2cx-9b 2cx-8b but3-7 but3-8 but3-9 but3-10 8c-16 qu-12] //levels that have a warp point but shouldnt show the "warp point unlocked" message
     
     game_over_checkpoints [[1d 1d-1] [2d 2d-0] [3d 3d-1] [6 6-1] [7 7-0] [r1 r1-1] [r2 r2-1] [r3 r3-1] [rr1 rr1-1] [rr2 rr2-1] [rr3 rr3-1] [hub hub-1] [hub2 hub2-5] [6d 6d-1] [7d 7d-1] [ex ex-1] [xs xs-1] [qu qu-1] [gb gb-1] [r4 r4-1] [9d 9d-1] [t 7d-1] [o 7d-1]] //if you game over in world "1d", spawn back to 1d-1, etc. this only matters when loading from a save file, otherwise it uses the last checkpoint you visited
-    iron_cart_entrypoints [gr6-1 1-1 2-0 3-1 4-1hub 4c-1 4a-1 4b-1 5c-1 5a-2 5b-1 but-1 6c-1 6a-2 6b-1 1d-1 2d-0 3d-1 6-1 7-0 r1-1 r2-1 r3-1 hub-1 6d-1 i1-1 i2-1 i3-1 i4-1 $i1-1] //used to set the respawn point in an iron cart
+    iron_cart_entrypoints [gr6-1 i1-1 i2-1 i3-1 i4-1 $i1-1 ix0-1 ix1-1 ix2-1 ix3-1 ix4-1 ix5-1 $ix1-1x] //used to set the respawn point in an iron cart
     timed_cart_entrypoints [g5-1 g99-1 g99-3 g99-5 g99-7 gr6-1] //maybe you want to put a timer on other carts?
     console_entry_levels [1-1 1d-1 hub2-5]
     nevermore_entry 7-0
@@ -1163,7 +1163,7 @@ nodes {
 		unlock_condition_levels [t-15 t-1]
         
         up Omni
-		down FutureFuture
+		down Grave
 		select Terminal
     }
 	Omni {
@@ -1181,7 +1181,7 @@ nodes {
         page darkrapture
         levelgroups [12]
         
-		down FutureFuture
+		down Lemniscateum
 		select Heartbreak
     }
 
@@ -1716,7 +1716,7 @@ nodes {
         cart_cheevolevel gn8-all
         cart_splashframe glitch
         unlock_condition collected_carts_all
-        unlock_condition_levels [8c-16]
+        unlock_condition_levels [8cx-1]
         
         down GAfraid
         up GGoopHero
@@ -1732,7 +1732,7 @@ nodes {
         cart_cheevolevel gn9-all
         cart_splashframe glitch
         unlock_condition collected_carts_all
-        unlock_condition_levels [8c-16]
+        unlock_condition_levels [2bx-1]
         
         down GTLMutable
         up GHerpes
@@ -1748,7 +1748,7 @@ nodes {
         cart_cheevolevel gn10-all
         cart_splashframe glitch
         unlock_condition collected_carts_all
-        unlock_condition_levels [replace-1]
+        unlock_condition_levels [8as-9]
         
         down GMurdertale
         up GAfraid
@@ -1812,7 +1812,7 @@ nodes {
         cart_cheevolevel gn11-all
         cart_splashframe finale
         unlock_condition collected_carts_all
-        unlock_condition_levels [butx-5 6cx-1 6ax-1 6bx-2 7cx-1 7ax-1 7bx-1 1bx-1 ax-1 5x-2 8xd-1 dud3xu-9 9xd-6 mx-2 8c-16 8c-16 replace-1]
+        unlock_condition_levels [butx-5 6cx-1 6ax-1 6bx-2 7cx-1 7ax-1 7bx-1 1bx-1 ax-1 5x-2 8xd-1 dud3xu-9 9xd-6 mx-2 8as-9 8cx-1]
         
         down GSpinecraft
         up GPrescryption
@@ -2063,7 +2063,7 @@ nodes {
     }
 	GTower6 {
         clipname ix6
-        entrylevel ix6-1
+        entrylevel $ix1-1
         page console3
         cart_cheevolevel ix6-all
         cart_splashframe glitch

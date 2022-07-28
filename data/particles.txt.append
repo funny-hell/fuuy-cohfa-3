@@ -840,11 +840,11 @@ nilbubbles_jumpers {
 // Surreal's particles
 declinelights {
     #system TestParticle
-    movieclip shinyshinylikemyuhhnothingrimeswithshinyshittyword
+    movieclip shinylikemyvaginy
     max_particles 200
     layer 0
     livebounds [-10, 64, -10, 42]
-    prewarm [20,48]
+    prewarm [10,2]
     batched true
     
     #emitter properties
@@ -1103,7 +1103,7 @@ fgrain_tile {
 snowdist {
     #system properties
     movieclip DistortionParticle
-    max_particles 500
+    max_particles 100
     layer 5
     livebounds [-32, 64, -10, 42]
     prewarm [20,6]
@@ -1139,14 +1139,14 @@ fullsnow {
 snowpart {
     #system TestParticle
     movieclip snowpart
-    max_particles 1000
+    max_particles 100
     layer 2
     livebounds [-32, 64, -10, 50]
     prewarm [20,48]
     batched false
     
     #emitter properties
-    emit_rate 250
+    emit_rate 30
     emit_amount 5
     emit_direction [-1, -1]
     emit_spread 20
@@ -1172,14 +1172,14 @@ snowpart {
 snowpart2 {
     #system TestParticle
     movieclip snowpart
-    max_particles 1000
+    max_particles 100
     layer 4
     livebounds [-32, 64, -10, 50]
     prewarm [20,48]
     batched false
     
     #emitter properties
-    emit_rate 100
+    emit_rate 10
     emit_amount 1
     emit_direction [-1, -1]
     emit_spread 20
@@ -1335,11 +1335,11 @@ shockghosts {
 }
 shooting_star {
     #system TestParticle
-    movieclip shinyshinylikemyuhhnothingrimeswithshinyshittyword
+    movieclip shinylikemyvaginy
     max_particles 200
     layer 3
     livebounds [-32, 64, -10, 50]
-    prewarm [20,48]
+    prewarm [10,2]
     batched false
     
     #emitter properties
@@ -1368,11 +1368,11 @@ shooting_star {
 }
 shooting_star2 {
     #system TestParticle
-    movieclip shinyshinylikemyuhhnothingrimeswithshinyshittyword
+    movieclip shinylikemyvaginy
     max_particles 200
     layer 0
     livebounds [-32, 64, -10, 50]
-    prewarm [20,48]
+    prewarm [10,2]
     batched false
     
     #emitter properties
@@ -1949,7 +1949,7 @@ bgsnow {
 	max_particles 500
 	layer 0
 	livebounds [-10, 64, -10, 52]
-	prewarm [20,6]
+	prewarm [5,1]
 	batched true
 	
 	#emitter properties
@@ -1982,7 +1982,7 @@ fgsnow_light {
 	max_particles 500
 	layer 4
 	livebounds [-10, 74, -10, 52]
-	prewarm [20,6]
+	prewarm [5,1]
 	batched true
 	
 	#emitter properties
@@ -2145,7 +2145,7 @@ rocks {
     max_particles 200
     layer 0
     livebounds [-10, 64, -10, 42]
-    prewarm [20,48]
+    prewarm [20,10]
     batched true
     
     #emitter properties
@@ -2178,7 +2178,7 @@ rocks2 {
     max_particles 200
     layer 0
     livebounds [-10, 64, -10, 42]
-    prewarm [48,48]
+    prewarm [48,10]
     batched true
     
     #emitter properties
@@ -2211,7 +2211,7 @@ rocksfall {
     max_particles 200
     layer 0
     livebounds [-10, 64, -10, 42]
-    prewarm [48,48]
+    prewarm [48,2]
     batched true
     
     #emitter properties
@@ -3068,14 +3068,14 @@ fogbg2 {
 riseout {
     #system properties
     movieclip Leaf2
-    max_particles 1000
+    max_particles 200
     layer 2
     livebounds [-10, 64, -10, 42]
-    prewarm [30,30]
+    prewarm [30,2]
     batched true
     
     #emitter properties
-    emit_rate 125
+    emit_rate 30
     emit_amount 1
     emit_direction [-.2, 1]
     emit_spread 20
@@ -3558,8 +3558,8 @@ hail_tile2 {
     batched true
     
     #emitter properties
-    emit_rate [5, 30]
-    emit_amount [1, 5]
+    emit_rate 30
+    emit_amount [1, 2]
     emit_direction [0, -1]
     emit_spread 90
     emit_box [1, 0]      #54 for "level width", 32 for "level height"    
@@ -3584,7 +3584,7 @@ hail_tile2 {
 hailsplash {
     #system properties
     movieclip cloud
-    max_particles 80
+    max_particles 330
     layer 2
     livebounds [-10, 64, -10, 42]
     batched true
@@ -3598,7 +3598,7 @@ hailsplash {
     emit_offset [0,-1.5]
     
     #particle animation properties
-    particle_lifetime [0.5,1.5]
+    particle_lifetime [0.5,2]
     initial_speed [7,10]
     initial_rotation 0
     rotation_speed 0
@@ -3607,7 +3607,7 @@ hailsplash {
     size_start 1
     size_end 0
     alpha_start 1
-    alpha_end 1
+    alpha_end 0
     face_moving_direction true
     speed_scale 0.2
     inherit_speed 1

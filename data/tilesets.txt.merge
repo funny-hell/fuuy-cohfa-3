@@ -35,18 +35,18 @@ c6 {
 }
 
 1 {
-	palette 1001
 	0 {
 		decoration_1 WarpzonePortal
 	}
     2b {
+	palette 1001
 	area_label_frame 0
 	art_alts [
         [Floater, Floater][OrbSmall, BalloonSmall][OrbLarge, BalloonLarge][ChainLink2, BalloonLink2]
 	]
     }
 	3b {
-	palette 1200
+	palette 1000
 	area_label_frame 0
 	art_alts [
         [Floater, Floater][OrbSmall, BalloonSmall][OrbLarge, BalloonLarge][ChainLink2, BalloonLink2]

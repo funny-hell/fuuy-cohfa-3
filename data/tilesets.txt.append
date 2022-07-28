@@ -246,7 +246,6 @@ r4b {
     tile_particle_3 bubbles
     tile_particle_4 drip    
     global_particle_1 fullsnow
-    global_particle_2 snowdist
     global_particle_4 rocks
 
     #decoration_1 Decoration4
@@ -1716,7 +1715,7 @@ npc_1 NPCdud22
 
     global_particle_1 wind
     global_particle_2 lightning
-	global_particle_3 embers
+	global_particle_2 embers
 	
     tile_particle_2 smoke2
 	
@@ -1788,7 +1787,6 @@ npc_1 NPCdud22
     palette 1155
 	
     global_particle_1 embers
-    global_particle_2 mist2
 	global_particle_3 shooting_star2
     decoration_1 Deco10
     decoration_2 Deco11
@@ -3338,6 +3336,7 @@ t {
     //do_tilt true
 	
 	npc_1 NPCNAN3
+	npc_2 NPCdudx18
 
     tile_particle_1 waterfall
     tile_particle_2 waterfall_splash
@@ -3631,7 +3630,6 @@ butx {
 
     global_particle_1 wind
     global_particle_2 lightning
-	global_particle_3 embers
 	
 	tile_particle_1 smoke
 	tile_particle_2 smoke2
@@ -6254,6 +6252,239 @@ gn11 {
 	decoration_3 RetroLeaves3
     
     area_type glitch
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+ix0 {
+    tile_graphics Tileretro
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 993
+	
+	decoration_1 retrosnow_part
+	
+	music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
+
+    cart_intro_png carts/cart_wip
+    cart_intro_palette 993
+    
+    area_type ironcart
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+ix1 {
+    tile_graphics Tileretrobricks
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 994
+	
+	music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
+
+    cart_intro_png carts/cart_wip
+    cart_intro_palette 994
+    
+    area_type ironcart
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+ix2 {
+    tile_graphics Tileretrobricks
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 995
+	
+	music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
+
+    cart_intro_png carts/cart_wip
+    cart_intro_palette 995
+    
+    area_type ironcart
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+ix3 {
+    tile_graphics Tileretro
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 996
+	
+	music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
+
+    cart_intro_png carts/cart_wip
+    cart_intro_palette 996
+    
+    area_type ironcart
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+ix4 {
+    tile_graphics Tileretro
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 997
+	
+	music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
+
+    cart_intro_png carts/cart_wip
+    cart_intro_palette 997
+    
+    area_type ironcart
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+ix5 {
+    tile_graphics Tileretro
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 998
+	
+	music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
+
+    cart_intro_png carts/cart_wip
+    cart_intro_palette 998
+    
+    area_type ironcart
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+ix6 {
+    tile_graphics Tileretro
+    overlay_graphics Overlaysretro
+    background_graphics neverbgretro
+    foreground_graphics none
+    palette 999
+	
+	music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
+
+    cart_intro_png carts/cart_wip
+    cart_intro_palette 999
+    
+    area_type ironcart
 	art_alts [
         [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
         [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]

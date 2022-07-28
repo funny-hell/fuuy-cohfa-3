@@ -1670,6 +1670,19 @@ NPCdudx17 {
 	"what do\nyour regrets\nlook like?"
 	]
 }
+NPCdudx18 {
+# <- last ascender
+	movieclip NPCB1
+	sound_id NPCBlob
+	text [
+	"\nhurry!"
+	"you\nhave to\ngo back"
+	"there is still\ntime to do\nthe right thing"
+	"loosen that\ngrip of yours\nand let go"
+	"quick!\nbefore they\nsee us!"
+	]
+}
+
 //{MIRRORS
 NPCdud1m{
 #den of wonders mirror

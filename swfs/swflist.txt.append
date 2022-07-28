@@ -16,6 +16,7 @@ tilesets/adenators_dumb_assets.swf
 area_labels/area_labels.swf
 
 fixes/floaterglitch_fix.swf
+fixes/npcs_fix.swf
 
 miscellaneous/lampmine.swf
 miscellaneous/SplashText.swf
@@ -35,7 +36,6 @@ miscellaneous/FC_loadscreen.swf
 miscellaneous/Minecraft_Blocks.swf
 miscellaneous/Portals.swf
 miscellaneous/FC_trollface_font.swf
-miscellaneous/FC_cutscenes.swf
 
 oppa_minecraft_style.swf
 
