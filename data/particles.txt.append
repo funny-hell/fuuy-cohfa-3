@@ -200,7 +200,7 @@ debris {
 	tags [collide_tile]
 }
 
-// MysteryTank's particles
+// Mysterytank's particles
 windsf {
     #system TestParticle
     movieclip soliddrip

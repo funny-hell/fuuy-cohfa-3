@@ -88,6 +88,56 @@ c5c {
 	music [retro/warpzone_intro.ogg, retro/hell_loop.ogg]
 	}
 }
+g1 {
+	
+	decoration_1 warpzone_arrow
+	art_alts.append[
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Cartridge, cart3retro]
+	]
+	x {
+	music [retro/warpzone_intro.ogg, glitch/dance_loop.ogg]
+	}
+}
+g3 {
+	
+	decoration_1 warpzone_arrow
+	art_alts.append[
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Cartridge, cart3retro]
+	]
+	x {
+	music [retro/warpzone_intro.ogg, glitch/newworld_loop.ogg]
+	}
+}
+g4 {
+	
+	decoration_1 warpzone_arrow
+	art_alts.append[
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Cartridge, cart3retro]
+	]
+	x {
+	music [retro/warpzone_intro.ogg, glitch/bumblebee_loop.ogg]
+	}
+}
+g0 {
+	
+	decoration_1 warpzone_arrow
+	art_alts.append[
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Cartridge, cart3retro]
+	]
+	x {
+	music [retro/warpzone_intro.ogg, glitch/homk_loop.ogg]
+	}
+}
+g5 {
+	
+	decoration_1 warpzone_arrow
+	art_alts.append[
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Cartridge, cart3retro]
+	]
+	x {
+	music [retro/warpzone_intro.ogg, glitch/dante_loop.ogg]
+	}
+}
 
 7c {
 	npc_1 NPCNAN2

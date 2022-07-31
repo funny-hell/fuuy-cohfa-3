@@ -193,9 +193,12 @@ c6 {
 7x {
 	palette 1214
 	fx_shader_mid lightingmodded
+	global_particle_3 cloudwind_light
 	
 	7 {
 		npc_1 NPCdud21
+		palette 11
+		decoration_1 WarpzonePortal
 		global_particle_1 fallout2
 		music [gymnopedies_intro.ogg, gymnopedies_loop.ogg]
 	}

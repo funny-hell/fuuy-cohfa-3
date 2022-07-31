@@ -47,7 +47,7 @@ meta {
     rightwipes [1-20 2-19 3-20 4-1hub 4b-15 1d-20 2d-19 r1-20 r2-20 r3-20 qu-3 5bxu-10 5c-21 5ax-15 hub-1 hub2-5 3d-21 dud3-12 6a-16 7b-20 j-1hub t-15 1xu-5a but-11 a-8 1d-2b 1-2b
 		c1-x 2xu-1 3xd-2 4a-15 5a-18 4cx-3 5cx-7 4bx-7 5b-23 5-25 ki-11 1-3b t-10 8c-16 8c-17
 	]
-    upwipes [4-1hub 4a-16 4c-1 5c-1 6-1 7-0 4b-15 ex-15 hub-3 6d-1 m-1 7c-12 7d-16 7d-16x 6b-1 7d-17x 8-14 8c-1]
+    upwipes [4-1hub 4a-16 4c-1 5c-1 6-1 7-0 4b-15 ex-15 hub-3 6d-1 m-1 7c-12 7d-16 7d-16x 6b-1 7d-17x 8-14 8c-1 7x-7]
     downwipes [4-1hub 4c-15 5a-1 3d-23 4a-1 5bxu-5 6-21 hub-1 xs-1 xs-10 5b-23 xs-20 ex-1 5bxd-7 6b-23x r1-1 r4b-1 r3-1 6d-23 7d-16x 2-0 8cx-0 5-22 7ax-4 1bx-5 dud3-1 8a-0x]
     
     stevenheads [NPCH1 NPCH2 NPCH3 NPCH4 NPCH5 NPCH5b NPCH5c NPCH6 NPCHX NPCdudH1 NPCdudH2 NPCHM NPCSDR2warp1 NPCSDR2warp2 NPCSDR2warp3 NPCSDR2warp4]
@@ -64,7 +64,7 @@ meta {
     mute_warpunlock_message [5a-22 5b-23 5c-21 1-1 1d-1 6d-23 6 hub2-4 hub2-5 6b-23 a-20 2cx-1 2cx-2 2cx-3 2cx-4 2cx-5 2cx-6 2cx-7 2cx-8 2cx-9 2cx-10 2cx-11 2cx-12 2cx-13 2cx-14 2cx-15 2cx-16 2cx-17 2cx-18 2cx-19 2cx-20 2cx-21 2cx-22 2cx-23 2cx-24 2cx-9b 2cx-8b but3-7 but3-8 but3-9 but3-10 8c-16 qu-12] //levels that have a warp point but shouldnt show the "warp point unlocked" message
     
     game_over_checkpoints [[1d 1d-1] [2d 2d-0] [3d 3d-1] [6 6-1] [7 7-0] [r1 r1-1] [r2 r2-1] [r3 r3-1] [rr1 rr1-1] [rr2 rr2-1] [rr3 rr3-1] [hub hub-1] [hub2 hub2-5] [6d 6d-1] [7d 7d-1] [ex ex-1] [xs xs-1] [qu qu-1] [gb gb-1] [r4 r4-1] [9d 9d-1] [t 7d-1] [o 7d-1]] //if you game over in world "1d", spawn back to 1d-1, etc. this only matters when loading from a save file, otherwise it uses the last checkpoint you visited
-    iron_cart_entrypoints [gr6-1 i1-1 i2-1 i3-1 i4-1 $i1-1 ix0-1 ix1-1 ix2-1 ix3-1 ix4-1 ix5-1 $ix1-1x] //used to set the respawn point in an iron cart
+    iron_cart_entrypoints [gr6-1 i1-1 i2-1 i3-1 i4-1 $i1-1 ix0-1 ix1-1 ix2-1 ix3-1 ix4-1 ix5-1 $ix1-1] //used to set the respawn point in an iron cart
     timed_cart_entrypoints [g5-1 g99-1 g99-3 g99-5 g99-7 gr6-1] //maybe you want to put a timer on other carts?
     console_entry_levels [1-1 1d-1 hub2-5]
     nevermore_entry 7-0
@@ -1144,6 +1144,15 @@ nodes {
         right Lemniscateum
     }
 	
+	StevenHeadFF {
+        clipname steveff
+        entrylevel 15x-1
+        page darkerworld
+        levelgroups [15x]
+        unlock_condition collected_carts_any
+        unlock_condition_levels [15x-2 15x-4 15x-6 15x-8]    
+    }
+	
 	//
 	
 	DarkRapture {
@@ -1151,8 +1160,6 @@ nodes {
         entrylevel r1d-1
         page darkrapture
         levelgroups [r1d r1dx]
-        
-		select DarkRapture
 	}
 	Terminal {
         clipname terminal
@@ -1998,12 +2005,11 @@ nodes {
         cart_cheevolevel ix1-all
         cart_splashframe glitch
         unlock_condition collected_carts_all
-        unlock_condition_levels [hub-2x]
+        unlock_condition_levels [g1-x]
         
         down GTower2
         up GUndeadChamber
 		left GGoopHero
-		select GTower1
     }
 	GTower2 {
         clipname ix2
@@ -2012,12 +2018,11 @@ nodes {
         cart_cheevolevel ix2-all
         cart_splashframe glitch
         unlock_condition collected_carts_all
-        unlock_condition_levels [t-1x]
+        unlock_condition_levels [g3-x]
         
         down GTower3
         up GTower1
 		left GHerpes
-		select GTower2
     }
 	GTower3 {
         clipname ix3
@@ -2026,12 +2031,11 @@ nodes {
         cart_cheevolevel ix3-all
         cart_splashframe glitch
         unlock_condition collected_carts_all
-        unlock_condition_levels [t-1x]
+        unlock_condition_levels [g4-x]
         
         down GTower4
         up GTower2
 		left GAfraid
-		select GTower3
     }
 	GTower4 {
         clipname ix4
@@ -2040,12 +2044,11 @@ nodes {
         cart_cheevolevel ix4-all
         cart_splashframe glitch
         unlock_condition collected_carts_all
-        unlock_condition_levels [t-1x]
+        unlock_condition_levels [g0-x]
         
         down GTower5
         up GTower3
 		left GTLMutable
-		select GTower4
     }
 	GTower5 {
         clipname ix5
@@ -2054,12 +2057,11 @@ nodes {
         cart_cheevolevel ix5-all
         cart_splashframe glitch
         unlock_condition collected_carts_all
-        unlock_condition_levels [t-1x]
+        unlock_condition_levels [g5-x]
         
         down GTower6
         up GTower4
 		left GMurdertale
-		select GTower5
     }
 	GTower6 {
         clipname ix6
@@ -2068,12 +2070,11 @@ nodes {
         cart_cheevolevel ix6-all
         cart_splashframe glitch
         unlock_condition collected_carts_all
-        unlock_condition_levels [t-1x]
+        unlock_condition_levels [g1-x g3-x g4-x g0-x g5-x]
         
         down GDarkanoid
         up GTower5
 		left GKTAND
-		select GTower6
     }
     
     GDarkanoid {

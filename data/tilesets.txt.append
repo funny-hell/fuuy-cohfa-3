@@ -1512,7 +1512,7 @@ ambience_volume 0.4
 }
 
 	8 {
-background_graphics trainbg_n_xlarge
+background_graphics trainbg_n_large
 palette 1067
 music_volume 1
 ambience_volume 0.3
@@ -1520,7 +1520,7 @@ global_particle_1 cloudwind_light2
 }
 
 	8x {
-background_graphics trainbg_n_xlarge
+background_graphics trainbg_n_medium
 palette 1067
 music_volume 1
 ambience_volume 0.3
@@ -6314,7 +6314,7 @@ ix1 {
     foreground_graphics none
     palette 994
 	
-	music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
+	music [retro/dwspiral_intro.ogg, retro/dwspiral_loop.ogg]
 
     cart_intro_png carts/cart_wip
     cart_intro_palette 994
@@ -6347,7 +6347,7 @@ ix2 {
     foreground_graphics none
     palette 995
 	
-	music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
+	music [retro/dwspiral_intro.ogg, retro/dwspiral_loop.ogg]
 
     cart_intro_png carts/cart_wip
     cart_intro_palette 995
@@ -6374,13 +6374,13 @@ ix2 {
 
 }
 ix3 {
-    tile_graphics Tileretro
+    tile_graphics Tileretrobricks
     overlay_graphics Overlaysretro
     background_graphics bgretrox
     foreground_graphics none
     palette 996
 	
-	music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
+	music [retro/dwspiral_intro.ogg, retro/dwspiral_loop.ogg]
 
     cart_intro_png carts/cart_wip
     cart_intro_palette 996
@@ -6392,7 +6392,7 @@ ix3 {
         [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
         [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
         [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
-        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][ThwampEye, ThwampGearRetroFast][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
 		
 		[SkullFloaterBreaky, SkullFloaterretroBreaky]
 		[FloatingMine, FloatingMineRetroGlitch]
@@ -6407,20 +6407,20 @@ ix3 {
 
 }
 ix4 {
-    tile_graphics Tileretro
+    tile_graphics Tileretrobricks
     overlay_graphics Overlaysretro
     background_graphics bgretrox
     foreground_graphics none
     palette 997
 	
-	music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
+	music [retro/dwspiral_intro.ogg, retro/dwspiral_loop.ogg]
 
     cart_intro_png carts/cart_wip
     cart_intro_palette 997
     
     area_type ironcart
 	art_alts [
-        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FireRetro][Slug, Slugretro]
         [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
         [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
         [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
@@ -6440,13 +6440,13 @@ ix4 {
 
 }
 ix5 {
-    tile_graphics Tileretro
+    tile_graphics Tileretrobricks
     overlay_graphics Overlaysretro
     background_graphics bgretrox
     foreground_graphics none
     palette 998
 	
-	music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
+	music [retro/dwspiral_intro.ogg, retro/dwspiral_loop.ogg]
 
     cart_intro_png carts/cart_wip
     cart_intro_palette 998
@@ -6473,20 +6473,26 @@ ix5 {
 
 }
 ix6 {
-    tile_graphics Tileretro
+    tile_graphics Tileretrobricks
     overlay_graphics Overlaysretro
     background_graphics neverbgretro
     foreground_graphics none
+	fx_shader_mid lightingmoddedretro
+	shader_param 0.8
+	midfx_graphics ShadeBox
+	midfx_layer 2
     palette 999
 	
 	music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
 
+	global_particle_1 lightning
+	
     cart_intro_png carts/cart_wip
     cart_intro_palette 999
     
     area_type ironcart
 	art_alts [
-        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FireRetro][Slug, Slugretro]
         [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
         [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
         [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
@@ -6496,14 +6502,38 @@ ix6 {
 		[SkullFloaterBreaky, SkullFloaterretroBreaky]
 		[FloatingMine, FloatingMineRetroGlitch]
 		[Sentry, SentryRetro]
-		[BigSlug, MegaSlugretro]
+		[BigSlug, MegaSlugretro][ElectroBall, RetroElectroBall][CreepingMass, CreepingMassRetro]
 		[BigCharger, RetroBigChargerSlug]
 		
-		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroom, just_a_block][Cartridge, cart2retro][Key, Keyretro]
 		
 		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
     ]
-
+	1 {
+		music none
+		ambience shiny.ogg
+		ambience_volume 0.3
+	}
+	2 {
+		music none
+		ambience shiny.ogg
+		ambience_volume 0.3
+	}
+	3 {
+		music none
+		ambience shiny.ogg
+		ambience_volume 0.3
+	}
+	4 {
+		music none
+		ambience shiny.ogg
+		ambience_volume 0.3
+	}
+	5 {
+		music none
+		ambience shiny.ogg
+		ambience_volume 0.3
+	}
 }
   //}
 0 {
@@ -6536,6 +6566,60 @@ ix6 {
 	}
 	unf2 {
 		npc_1 NPCNAN2
+	}
+}
+dud2 {
+    area_name "Spiraling Tower"
+    area_label_frame 0
+    tile_graphics Tileairship
+    overlay_graphics Overlayscaves
+    background_graphics neverbg
+    foreground_graphics None
+	fx_shader reflectionripples
+    
+    palette 992
+	
+	tile_particle_1 drip
+	tile_particle_2 waterfall
+	tile_particle_3 waterfall_splash
+    tile_particle_5 toxicbubbles
+    global_particle_1 lightning
+    global_particle_2 wind
+	
+    area_type dark
+    toxic_timer 0
+
+    npc_1 NPCdud24
+	
+	art_alts[
+		[GlowShroom, GlowCandleBig][GlowShroomSmall, GlowCandle]
+	]
+	
+	music [requiem_intro.ogg, requiem_loop.ogg]
+    ambience castle.ogg
+	1 {
+		palette 992
+	}
+	2 {
+		palette 991
+		tile_graphics Tilebreeze
+	}
+	3 {
+		palette 990
+		fx_shader_mid sun
+		midfx_graphics SolidBox
+		midfx_layer 1
+	}
+	4 {
+		palette 989
+		tile_graphics TileEnd
+		fx_shader_mid lighting
+		midfx_graphics ShadeBox
+		midfx_layer 2
+		shader_param 0.5
+	}
+	5 {
+		palette 988
 	}
 }
 dud3 {
@@ -7266,7 +7350,7 @@ but3 {
 	}
 }
 
-// MysteryTank's areas
+// Mysterytank's areas
 1bd {
     area_name "Decay"
     area_label_frame 59

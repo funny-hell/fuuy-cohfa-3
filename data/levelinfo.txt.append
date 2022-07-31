@@ -1034,6 +1034,58 @@
 "c5b-x" {name="Warpzone!" id=-1}
 "c4c-x" {name="Warpzone!" id=-1}
 "c5c-x" {name="Warpzone!" id=-1}
+
+"ix0-1" {name="-6-1" id=-1}
+"ix0-2" {name="-6-2" id=-1}
+"ix0-3" {name="-6-3" id=-1}
+"ix0-4" {name="-6-4" id=-1}
+"ix0-5" {name="-6-5" id=-1}
+
+"ix1-1" {name="~-1" id=-1}
+"ix1-1x" {name="~-1" id=-1}
+"ix1-2" {name="~-1" id=-1}
+"ix1-3" {name="~-1" id=-1}
+"ix1-4" {name="~-1" id=-1}
+"ix1-5" {name="~-1" id=-1}
+"ix1-5x" {name="~-1" id=-1}
+"ix2-1" {name="~-2" id=-1}
+"ix2-1x" {name="~-2" id=-1}
+"ix2-2" {name="~-2" id=-1}
+"ix2-3" {name="~-2" id=-1}
+"ix2-4" {name="~-2" id=-1}
+"ix2-5" {name="~-2" id=-1}
+"ix2-5x" {name="~-2" id=-1}
+"ix3-1" {name="~-3" id=-1}
+"ix3-1x" {name="~-3" id=-1}
+"ix3-2" {name="~-3" id=-1}
+"ix3-3" {name="~-3" id=-1}
+"ix3-4" {name="~-3" id=-1}
+"ix3-5" {name="~-3" id=-1}
+"ix3-5x" {name="~-3" id=-1}
+"ix4-1" {name="~-4" id=-1}
+"ix4-1x" {name="~-4" id=-1}
+"ix4-2" {name="~-4" id=-1}
+"ix4-3" {name="~-4" id=-1}
+"ix4-4" {name="~-4" id=-1}
+"ix4-5" {name="~-4" id=-1}
+"ix4-5x" {name="~-4" id=-1}
+"ix5-1" {name="~-5" id=-1}
+"ix5-1x" {name="~-5" id=-1}
+"ix5-2" {name="~-5" id=-1}
+"ix5-3" {name="~-5" id=-1}
+"ix5-4" {name="~-5" id=-1}
+"ix5-5" {name="~-5" id=-1}
+"ix5-5x" {name="~-5" id=-1}
+"ix6-1" {name="~-6" id=-1}
+"ix6-2" {name="~-6" id=-1}
+"ix6-3" {name="~-6" id=-1}
+"ix6-4" {name="~-6" id=-1}
+"ix6-5" {name="~-6" id=-1}
+"ix6-1x" {name="~-6" id=-1}
+"ix6-2x" {name="~-6" id=-1}
+"ix6-3x" {name="~-6" id=-1}
+"ix6-4x" {name="~-6" id=-1}
+"ix6-5x" {name="~-6" id=-1}
 	
 "csd1-1" {name="Darkanoid-1" id=-1}
 "csd1-10" {name="Darkanoid-10" id=-1}
@@ -1424,17 +1476,17 @@
 
 // Butcher's areas
 "o1-start" {name="???" id=-1} 
-"o1-0" {name="Fuelyard 1" id=1} 
-"o1-1" {name="Fuelyard 2" id=2} 
-"o1-2" {name="Fuelyard 3" id=3} 
-"o1-3" {name="Fuelyard 4" id=4} 
-"o1-4" {name="Fuelyard 5" id=5}
-"o1-5" {name="Fuelyard 6" id=6} 
-"o1-6" {name="Fuelyard 7" id=7} 
-"o1-7" {name="Fuelyard 8" id=8} 
-"o1-8" {name="Fuelyard 9" id=9} 
-"o1-9" {name="Fuelyard 10" id=10} 
-"o1-10" {name="Fuelyard 11" id=11}
-"o1-11" {name="Fuelyard 12" id=12}
+"o1-0" {name="Fuelyard" id=-1} 
+"o1-1" {name="Fuelyard 1" id=1} 
+"o1-2" {name="Fuelyard 2" id=2} 
+"o1-3" {name="Fuelyard 3" id=3} 
+"o1-4" {name="Fuelyard 4" id=4}
+"o1-5" {name="Fuelyard 5" id=5} 
+"o1-6" {name="Fuelyard 6" id=6} 
+"o1-7" {name="Fuelyard 7" id=7} 
+"o1-8" {name="Fuelyard 8" id=8} 
+"o1-9" {name="Fuelyard 9" id=9} 
+"o1-10" {name="Fuelyard 10" id=10}
+"o1-11" {name="Fuelyard 11" id=11}
 "o1x-1" {name="???" id=-1}
 //}
