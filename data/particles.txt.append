@@ -1,4 +1,4 @@
-// Butcher's particles
+# Butcher's particles
 rocket_particle {
     combo [rocket_thruster_part, rocket_smoke_part]
 }
@@ -166,7 +166,7 @@ boostpad_right {
     tags []
 }
 
-// NotWendy's particles
+# NotWendy's particles
 debris {
 	movieclip Rock2
 	max_particles 500
@@ -200,7 +200,7 @@ debris {
 	tags [collide_tile]
 }
 
-// Mysterytank's particles
+# Mysterytank's particles
 windsf {
     #system TestParticle
     movieclip soliddrip
@@ -334,7 +334,7 @@ cloudwind2sf {
     tags [player_push]
 }
 
-// Adenator's particles
+# Adenator's particles
 fullsnowh {
 	combo [snowparth2, snowpartl3]
 }
@@ -837,7 +837,7 @@ nilbubbles_jumpers {
     tags []
 }
 
-// Surreal's particles
+# Surreal's particles
 declinelights {
     #system TestParticle
     movieclip shinylikemyvaginy
@@ -1634,7 +1634,7 @@ cold_train {
     tags []
 }
 
-// Potassium's particles
+# Potassium's particles
 rocktile {
     #system properties
     movieclip RockDark

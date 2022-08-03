@@ -1,4 +1,4 @@
-//{ Pre-FC
+# Pre-FC
 15x {
     area_name "Hyperfuture"
     area_label_frame 29
@@ -590,7 +590,7 @@ gb {
 	decoration_2 Decoration7
 	decoration_3 Decoration7_right
    
-	do_tilt true
+	#do_tilt true
 
     music [requiem_intro_dark.ogg, requiem_loop_dark.ogg]
     ambience flesh.ogg
@@ -1116,10 +1116,10 @@ g7c {
 	
 	npc_1 NPCNAN1
 
-	// fx_shader_mid lightingmoddedretro
-	// shader_param 0.5
-	// midfx_graphics ShadeBox
-	// midfx_layer 2
+	#fx_shader_mid lightingmoddedretro
+	#shader_param 0.5
+	#midfx_graphics ShadeBox
+	#midfx_layer 2
 
     cart_intro_png carts/nauseous
     cart_intro_palette 1184
@@ -3333,7 +3333,7 @@ t {
     
     area_type dark
 
-    //do_tilt true
+    #do_tilt true
 	
 	npc_1 NPCNAN3
 	npc_2 NPCdudx18
@@ -3458,7 +3458,7 @@ t {
 
 }
 
-//{	 Secrets	
+# Secrets	
 
 ax {
     area_name "Skyfolding"
@@ -4460,8 +4460,6 @@ rr3x {
 	ambience ruins.ogg
 	}
 }
-/* 
-
 tx {
     area_name "Terminal Lucidity"
     area_label_frame 40
@@ -4681,13 +4679,10 @@ rr2x {
 		fx_shader_mid lighting
 	}
 }
-	 */
-//}
-//}
 
-//{ Post-FC
+# Post-FC
 
-// Potassium's areas
+# Potassium's areas
 8a {
     area_name "Hell"
     area_label_frame 58
@@ -5352,7 +5347,7 @@ o {
     ]
 }
 
-// Derzox and Adenator's areas
+# Derzox and Adenator's areas
 ki {
     area_name "Aqueros Coast"
     area_label_frame 48
@@ -5584,8 +5579,8 @@ k2 {
 	}
 }
 
-// Surreal's areas
-  //{ carts
+# Surreal's areas
+  # carts
 csd1 {
     tile_graphics TileGlitch
     overlay_graphics Overlaysretro
@@ -5685,6 +5680,40 @@ csd2 {
 		tile_graphics Tileretro
 		overlay_graphics Overlaysretro
 	}
+}
+g5x {
+	tile_graphics TileGlitch
+    overlay_graphics Overlaysretro
+    background_graphics bgretro
+    foreground_graphics none
+	fx_shader_mid retro
+	midfx_graphics SolidBox
+	midfx_layer 2
+    palette 984
+    
+    music [retro/warpzone_intro.ogg, glitch/dante_loop.ogg]
+    
+    music_volume 1
+    ambience_volume 1
+
+    cart_intro_png Deadracer
+    cart_intro_palette 50
+	
+	sfx_file retrosounds.txt
+    
+    area_type dark
+
+    art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, none][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][MiniFly, MiniFlyretro][Fly, MiniFlyretro][Cartridge, cart3retro][ElectroBall, RetroElectroBall][CreepingMass, CreepingMassRetro]
+		[MiniGhost, RetroGhost][DeathGhost, RetroGhost]
+    ]
+	
+	decoration_1 warpzone_arrow
 }
 gn1 {
     tile_graphics TileGlitch
@@ -6535,7 +6564,7 @@ ix6 {
 		ambience_volume 0.3
 	}
 }
-  //}
+
 0 {
     area_name "Meta"
     area_label_frame 0
@@ -6567,6 +6596,32 @@ ix6 {
 	unf2 {
 		npc_1 NPCNAN2
 	}
+}
+dud1 {
+    area_name "Surreal In Space? Let's Fucking Go"
+    area_label_frame 0
+    tile_graphics Tileairship
+    overlay_graphics Overlayscaves
+    background_graphics sunbg
+    foreground_graphics None
+	fx_shader reflectionripples
+	fx_shader_mid fire
+    midfx_graphics SolidBox
+    midfx_layer 2
+    
+    palette 982
+	
+	tile_particle_1 drip
+	tile_particle_2 waterfall
+	tile_particle_3 waterfall_splash
+    tile_particle_5 toxicbubbles
+    global_particle_1 embers
+	global_particle_2 cloudwind2
+	
+    area_type normal
+	
+	music [requiem_intro.ogg, requiem_loop.ogg]
+    ambience volcano.ogg
 }
 dud2 {
     area_name "Spiraling Tower"
@@ -6801,7 +6856,7 @@ dud3xu {
 	art_alts [
         [MiniFly, MiniWisp][MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite][GlowShroomSmall, GlowShard2][GlowShroom, GlowShard2]
 	]
-	//{EVERY LEVEL
+	#EVERY LEVEL
 	1 {
 	art_alts [
         [MiniFly, MiniWisp][MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite][GlowShroomSmall, GlowShard2][GlowShroom, GlowShard]
@@ -6819,7 +6874,7 @@ dud3xu {
 		fx_shader lavaripples
 		palette 1198
 	}
-	//}
+
 }
 9 {
     area_name "The Farlands"
@@ -7139,7 +7194,7 @@ wlspl {
 		npc_3 NPCdudp14c
 	}
 	9 {
-		//npc_1 NPCdudp15
+		#npc_1 NPCdudp15
 		npc_1 NPCdudp7d
 	}
 	10 {
@@ -7224,7 +7279,7 @@ r1b {
     }
 }
 but2 {
-	// technically butcher's areas, but whatever
+	#technically butcher's areas, but whatever
     area_name "The Tracks"
     area_label_frame 21
     tile_graphics Tiletracksdud
@@ -7350,7 +7405,7 @@ but3 {
 	}
 }
 
-// Mysterytank's areas
+# Mysterytank's areas
 1bd {
     area_name "Decay"
     area_label_frame 59
@@ -7479,7 +7534,7 @@ but3 {
 	}
 }
 
-//Butcher's areas
+# Butcher's areas
 
 o1 {
     area_name "Fuelyard"
@@ -7581,7 +7636,7 @@ o1x {
 
 }
 
-//{ THE CUTTING FLOOR
+# THE CUTTING FLOOR
 
 	8hid {
     area_name "Hidden Glade"
@@ -7661,5 +7716,3 @@ o1x {
     }
 
 }
-}//
-//}

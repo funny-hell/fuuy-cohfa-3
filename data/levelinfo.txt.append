@@ -1,5 +1,9 @@
-//{ Pre-FC
+# Pre-FC
 
+"8x-10" {name="???" id=-1}
+"7x-7" {name="???" id=-1}
+"6x-9" {name="???" id=-1}
+"6x-10" {name="???" id=-1}
 "rr1-1" {name="Denial 1" id=-1}
 "rr1-2" {name="Denial 2" id=-1}
 "rr1-3" {name="Denial 3" id=-1}
@@ -42,24 +46,24 @@
 "rr2-20" {name="Anger 20" id=-1}
 "rr3-1" {name="Bargaining 1" id=-1}
 "rr3-2" {name="Bargaining 2" id=-1}
-// "rr3-3" {name="Bargaining 3" id=-1}
-// "rr3-4" {name="Bargaining 4" id=-1}
-// "rr3-5" {name="Bargaining 5" id=-1}
-// "rr3-6" {name="Bargaining 6" id=-1}
-// "rr3-7" {name="Bargaining 7" id=-1}
-// "rr3-8" {name="Bargaining 8" id=-1}
-// "rr3-9" {name="Bargaining 9" id=-1}
-// "rr3-10" {name="Bargaining 10" id=-1}
-// "rr3-11" {name="Bargaining 11" id=-1}
-// "rr3-12" {name="Bargaining 12" id=-1}
-// "rr3-13" {name="Bargaining 13" id=-1}
-// "rr3-14" {name="Bargaining 14" id=-1}
-// "rr3-15" {name="Bargaining 15" id=-1}
-// "rr3-16" {name="Bargaining 16" id=-1}
-// "rr3-17" {name="Bargaining 17" id=-1}
-// "rr3-18" {name="Bargaining 18" id=-1}
-// "rr3-19" {name="Bargaining 19" id=-1}
-// "rr3-20" {name="Bargaining 20" id=-1}
+# "rr3-3" {name="Bargaining 3" id=-1}
+# "rr3-4" {name="Bargaining 4" id=-1}
+# "rr3-5" {name="Bargaining 5" id=-1}
+# "rr3-6" {name="Bargaining 6" id=-1}
+# "rr3-7" {name="Bargaining 7" id=-1}
+# "rr3-8" {name="Bargaining 8" id=-1}
+# "rr3-9" {name="Bargaining 9" id=-1}
+# "rr3-10" {name="Bargaining 10" id=-1}
+# "rr3-11" {name="Bargaining 11" id=-1}
+# "rr3-12" {name="Bargaining 12" id=-1}
+# "rr3-13" {name="Bargaining 13" id=-1}
+# "rr3-14" {name="Bargaining 14" id=-1}
+# "rr3-15" {name="Bargaining 15" id=-1}
+# "rr3-16" {name="Bargaining 16" id=-1}
+# "rr3-17" {name="Bargaining 17" id=-1}
+# "rr3-18" {name="Bargaining 18" id=-1}
+# "rr3-19" {name="Bargaining 19" id=-1}
+# "rr3-20" {name="Bargaining 20" id=-1}
 
 "7-0x" {name="???" id=-1}
 "7-1x" {name="???" id=-1}
@@ -920,8 +924,6 @@
 "r1d-12x" {name="Dark Rapture 32" id=-1}
 "r1d-13x" {name="Dark Rapture 33" id=-1}
 "r1d-14x" {name="Dark Rapture 34" id=-1}
-"6x-9" {name="???" id=-1}
-"6x-10" {name="???" id=-1}
 "1xu-5a" {name="???" id=-1}
 "1xu-6a" {name="???" id=-1}
 "1-2b" {name="???" id=-1}
@@ -1022,9 +1024,9 @@
 "i0-8x" {name="IS THIS ANNIVERSARRY 7?" id=-1}
 "i0-9x" {name="LSD RADIX SORT" id=-1}
 "i0-10x" {name="- TRUE FINALE -" id=-1}
-//}
-//{ Post-FC
-	//{ CARTS
+
+# Post-FC
+	# CARTS
 "c1-x" {name="Warpzone!" id=-1}
 "c2-x" {name="Warpzone!" id=-1}
 "c3-x" {name="Warpzone!" id=-1}
@@ -1034,6 +1036,13 @@
 "c5b-x" {name="Warpzone!" id=-1}
 "c4c-x" {name="Warpzone!" id=-1}
 "c5c-x" {name="Warpzone!" id=-1}
+"g2-x" {name="Warpzone?!" id=-1}
+"g3-x" {name="Warpzone?!" id=-1}
+"g4-x" {name="Warpzone?!" id=-1}
+"g0-x" {name="Warpzone?!" id=-1}
+"g5-x" {name="Warpzone?!" id=-1}
+"g1-x" {name="Warpzone?!" id=-1}
+
 
 "ix0-1" {name="-6-1" id=-1}
 "ix0-2" {name="-6-2" id=-1}
@@ -1258,9 +1267,9 @@
 "gnr3-8" {name="Prescryption 8" id=-1}
 "gnr3-9" {name="Prescryption 9" id=-1}
 "gnr3-10" {name="Prescryption 10" id=-1}
-	//}
+	#
 
-// Derzox and Adenator's areas
+# Derzox and Adenator's areas
 "nil-0x" {name="!?!?!?" id=-1}
 "nil-0" {name="!?!?!?" id=-1}
 "nil-0y" {name="!?!?!?" id=-1}
@@ -1305,21 +1314,21 @@
 "k2-6" {name="Mount Hydredron 6" id=6}
 "k2-7" {name="Mount Hydredron 7" id=7}
 "k2-8" {name="Mount Hydredron 8" id=8}
-// "k2-9" {name="Mount Hydredron 9" id=9}
-// "k2-10" {name="Mount Hydredron 10" id=10}
-// "k2-11" {name="Mount Hydredron 11" id=11}
-// "k2-12" {name="Mount Hydredron 12" id=12}
-// "k2-13" {name="Mount Hydredron 13" id=13}
-// "k2-14" {name="Mount Hydredron 14" id=14}
-// "k2-15" {name="Mount Hydredron 15" id=15}
-// "k2-16" {name="Mount Hydredron 16" id=16}
-// "k2-17" {name="Mount Hydredron 17" id=17}
-// "k2-18" {name="Mount Hydredron 18" id=18}
-// "k2-19" {name="Mount Hydredron 19" id=19}
-// "k2-20" {name="Mount Hydredron 20" id=20}
-// "k2-21" {name="The Summit" id=-1}
+# "k2-9" {name="Mount Hydredron 9" id=9}
+# "k2-10" {name="Mount Hydredron 10" id=10}
+# "k2-11" {name="Mount Hydredron 11" id=11}
+# "k2-12" {name="Mount Hydredron 12" id=12}
+# "k2-13" {name="Mount Hydredron 13" id=13}
+# "k2-14" {name="Mount Hydredron 14" id=14}
+# "k2-15" {name="Mount Hydredron 15" id=15}
+# "k2-16" {name="Mount Hydredron 16" id=16}
+# "k2-17" {name="Mount Hydredron 17" id=17}
+# "k2-18" {name="Mount Hydredron 18" id=18}
+# "k2-19" {name="Mount Hydredron 19" id=19}
+# "k2-20" {name="Mount Hydredron 20" id=20}
+# "k2-21" {name="The Summit" id=-1}
 
-// Mysterytank's areas
+# Mysterytank's areas
 "2-0b" {name="???" id=-1}
 "2b-1" {name="Depths Of Despair 1" id=1}
 "2b-2" {name="Depths Of Despair 2" id=2}
@@ -1342,7 +1351,7 @@
 "2b-19" {name="Depths Of Despair 19" id=-1}
 "2b-20" {name="Depths Of Despair 20" id=-1}
 
-// Potassium's areas
+# Potassium's areas
 "t-1" {name="Terminal Lucidity 1" id=-1}
 "t-2" {name="Terminal Lucidity 2" id=-1}
 "t-3" {name="Terminal Lucidity 3" id=-1}
@@ -1361,7 +1370,7 @@
 "o-6" {name="Omnificance 6" id=-1}
 "t-11" {name="Yet To Be" id=-1}
 
-// Surreal's areas
+# Surreal's areas
 "2c-0" {name="???" id=1}
 "2c-1" {name="Mirror Planetarium" id=-1}
 "2cx-1" {name="Mirror Planetarium" id=-1}
@@ -1474,7 +1483,7 @@
 "9dx-4" {name="???" id=-1}
 "9dx-5" {name="???" id=-1}
 
-// Butcher's areas
+# Butcher's areas
 "o1-start" {name="???" id=-1} 
 "o1-0" {name="Fuelyard" id=-1} 
 "o1-1" {name="Fuelyard 1" id=1} 
@@ -1489,4 +1498,3 @@
 "o1-10" {name="Fuelyard 10" id=10}
 "o1-11" {name="Fuelyard 11" id=11}
 "o1x-1" {name="???" id=-1}
-//}

@@ -1,4 +1,3 @@
-//{CHANGES
 c1 {
 	background_graphics bgretrox
 }
@@ -32,6 +31,13 @@ c5c {
 }
 c6 {
 	background_graphics bgretrox
+}
+6 {
+	2x {
+		palette 888 
+		toxic_timer 2
+		decoration_1 WarpzonePortal
+	}
 }
 
 1 {
@@ -177,6 +183,7 @@ c6 {
     10 {
         music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
         tile_graphics Tilehell
+		decoration_1 WarpzonePortal
         fx_shader ripples
         fx_shader_mid fire
         midfx_graphics ShadeBox
@@ -210,9 +217,15 @@ c6 {
 }
 8x {
 	palette 1215
+	10 {
+		decoration_1 WarpzonePortal
+	}
 }
 9x {
 	palette 1216
+	8 {
+		decoration_1 WarpzonePortal
+	}
 }
 4 {
 	music [gameover.ogg, none]
@@ -222,9 +235,10 @@ c6 {
 }
 7 {
 	npc_1 NPCH6
+	7 {
+		decoration_1 WarpzonePortal
+	}
 }
 10x {
 	area_name "The Future"
 }
-
-//}

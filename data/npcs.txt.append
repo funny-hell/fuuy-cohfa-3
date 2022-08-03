@@ -1,4 +1,4 @@
-//{ Pre-FC
+# Pre-FC
 
 NPC_Sign1 {
 #first_sign
@@ -237,11 +237,10 @@ NPCHX {
 	]
 }
 
-//}
 
-//{ Post-FC
+# Post-FC
 
-// Mysterytank's NPCS
+# Mysterytank's NPCS
 waterguidesreturn {
 	movieclip NPC0
 	sound_id NPCSkull
@@ -334,7 +333,7 @@ NPCH7 {
 	]
 }
 
-// Derzox and Adenator's NPCS
+# Derzox and Adenator's NPCS
 NPCKI9 {
 #basic sideways
     movieclip NPCad00
@@ -492,7 +491,7 @@ NPCad08 {
 	]
 }
 
-// Butcher's NPCS
+# Butcher's NPCS
 NPCbut1{
 #train guy
     movieclip NPC5
@@ -580,7 +579,7 @@ NPCdud2mo{
     ]
 }
 
-// Surreal's NPCS
+# Surreal's NPCS
 NPCSDR1 {
 #surreals favorite skel
     movieclip NPCR1
@@ -1122,12 +1121,6 @@ NPCdud31 {
 		"\n. . . oh!"
 		"\nwelcome!"
 		"these\nare the\nhidden glades!"
-		// "time and space\ndont abide by\nany rules here"
-		// "things get quite\n'meta', if\nthat makes sense"
-		// "really a\nplace for the\nbig thunkers"
-		// "im not\none of those,\nyou see"
-		// "so here\ni shall\nlie forever"
-		// "and so will\nyou, dumbass\nlookin ass"
 		"hidden\nfrom what?\nwho knows!"
 		"unlucky for you,\nit seems this place\nhasnt been finished"
 		"its some\nloose ends bullshit,\nmakes sense?"
@@ -1683,7 +1676,7 @@ NPCdudx18 {
 	]
 }
 
-//{MIRRORS
+# MIRRORS
 NPCdud1m{
 #den of wonders mirror
     movieclip NPCdudm1
@@ -1747,8 +1740,7 @@ NPCHM{
 	]
 }
 
-//}
-//{PICTURE FRAMES
+# PICTURE FRAMES
 NPCdudp1{
 #museum picture
     movieclip NPCdudm4
@@ -1832,7 +1824,8 @@ NPCdudp7{
     sound_id NPCDefault
     text [
 		"here\nlies\nNotWendy"
-		"we\nremember\nyou fondly"
+		"\n. . ."
+		"\nwho?"
     ]
 }
 NPCdudp7c{
@@ -1869,7 +1862,9 @@ NPCdudp7b{
     sound_id NPCDefault
     text [
 		"here\nlies\nhinge"
-		"\nyou will be missed"
+		"they did fuck\nall and still\ngot in here"
+		"dont\nreally\nknow how"
+		"but were\nproud of em\nanyway"
     ]
 }
 NPCdudp8{
@@ -2042,9 +2037,9 @@ NPCdudp0{
     ]
 }
 
-//}
 
-//{OUT OF BOUNDS. GO BACK
+
+#OUT OF BOUNDS. GO BACK
 NPCNAN0 {
 	#outofbounds
     movieclip NPCdudNAN
@@ -2093,6 +2088,3 @@ NPCNAN3{
 		"\n. . ."
     ]
 }
-
-//}
-//}
