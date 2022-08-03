@@ -529,16 +529,14 @@
 "7d-15" {name="???" id=-1}
 "7d-16" {name="???" id=-1}
 "7d-16x" {name="Superposition" id=-1}
-"t-15" {name="%%%%%%%% %%%%%%%%" id=-1}
-"t-16" {name="%%r%%%%% %%%%%%t%" id=-1}
-"t-17" {name="%%r%i%%% %%c%%%t%" id=-1}
-"t-18" {name="T%r%i%%% %%c%%%ty" id=-1}
-"t-19" {name="T%r%i%a% L%c%%%ty" id=-1}
-"t-18" {name="T%r%i%al L%c%d%ty" id=-1}
-"t-19" {name="T%rmi%al Luc%d%ty" id=-1}
-"t-20" {name="T%rminal Luc%dity" id=-1}
-"t-21" {name="Terminal Lucidity" id=-1}
-"t-22" {name=". . ." id=-1}
+"7d-1t" {name="%%%%%%%% %%%%%%%%" id=-1}
+"7d-2t" {name="%%r%%%%% %%%%%%t%" id=-1}
+"7d-3t" {name="T%r%i%%% %%c%%%ty" id=-1}
+"7d-4t" {name="T%r%i%a% L%c%%%ty" id=-1}
+"7d-5t" {name="T%rmi%al Luc%d%ty" id=-1}
+"7d-6t" {name="T%rminal Luc%dity" id=-1}
+"7d-7t" {name="Terminal Lucidity" id=-1}
+"7d-8t" {name=". . ." id=-1}
 "hub2-4" {name=". . ." id=1}
 "hub2-5" {name="The Grave" id=-1}
 "gr1-1" {name="OE Fake 1" id=-1}
@@ -924,7 +922,7 @@
 "r1d-12x" {name="Dark Rapture 32" id=-1}
 "r1d-13x" {name="Dark Rapture 33" id=-1}
 "r1d-14x" {name="Dark Rapture 34" id=-1}
-"1xu-5a" {name="???" id=-1}
+"1xu-5a" {name="???" id=21}
 "1xu-6a" {name="???" id=-1}
 "1-2b" {name="???" id=-1}
 "1-3b" {name="???" id=-1}
@@ -1027,28 +1025,34 @@
 
 # Post-FC
 	# CARTS
-"c1-x" {name="Warpzone!" id=-1}
-"c2-x" {name="Warpzone!" id=-1}
-"c3-x" {name="Warpzone!" id=-1}
-"c4a-x" {name="Warpzone!" id=-1}
-"c5a-x" {name="Warpzone!" id=-1}
-"c4b-x" {name="Warpzone!" id=-1}
-"c5b-x" {name="Warpzone!" id=-1}
-"c4c-x" {name="Warpzone!" id=-1}
-"c5c-x" {name="Warpzone!" id=-1}
-"g2-x" {name="Warpzone?!" id=-1}
-"g3-x" {name="Warpzone?!" id=-1}
-"g4-x" {name="Warpzone?!" id=-1}
-"g0-x" {name="Warpzone?!" id=-1}
-"g5-x" {name="Warpzone?!" id=-1}
-"g1-x" {name="Warpzone?!" id=-1}
+"cwarp-1" {name="Warpzone!" id=1}
+"cwarp-2" {name="Warpzone!" id=2}
+"cwarp-3" {name="Warpzone!" id=3}
+"cwarp-4" {name="Warpzone!" id=4}
+"cwarp-5" {name="Warpzone!" id=5}
+"cwarp-6" {name="Warpzone!" id=6}
+"cwarp-7" {name="Warpzone!" id=7}
+"cwarp-8" {name="Warpzone!" id=8}
+"cwarp-9" {name="Warpzone!" id=9}
+"gwarp-1" {name="Warpzone?!" id=1}
+"gwarp-2" {name="Warpzone?!" id=2}
+"gwarp-3" {name="Warpzone?!" id=3}
+"gwarp-4" {name="Warpzone?!" id=4}
+"gwarp2-5" {name="Warpzone?!" id=5}
+"gwarp-6" {name="Warpzone?!" id=6}
 
 
+"i1-1x" {name="-1-1" id=-1}
+"i5b-1" {name="-5-1" id=-1}
+"i5b-5" {name="-5-5" id=-1}
+
+"ix0-1x" {name="-6-1" id=-1}
 "ix0-1" {name="-6-1" id=-1}
 "ix0-2" {name="-6-2" id=-1}
 "ix0-3" {name="-6-3" id=-1}
 "ix0-4" {name="-6-4" id=-1}
 "ix0-5" {name="-6-5" id=-1}
+"ix0-5x" {name="-6-5" id=-1}
 
 "ix1-1" {name="~-1" id=-1}
 "ix1-1x" {name="~-1" id=-1}
@@ -1095,6 +1099,18 @@
 "ix6-3x" {name="~-6" id=-1}
 "ix6-4x" {name="~-6" id=-1}
 "ix6-5x" {name="~-6" id=-1}
+"ix6-5y" {name="~-6" id=-1}
+"ix7-1" {name="~-0" id=-1}
+"ix7-1x" {name="~-0" id=-1}
+"ix7-2" {name="~-0" id=-1}
+"ix7-3" {name="~-0" id=-1}
+"ix7-4" {name="~-0" id=-1}
+"ix7-5" {name="~-0" id=-1}
+"ix8-1" {name="~-7" id=-1}
+"ix8-2" {name="~-7" id=-1}
+"ix8-3" {name="~-7" id=-1}
+"ix8-4" {name="~-7" id=-1}
+"ix8-5" {name="~-7" id=-1}
 	
 "csd1-1" {name="Darkanoid-1" id=-1}
 "csd1-10" {name="Darkanoid-10" id=-1}

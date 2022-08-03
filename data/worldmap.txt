@@ -1,10 +1,10 @@
 pages {
     lightworld {
-        collectibles 290 //lives + biglives + carts + bodyparts (used for "percent complete" display)
+        collectibles 299 //lives + biglives + carts + bodyparts (used for "percent complete" display)
     }
     
     darkworld {
-        collectibles 7 //lives + biglives + carts + bodyparts (used for "percent complete" display)
+        collectibles 12 //lives + biglives + carts + bodyparts (used for "percent complete" display)
     }
 	
 	rightworld {
@@ -42,20 +42,20 @@ meta {
     default_node TheEnd
     
     leftwipes [2-0 3-1 4-1hub 4b-1 5b-1 2d-0 3d-1 r2-1 r3-1 hub-1 9xd-0x but-0x 6a-1 7a-1 6c-1 5-0 7d-14 r4-1 a-1 but2-1 1bx-1 1bd-1 1b-1
-		1-0 c2-x c3-x c4a-x c5a-x c4c-x c5c-x c4b-x c5b-x 8-0 ki-1 k2-1 o-1 8c-17 6-2x
+		1-0 8-0 ki-1 k2-1 o-1 8c-17 6-2x
 	]
-    rightwipes [1-20 2-19 3-20 4-1hub 4b-15 1d-20 2d-19 r1-20 r2-20 r3-20 qu-3 5bxu-10 5c-21 5ax-15 hub-1 hub2-5 3d-21 dud3-12 6a-16 7b-20 j-1hub t-15 1xu-5a but-11 a-8 1d-2b 1-2b
-		c1-x 2xu-1 3xd-2 4a-15 5a-18 4cx-3 5cx-7 4bx-7 5b-23 5-25 ki-11 1-3b t-10 8c-16 8c-17 6x-10
+    rightwipes [1-20 2-19 3-20 4-1hub 4b-15 1d-20 2d-19 r1-20 r2-20 r3-20 qu-3 5bxu-10 5c-21 5ax-15 hub-1 hub2-5 3d-21 dud3-12 6a-16 7b-20 j-1hub 7d-1t 1xu-5a but-11 a-8 1d-2b 1-2b
+		2xu-1 3xd-2 4a-15 5a-18 4cx-3 5cx-7 4bx-7 5b-23 5-25 ki-11 1-3b t-10 8c-16 8c-17 6x-10
 	]
     upwipes [4-1hub 4a-16 4c-1 5c-1 6-1 7-0 4b-15 ex-15 hub-3 6d-1 m-1 7c-12 7d-16 7d-16x 6b-1 7d-17x 8-14 8c-1 7x-7 8x-10]
     downwipes [4-1hub 4c-15 5a-1 3d-23 4a-1 5bxu-5 6-21 hub-1 xs-1 xs-10 5b-23 xs-20 ex-1 5bxd-7 6b-23x r1-1 r4b-1 r3-1 6d-23 7d-16x 2-0 8cx-0 5-22 7ax-4 1bx-5 dud3-1 8a-0x 9x-8 7-7]
     
     stevenheads [NPCH1 NPCH2 NPCH3 NPCH4 NPCH5 NPCH5b NPCH5c NPCH6 NPCHX NPCdudH1 NPCdudH2 NPCHM NPCSDR2warp1 NPCSDR2warp2 NPCSDR2warp3 NPCSDR2warp4]
-    steventhreshtumors [50 100 170 300 450 450 450 530 689 600 1 650 1 1 1 1] #tumors: light-506 right-95 console-93 total-689 (outdated)
+    steventhreshtumors [50 100 170 300 450 450 450 530 689 600 1 650 1 1 1 1] //tumors: light-506 right-95 console-93 total-689 (outdated)
     stevenlevels [10x-7 10x-5 10x-3 10x-1 15x-1 15x-5 15x-7 7d-15 r1d-1 9d-1 9-19 15x-3 $g6b-1x $g6a-1x $gn3-1x $gn4-1x]
     
     mainworlds [1 2 3 4 4a 4b 4c 5a 5b 5c 1d 2d 3d 6 7 8 9 r1 r2 r3 r4 r5 6d ex xs qu gb 7d t o 12 but 6a 6b 6c hub m 7a 7b 7c j 5 8 9 9d 9xx 8a 8ax 8ad 8c 1b a r1d dud3 2b 2c but2 but2b rr1 rr2 rr3 1bd ad r1b r4b hub2 ki k2 o1] //if you pause on these worlds, it lets you open the map. otherwise you get "exit area"
-    cartworlds [c1 c2 c3 c4a c4b c4c c5a c5b c5c c6 c9 g0 g1 g2 g3 g4 g5 g6 g9 i1 i2 i3 i4 i5 ix0 ix1 ix2 ix3 ix4 ix5 ix6 c0 gbt gr1 gr2 gr3 gr5 g4a g5a gr4 gi0 g6d g6c g6a g6b g99 gr6 csd1 csd2 g7a g7b g7c g7 gx gn1 gn2 gn3 gn4 gn5 gn6 gn7 gn8 gn9 gn10 gn11 gnr1 gnr2 gnr3 gj] //launch console automatically when you exit from these worlds
+    cartworlds [c1 c2 c3 c4a c4b c4c c5a c5b c5c c6 c9 g0 g1 g2 g3 g4 g5 g6 g9 i1 i2 i3 i4 i5 i5b ix0 ix1 ix2 ix3 ix4 ix5 ix6 ix7 ix8 c0 gbt gr1 gr2 gr3 gr5 g4a g5a gr4 gi0 g6d g6c g6a g6b g99 gr6 csd1 csd2 g7a g7b g7c g7 gx gn1 gn2 gn3 gn4 gn5 gn6 gn7 gn8 gn9 gn10 gn11 gnr1 gnr2 gnr3 gj] //launch console automatically when you exit from these worlds
     
     headlevel 5a-22
     bodylevel 5c-21
@@ -64,7 +64,7 @@ meta {
     mute_warpunlock_message [5a-22 5b-23 5c-21 1-1 1d-1 6d-23 6 hub2-4 hub2-5 6b-23 a-20 2cx-1 2cx-2 2cx-3 2cx-4 2cx-5 2cx-6 2cx-7 2cx-8 2cx-9 2cx-10 2cx-11 2cx-12 2cx-13 2cx-14 2cx-15 2cx-16 2cx-17 2cx-18 2cx-19 2cx-20 2cx-21 2cx-22 2cx-23 2cx-24 2cx-9b 2cx-8b but3-7 but3-8 but3-9 but3-10 8c-16 qu-12] //levels that have a warp point but shouldnt show the "warp point unlocked" message
     
     game_over_checkpoints [[1d 1d-1] [2d 2d-0] [3d 3d-1] [6 6-1] [7 7-0] [r1 r1-1] [r2 r2-1] [r3 r3-1] [rr1 rr1-1] [rr2 rr2-1] [rr3 rr3-1] [hub hub-1] [hub2 hub2-5] [6d 6d-1] [7d 7d-1] [ex ex-1] [xs xs-1] [qu qu-1] [gb gb-1] [r4 r4-1] [9d 9d-1] [t 7d-1] [o 7d-1]] //if you game over in world "1d", spawn back to 1d-1, etc. this only matters when loading from a save file, otherwise it uses the last checkpoint you visited
-    iron_cart_entrypoints [gr6-1 i1-1 i2-1 i3-1 i4-1 $i1-1 ix0-1 ix1-1 ix2-1 ix3-1 ix4-1 ix5-1 $ix1-1] //used to set the respawn point in an iron cart
+    iron_cart_entrypoints [gr6-1 i1-1 i2-1 i3-1 i4-1 i5b-1 $i1-1 ix0-1 ix7-1 ix1-1 ix2-1 ix3-1 ix4-1 ix5-1 $ix1-1 $i1-1x] //used to set the respawn point in an iron cart
     timed_cart_entrypoints [g5-1 g99-1 g99-3 g99-5 g99-7 gr6-1] //maybe you want to put a timer on other carts?
     console_entry_levels [1-1 1d-1 hub2-5]
     nevermore_entry 7-0
@@ -90,7 +90,8 @@ meta {
 }
 
 nodes {
-    //{The Past
+
+	//The Past
 	
     TheEnd {
         clipname city
@@ -103,7 +104,6 @@ nodes {
 		down TheFuture
         right AridFlats
     }
-    
     AridFlats {
         clipname fields
         entrylevel 2-0
@@ -115,7 +115,6 @@ nodes {
 		up FCi
 		down DepthsOfDespair
     }
-    
     Overflow {
         clipname bridge
         entrylevel 3-1
@@ -125,8 +124,7 @@ nodes {
         left AridFlats
         right TheSplit
     }
-    
-	StevenHead {
+	StevenHead { 
         clipname steve
         entrylevel 10x-1
         page lightworld
@@ -134,7 +132,14 @@ nodes {
         unlock_condition collected_carts_any
         unlock_condition_levels [10x-2 10x-4 10x-6 10x-8]    
     }
-	
+	WarpzonePast { 
+        clipname warpzonenormal
+        entrylevel cwarp-x
+        page lightworld
+        levelgroups [cwarp]
+        unlock_condition visited_levels_any
+        unlock_condition_levels [cwarp-1 cwarp-2 cwarp-3 cwarp-4 cwarp-5 cwarp-6 cwarp-7 cwarp-8 cwarp-9 7-15]    
+    }
     TheSplit {
         clipname split
         entrylevel 4-1hub
@@ -146,7 +151,6 @@ nodes {
         up WallOfSorrow
         down TheHollows
     }
-    
     Retrograde {
         clipname valley
         entrylevel 4b-1
@@ -156,7 +160,6 @@ nodes {
         left TheSplit
         right TheMachine
     }
-    
     TheMachine {
         clipname complex
         entrylevel 5b-1
@@ -168,7 +171,6 @@ nodes {
 	down TheMaze
 	right Atlantis2
     }
-    
     WallOfSorrow {
         clipname wall
         entrylevel 4a-1
@@ -179,7 +181,6 @@ nodes {
         up SSExodus
         right SSExodus
     }
-    
     SSExodus {
         clipname airship
         entrylevel 5a-1
@@ -191,7 +192,6 @@ nodes {
 	right Insanity
 	up Insanity
     }
-    
     TheHollows {
         clipname pit
         entrylevel 4c-1
@@ -202,7 +202,6 @@ nodes {
         down Golgotha
         right Golgotha
     }
-    
     Golgotha {
         clipname hell
         entrylevel 5c-1
@@ -214,7 +213,6 @@ nodes {
 	right Sheol
 	down Sheol
     }
-    
     Sheol {
         clipname sheol
         entrylevel 6c-1
@@ -226,7 +224,6 @@ nodes {
 	right PitArrow
 	down PitArrow
     }
-
     TheFuture {
         clipname future
         entrylevel none
@@ -238,7 +235,6 @@ nodes {
         up TheEnd
         select ThePast //select is just which node to go when you press spacebar. probably set "entrylevel" to none on these
     }
-    
     Insanity {
         clipname insanity
         entrylevel 6a-1
@@ -250,7 +246,6 @@ nodes {
 	up SkyArrow
 	right SkyArrow
     }
-    
     TheTracks {
         clipname tracks
         entrylevel but-0
@@ -261,7 +256,6 @@ nodes {
         left TheMachine
 		right Train
     }
-
     TheMaze {
         clipname maze
         entrylevel m-1
@@ -271,7 +265,6 @@ nodes {
         up TheMachine
         right TheMachine
     }
-
     Sky1 {
         clipname sky1
         entrylevel none
@@ -279,7 +272,6 @@ nodes {
 	unlock_condition visited_levels_all
         unlock_condition_levels [7a-1]
     }
-
     Atlantis1 {
         clipname atlantis1
         entrylevel none
@@ -287,7 +279,6 @@ nodes {
 	unlock_condition visited_levels_all
         unlock_condition_levels [6b-1]
     }
-
     Pit1 {
         clipname pit1
         entrylevel none
@@ -295,7 +286,6 @@ nodes {
 		unlock_condition visited_levels_all
         unlock_condition_levels [7c-1]
     }
-
     Train1 {
         clipname maptrain2
         entrylevel none
@@ -303,8 +293,6 @@ nodes {
 		unlock_condition visited_levels_all
         unlock_condition_levels [but2b-6]
     }
-
-	
 	Intersection {
         clipname intersection
         entrylevel none
@@ -318,7 +306,6 @@ nodes {
 		left TheEnd
 		select Intersection
     }
-	
 	DepthsOfDespair {
         clipname depthsofdespair
         entrylevel 2b-1
@@ -327,7 +314,6 @@ nodes {
         
         up AridFlats
     }
-	
 	Skyfolding {
         clipname skyfolding
         entrylevel a-1
@@ -338,7 +324,6 @@ nodes {
 		right Intersection
 		left Intersection
     }
-	
 	FCi {
         clipname floatingcity
         entrylevel 1b-1
@@ -350,297 +335,8 @@ nodes {
 		up Intersection
     }
 
-	//}
-	//{DESPAIR MIRROR THING
-	DsM1 {
-        clipname despairmap_1
-        entrylevel 2cx-1
-        page despairmap
-        levelgroups [2cx]
-        unlock_condition always_unlocked
-        
-		up DsM2
-		down DsM10
-		left DsM13
-		right DsMP1
-    }
-	//{Past Wing
-	DsM2 {
-        clipname despairmap_2
-        entrylevel 2cx-2
-        page despairmap
-        levelgroups none
-        unlock_condition always_unlocked
-		
-		down DsM1
-		up DsM3
-		left DsM6
-		right DsM7
-    }
-	DsM3 {
-        clipname despairmap_3
-        entrylevel 2cx-3
-        page despairmap
-        levelgroups none
-        unlock_condition visited_levels_any
-		unlock_condition_levels [5b-1]
-        
-		down DsM2
-		right DsM4
-		left DsM5
-    }
-	DsM4 {
-        clipname despairmap_4
-        entrylevel 2cx-4
-        page despairmap
-        levelgroups none
-        unlock_condition visited_levels_any
-		unlock_condition_levels [5b-1]
-        
-		left DsM3
-		down DsM7
-		right DsM8
-    }
-	DsM5 {
-        clipname despairmap_5
-        entrylevel 2cx-5
-        page despairmap
-        levelgroups none
-        unlock_condition visited_levels_any
-		unlock_condition_levels [5a-1]
-        
-		right DsM3
-		down DsM6
-		left DsM9
-    }
-	DsM6 {
-        clipname despairmap_6
-        entrylevel 2cx-6
-        page despairmap
-        levelgroups none
-        unlock_condition always_unlocked
-        
-		up DsM5
-		right DsM2
-		left DsM9b
-    }
-	DsM7 {
-        clipname despairmap_7
-        entrylevel 2cx-7
-        page despairmap
-        levelgroups none
-        unlock_condition visited_levels_any
-		unlock_condition_levels [5c-1]
-        
-		up DsM4
-		left DsM2
-		right DsM8b
-    }
-	DsM8 {
-        clipname despairmap_8
-        entrylevel 2cx-8b
-        page despairmap
-        levelgroups none
-        unlock_condition visited_levels_any
-		unlock_condition_levels [5b-1]
-        
-		left DsM4
-    }
-	DsM9 {
-        clipname despairmap_9
-        entrylevel 2cx-9b
-        page despairmap
-        levelgroups none
-        unlock_condition visited_levels_any
-		unlock_condition_levels [7a-1]
-        
-		right DsM5
-    }
-	DsM8b {
-        clipname despairmap_8b
-        entrylevel 2cx-8
-        page despairmap
-        levelgroups none
-        unlock_condition visited_levels_any
-		unlock_condition_levels [7c-1]
-        
-		left DsM7
-    }
-	DsM9b {
-        clipname despairmap_9b
-        entrylevel 2cx-9
-        page despairmap
-        levelgroups none
-        unlock_condition visited_levels_any
-		unlock_condition_levels [7b-1]
-        
-		right DsM6
-    }
-	//}
-	//{FF Wing
 	
-	DsM10 {
-        clipname despairmap_10
-        entrylevel 2cx-10
-        page despairmap
-        levelgroups none
-        unlock_condition visited_levels_any
-		unlock_condition_levels [7-0]
-		
-		up DsM1
-		down DsM11
-    }
-	DsM11 {
-        clipname despairmap_11
-        entrylevel 2cx-11
-        page despairmap
-        levelgroups none
-        unlock_condition visited_levels_any
-		unlock_condition_levels [6d-23 xs-1]
-		
-		up DsM10
-		down DsM12
-		right DsM12
-    }
-	DsM12 {
-        clipname despairmap_12
-        entrylevel 2cx-12
-        page despairmap
-        levelgroups none
-        unlock_condition visited_levels_any
-		unlock_condition_levels [hub-5]
-		
-		up DsM11
-		left DsM11
-    }
-	//}
-	//{Carts Wing
-	DsM13 {
-        clipname despairmap_13
-        entrylevel 2cx-15
-        page despairmap
-        levelgroups none
-        unlock_condition visited_levels_any
-		unlock_condition_levels [a-1 1b-1 m-1 but-1 6c-1 6a-1 6b-1]
-		
-		right DsM1
-		down DsM14
-		up DsM15
-		left DsM16
-    }
-	DsM14 {
-        clipname despairmap_14
-        entrylevel 2cx-14
-        page despairmap
-        levelgroups none
-        unlock_condition visited_levels_any
-		unlock_condition_levels [9-1 dud3-1 8c-1 8a-1 9d-1]
-		
-		up DsM13
-    }
-	DsM15 {
-        clipname despairmap_15
-        entrylevel 2cx-13
-        page despairmap
-        levelgroups none
-        unlock_condition visited_levels_any
-		unlock_condition_levels [7c-1 7a-1 7b-1 5-1 8-0]
-		
-		down DsM13
-    }
-	DsM16 {
-        clipname despairmap_16
-        entrylevel 2cx-16
-        page despairmap
-        levelgroups none
-        unlock_condition visited_levels_any
-		unlock_condition_levels [r1-1 rr1-1]
-		
-		right DsM13
-		left DsM17
-    }
-	DsM17 {
-        clipname despairmap_17
-        entrylevel 2cx-17
-        page despairmap
-        levelgroups none
-        unlock_condition visited_levels_any
-		unlock_condition_levels [r4-1 xs-1]
-		
-		right DsM16
-		up DsM18
-    }
-	DsM18 {
-        clipname despairmap_18
-        entrylevel 2cx-18
-        page despairmap
-        levelgroups none
-        unlock_condition visited_levels_any
-		unlock_condition_levels [r5-1 6d-1]
-		
-		down DsM17
-		up DsM19
-    }
-	DsM19 {
-        clipname despairmap_19
-        entrylevel 2cx-19
-        page despairmap
-        levelgroups none
-        unlock_condition visited_levels_any
-		unlock_condition_levels [hub-5]
-		
-		down DsM18
-    }
-	//}
-	//{Puzzle Wing
-	DsMP1 {
-        clipname despairmap_puzzle1
-        entrylevel 2cx-20
-        page despairmap
-        levelgroups none
-        unlock_condition always_unlocked
-		
-		left DsM1
-		up DsMP2
-		down DsMP4
-		right DsMP2
-    }
-	DsMP2 {
-        clipname despairmap_puzzle2
-        entrylevel 2cx-21
-        page despairmap
-        levelgroups none
-        unlock_condition always_unlocked
-		
-		left DsMP1
-		down DsMP1
-		right DsMP3
-    }
-	DsMP3 {
-        clipname despairmap_puzzle3
-        entrylevel 2cx-22
-        page despairmap
-        levelgroups none
-        unlock_condition always_unlocked
-		
-		left DsMP4
-		down DsMP4
-		up DsMP2
-    }
-	DsMP4 {
-        clipname despairmap_puzzle4
-        entrylevel 2cx-23
-        page despairmap
-        levelgroups none
-        unlock_condition always_unlocked
-		
-		left DsMP1
-		up DsMP3
-		right DsMP3
-    }
-	//}
-	//}
-	//{TheRightSide
+	//TheRightSide
 
 	PitArrow {
         clipname rightworldarrow_2
@@ -666,7 +362,6 @@ nodes {
 	select SkyArrow
 	up Sky2
     }
-	
 	Train {
 		clipname maptrain
 		entrylevel but2b-6
@@ -677,7 +372,6 @@ nodes {
 		right Atlantis2
 		left TheTracks
 	}
-	
     Atlantis2 {
         clipname atlantis2
         entrylevel 6b-1
@@ -688,7 +382,6 @@ nodes {
 		right Gallery
 		up Train
     }
-
     Sky2 {
         clipname sky2
         entrylevel 7a-1
@@ -698,7 +391,6 @@ nodes {
         left SkyArrow
         down Juxtaposition
     }
-
     Pit2 {
         clipname pit2
         entrylevel 7c-1
@@ -710,18 +402,16 @@ nodes {
 		right Breeze
 		down Breeze
     }
-	
 	HellArea {
-        clipname breeze #actually hell
+        clipname breeze //actually hell
         entrylevel 8a-1x
         page rightworld
         levelgroups [8a 8ax 8ad 8as]
         
         up Stormscapes
     }
-	
 	Breeze {
-        clipname australia #actually breeze
+        clipname australia //actually breeze
         entrylevel 8c-1
         page rightworld
         levelgroups [8c 8cx]
@@ -730,7 +420,6 @@ nodes {
 		left Pit2
 		right Aqueros
     }
-	
 	Aqueros {
         clipname aqueros
         entrylevel ki-1
@@ -740,7 +429,6 @@ nodes {
 		left Breeze
 		right Hydredron
     }
-	
 	Hydredron {
         clipname hydredron
         entrylevel k2-1
@@ -750,14 +438,12 @@ nodes {
 		left Aqueros
 		down Aqueros
     }
-	
 	Meta {
         clipname meta
         entrylevel 0-10
         page rightworld
         levelgroups [0 0x]
     }
-
     Gallery {
         clipname gallery
         entrylevel 7b-1
@@ -767,7 +453,6 @@ nodes {
         left Atlantis2
 		right Juxtaposition
     }
-
     Juxtaposition {
         clipname juxtaposition
         entrylevel j-1hub
@@ -779,7 +464,6 @@ nodes {
 	up Sky2
 	right Castle
     }
-
     Castle {
         clipname castle
         entrylevel 5-1
@@ -790,7 +474,6 @@ nodes {
 	up Stormscapes
 	right Stormscapes
     }
-
     Stormscapes {
         clipname stormscapes
         entrylevel 8-0
@@ -801,7 +484,6 @@ nodes {
         down HellArea
 		right Wreckage
     }
-	
 	Wreckage {
         clipname wreckage
         entrylevel dud3-1
@@ -812,7 +494,6 @@ nodes {
 	up Farlands
 	right Farlands
     }
-
     Farlands {
         clipname farlands
         entrylevel 9-1
@@ -824,7 +505,6 @@ nodes {
 		up Fartherlands
 		right Fartherlands
     }
-	
 	Fartherlands {
         clipname fartherlands
         entrylevel 9d-1
@@ -835,20 +515,20 @@ nodes {
         down Wreckage
     }
 
-    
-    //}
-    //{TheLeftSide
-		Junkyard {
+
+    //ButchersSide
+	
+	Junkyard {
         clipname rocket
         entrylevel o1-0
         page leftworld
         levelgroups [o1 o1x]
         
 		up Train
-		}
-
-	//}
-	//{TheFuture
+	}
+	
+	
+	//TheFuture
 	
     ThePast {
         clipname past
@@ -861,7 +541,6 @@ nodes {
         right Anguish
 		down FutureFuture
     }
-    
     Anguish {
         clipname darkcity
         entrylevel 1d-1
@@ -872,7 +551,14 @@ nodes {
         right Gloom
 		up Decay
     }
-    
+	WarpzoneFuture { 
+        clipname warpzonedark
+        entrylevel gwarp-x
+        page lightworld
+        levelgroups [gwarp gwarp2]
+        unlock_condition visited_levels_any
+        unlock_condition_levels [gwarp-1 gwarp-2 gwarp-3 gwarp-4 gwarp2-5 gwarp-6 cwarp-1 cwarp-2 cwarp-3 cwarp-4 cwarp-5 cwarp-6 cwarp-7 cwarp-8 cwarp-9 7-15]    
+    }
 	Decay {
         clipname decline
         entrylevel 1bd-1
@@ -882,7 +568,6 @@ nodes {
         down Anguish
 		right Anguish
     }
-	
     Gloom {
         clipname darkfields
         entrylevel 2d-0
@@ -892,7 +577,6 @@ nodes {
         left Anguish
         right Blight
     }
-    
     Blight {
         clipname darkbridge
         entrylevel 3d-1
@@ -901,8 +585,7 @@ nodes {
         
         left Gloom
         down Ruin
-    }
-    
+    }    
     Ruin {
         clipname sewers
         entrylevel 6-1
@@ -912,7 +595,6 @@ nodes {
         up Blight
         left Acceptance
     }
-    
     Acceptance {
         clipname escape
         entrylevel 6-21
@@ -922,7 +604,6 @@ nodes {
         right Ruin
         left Nevermore
     }
-    
     Nevermore {
         clipname superhell
         entrylevel 7-0
@@ -932,9 +613,6 @@ nodes {
         right Acceptance
 		left FutureFuture
     }
-
- // BACKSLASH, TROLLFACE
-
     FutureFuture {
         clipname futurefuture
         entrylevel none
@@ -946,8 +624,9 @@ nodes {
 		right Nevermore
 		up ThePast
     }
-	//}
-	//{FUTURE FUTURE LETS GO
+	
+	
+	//FUTURE FUTURE LETS GO
 	
 	TheFutureFuture {
         clipname futurama
@@ -959,7 +638,6 @@ nodes {
         select FutureFuture
 		down Rapture
     }
-	
 	Rapture {
         clipname rapture
         entrylevel r1-1
@@ -970,7 +648,6 @@ nodes {
 		right Wastelands
 		down Eidolon
     }
-
     Wastelands {
         clipname wastelands
         entrylevel r2-1
@@ -981,7 +658,6 @@ nodes {
 		right Collapse
 		down Throes
     }
-
     Collapse {
         clipname collapse
         entrylevel r3-1
@@ -993,7 +669,6 @@ nodes {
 		down Beseech
 		up Frost
     }
-
 	Frost {
         clipname frost
         entrylevel r4b-1
@@ -1002,7 +677,6 @@ nodes {
         
 		down Collapse
     }
-
 	Eidolon {
         clipname altff_1
         entrylevel rr1-1
@@ -1013,7 +687,6 @@ nodes {
 		down Rapture
 		right Throes
     }
-	
 	Throes {
         clipname altff_2
         entrylevel rr2-1
@@ -1025,7 +698,6 @@ nodes {
 		left Eidolon
 		right Beseech
     }
-	
 	Beseech {
         clipname altff_3
         entrylevel rr3-1
@@ -1037,7 +709,6 @@ nodes {
 		left Throes
 		right Hubz
     }
-
     Hubz {
         clipname hub
         entrylevel hub-1
@@ -1049,7 +720,6 @@ nodes {
 	down Shock
 	up Excruciance
     }
-
     Excruciance {
         clipname excruciance
         entrylevel ex-1
@@ -1060,7 +730,6 @@ nodes {
 	right XSExodus
 	up XSExodus
     }
-
     XSExodus {
         clipname xsexodus
         entrylevel xs-1
@@ -1072,7 +741,6 @@ nodes {
 		right QuantumUndersides
 		up QuantumUndersides
     }
-
     QuantumUndersides {
         clipname quantum
         entrylevel qu-1
@@ -1082,7 +750,6 @@ nodes {
         left XSExodus
 		down GunsBlazing
     }
-
     GunsBlazing {
         clipname guns
         entrylevel gb-1
@@ -1091,7 +758,6 @@ nodes {
         
         up QuantumUndersides
     }
-
     Flip {
         clipname flip
         entrylevel r4-1
@@ -1102,7 +768,6 @@ nodes {
 		right Desintegration
 		down Desintegration
     }
-
     Desintegration {
         clipname desintegration
         entrylevel r5-0
@@ -1112,7 +777,6 @@ nodes {
         left Flip
 		up Flip
     }
-
     Shock {
         clipname shock
         entrylevel 6d-3
@@ -1122,7 +786,6 @@ nodes {
         up Hubz
 	left Lemniscateum
     }
-
     Lemniscateum {
         clipname lemniscateum
         entrylevel 7d-1
@@ -1132,7 +795,6 @@ nodes {
         right Shock
 	left Grave
     }
-
     Grave {
         clipname grave
         entrylevel hub2-5
@@ -1143,7 +805,6 @@ nodes {
         
         right Lemniscateum
     }
-	
 	StevenHeadFF {
         clipname steveff
         entrylevel 15x-1
@@ -1152,9 +813,7 @@ nodes {
         unlock_condition collected_carts_any
         unlock_condition_levels [15x-2 15x-4 15x-6 15x-8]    
     }
-	
-	//
-	
+
 	DarkRapture {
         clipname dark_rapture
         entrylevel r1d-1
@@ -1166,12 +825,9 @@ nodes {
         entrylevel t-1
         page darkrapture
         levelgroups [t tx]
-		unlock_condition visited_levels_any
-		unlock_condition_levels [t-15 t-1]
         
         up Omni
 		down Grave
-		select Terminal
     }
 	Omni {
         clipname omni
@@ -1180,7 +836,6 @@ nodes {
         levelgroups [o]
         
 		down Terminal
-		select Omni
     }
 	Heartbreak {
         clipname heartbreak
@@ -1189,11 +844,10 @@ nodes {
         levelgroups [12]
         
 		down Lemniscateum
-		select Heartbreak
     }
-
-	//}
-    //{carts
+	
+	
+    //carts
     
     Cart1 {
         clipname c1
@@ -1206,9 +860,8 @@ nodes {
         
         down Cart2
         up GlitchCart9
-		right GSpinecraft
+		right Cart2_1
     }
-    
     Cart2 {
         clipname c2
         entrylevel c2-1
@@ -1220,9 +873,8 @@ nodes {
         
         down Cart3
         up Cart1
-		right GTragicka
+		right Cart2_2
     }
-    
     Cart3 {
         clipname c3
         entrylevel c3-1
@@ -1234,9 +886,8 @@ nodes {
         
         down Cart4c
         up Cart2
-		right GEvisceration
+		right Cart2_3
     }
-    
     Cart4c {
         clipname c4c
         entrylevel c4c-1
@@ -1248,9 +899,8 @@ nodes {
         
         down Cart5c
         up Cart3
-		right GDontDrown
+		right Cart2_4
     }
-    
     Cart5c {
         clipname c5c
         entrylevel c5c-1
@@ -1262,9 +912,8 @@ nodes {
         
         down Cart4a
         up Cart4c
-		right GNauseous
+		right Cart2_5
     }
-    
     Cart4a {
         clipname c4a
         entrylevel c4a-1
@@ -1276,9 +925,8 @@ nodes {
         
         down Cart5a
         up Cart5c
-		right GHelleste
+		right Cart2_6
     }
-    
     Cart5a {
         clipname c5a
         entrylevel c5a-1
@@ -1290,9 +938,8 @@ nodes {
         
         down Cart4b
         up Cart4a
-		right GChore
+		right Cart2_7
     }
-    
     Cart4b {
         clipname c4b
         entrylevel c4b-1
@@ -1304,9 +951,8 @@ nodes {
         
         down Cart5b
         up Cart5a
-		right GACRolls
+		right Cart2_8
     }
-    
     Cart5b {
         clipname c5b
         entrylevel c5b-1
@@ -1318,9 +964,8 @@ nodes {
         
         down MegaCart
         up Cart4b
-		right GUlcerWilds
+		right Cart2_9
     }
-    
     MegaCart {
         clipname allstars_1
         entrylevel $c1-1
@@ -1332,9 +977,8 @@ nodes {
         
         down IronCart1
         up Cart5b
-		right GDeathsSpoor
+		right Cart2_10
     }
-    
     IronCart1 {
         clipname i1
         entrylevel i1-1
@@ -1346,9 +990,8 @@ nodes {
         
         down IronCart2
         up MegaCart
-		right GFTMoods
+		right Cart2_11
     }
-    
     IronCart2 {
         clipname i2
         entrylevel i2-1
@@ -1360,9 +1003,8 @@ nodes {
         
         down IronCart3
         up IronCart1
-		right GBeGory
+		right Cart2_12
     }
-    
     IronCart3 {
         clipname i3
         entrylevel i3-1
@@ -1374,9 +1016,8 @@ nodes {
         
         down IronCart4
         up IronCart2
-		right GLunatic
+		right Cart2_13
     }
-    
     IronCart4 {
         clipname i4
         entrylevel i4-1
@@ -1388,9 +1029,8 @@ nodes {
         
         down TowerCart
         up IronCart3
-		right GGoopHero
+		right Cart2_14
     }
-    
     TowerCart {
         clipname allstars_2
         entrylevel $i1-1
@@ -1402,9 +1042,8 @@ nodes {
         
         down GlitchCart2
         up IronCart4
-		right GHerpes
+		right Cart2_15
     }
-    
     GlitchCart2 {
         clipname g2
         entrylevel g2-1
@@ -1416,9 +1055,8 @@ nodes {
         
         down GlitchCart3
         up TowerCart
-		right GAfraid
+		right Cart2_16
     }
-    
     GlitchCart3 {
         clipname g3
         entrylevel g3-1
@@ -1430,9 +1068,8 @@ nodes {
         
         down GlitchCart4
         up GlitchCart2
-		right GTLMutable
+		right Cart2_17
     }
-    
     GlitchCart4 {
         clipname g4
         entrylevel g4-1
@@ -1444,9 +1081,8 @@ nodes {
         
         down GlitchCart5
         up GlitchCart3
-		right GMurdertale
+		right Cart2_18
     }
-    
     GlitchCart5 {
         clipname g5
         entrylevel g0-1
@@ -1458,9 +1094,8 @@ nodes {
         
         down GlitchCart6
         up GlitchCart4
-		right GKTAND
+		right Cart2_19
     }
-    
     GlitchCart6 {
         clipname g6
         entrylevel g5-1
@@ -1472,9 +1107,8 @@ nodes {
         
         down GlitchCart1
         up GlitchCart5
-		right GKTAND
+		right Cart2_19
     }
-    
     GlitchCart1 {
         clipname g1
         entrylevel g1-1
@@ -1486,9 +1120,8 @@ nodes {
         
         down GlitchCart9
         up GlitchCart6
-		right GPrescryption
+		right Cart2_21
     }
-    
     GlitchCart9 {
         clipname c9
         entrylevel g9-0
@@ -1500,13 +1133,14 @@ nodes {
         
         down Cart1
         up GlitchCart1
-		right GNMega
+		right Cart2_22
     }
-	//}
-	//{carts2
+
+
+	//carts2
 	
-    GSpinecraft {
-        clipname gbt
+    Cart2_1 {
+        clipname gbt //spinecraft
         entrylevel gbt-1
         page console2
         cart_cheevolevel gbt-all
@@ -1514,14 +1148,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [butx-5]
         
-        down GTragicka
-        up GNMega
+        down Cart2_2
+        up Cart2_22
 		left Cart1
-		right GOeFake
+		right Cart3_1
     }
-    
-    GTragicka {
-        clipname g6c
+    Cart2_2 {
+        clipname g6c //tragicka
         entrylevel g6c-1
         page console2
         cart_cheevolevel g6c-all
@@ -1529,14 +1162,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [6cx-1]
         
-        down GEvisceration
-        up GSpinecraft
+        down Cart2_3
+        up Cart2_1
 		left Cart2
-		right GUntitledBruiseGame
+		right Cart3_2
     }
-    
-    GEvisceration {
-        clipname g6a
+    Cart2_3 {
+        clipname g6a //evisceration
         entrylevel g6a-1
         page console2
         cart_cheevolevel g6a-all
@@ -1544,14 +1176,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [6ax-1]
         
-        down GDontDrown
-        up GTragicka
+        down Cart2_4
+        up Cart2_2
 		left Cart3
-		right GUntitledBruiseGame
+		right Cart3_2
     }
-    
-    GDontDrown {
-        clipname g6b
+    Cart2_4 {
+        clipname g6b //dont drown
         entrylevel g6b-1
         page console2
         cart_cheevolevel g6b-all
@@ -1559,14 +1190,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [6bx-2]
         
-        down GNauseous
-        up GEvisceration
+        down Cart2_5
+        up Cart2_3
 		left Cart4c
-		right GEColiBridge
+		right Cart3_4
     }
-    
-    GNauseous {
-        clipname g7c
+    Cart2_5 {
+        clipname g7c //nauseous
         entrylevel g7c-1
         page console2
         cart_cheevolevel g7c-all
@@ -1574,14 +1204,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [7cx-1]
         
-        down GHelleste
-        up GDontDrown
+        down Cart2_6
+        up Cart2_4
 		left Cart5c
-		right GAssasinsCancer
+		right Cart3_5
     }
-    
-    GHelleste {
-        clipname g7a
+    Cart2_6 {
+        clipname g7a //helleste
         entrylevel g7a-1
         page console2
         cart_cheevolevel g7a-all
@@ -1589,14 +1218,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [7ax-1]
         
-        down GChore
-        up GNauseous
+        down Cart2_7
+        up Cart2_5
 		left Cart4a
-		right GGoryMod
+		right Cart3_6
     }
-    
-    GChore {
-        clipname g7b
+    Cart2_7 {
+        clipname g7b //chore
         entrylevel g7b-1
         page console2
         cart_cheevolevel g7b-all
@@ -1604,14 +1232,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [7bx-1]
         
-        down GACRolls
-        up GHelleste
+        down Cart2_8
+        up Cart2_6
 		left Cart5a
-		right GMortal
+		right Cart3_7
     }
-
-    GACRolls {
-        clipname gn1
+    Cart2_8 {
+        clipname gn1 //ash carnage roll
         entrylevel gn1-1
         page console2
         cart_cheevolevel gn1-all
@@ -1619,14 +1246,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [1bx-1]
         
-        down GUlcerWilds
-        up GChore
+        down Cart2_9
+        up Cart2_7
 		left Cart4b
-		right GBrittleInferno
+		right Cart3_8
     }
-	
-	GUlcerWilds {
-        clipname gn2
+	Cart2_9 {
+        clipname gn2 //ulcer wilds
         entrylevel gn2-1
         page console2
         cart_cheevolevel gn2-all
@@ -1634,14 +1260,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [ax-1]
         
-        down GDeathsSpoor
-        up GACRolls
+        down Cart2_10
+        up Cart2_8
 		left Cart5b
-		right GDoomed
+		right Cart3_9
     }
-	
-	GDeathsSpoor {
-        clipname gn3
+	Cart2_10 {
+        clipname gn3 //death spoor
         entrylevel gn3-1
         page console2
         cart_cheevolevel gn3-all
@@ -1649,14 +1274,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [5x-2]
         
-        down GFTMoods
-        up GUlcerWilds
+        down Cart2_11
+        up Cart2_9
 		left MegaCart
-		right GTheSlanderToy
+		right Cart3_10
     }
-	
-	GFTMoods {
-        clipname gn4
+	Cart2_11 {
+        clipname gn4 //frighten the moods
         entrylevel gn4-1
         page console2
         cart_cheevolevel gn4-all
@@ -1664,14 +1288,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [8xd-1]
         
-        down GBeGory
-        up GDeathsSpoor
+        down Cart2_12
+        up Cart2_10
 		left IronCart1
-		right GIAmDead
+		right Cart3_11
     }
-	
-	GBeGory {
-        clipname gn5
+	Cart2_12 {
+        clipname gn5 //mori
         entrylevel gn5-1
         page console2
         cart_cheevolevel gn5-all
@@ -1679,14 +1302,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [dud3xu-9]
         
-        down GLunatic
-        up GFTMoods
+        down Cart2_13
+        up Cart2_11
 		left IronCart2
-		right GMicrobePlatformer
+		right Cart3_12
     }
-	
-	GLunatic {
-        clipname gn6
+	Cart2_13 {
+        clipname gn6 //lunatic
         entrylevel gn6-1
         page console2
         cart_cheevolevel gn6-all
@@ -1694,126 +1316,118 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [9xd-6]
         
-        down GGoopHero
-        up GBeGory
+        down Cart2_14
+        up Cart2_12
 		left IronCart3
-		right GUndeadChamber
+		right Cart3_13
     }
-	
-	GGoopHero {
-        clipname gn7
+	Cart2_14 {
+        clipname gn7 //goop hero
         entrylevel gn7-1
         page console2
         cart_cheevolevel gn7-all
-        cart_splashframe glitch
+        cart_splashframe unfinished
         unlock_condition collected_carts_all
         unlock_condition_levels [mx-2]
         
-        down GHerpes
-        up GLunatic
+        down Cart2_15
+        up Cart2_13
 		left IronCart4
-		right GTower1
-		select GGoopHero
+		right Cart3_14
+		select Cart2_14
     }
-	
-	GHerpes {
-        clipname gn8
+	Cart2_15 {
+        clipname gn8 //herpes
         entrylevel gn8-1
         page console2
         cart_cheevolevel gn8-all
-        cart_splashframe glitch
+        cart_splashframe unfinished
         unlock_condition collected_carts_all
         unlock_condition_levels [8cx-1]
         
-        down GAfraid
-        up GGoopHero
+        down Cart2_16
+        up Cart2_14
 		left TowerCart
-		right GTower2
-		select GHerpes
+		right Cart3_15
+		select Cart2_15
     }
-	
-	GAfraid {
-        clipname gn9
+	Cart2_16 {
+        clipname gn9 //afraid
         entrylevel gn9-1
         page console2
         cart_cheevolevel gn9-all
-        cart_splashframe glitch
+        cart_splashframe unfinished
         unlock_condition collected_carts_all
         unlock_condition_levels [2bx-1]
         
-        down GTLMutable
-        up GHerpes
+        down Cart2_17
+        up Cart2_15
 		left GlitchCart2
-		right GTower3
-		select GAfraid
+		right Cart3_16
+		select Cart2_16
     }
-	
-	GTLMutable {
-        clipname gn10
+	Cart2_17 {
+        clipname gn10 //AAAAAA
         entrylevel gn10-1
         page console2
         cart_cheevolevel gn10-all
-        cart_splashframe glitch
+        cart_splashframe unfinished
         unlock_condition collected_carts_all
         unlock_condition_levels [8as-9]
         
-        down GMurdertale
-        up GAfraid
+        down Cart2_18
+        up Cart2_16
 		left GlitchCart3
-		right GTower4
-		select GTLMutable
+		right Cart3_17
+		select Cart2_17
     }
-
-	GMurdertale {
-        clipname gn11
+	Cart2_18 {
+        clipname gn11 //worldofflu
         entrylevel gnr1-1
         page console2
         cart_cheevolevel gnr1-all
-        cart_splashframe glitch
+        cart_splashframe unfinished
         unlock_condition collected_carts_all
         unlock_condition_levels [rr1x-1]
         
-        down GKTAND
-        up GTLMutable
+        down Cart2_19
+        up Cart2_17
 		left GlitchCart4
-		right GTower5
-		select GMurdertale
+		right Cart3_18
+		select Cart2_18
     }
-    
-	GKTAND {
-        clipname gn12
+	Cart2_19 {
+        clipname gn12 //keep trying and nobody dies x2
         entrylevel gnr2-1
         page console2
         cart_cheevolevel gnr2-all
-        cart_splashframe glitch
+        cart_splashframe unfinished
         unlock_condition collected_carts_all
         unlock_condition_levels [rr2x-1]
         
-        down GPrescryption
-        up GMurdertale
+        down Cart2_21
+        up Cart2_18
 		left GlitchCart5
-		right GTower6
-		select GKTAND
+		right Cart3_19
+		select Cart2_19
     }
-    
-	GPrescryption {
-        clipname gn13
+	Cart2_21 {
+        clipname gn13 //prescryption
         entrylevel gnr3-1
         page console2
         cart_cheevolevel gnr3-all
-        cart_splashframe glitch
+        cart_splashframe unfinished
         unlock_condition collected_carts_all
         unlock_condition_levels [rr3x-1]
         
-        down GNMega
-        up GKTAND
+        down Cart2_22
+        up Cart2_19
 		left GlitchCart1
-		right GSurrealsFavorite
-		select GPrescryption
+		right Cart3_21
+		select Cart2_21
     }
-	
-	GNMega {
-        clipname gnmega
+	Cart2_22 {
+        clipname gnmega //superstashpros
         entrylevel $gn1-1x
         page console2
         cart_cheevolevel gn11-all
@@ -1821,17 +1435,17 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [butx-5 6cx-1 6ax-1 6bx-2 7cx-1 7ax-1 7bx-1 1bx-1 ax-1 5x-2 8xd-1 dud3xu-9 9xd-6 mx-2 8as-9 8cx-1]
         
-        down GSpinecraft
-        up GPrescryption
+        down Cart2_1
+        up Cart2_21
 		left GlitchCart9
-		right GFinale
+		right Cart3_22
     }
-    	
-	//}
-	//{carts3
+    
+	
+	//carts3
 
-	GOeFake {
-        clipname gr1
+	Cart3_1 {
+        clipname gr1 //oe fake
         entrylevel gr1-1
         page console3
         cart_cheevolevel gr1-all
@@ -1839,13 +1453,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [r1x-2]    
         
-        down GUntitledBruiseGame
-        up GFinale
-		left GSpinecraft
+        down Cart3_2
+        up Cart3_22
+		left Cart2_1
+		right Cart4_1
     }
-    
-    GUntitledBruiseGame {
-        clipname gr2
+    Cart3_2 {
+        clipname gr2 //ubg x2
         entrylevel gr2-1
         page console3
         cart_cheevolevel gr2-all
@@ -1853,13 +1467,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [r2x-4]   
         
-        down GEColiBridge
-        up GOeFake
-		left GTragicka
+        down Cart3_4
+        up Cart3_1
+		left Cart2_2
+		right Cart4_2
     }
-    
-    GEColiBridge {
-        clipname gr3
+    Cart3_4 {
+        clipname gr3 //ecoli bridge
         entrylevel gr3-1
         page console3
         cart_cheevolevel gr3-all
@@ -1867,13 +1481,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [r3x-1]   
         
-        down GAssasinsCancer
-        up GUntitledBruiseGame
-		left GDontDrown
+        down Cart3_5
+        up Cart3_2
+		left Cart2_4
+		right Cart4_4
     }
-    
-	GAssasinsCancer {
-        clipname g4a
+	Cart3_5 {
+        clipname g4a //assassins cancer
         entrylevel g4a-1
         page console3
         cart_cheevolevel g4a-all
@@ -1881,13 +1495,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [exx-2]
         
-        down GGoryMod
-        up GEColiBridge
-		left GNauseous
+        down Cart3_6
+        up Cart3_4
+		left Cart2_5
+		right Cart4_5
     }
-    
-    GGoryMod {
-        clipname g5a
+    Cart3_6 {
+        clipname g5a //gory mod
         entrylevel g5a-1
         page console3
         cart_cheevolevel g5a-all
@@ -1895,13 +1509,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [xsx-1]
         
-        down GMortal
-        up GAssasinsCancer
-		left GHelleste
+        down Cart3_7
+        up Cart3_5
+		left Cart2_6
+		right Cart4_6
     }
-    
-	GMortal {
-        clipname g6r
+	Cart3_7 {
+        clipname g6r //mortal
         entrylevel g6-1
         page console3
         cart_cheevolevel g6-all
@@ -1909,13 +1523,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [qux-1]
         
-        down GBrittleInferno
-        up GGoryMod
-		left GChore
+        down Cart3_8
+        up Cart3_6
+		left Cart2_7
+		right Cart4_7
     }
- 
-    GBrittleInferno {
-        clipname gi0
+    Cart3_8 {
+        clipname gi0 //brittleinfernoisforme
         entrylevel gi0-1
         page console3
         cart_cheevolevel gi0-all
@@ -1923,13 +1537,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [gbx-1]
         
-        down GDoomed
-        up GMortal
-		left GACRolls
+        down Cart3_9
+        up Cart3_7
+		left Cart2_8
+		right Cart4_8
     }
-    
-    GDoomed {
-        clipname gr4
+    Cart3_9 {
+        clipname gr4 //doomed
         entrylevel gr4-1
         page console3
         cart_cheevolevel gr4-all
@@ -1937,13 +1551,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [r4x-1]
         
-        down GTheSlanderToy
-        up GBrittleInferno
-		left GUlcerWilds
+        down Cart3_10
+        up Cart3_8
+		left Cart2_9
+		right Cart4_9
     }
-
-    GTheSlanderToy {
-        clipname gr5
+    Cart3_10 {
+        clipname gr5 //slander toy
         entrylevel gr5-1
         page console3
         cart_cheevolevel gr5-all
@@ -1951,13 +1565,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [r5x-1]
         
-        up GDoomed
-        down GIAmDead
-		left GDeathsSpoor
+        up Cart3_9
+        down Cart3_11
+		left Cart2_10
+		right Cart4_10
     }
-
-    GIAmDead {
-        clipname g6d
+    Cart3_11 {
+        clipname g6d //i am dead
         entrylevel g6d-1
         page console3
         cart_cheevolevel g6d-all
@@ -1965,13 +1579,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [6dx-2]
         
-        up GTheSlanderToy
-        down GMicrobePlatformer
-		left GFTMoods
+        up Cart3_10
+        down Cart3_12
+		left Cart2_11
+		right Cart4_11
     }
-    
-    GMicrobePlatformer {
-        clipname g7
+    Cart3_12 {
+        clipname g7 //microbe platformer
         entrylevel g7-1
         page console3
         cart_cheevolevel g7-all
@@ -1979,13 +1593,13 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [hub2-4]
         
-        down GUndeadChamber
-        up GIAmDead
-		left GBeGory
+        down Cart3_13
+        up Cart3_11
+		left Cart2_12
+		right Cart4_12
     }
-    
-    GUndeadChamber {
-        clipname gx
+    Cart3_13 {
+        clipname gx //undead chamber
         entrylevel gx-1
         page console3
         cart_cheevolevel gx-all
@@ -1993,92 +1607,97 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [t-1x]
         
-        down GTower1
-        up GMicrobePlatformer
-		left GLunatic
+        down Cart3_14
+        up Cart3_12
+		left Cart2_13
+		right Cart4_13
     }
-	
-	GTower1 {
-        clipname ix1
+	Cart3_14 {
+        clipname ix1 //contemplation
         entrylevel ix1-1
         page console3
         cart_cheevolevel ix1-all
-        cart_splashframe glitch
+        cart_splashframe ironman
         unlock_condition collected_carts_all
-        unlock_condition_levels [g2-x]
+        unlock_condition_levels [gwarp-1]
         
-        down GTower2
-        up GUndeadChamber
-		left GGoopHero
+        down Cart3_15
+        up Cart3_13
+		left Cart2_14
+		right Cart4_14
     }
-	GTower2 {
-        clipname ix2
+	Cart3_15 {
+        clipname ix2 //preparation
         entrylevel ix2-1
         page console3
         cart_cheevolevel ix2-all
-        cart_splashframe glitch
+        cart_splashframe ironman
         unlock_condition collected_carts_all
-        unlock_condition_levels [g3-x]
+        unlock_condition_levels [gwarp-2]
         
-        down GTower3
-        up GTower1
-		left GHerpes
+        down Cart3_16
+        up Cart3_14
+		left Cart2_15
+		right Cart4_15
     }
-	GTower3 {
-        clipname ix3
+	Cart3_16 {
+        clipname ix3 //action
         entrylevel ix3-1
         page console3
         cart_cheevolevel ix3-all
-        cart_splashframe glitch
+        cart_splashframe ironman
         unlock_condition collected_carts_all
-        unlock_condition_levels [g4-x]
+        unlock_condition_levels [gwarp-3]
         
-        down GTower4
-        up GTower2
-		left GAfraid
+        down Cart3_17
+        up Cart3_15
+		left Cart2_16
+		right Cart4_16
     }
-	GTower4 {
-        clipname ix4
+	Cart3_17 {
+        clipname ix4 //maintainence
         entrylevel ix4-1
         page console3
         cart_cheevolevel ix4-all
-        cart_splashframe glitch
+        cart_splashframe ironman
         unlock_condition collected_carts_all
-        unlock_condition_levels [g0-x]
+        unlock_condition_levels [gwarp-4]
         
-        down GTower5
-        up GTower3
-		left GTLMutable
+        down Cart3_18
+        up Cart3_16
+		left Cart2_17
+		right Cart4_17
     }
-	GTower5 {
-        clipname ix5
+	Cart3_18 {
+        clipname ix5 //degradation
         entrylevel ix5-1
         page console3
         cart_cheevolevel ix5-all
-        cart_splashframe glitch
+        cart_splashframe ironman
         unlock_condition collected_carts_all
-        unlock_condition_levels [g5x-x]
+        unlock_condition_levels [gwarp2-5]
         
-        down GTower6
-        up GTower4
-		left GMurdertale
+        down Cart3_19
+        up Cart3_17
+		left Cart2_18
+		right Cart4_18
     }
-	GTower6 {
-        clipname ix6
+	Cart3_19 {
+        clipname ix6 //relapse
         entrylevel $ix1-1
         page console3
         cart_cheevolevel ix6-all
-        cart_splashframe glitch
+        cart_splashframe ironman
         unlock_condition collected_carts_all
-        unlock_condition_levels [g2-x g3-x g4-x g0-x g5x-x]
+        unlock_condition_levels [gwarp-1 gwarp-2 gwarp-3 gwarp-4 gwarp2-5]
         
-        down GDarkanoid
-        up GTower5
-		left GKTAND
+        down Cart3_20
+        up Cart3_18
+		left Cart2_19
+		right Cart4_19
     }
-    
-    GDarkanoid {
-        clipname csd1
+    Cart3_20 {
+        clipname csd1 //darkanoid
         entrylevel csd1-1
         page console3
         cart_cheevolevel csd1-all
@@ -2086,27 +1705,28 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [9-19]
         
-        down GSurrealsFavorite
-        up GTower6
-		left GKTAND
+        down Cart3_21
+        up Cart3_19
+		left Cart2_19
+		right Cart4_20
     }
-
-	GSurrealsFavorite {
-        clipname csd2
-		entrylevel csd2-1
+	Cart3_21 {
+        clipname csd2 //unused
+		entrylevel cxxx-1
         page console3
-        cart_cheevolevel csd2-all
-        cart_splashframe glitch
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
         unlock_condition collected_carts_all
-        unlock_condition_levels [2cx-1x]   
+        unlock_condition_levels [0-0]  
         
-        down GFinale
-        up GDarkanoid
-		left GPrescryption
+        down Cart3_22
+        up Cart3_20
+		left Cart2_21
+		right Cart4_21
+		select Cart3_21
     }
-
-    GFinale {
-        clipname g99
+    Cart3_22 {
+        clipname g99 //end++
         entrylevel $gr1-1
         page console3
         cart_cheevolevel i0-all
@@ -2114,13 +1734,655 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [15x-2 15x-4 15x-6 15x-8]
         
-        down GOeFake
-        up GSurrealsFavorite
-		left GNMega
+        down Cart3_1
+        up Cart3_21
+		left Cart2_22
+		right Cart4_22
     }
 
-//}
-	//{Rail Map
+
+	//carts4
+    
+    Cart4_1 {
+        clipname c4_1
+        entrylevel i5b-1
+        page console4
+        cart_cheevolevel i5b-all
+        cart_splashframe ironman
+        unlock_condition collected_carts_all
+        unlock_condition_levels [7-8x]     
+        
+		up Cart4_22
+		down Cart4_2
+		left Cart3_1
+		right Cart5_1
+    }
+    Cart4_2 {
+        clipname c4_2
+        entrylevel ix0-1
+        page console4
+        cart_cheevolevel ix0-all
+        cart_splashframe ironman
+        unlock_condition collected_carts_all
+        unlock_condition_levels [7-8x]      
+        
+		up Cart4_1
+		down Cart4_3
+		left Cart3_2
+		right Cart5_2
+    }
+    Cart4_3 {
+        clipname c4_3
+        entrylevel ix7-1
+        page console4
+        cart_cheevolevel ix7-all
+        cart_splashframe ironman
+        unlock_condition collected_carts_all
+        unlock_condition_levels [gwarp-6]      
+        
+		up Cart4_2
+		down Cart4_4
+		left Cart3_2
+		right Cart5_3
+    }
+    Cart4_4 {
+        clipname c4_4 //termination
+        entrylevel $i1-1x
+        page console4
+        cart_cheevolevel ix8-all
+        cart_splashframe ironman
+        unlock_condition collected_carts_all
+        unlock_condition_levels [10x-2 10x-4 10x-6 10x-8 7-8x gwarp-6 gwarp-1 gwarp-2 gwarp-3 gwarp-4 gwarp2-5]    
+        
+		up Cart4_3
+		down Cart4_5
+		left Cart3_4
+		right Cart5_4
+    }
+    Cart4_5 {
+        clipname c4_5
+        entrylevel cxxx-1
+        page console4
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart4_4
+		down Cart4_6
+        select Cart4_5
+		left Cart3_5
+		right Cart5_5
+    }
+    Cart4_6 {
+        clipname c4_6
+        entrylevel cxxx-1
+        page console4
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart4_5
+		down Cart4_7
+        select Cart4_6
+		left Cart3_6
+		right Cart5_6
+    }
+    Cart4_7 {
+        clipname c4_7
+        entrylevel cxxx-1
+        page console4
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart4_6
+		down Cart4_8
+        select Cart4_7
+		left Cart3_7
+		right Cart5_7
+    }
+    Cart4_8 {
+        clipname c4_8
+        entrylevel cxxx-1
+        page console4
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart4_7
+		down Cart4_9
+        select Cart4_8
+		left Cart3_8
+		right Cart5_8
+    }
+    Cart4_9 {
+        clipname c4_9
+        entrylevel cxxx-1
+        page console4
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart4_8
+		down Cart4_10
+        select Cart4_9
+		left Cart3_9
+		right Cart5_9
+    }
+    Cart4_10 {
+        clipname c4_10
+        entrylevel cxxx-1
+        page console4
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart4_9
+		down Cart4_11
+        select Cart4_10
+		left Cart3_10
+		right Cart5_10
+    }
+    Cart4_11 {
+        clipname c4_11
+        entrylevel cxxx-1
+        page console4
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart4_10
+		down Cart4_12
+        select Cart4_11
+		left Cart3_11
+		right Cart5_11
+    }
+    Cart4_12 {
+        clipname c4_12
+        entrylevel cxxx-1
+        page console4
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart4_11
+		down Cart4_13
+        select Cart4_12
+		left Cart3_12
+		right Cart5_12
+    }
+    Cart4_13 {
+        clipname c4_13
+        entrylevel cxxx-1
+        page console4
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart4_12
+		down Cart4_14
+        select Cart4_13
+		left Cart3_13
+		right Cart5_13
+    }
+    Cart4_14 {
+        clipname c4_14
+        entrylevel cxxx-1
+        page console4
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart4_13
+		down Cart4_15
+        select Cart4_14
+		left Cart3_14
+		right Cart5_14
+    }
+    Cart4_15 {
+        clipname c4_15
+        entrylevel cxxx-1
+        page console4
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart4_14
+		down Cart4_16
+        select Cart4_15
+		left Cart3_15
+		right Cart5_15
+    }
+    Cart4_16 {
+        clipname c4_16
+        entrylevel cxxx-1
+        page console4
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart4_15
+		down Cart4_17
+        select Cart4_16
+		left Cart3_16
+		right Cart5_16
+    }
+    Cart4_17 {
+        clipname c4_17
+        entrylevel cxxx-1
+        page console4
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart4_16
+		down Cart4_18
+        select Cart4_17
+		left Cart3_17
+		right Cart5_17
+    }
+    Cart4_18 {
+        clipname c4_18
+        entrylevel cxxx-1
+        page console4
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart4_17
+		down Cart4_19
+        select Cart4_18
+		left Cart3_18
+		right Cart5_18
+    }
+    Cart4_19 {
+        clipname c4_19
+        entrylevel cxxx-1
+        page console4
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart4_18
+		down Cart4_20
+        select Cart4_19
+		left Cart3_19
+		right Cart5_19
+    }
+    Cart4_20 {
+        clipname c4_20
+        entrylevel cxxx-1
+        page console4
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart4_19
+		down Cart4_21
+        select Cart4_20
+		left Cart3_20
+		right Cart5_20
+    }
+    Cart4_21 {
+        clipname c4_21
+        entrylevel cxxx-1
+        page console4
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart4_20
+		down Cart4_22
+		select Cart4_21
+		left Cart3_21
+		right Cart5_21
+    }
+    Cart4_22 {
+        clipname c4_22
+        entrylevel cxxx-1
+        page console4
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart4_21
+		down Cart4_1
+		select Cart4_22
+		left Cart3_22
+		right Cart5_22
+    }
+
+	
+	//carts5
+    
+    Cart5_1 {
+        clipname c5_1
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart5_22
+		down Cart5_2
+        select Cart5_1
+		left Cart4_1
+    }
+    Cart5_2 {
+        clipname c5_2
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]      
+        
+		up Cart5_1
+		down Cart5_3
+        select Cart5_2
+		left Cart4_2
+    }
+    Cart5_3 {
+        clipname c5_3
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]      
+        
+		up Cart5_2
+		down Cart5_4
+        select Cart5_3
+		left Cart4_3
+    }
+    Cart5_4 {
+        clipname c5_4
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart5_3
+		down Cart5_5
+        select Cart5_4
+		left Cart4_4
+    }
+    Cart5_5 {
+        clipname c5_5
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart5_4
+		down Cart5_6
+        select Cart5_5
+		left Cart4_5
+    }
+    Cart5_6 {
+        clipname c5_6
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart5_5
+		down Cart5_7
+        select Cart5_6
+		left Cart4_6
+    }
+    Cart5_7 {
+        clipname c5_7
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart5_6
+		down Cart5_8
+        select Cart5_7
+		left Cart4_7
+    }
+    Cart5_8 {
+        clipname c5_8
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart5_7
+		down Cart5_9
+        select Cart5_8
+		left Cart4_8
+    }
+    Cart5_9 {
+        clipname c5_9
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart5_8
+		down Cart5_10
+        select Cart5_9
+		left Cart4_9
+    }
+    Cart5_10 {
+        clipname c5_10
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart5_9
+		down Cart5_11
+        select Cart5_10
+		left Cart4_10
+    }
+    Cart5_11 {
+        clipname c5_11
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart5_10
+		down Cart5_12
+        select Cart5_11
+		left Cart4_11
+    }
+    Cart5_12 {
+        clipname c5_12
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart5_11
+		down Cart5_13
+        select Cart5_12
+		left Cart4_12
+    }
+    Cart5_13 {
+        clipname c5_13
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart5_12
+		down Cart5_14
+        select Cart5_13
+		left Cart4_13
+    }
+    Cart5_14 {
+        clipname c5_14
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart5_13
+		down Cart5_15
+        select Cart5_14
+		left Cart4_14
+    }
+    Cart5_15 {
+        clipname c5_15
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart5_14
+		down Cart5_16
+        select Cart5_15
+		left Cart4_15
+    }
+    Cart5_16 {
+        clipname c5_16
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart5_15
+		down Cart5_17
+        select Cart5_16
+		left Cart4_16
+    }
+    Cart5_17 {
+        clipname c5_17
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart5_16
+		down Cart5_18
+        select Cart5_17
+		left Cart4_17
+    }
+    Cart5_18 {
+        clipname c5_18
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart5_17
+		down Cart5_19
+        select Cart5_18
+		left Cart4_18
+    }
+    Cart5_19 {
+        clipname c5_19
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart5_18
+		down Cart5_20
+        select Cart5_19
+		left Cart4_19
+    }
+    Cart5_20 {
+        clipname c5_20
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart5_19
+		down Cart5_21
+        select Cart5_20
+		left Cart4_20
+    }
+    Cart5_21 {
+        clipname c5_21
+		entrylevel csd2-1
+        page console5
+        cart_cheevolevel csd2-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [2cx-1x]   
+        
+		up Cart5_20
+		down Cart5_22
+		left Cart4_21
+    }
+    Cart5_22 {
+        clipname c5_22
+        entrylevel cxxx-1
+        page console5
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]    
+        
+		up Cart5_21
+		down Cart5_1
+		select Cart5_22
+		left Cart4_22
+    }
+	
+	
+	//Rail Map
     
     Rail1 {
         clipname trainmap_bridge
@@ -2171,5 +2433,5 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [7c-20 7b-20 7a-20]    
 	}
-		//}
+
 }
