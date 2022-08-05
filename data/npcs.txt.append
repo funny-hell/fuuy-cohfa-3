@@ -1501,7 +1501,7 @@ NPCdudx6 {
 }
 NPCdudx7 {
 #nightsky ghost - unused
-    movieclip NPC9
+    movieclip NPCdudG4
     sound_id NPCGhost
     text [
         "if you look\nat the stars\nlong enough"
@@ -1744,7 +1744,7 @@ NPCHM{
 	]
 }
 
-# PICTURE FRAMES
+# TOMBSTONES
 NPCdudp1{
 #museum picture
     movieclip NPCdudm4
@@ -2027,6 +2027,14 @@ NPCdudp15{
 		"here\nlies\nunfinished level npc"
 		"our lives\nhave been gloomier\nwithout him around"
 		"who will fill the\nhard-hat shaped hole\nin our hearts now?"
+    ]
+}
+NPCdudp16{
+#retro cutscene show
+    movieclip NPCdudm10
+    sound_id NPCDefault
+    text [
+		"whatever"
     ]
 }
 
