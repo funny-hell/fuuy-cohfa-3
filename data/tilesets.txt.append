@@ -5711,18 +5711,18 @@ gwarp{
 	
 	1 {
 	palette 983
-	music [retro/warpzone_intro.ogg, glitch/dance_loop.ogg]
+	music [glitch/warpzone_intro.ogg, glitch/dance_loop.ogg]
     cart_intro_palette 983
 	}
 	2 {
 	palette 987
 	background_graphics bgretro
-	music [retro/warpzone_intro.ogg, glitch/newworld_loop.ogg]
+	music [glitch/warpzone_intro.ogg, glitch/newworld_loop.ogg]
     cart_intro_palette 11
 	}
 	3 {
 	palette 985
-	music [retro/warpzone_intro.ogg, glitch/bumblebee_loop.ogg]
+	music [glitch/warpzone_intro.ogg, glitch/bumblebee_loop.ogg]
     cart_intro_palette 985
 	art_alts [
 		[Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
@@ -5742,17 +5742,17 @@ gwarp{
 	}
 	4 {
 	palette 984
-	music [retro/warpzone_intro.ogg, glitch/homk_loop.ogg]
+	music [glitch/warpzone_intro.ogg, glitch/homk_loop.ogg]
     cart_intro_palette 984
 	}
 	5 {
 	palette 984
     cart_intro_palette 984
-    music [retro/warpzone_intro.ogg, glitch/dante_loop.ogg]	
+    music [glitch/warpzone_intro.ogg, glitch/dante_loop.ogg]	
 	}
 	6 {
 	palette 986
-	music [retro/warpzone_intro.ogg, glitch/dance_loop.ogg]
+	music [glitch/warpzone_intro.ogg, glitch/dance_loop.ogg]
     cart_intro_palette 18
 	}
 }
@@ -6539,7 +6539,6 @@ ix1 {
     ]
 	1y {
 		cart_intro_png carts/icart_relapse
-		cart_intro_palette 999
 	}
 }
 ix2 {
