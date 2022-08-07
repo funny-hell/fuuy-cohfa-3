@@ -1,4 +1,3 @@
-# Pre-FC
 15x {
     area_name "Hyperfuture"
     area_label_frame 29
@@ -5351,6 +5350,7 @@ o {
     global_particle_3 rocks2
     global_particle_4 rocks2
     
+	npc_1 NPCNAN1
 
     decoration_1 eyeball
    
@@ -7854,7 +7854,7 @@ wlsplx {
     }
 }
 2b {
-    area_name "Despair"
+    area_name "Depths"
     area_label_frame 47
     tile_graphics Tiledod
     overlay_graphics Overlaysdod
@@ -7869,7 +7869,8 @@ wlsplx {
     
     tile_particle_1 dustspikes
 	decoration_1 SpiderHang
-    
+    #global_particle_1 cloudwind_light    
+
     ambience_volume 4
     
     area_type normal
@@ -7880,15 +7881,27 @@ wlsplx {
     
     art_alts [
         [OrbSmall, orbblob]
+[OrbLarge, LargeGlub]
         [ChainLink2, None]
 [MiniFly, MiniWisp]
     ]
 
-    music [dante2_intro.ogg, dante2_loop.ogg]
+    music despair.ogg
     ambience ruins.ogg
+    0 {
+    music none
+        shader_param 0.8
+    palette 892
+    area_label_frame 0
+    }
     1 {
         shader_param 0.6
     }
+    1x {
+    palette 893
+    music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
+}
+    
     2 {
         shader_param 0.4
     }
@@ -8178,6 +8191,41 @@ o1x {
     ambience ruins.ogg
  art_alts [
         [MiniFly, MiniWisp][MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite]]
+
+}
+4g {
+    area_name "Heaven"
+    area_label_frame 0
+    tile_graphics Tilehell
+    overlay_graphics Overlayshell
+    background_graphics airshipbg
+    foreground_graphics fg1
+    fx_shader ripples
+    palette 898
+    
+    music [spring_intro.ogg, spring_loop.ogg]
+    ambience water.ogg
+    
+    global_particle_1 Light
+    global_particle_2 cloud
+
+    fx_shader_mid ripples
+    midfx_layer 2
+
+    music_volume 1
+    ambience_volume 1
+ art_alts [
+        [ChainLink2, None]
+]
+            
+    npc_1 NPCB9
+    npc_2 NPCB10
+    npc_3 NPCB11
+    decoration_1 Decoration0
+    decoration_2 Decoration1
+    decoration_3 inst10
+    
+    area_type normal
 
 }
 
