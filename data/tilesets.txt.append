@@ -6515,7 +6515,7 @@ ix1 {
 	
 	music [retro/dwspiral_intro.ogg, retro/dwspiral_loop.ogg]
 
-    cart_intro_png carts/cart_wip
+    cart_intro_png carts/icart_contemplation
     cart_intro_palette 994
     
     area_type ironcart
@@ -6537,7 +6537,10 @@ ix1 {
 		
 		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
     ]
-
+	1y {
+		cart_intro_png carts/icart_relapse
+		cart_intro_palette 999
+	}
 }
 ix2 {
     tile_graphics Tileretrobricks
@@ -6548,7 +6551,7 @@ ix2 {
 	
 	music [retro/dwspiral_intro.ogg, retro/dwspiral_loop.ogg]
 
-    cart_intro_png carts/cart_wip
+    cart_intro_png carts/icart_preparation
     cart_intro_palette 995
     
     area_type ironcart
@@ -6581,7 +6584,7 @@ ix3 {
 	
 	music [retro/dwspiral_intro.ogg, retro/dwspiral_loop.ogg]
 
-    cart_intro_png carts/cart_wip
+    cart_intro_png carts/icart_action
     cart_intro_palette 996
     
     area_type ironcart
@@ -6614,7 +6617,7 @@ ix4 {
 	
 	music [retro/dwspiral_intro.ogg, retro/dwspiral_loop.ogg]
 
-    cart_intro_png carts/cart_wip
+    cart_intro_png carts/icart_maintenance
     cart_intro_palette 997
     
     area_type ironcart
@@ -6647,7 +6650,7 @@ ix5 {
 	
 	music [retro/dwspiral_intro.ogg, retro/dwspiral_loop.ogg]
 
-    cart_intro_png carts/cart_wip
+    cart_intro_png carts/icart_degradation
     cart_intro_palette 998
     
     area_type ironcart
@@ -6686,7 +6689,7 @@ ix6 {
 
 	global_particle_1 lightning
 	
-    cart_intro_png carts/cart_wip
+    cart_intro_png carts/icart_relapse
     cart_intro_palette 999
     
     area_type ironcart
@@ -6851,6 +6854,7 @@ ix8b {
 		decoration_1 RetroLeaves3
 		decoration_2 warpzone_arrow
 		music retro/gnossiennes_loop.ogg
+		fx_shader_mid fire
 	}
 }
 
