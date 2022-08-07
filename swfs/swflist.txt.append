@@ -1,7 +1,6 @@
 game [
 
 backgrounds/butchers_backgrounds.swf
-backgrounds/chunkybg.swf
 
 tilesets/tilegraveyard.swf
 tilesets/funny_jumpluff_eat_a_pepsi.swf
@@ -9,11 +8,7 @@ tilesets/space_tileset.swf
 tilesets/tilecity_new.swf
 tilesets/adenators_dumb_assets.swf
 
-fixes/floaterglitch_fix.swf
-fixes/npcs_fix.swf
-
 miscellaneous/SplashText.swf
-miscellaneous/retro-assets.swf
 miscellaneous/saws.swf
 
 anni5.swf
