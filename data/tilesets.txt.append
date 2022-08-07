@@ -7872,6 +7872,75 @@ but3 {
 		npc_1 NPCNAN1
 	}
 }
+br {
+    area_name "The Backrooms"
+    area_label_frame 0
+    tile_graphics Tilenoclipped
+    overlay_graphics Overlayscity
+    background_graphics bgsolid
+    fx_shader_mid lighting
+    midfx_graphics ShadeBox
+    midfx_layer 2
+	shader_param 0.9
+    palette 1127
+	
+    area_type normal
+
+    sfx_file mainsounds_rocket.txt
+
+
+    ambience hum.ogg
+    ambience_volume 0.6
+    t {
+        tile_graphics Tilecity
+        overlay_graphics Overlayscity
+        ambience castle.ogg
+    }
+    t2 {
+        tile_graphics Tilecity
+        overlay_graphics Overlayscity
+        ambience castle.ogg
+    }
+    t3 {
+        tile_graphics Tilecity
+        overlay_graphics Overlayscity
+        ambience castle.ogg
+    }
+    t4 {
+        tile_graphics Tilecity
+        overlay_graphics Overlayscity
+        ambience castle.ogg
+    }
+    t5 {
+        tile_graphics Tilecity
+        overlay_graphics Overlayscity
+        ambience castle.ogg
+    }
+    art_alts [
+        [Floater, TumorMimic][GlowShroom, CeilingLamp][GlowShroomSmall, GlowBulbSmall]
+    ]
+}
+br1 {
+    area_name "The Backrooms"
+    area_label_frame 0
+    tile_graphics Tilenoclipped
+    overlay_graphics Overlayscity
+    background_graphics bgsolid
+    fx_shader_mid lightingbr
+    midfx_graphics ShadeBox
+    midfx_layer 2
+	shader_param 0.3
+    palette 1243
+	
+    area_type normal
+
+
+    sfx_file mainsounds_rocket.txt
+
+    art_alts [
+        [Floater, TumorMimic][GlowShroom, CeilingLampOff][GlowShroomSmall, GlowBulbOff][AimSpitter,eyeshooter][OrbChomp, MovingOrbBlob][Bullet,eyebullet]
+    ]
+}
 
 # Butcher's areas
 
