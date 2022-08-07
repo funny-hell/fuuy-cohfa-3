@@ -491,6 +491,25 @@ NPCad08 {
 	]
 }
 
+# BlockByte's NPCS
+NPCflygon {
+#universe
+    movieclip NPC2
+    sound_id NPCSkull
+    text [
+        "\n. . . oh, hi!"
+        "was wondering\nwho drove the train\ninto the water."
+        "\nso . . ."
+        "im looking for\nan arceus, do\nyou know where they are?"
+        "what!?\ntheyre\ndead?"
+        "wow this place\nsure has\ngone downhill!"
+        "ill be on\nmy way now!\nthanks for telling me."
+        "\n. . ."
+        "\n. . . that portal is\none-way"
+
+    ]
+}
+
 # Butcher's NPCS
 NPCbut1{
 #train guy

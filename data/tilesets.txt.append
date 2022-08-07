@@ -7744,6 +7744,36 @@ but3 {
 	}
 }
 
+# BlockByte's areas
+wlsplx {
+    area_name "The Wailing Sepulcher"
+    area_label_frame 0
+    tile_graphics Tilehell
+    overlay_graphics Overlayshell
+    background_graphics ch3bg
+    foreground_graphics none
+    palette 1047
+    fx_shader sludgeripples
+    fx_shader_mid lighting
+    midfx_graphics ShadeBox
+    midfx_layer 2
+    shader_param .8
+    
+    npc_1 NPCflygon
+    
+	decoration_1 WarpzonePortal
+
+    tile_particle_1 bubbles
+    tile_particle_2 drip_front
+
+    ambience wind.ogg
+    ambience_volume 0.7
+    area_type normal
+	art_alts [
+		[GlowShroom, GlowCandle][GlowShroomSmall, GlowCandle]
+	]
+}
+
 # Mysterytank's areas
 1bd {
     area_name "Decay"
