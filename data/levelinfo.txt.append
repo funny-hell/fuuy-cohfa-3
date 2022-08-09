@@ -360,33 +360,37 @@
 "g7-10" {name="Microbe Platformer 10" id=-1}
 "g7-10x" {name="Microbe Platformer 10" id=-1}
 "g7-1x" {name="Microbe Platformer 1" id=-1}
+"6bx-1x" {name="???" id=-1}
+"6bx-1xx" {name="???" id=-1}
+"6bx-2x" {name="???" id=1}
 "6bx-1" {name="???" id=-1}
 "6bx-2" {name="???" id=1}
-"6bx-3" {name="???" id=1}
+"6bx-3" {name="???" id=2}
 "6bx-4" {name="???" id=-1}
-"6b-1" {name="Atlantis 1" id=-1}
-"6b-2" {name="Atlantis 2" id=-1}
-"6b-3" {name="Atlantis 3" id=-1}
-"6b-4" {name="Atlantis 4" id=-1}
-"6b-5" {name="Atlantis 5" id=-1}
-"6b-6" {name="Atlantis 6" id=-1}
-"6b-7" {name="Atlantis 7" id=-1}
-"6b-8" {name="Atlantis 8" id=-1}
-"6b-9" {name="Atlantis 9" id=-1}
-"6b-9x" {name="Atlantis 10" id=-1}
-"6b-10" {name="Atlantis 11" id=-1}
-"6b-11" {name="Atlantis 12" id=-1}
-"6b-12" {name="Atlantis 13" id=-1}
-"6b-13" {name="Atlantis 14" id=-1}
-"6b-14" {name="Atlantis 15" id=-1}
-"6b-15" {name="Atlantis 16" id=-1}
-"6b-16" {name="Atlantis 17" id=-1}
-"6b-17" {name="Atlantis 18" id=-1}
-"6b-18" {name="Atlantis 19" id=-1}
-"6b-19" {name="Atlantis 20" id=-1}
-"6b-20" {name="Atlantis 21" id=-1}
-"6b-21" {name="Atlantis 22" id=-1}
-"6b-22" {name="Atlantis 23" id=-1}
+"6b_u-0" {name="???" id=-1}
+"6b_u-1" {name="Atlantis 1" id=-1}
+"6b_u-2" {name="Atlantis 2" id=-1}
+"6b_d-1" {name="Atlantis 3" id=-1}
+"6b_d-2" {name="Atlantis 4" id=-1}
+"6b_d-3" {name="Atlantis 5" id=-1}
+"6b_u-3" {name="Atlantis 6" id=-1}
+"6b_u-4" {name="Atlantis 7" id=-1}
+"6b_u-5" {name="Atlantis 8" id=-1}
+"6b_d-4" {name="Atlantis 9" id=-1}
+"6b_d-5" {name="Atlantis 10" id=-1}
+"6b_d-6" {name="Atlantis 11" id=-1}
+"6b_u-6" {name="Atlantis 12" id=-1}
+"6b_u-7" {name="Atlantis 13" id=-1}
+"6b_u-8" {name="Atlantis 14" id=-1}
+"6b_d-7" {name="Atlantis 15" id=-1}
+"6b_d-8" {name="Atlantis 16" id=-1}
+"6b_d-9" {name="Atlantis 17" id=-1}
+"6b_u-9" {name="Atlantis 18" id=-1}
+"6b_u-10" {name="Atlantis 19" id=-1}
+"6b_u-11" {name="Atlantis 20" id=-1}
+"6b_d-10" {name="Atlantis 21" id=-1}
+"6b_d-11" {name="Atlantis 22" id=-1}
+"6b_d-12" {name="Atlantis 23" id=-1}
 "6b-23" {name="The Shore" id=-1}
 "8c-17" {name="The Shore" id=-1}
 "6cx-1" {name="???" id=1}
@@ -437,7 +441,7 @@
 "6a-13" {name="Insanity 14" id=-1}
 "6a-14" {name="Insanity 15" id=-1}
 "6a-15" {name="Insanity 16" id=-1}
-"6a-16" {name="???" id=-1}
+"6a-16" {name="Insanity" id=-1}
 "6ax-1" {name="???" id=1}
 "6ax-2" {name="???" id=2}
 "6ax-3" {name="???" id=-1}
@@ -1475,7 +1479,7 @@
 "dud3-9" {name="Wreckage 9" id=9} 
 "dud3-10" {name="Wreckage 10" id=10}
 "dud3-11" {name="Wreckage 11" id=-1}
-"dud3-12" {name="???" id=-1}
+"dud3-12" {name="Wreckage" id=-1}
 "dud3xu-2" {name="???" id=-1}
 "dud3xu-4" {name="???" id=1}
 "dud3xu-5" {name="???" id=-1}
@@ -1497,7 +1501,8 @@
 "9-15" {name="The Farlands 15" id=15} #life
 "9-19" {name="???" id=2} #cart
 "dud0-1" {name="End of the Road" id=-1}
-"ix8b-2" {name="Epilogue" id=-1}
+"ix6b-4" {name="~-6" id=-1}
+"ix6b-2" {name="Epilogue" id=-1}
 "9-2" {name="The Farlands 2" id=2} #life
 "9-3" {name="The Farlands 3" id=3} #life
 "9-4" {name="The Farlands 4" id=4} #life

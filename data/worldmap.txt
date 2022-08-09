@@ -55,18 +55,18 @@ meta {
     stevenlevels [10x-7 10x-5 10x-3 10x-1 15x-1 15x-5 15x-7 7d-15 r1d-1 9d-1 9-19 15x-3 $g6b-1x $g6a-1x $gn3-1x $gn4-1x]
     
     mainworlds [1 2 3 4 4a 4b 4c 5a 5b 5c 1d 2d 3d 6 7 8 9 r1 r2 r3 r4 r5 6d ex xs qu gb 7d t o 12 but 6a 6b 6c hub m 7a 7b 7c j 5 8 9 9d 9xx 8a 8ax 8ad 8c 1b a r1d dud3 2b 2c but2 but2b rr1 rr2 rr3 1bd ad r1b r4b hub2 ki k2 o1] //if you pause on these worlds, it lets you open the map. otherwise you get "exit area"
-    cartworlds [c1 c2 c3 c4a c4b c4c c5a c5b c5c c6 c9 g0 g1 g2 g3 g4 g5 g6 g9 i1 i2 i3 i4 i5 i5b ix0 ix1 ix2 ix3 ix4 ix5 ix6 ix7 ix8 c0 gbt gr1 gr2 gr3 gr5 g4a g5a gr4 gi0 g6d g6c g6a g6b g99 gr6 csd1 csd2 g7a g7b g7c g7 gx gn1 gn2 gn3 gn4 gn5 gn6 gn7 gn8 gn9 gn10 gn11 gnr1 gnr2 gnr3 gj] //launch console automatically when you exit from these worlds
+    cartworlds [c1 c2 c3 c4a c4b c4c c5a c5b c5c c6 c9 g0 g1 g2 g3 g4 g5 g6 g9 i1 i2 i3 i4 i5 i5b ix0 ix1 ix2 ix3 ix4 ix5 ix6 ix7 ix8 c0 gbt gr1 gr2 gr3 gr5 g4a g5a gr4 gi0 g6d g6c g6a g6b g99 gr6 csd1 csd2 g7a g7b g7c g7 gx gn1 gn2 gn3 gn4 gn5 gn6 gn7 c8c gn9 gn10 gn11 gnr1 gnr2 gnr3 gj] //launch console automatically when you exit from these worlds
     
     headlevel 5a-22
     bodylevel 5c-21
     heartlevel 5b-23
     
-    mute_warpunlock_message [5a-22 5b-23 5c-21 1-1 1d-1 6d-23 6 hub2-4 hub2-5 6b-23 a-20 2cx-1 2cx-2 2cx-3 2cx-4 2cx-5 2cx-6 2cx-7 2cx-8 2cx-9 2cx-10 2cx-11 2cx-12 2cx-13 2cx-14 2cx-15 2cx-16 2cx-17 2cx-18 2cx-19 2cx-20 2cx-21 2cx-22 2cx-23 2cx-24 2cx-9b 2cx-8b but3-7 but3-8 but3-9 but3-10 8c-16 qu-12 dud0-1 ix8b-2] //levels that have a warp point but shouldnt show the "warp point unlocked" message
+    mute_warpunlock_message [5a-22 5b-23 5c-21 1-1 1d-1 6d-23 6 hub2-4 hub2-5 6b-23 a-20 2cx-1 2cx-2 2cx-3 2cx-4 2cx-5 2cx-6 2cx-7 2cx-8 2cx-9 2cx-10 2cx-11 2cx-12 2cx-13 2cx-14 2cx-15 2cx-16 2cx-17 2cx-18 2cx-19 2cx-20 2cx-21 2cx-22 2cx-23 2cx-24 2cx-9b 2cx-8b but3-7 but3-8 but3-9 but3-10 8c-16 qu-12 dud0-1 ix6b-2] //levels that have a warp point but shouldnt show the "warp point unlocked" message
     
     game_over_checkpoints [[1d 1d-1] [2d 2d-0] [3d 3d-1] [6 6-1] [7 7-0] [r1 r1-1] [r2 r2-1] [r3 r3-1] [rr1 rr1-1] [rr2 rr2-1] [rr3 rr3-1] [hub hub-1] [hub2 hub2-5] [6d 6d-1] [7d 7d-1] [ex ex-1] [xs xs-1] [qu qu-1] [gb gb-1] [r4 r4-1] [9d 9d-1] [t 7d-1] [o 7d-1]] //if you game over in world "1d", spawn back to 1d-1, etc. this only matters when loading from a save file, otherwise it uses the last checkpoint you visited
     iron_cart_entrypoints [gr6-1 i1-1 i2-1 i3-1 i4-1 i5b-1 $i1-1 ix0-1 ix7-1 ix1-1 ix2-1 ix3-1 ix4-1 ix5-1 $ix1-1y $i1-1x] //used to set the respawn point in an iron cart
     timed_cart_entrypoints [g5-1 g99-1 g99-3 g99-5 g99-7 gr6-1] //maybe you want to put a timer on other carts?
-    console_entry_levels [1-1 1d-1 hub2-5 6-12 ix8b-6]
+    console_entry_levels [1-1 1d-1 hub2-5 6-12 ix6b-6]
     nevermore_entry 7-0
     escape_entry 6-21
     nevermore_tumorthresh 450
@@ -76,7 +76,7 @@ meta {
     megacart_entry_levels [$c1-1]
     towercart_entry_levels [$i1-1]
     cart_lives_overrides [[$c1-1 39]]
-    cart_title_overrides [[$c1-1 "AllStars"] [$i1-1 "Acceptance"] [$gr1-1 "N++"] [$gn1-1x "StashPros"]]
+    cart_title_overrides [[$c1-1 "AllStars"] [$i1-1 "Acceptance"] [$gr1-1 "carts/npp"] [$gn1-1x "carts/cart_stashpros"]]
     
     savefile_completion_counter_max 285 //count of total collectible tumors, carts, body parts (3), cart achievements, map warp points (number of levels in the array below), and endings (2)
     savefile_completion_warpoints [1-1 2-0 3-1 4a-1 4b-1 4c-1 5a-1 5b-1 5c-1 4-1hub 1d-1 2d-0 3d-1 6-1 6-21 7-0 r1-1 r2-1 r3-1 6d-3 7d-1 hub2-5 hub-1 ex-1 xs-1 qu-1 gb-1 qu-8 7a-1 7b-1 7c-1 6a-1 6b-1 6c-1 j-1hub 5-1 8-0 9-1 a-1 1b-1 1bd-1 2b-1 m-1 but-0 but2b-6 dud3-1 8a-1x 8c-1 o1-0] //visiting these levels counts for save file completion
@@ -1107,7 +1107,7 @@ nodes {
         
         down GlitchCart1
         up GlitchCart5
-		right Cart2_19
+		right Cart2_20
     }
     GlitchCart1 {
         clipname g1
@@ -1179,7 +1179,7 @@ nodes {
         down Cart2_4
         up Cart2_2
 		left Cart3
-		right Cart3_2
+		right Cart3_3
     }
     Cart2_4 {
         clipname g6b //dont drown
@@ -1338,9 +1338,9 @@ nodes {
     }
 	Cart2_15 {
         clipname gn8 //herpes
-        entrylevel gn8-1
+        entrylevel c8c-1
         page console2
-        cart_cheevolevel gn8-all
+        cart_cheevolevel c8c-all
         cart_splashframe unfinished
         unlock_condition collected_carts_all
         unlock_condition_levels [8cx-1]
@@ -1383,12 +1383,12 @@ nodes {
     }
 	Cart2_18 {
         clipname gn11 //worldofflu
-        entrylevel gnr1-1
+        entrylevel cxxx-1
         page console2
-        cart_cheevolevel gnr1-all
+        cart_cheevolevel cxxx-all
         cart_splashframe unfinished
         unlock_condition collected_carts_all
-        unlock_condition_levels [rr1x-1]
+        unlock_condition_levels [0-0]
         
         down Cart2_19
         up Cart2_17
@@ -1398,30 +1398,45 @@ nodes {
     }
 	Cart2_19 {
         clipname gn12 //keep trying and nobody dies x2
-        entrylevel gnr2-1
+        entrylevel cxxx-1
         page console2
-        cart_cheevolevel gnr2-all
+        cart_cheevolevel cxxx-all
         cart_splashframe unfinished
         unlock_condition collected_carts_all
-        unlock_condition_levels [rr2x-1]
+        unlock_condition_levels [0-0]
         
-        down Cart2_21
+        down Cart2_20
         up Cart2_18
 		left GlitchCart5
 		right Cart3_19
 		select Cart2_19
     }
-	Cart2_21 {
+	Cart2_20 {
         clipname gn13 //prescryption
-        entrylevel gnr3-1
+        entrylevel cxxx-1
         page console2
-        cart_cheevolevel gnr3-all
+        cart_cheevolevel cxxx-all
         cart_splashframe unfinished
         unlock_condition collected_carts_all
-        unlock_condition_levels [rr3x-1]
+        unlock_condition_levels [0-0]
+        
+        down Cart2_21
+        up Cart2_19
+		left GlitchCart6
+		right Cart3_20
+		select Cart2_20
+    }
+	Cart2_21 {
+        clipname gn14
+        entrylevel cxxx-1
+        page console2
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]  
         
         down Cart2_22
-        up Cart2_19
+        up Cart2_20
 		left GlitchCart1
 		right Cart3_21
 		select Cart2_21
@@ -1467,12 +1482,12 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [r2x-4]   
         
-        down Cart3_4
+        down Cart3_3
         up Cart3_1
 		left Cart2_2
 		right Cart4_2
     }
-    Cart3_4 {
+    Cart3_3 {
         clipname gr3 //ecoli bridge
         entrylevel gr3-1
         page console3
@@ -1481,12 +1496,12 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [r3x-1]   
         
-        down Cart3_5
+        down Cart3_4
         up Cart3_2
-		left Cart2_4
-		right Cart4_4
+		left Cart2_3
+		right Cart4_3
     }
-	Cart3_5 {
+	Cart3_4 {
         clipname g4a //assassins cancer
         entrylevel g4a-1
         page console3
@@ -1495,12 +1510,12 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [exx-2]
         
-        down Cart3_6
-        up Cart3_4
-		left Cart2_5
-		right Cart4_5
+        down Cart3_5
+        up Cart3_3
+		left Cart2_4
+		right Cart4_4
     }
-    Cart3_6 {
+    Cart3_5 {
         clipname g5a //gory mod
         entrylevel g5a-1
         page console3
@@ -1509,12 +1524,12 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [xsx-1]
         
-        down Cart3_7
-        up Cart3_5
-		left Cart2_6
-		right Cart4_6
+        down Cart3_6
+        up Cart3_4
+		left Cart2_5
+		right Cart4_5
     }
-	Cart3_7 {
+	Cart3_6 {
         clipname g6r //mortal
         entrylevel g6-1
         page console3
@@ -1523,12 +1538,12 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [qux-1]
         
-        down Cart3_8
-        up Cart3_6
-		left Cart2_7
-		right Cart4_7
+        down Cart3_7
+        up Cart3_5
+		left Cart2_6
+		right Cart4_6
     }
-    Cart3_8 {
+    Cart3_7 {
         clipname gi0 //brittleinfernoisforme
         entrylevel gi0-1
         page console3
@@ -1537,12 +1552,12 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [gbx-1]
         
-        down Cart3_9
-        up Cart3_7
-		left Cart2_8
-		right Cart4_8
+        down Cart3_8
+        up Cart3_6
+		left Cart2_7
+		right Cart4_7
     }
-    Cart3_9 {
+    Cart3_8 {
         clipname gr4 //doomed
         entrylevel gr4-1
         page console3
@@ -1551,12 +1566,12 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [r4x-1]
         
-        down Cart3_10
-        up Cart3_8
-		left Cart2_9
-		right Cart4_9
+        down Cart3_9
+        up Cart3_7
+		left Cart2_8
+		right Cart4_8
     }
-    Cart3_10 {
+    Cart3_9 {
         clipname gr5 //slander toy
         entrylevel gr5-1
         page console3
@@ -1565,12 +1580,12 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [r5x-1]
         
-        up Cart3_9
-        down Cart3_11
-		left Cart2_10
-		right Cart4_10
+        up Cart3_8
+        down Cart3_10
+		left Cart2_9
+		right Cart4_9
     }
-    Cart3_11 {
+    Cart3_10 {
         clipname g6d //i am dead
         entrylevel g6d-1
         page console3
@@ -1579,12 +1594,12 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [6dx-2]
         
-        up Cart3_10
-        down Cart3_12
-		left Cart2_11
-		right Cart4_11
+        up Cart3_9
+        down Cart3_11
+		left Cart2_10
+		right Cart4_10
     }
-    Cart3_12 {
+    Cart3_11 {
         clipname g7 //microbe platformer
         entrylevel g7-1
         page console3
@@ -1593,12 +1608,12 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [hub2-4]
         
-        down Cart3_13
-        up Cart3_11
-		left Cart2_12
-		right Cart4_12
+        down Cart3_12
+        up Cart3_10
+		left Cart2_11
+		right Cart4_11
     }
-    Cart3_13 {
+    Cart3_12 {
         clipname gx //undead chamber
         entrylevel gx-1
         page console3
@@ -1607,10 +1622,25 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [t-1x]
         
+        down Cart3_13
+        up Cart3_11
+		left Cart2_12
+		right Cart4_12
+    }
+	Cart3_13 {
+        clipname gx_2
+        entrylevel cxxx-1
+        page console3
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0] 
+        
         down Cart3_14
         up Cart3_12
 		left Cart2_13
 		right Cart4_13
+		select Cart3_13
     }
 	Cart3_14 {
         clipname ix1 //contemplation
@@ -1707,7 +1737,7 @@ nodes {
         
         down Cart3_21
         up Cart3_19
-		left Cart2_19
+		left Cart2_20
 		right Cart4_20
     }
 	Cart3_21 {
@@ -1727,7 +1757,7 @@ nodes {
     }
     Cart3_22 {
         clipname g99 //end++
-        entrylevel $gr1-1
+        entrylevel $gr1-1x
         page console3
         cart_cheevolevel i0-all
         cart_splashframe finale
@@ -1745,12 +1775,12 @@ nodes {
     
     Cart4_1 {
         clipname c4_1
-        entrylevel i5b-1
+        entrylevel ix7-1
         page console4
-        cart_cheevolevel i5b-all
+        cart_cheevolevel ix7-all
         cart_splashframe ironman
         unlock_condition collected_carts_all
-        unlock_condition_levels [7-8x]     
+        unlock_condition_levels [gwarp-6]        
         
 		up Cart4_22
 		down Cart4_2
@@ -1764,7 +1794,7 @@ nodes {
         cart_cheevolevel ix0-all
         cart_splashframe ironman
         unlock_condition collected_carts_all
-        unlock_condition_levels [hub-2x]      
+        unlock_condition_levels [7-8x]      
         
 		up Cart4_1
 		down Cart4_3
@@ -1773,31 +1803,33 @@ nodes {
     }
     Cart4_3 {
         clipname c4_3
-        entrylevel ix7-1
+        entrylevel cxxx-1
         page console4
-        cart_cheevolevel ix7-all
-        cart_splashframe ironman
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
         unlock_condition collected_carts_all
-        unlock_condition_levels [gwarp-6]      
+        unlock_condition_levels [0-0]       
         
 		up Cart4_2
 		down Cart4_4
-		left Cart3_2
+		left Cart3_3
 		right Cart5_3
+		select Cart4_3
     }
     Cart4_4 {
         clipname c4_4 //termination
-        entrylevel $i1-1x
+        entrylevel cxxx-1
         page console4
-        cart_cheevolevel ix8-all
-        cart_splashframe ironman
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
         unlock_condition collected_carts_all
-        unlock_condition_levels [10x-2 10x-4 10x-6 10x-8 7-8x hub-2x gwarp-6 gwarp-1 gwarp-2 gwarp-3 gwarp-4 gwarp-5]    
+        unlock_condition_levels [0-0]   
         
 		up Cart4_3
 		down Cart4_5
 		left Cart3_4
 		right Cart5_4
+		select Cart4_4
     }
     Cart4_5 {
         clipname c4_5
@@ -2446,7 +2478,7 @@ nodes {
     }
 	Cutscene2 {
         clipname dudcutscene2
-        entrylevel ix8b-2
+        entrylevel ix6b-2
         page cutscene1
         
         select Cutscene2

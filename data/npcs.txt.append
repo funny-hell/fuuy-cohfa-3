@@ -610,6 +610,78 @@ NPCSDR1 {
 		"have\nyou\ndied yet"
     ]
 }
+NPCSDR2 {
+#surreal loves this skel
+    movieclip NPCR1
+    sound_id Boing
+    text [
+        "\n. . ."
+		"youve\ncome a\nlong way"
+		"its cold\nup here,\naint it?"
+		"\n. . ."
+		"im sure\nyouve got\nquestions"
+		"like, what am\ni even doing\nup here?"
+		"dunno.\njust like the\nheight i guess"
+		"\n. . ."
+		"you seem like\nyouve been\nthrough a lot"
+		"do you\nwant to talk\nabout it?"
+		"\nhm"
+		"i guess\nnows not\nthe time"
+		"plus, why would\nyou talk to a\ngame NPC?"
+		"what\nare ya,\ninsane?"
+		"\nheh"
+		"no,\nbut really,\ni get it"
+		"sometimes\nyou want to\ntalk so hard"
+		"that youd\ntalk to pretty\nmuch anyone"
+		"\nor anything"
+		"but hey,\nyou have\nme here now"
+		"you can tell\nme whatever\nyoud like"
+		"tell me\nwhats burdening\nyou"
+		"i will be\nthe shoulder\nyou can cry on"
+		". . .\nthough i dont\nhave shoulders"
+		"\n. . ."
+		"\nyou know what?"
+		"i think youre\nbrave for all\nits worth"
+		"like, getting\nall the way\nup here"
+		"even if you\ndont really gain\nanything from it"
+		"you still\nwent all\nthe way"
+		"you\nnever\ngave up"
+		"and\nnow look\nat you"
+		"youre standing\nso tall\n. . ."
+		"yet you\ndont even\nrealize it"
+		"\n. . ."
+		"well,\nwas nice\nknowing ya"
+		"but ive got to\ngo back to do\nskeleton stuff"
+		"like\nstay dead\nand stuff"
+		"\n. . ."
+		"\nsee ya!"
+    ]
+}
+NPCSDR3 {
+#surreal hates this skel
+    movieclip NPCR1
+    sound_id Boing
+    text [
+        "\n. . ."
+		"so you\nfinally show\nyour face"
+		"must\nbe nice,\nright?"
+		"refusing to\nchange, same\nold you"
+		"when will\nyou take a\nstep forward?"
+		"when will\nyou stop\nfalling back?"
+		"but you\ncant change,\ncan you?"
+		"\nyoure useless"
+		"never bringing\nyourself to do\nanything"
+		"youre a\ndisappointment\nto yourself"
+		"thats\nquite a feat,\nisnt it?"
+		"youd think\nso, but\nits not"
+		"so why do\nyou even\nkeep trying?"
+		"there is no one\nrooting for\nyou now"
+		"and you\nwill never end\nthis cycle"
+		"so\ngo on,\nnow"
+		"try to\nprove me\nwrong"
+		"\n. . ."
+    ]
+}
 NPCSDR2warp1 {
 #intermission 1
     movieclip NPCR_warp
@@ -1230,6 +1302,28 @@ NPCdud35 {
 		"give\nit\na go!"
     ]
 }
+NPCdud35b {
+#lowgravmixie tutorial
+    movieclip NPC6
+    sound_id NPCSkull
+    text [
+		"see\nthis beam\nthing?"
+		"kinda\ncool to\nlook at"
+		"but\ndont get\ndistracted!"
+		"my cousin\ntried to swim\non it"
+		"but he couldnt\njump high enough\nto get out"
+		"poor guy\ndidnt know my\nswimming trick"
+		"as soon as\nyou jump into\nthe beam . . ."
+		"you have to\ndive down\nreal hard . . ."
+		"and once your\nmidway through\nthe beam . . ."
+		"you hold\njump to get\nextra height!"
+		"you have to\ndo it fast,\nthough!"
+		"try it,\nnothin wrong\ncan happen!"
+		"unless you fuck it\nup and fall all\nthe way down"
+		"just like\npoor cousin\nbobby"
+		"man,\ni miss\nthat guy"
+    ]
+}
 NPCdud36 {
 #croastjump tutorial
     movieclip NPC3
@@ -1351,6 +1445,28 @@ NPCdud43 {
 		"who knows,\nmaybe someth'n\nchanges"
     ]
 }
+NPCdud44 {
+#underwater mines tutorial
+    movieclip NPC1
+    sound_id NPCSkull
+    text [
+		"\nglub"
+		"\n. . ."
+		"\n. . ."
+		"\nkiddin!"
+		"nyways,\nsee this\nwall here?"
+		"mighty weak\nif i dare\nsay so"
+		"id try\nto break\nit . . ."
+		"but wat'r\nslows me\ndown"
+		"'f only i\ncould pick up\nsome speed"
+		"maybe i could\nuse some kinda\nrocket shoes"
+		"or some\nexplosive shit,\ny' know?"
+		"not like theres\nany explosive shit\ndown here tho"
+		"just these\nweird bumpy\ntesticles"
+		"\n. . . shame!"
+    ]
+}
+
 NPCdudH1 {
 #basic sideways
 	movieclip NPCHX

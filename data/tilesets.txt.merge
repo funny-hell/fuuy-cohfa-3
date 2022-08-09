@@ -153,13 +153,16 @@ c6 {
 	}
 }
 5ax {
-	palette 1210
 	15 {
 		music none
+		background_graphics mothershipbg
+		palette 1210
 	}
 	16 {
 		music [insanity_stinger.ogg, none]
 		music_volume 2
+		background_graphics mothershipbg
+		palette 1210
 	}
 }
 5bxu {

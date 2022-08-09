@@ -853,7 +853,7 @@ gr1 {
     ambience_volume 1
 
     cart_intro_png carts/cart_wip
-    cart_intro_palette 1311
+    cart_intro_palette 1095
     
     area_type glitch
 
@@ -864,7 +864,9 @@ gr1 {
         [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
         [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro][CreepingMass, CreepingMassRetro][OrbLarge, BlobOrbLargeretro][OrbSmall, BlobOrbSmallretro][OrbChomp, OrbChompretro][OrbChomp, MovingOrbBlobretro][ChargeSlug, RetroChargerSlug][Floater, FloaterGlitch][SkullFloaterBreaky, SkullFloaterretroBreaky][FloatingMine, FloatingMineRetro][BigCharger, RetroBigChargerSlug][ElectroBall, RetroElectroBall][Fish, RetroFish]
     ]
-
+	1x {
+		cart_intro_png carts/npp
+	}
 }
 gr2 {
     tile_graphics TileGlitch
@@ -874,7 +876,7 @@ gr2 {
     palette 1093
 
     cart_intro_png carts/cart_wip
-    cart_intro_palette 1183
+    cart_intro_palette 1093
 
     music [glitch/newworld2_intro.ogg, glitch/newworld2_loop.ogg]
     music_volume 1
@@ -902,7 +904,7 @@ gr3 {
     toxic_timer 1.05
 
     cart_intro_png carts/cart_wip
-    cart_intro_palette 1363
+    cart_intro_palette 1108
 
     music [glitch/bumblebee2_intro.ogg, glitch/bumblebee2_loop.ogg]
     music_volume 1
@@ -929,7 +931,7 @@ gr4 {
     palette 1065
 
     cart_intro_png carts/doomed
-    cart_intro_palette 1067
+    cart_intro_palette 1065
     
     music [glitch/flip_intro.ogg, glitch/flip_loop.ogg]
     
@@ -957,7 +959,7 @@ gr5 {
     palette 1133
 
     cart_intro_png carts/cart_wip
-    cart_intro_palette 410
+    cart_intro_palette 1133
 
     music [glitch/homk2_intro.ogg, glitch/homk2_loop.ogg]
     music_volume 1
@@ -984,7 +986,7 @@ gr6 {
     palette 1117
 
     cart_intro_png carts/cart_wip
-    cart_intro_palette 380
+    cart_intro_palette 1117
 
     music [retro/knights_intro.ogg, retro/knights_loop.ogg]
     music_volume 1
@@ -1162,9 +1164,9 @@ g6b {
     cart_intro_png carts/cart_wip
     cart_intro_palette 1054
     
-    music [glitch/1812_intro.ogg, glitch/1812_loop.ogg]
+    music [retro/atlantis_intro.ogg, retro/atlantis_loop.ogg]
     
-    music_volume 1
+    music_volume 1.6
     ambience_volume 1
 
     toxic_timer 1.25
@@ -1520,7 +1522,8 @@ but {
     tile_particle_5 dust
 
     music [ASH2328_intro.ogg, ASH2328_loop.ogg]
-    ambience wind.ogg
+    ambience sand.ogg
+	ambience_volume 0.6
 
     area_type normal
 
@@ -1535,27 +1538,23 @@ but {
 	0 {
 background_graphics trainbg_small
 music_volume 1
-ambience_volume 0
 }
 
 	1 {
 background_graphics trainbg_medium
 music_volume 1
-ambience_volume 0.25
 }
 
 	2 {
 background_graphics trainbg_small
 platform_physics "data/player_physics/platform_tracks_1.txt"
 music_volume 1
-ambience_volume 0.25
 }
 
 	3 {
 background_graphics trainbg_medium
 platform_physics "data/player_physics/platform_tracks_1.txt"
 music_volume 1
-ambience_volume 0.3
 }
 
 	4 {
@@ -1563,34 +1562,30 @@ background_graphics trainbg_xlarge
 global_particle_2 cloudwind_heavy
 platform_physics "data/player_physics/platform_tracks_1.txt"
 music_volume 1
-ambience_volume 0.8
+ambience_volume 0.9
 }
 
 	5 {
 background_graphics trainbg_large
 music_volume 1
-ambience_volume 0.6
 }
 
 	6 {
 background_graphics trainbg_trans
 palette 1068
 music_volume 1
-ambience_volume 0.3
 }
 
 	7 {
 background_graphics trainbg_trans
 palette 1068
 music_volume 1
-ambience_volume 0.4
 }
 
 	8 {
 background_graphics trainbg_n_large
 palette 1067
 music_volume 1
-ambience_volume 0.3
 global_particle_1 cloudwind_light2
 }
 
@@ -1598,7 +1593,6 @@ global_particle_1 cloudwind_light2
 background_graphics trainbg_n_medium
 palette 1067
 music_volume 1
-ambience_volume 0.3
 global_particle_1 cloudwind_light2
 }
 
@@ -1611,7 +1605,6 @@ tile_particle_2 toxwaterfall_splash
 fx_shader_mid cloudripples
 midfx_layer 2
 music_volume 1
-ambience_volume 0.2
 }
 
 	10 {
@@ -1623,7 +1616,6 @@ tile_particle_2 toxwaterfall_splash
 fx_shader_mid cloudripples
 midfx_layer 2
 music_volume 1
-ambience_volume 0.2
 }
 
 	11 {
@@ -1635,7 +1627,7 @@ tile_particle_2 toxwaterfall_splash
 fx_shader_mid cloudripples
 midfx_layer 2
 music_volume 0.6
-ambience_volume 0.1
+ambience_volume 0.8
 npc_1 NPCdud22
 }
 
@@ -1721,7 +1713,8 @@ npc_1 NPCdud22
 
     #global_particle_1 lightingtest
     
-    music [mountainking_intro_light.ogg, mountainking_loop_light.ogg]
+    music [atlantis_intro.ogg, atlantis_loop.ogg]
+	music_volume 1.3
     ambience ruins.ogg
 
     art_alts [
@@ -1771,45 +1764,297 @@ npc_1 NPCdud22
     }
 
 }
+6b_u {
+    area_name "Atlantis"
+    area_label_frame 17
+    tile_graphics Tileatlantissurface
+    overlay_graphics Overlaystox2
+    background_graphics bgsolid
+    foreground_graphics None
+    fx_shader reflectionripples
+    fx_shader_mid distortionparticles
+    midfx_layer 2
+    palette 54
+
+    tile_particle_1 bubbles
+	tile_particle_2 drip
+	tile_particle_3 waterfall
+	tile_particle_4 waterfall_splash
+	tile_particle_5 waterfall_splash
+    global_particle_1 cold
+    global_particle_2 mist2
+    decoration_1 DecoAlgae
+    decoration_2 DecoAlgaeTip
+    decoration_3 CeilingLamp
+    
+    toxic_timer 4
+    
+    area_type normal
+
+    #global_particle_1 lightingtest
+    
+    music atlantis_surface.ogg
+	ambience atlantis_underwater.ogg
+	music_volume 1.3
+	ambience_volume 0.1
+	stop_previous_music false
+
+    art_alts [
+   	 [OrbSmall, orbblob][GlowShroom, CeilingLamp][GlowShroomSmall, CeilingLampOff]
+   	 ]
+	0 {
+		area_label_frame 0
+		palette 55
+		music atlantis_surface.ogg
+		ambience atlantis_underwater.ogg
+		music_volume 0
+		ambience_volume 1.3
+		fx_shader_mid lightingmodded
+		midfx_graphics ShadeBox
+		midfx_layer 2
+		shader_param 0.1
+	}
+    23 {
+    area_name "Shore"
+	
+    overlay_graphics Overlayscaves
+    background_graphics ch3bg
+    palette 1098
+	fx_shader reflectionripples
+	
+	shader_param 1
+
+    #global_particle_1 lightingmoddedtest
+    global_particle_3 bgrain    
+
+    music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
+    ambience ruins.ogg
+
+    art_alts [
+   	 [OrbSmall, orbblob]
+   	 ]
+    }
+    23x {
+    area_name "Shore"
+    area_label_frame 0
+    tile_graphics theglow
+    overlay_graphics Overlaystox2
+    background_graphics ch3bg
+    foreground_graphics None
+    palette 1098
+
+    shader_param 0.1
+
+    #global_particle_1 lightingtest
+    global_particle_3 bgrain    
+
+    music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
+    ambience ruins.ogg
+
+    art_alts [
+   	 [OrbSmall, orbblob]
+   	 ]
+    }
+
+}
+6b_d {
+    area_name "Atlantis"
+    area_label_frame 17
+    #tile_graphics theglow
+    tile_graphics Tileatlantis
+    overlay_graphics Overlaystox2
+    background_graphics bgsolid
+    foreground_graphics None
+    fx_shader ripples
+    palette 55
+
+    tile_particle_1 bubbles
+    global_particle_1 cold
+    global_particle_2 mist2
+    decoration_1 DecoAlgae
+    decoration_2 DecoAlgaeTip
+    decoration_3 none
+    
+    toxic_timer 4
+
+    fx_shader_mid lightingmodded
+    midfx_graphics ShadeBox
+    midfx_layer 2
+
+    npc_1 NPCdud44
+    
+    area_type normal
+
+    shader_param 0.1
+
+    #global_particle_1 lightingtest
+    
+    music atlantis_surface.ogg
+	ambience atlantis_underwater.ogg
+	music_volume 0.2
+	ambience_volume 1.3
+	stop_previous_music false
+
+    art_alts [
+   	 [OrbSmall, orbblob][GlowShroomSmall, CeilingLamp]
+   	 ]
+
+    23 {
+    area_name "Shore"
+	
+    overlay_graphics Overlayscaves
+    background_graphics ch3bg
+    palette 1098
+	fx_shader reflectionripples
+	
+	shader_param 1
+
+    #global_particle_1 lightingmoddedtest
+    global_particle_3 bgrain    
+
+    music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
+    ambience ruins.ogg
+
+    art_alts [
+   	 [OrbSmall, orbblob]
+   	 ]
+    }
+    23x {
+    area_name "Shore"
+    area_label_frame 0
+    tile_graphics theglow
+    overlay_graphics Overlaystox2
+    background_graphics ch3bg
+    foreground_graphics None
+    palette 1098
+
+    shader_param 0.1
+
+    #global_particle_1 lightingtest
+    global_particle_3 bgrain    
+
+    music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
+    ambience ruins.ogg
+
+    art_alts [
+   	 [OrbSmall, orbblob]
+   	 ]
+    }
+
+}
+6bx {
+    area_name "Atlantis"
+    area_label_frame 17
+	tile_graphics Tileatlantis
+    overlay_graphics Overlaystox2
+    background_graphics bgsolid
+    foreground_graphics None
+    fx_shader ripples
+	fx_shader_mid lightingmodded
+    midfx_graphics ShadeBox
+    midfx_layer 2
+	shader_param 0.1
+    
+    palette 55
+
+    tile_particle_1 bubbles
+	tile_particle_2 drip
+	tile_particle_3 waterfall
+	tile_particle_4 waterfall_splash
+	tile_particle_5 waterfall_splash
+    global_particle_1 cold
+    global_particle_2 mist2
+    decoration_1 DecoAlgae
+    decoration_2 DecoAlgaeTip
+    decoration_3 CeilingLamp
+    
+    toxic_timer 4
+	npc_1 NPCdud23
+    
+    area_type normal
+
+    #global_particle_1 lightingtest
+    
+    music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
+    stop_previous_music false
+    ambience ruins.ogg
+
+	art_alts [
+   	 [OrbSmall, orbblob][GlowShroomSmall, CeilingLamp][ChainLink2, none]
+   	 ]
+	1x {
+		palette 54
+		fx_shader_mid distortionparticles
+		midfx_graphics none
+		midfx_layer 2
+		tile_graphics Tileatlantissurface
+		art_alts [
+		[OrbSmall, orbblob][GlowShroom, CeilingLamp][GlowShroomSmall, CeilingLampOff][Cartridge, cart2]
+		]
+	}
+	1xx {
+		tile_graphics Tileatlantissurface
+	}
+}
 6a {
     area_name "Insanity"
     area_label_frame 18
-    tile_graphics Tileairship
+    tile_graphics Tilemothership
     overlay_graphics Overlayscomplex
-    background_graphics airshipbg
+    background_graphics mothershipbg
     foreground_graphics None
-    fx_shader_mid lightingmodded
-    midfx_graphics ShadeBox
-    shader_param 0.8
     palette 1055
 	
 	do_wobble true
 	
 	npc_1 NPCdud35
+	npc_2 NPCdud35b
     area_type normal
 
     global_particle_1 wind
     global_particle_2 lightning
-	global_particle_2 embers
+	global_particle_3 bgrain
 	
+	tile_particle_1 embertilebeam
     tile_particle_2 smoke2
+	tile_particle_3 drip
+	tile_particle_4 raintile
+	tile_particle_5 splash
 	
-    decoration_1 Deco10
+    decoration_1 BeamEmitter
     decoration_2 decorationinsanity
-    decoration_3 none
+    decoration_3 BeamEmitterShort
     
     music [gymnopedies_intro_dark.ogg, gymnopedies_loop_dark.ogg]
-    ambience cogs.ogg
+    ambience abductionbeams.ogg
     art_alts [
    	 [OrbSmall, orbblob]
    	 [ChainLink2, None]
 	 [GlowShroom, GlowBulb][GlowShroomSmall, GlowBulbSmall]
    	 ]
-
+	1 {
+		ambience stormship.ogg
+	}
+	2 {
+		ambience stormship.ogg
+	}
+	3 {
+		ambience stormship.ogg
+	}
+	4 {
+		ambience stormship.ogg
+	}
+	5 {
+		ambience stormship.ogg
+	}
+	9x {
+		ambience stormship.ogg
+	}
+	15 {
+		ambience stormship.ogg
+	}
 	16 {
-		music none
-		palette 1219
-		shader_param 1
+		ambience stormship.ogg
 	}
 }
 
@@ -3614,7 +3859,7 @@ butx {
     tile_particle_5 dust
 
     music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
-    ambience wind.ogg
+    ambience sand.ogg
 	stop_previous_music false
 	
 	music_volume 1
@@ -3634,14 +3879,11 @@ butx {
 6ax {
     area_name "Insanity"
     area_label_frame 18
-    tile_graphics Tileairship
+    tile_graphics Tilemothership
     overlay_graphics Overlayscomplex
-    background_graphics airshipbg
+    background_graphics mothershipbg
     foreground_graphics None
-    fx_shader_mid lightingmodded
-    midfx_graphics ShadeBox
-    shader_param 0.8
-    palette 1219
+	palette 1055
 	
 	do_wobble true
     
@@ -3649,90 +3891,30 @@ butx {
 
     global_particle_1 wind
     global_particle_2 lightning
+	global_particle_3 bgrain
 	
 	tile_particle_1 smoke
-	tile_particle_2 smoke2
+    tile_particle_2 smoke2
+	tile_particle_3 drip
+	tile_particle_4 raintile
+	tile_particle_5 splash
 	
     decoration_1 antenaDeco
-    decoration_2 Deco11
-    decoration_3 none
+    decoration_2 BeamEmitter
+    decoration_3 BeamEmitterShort
     
     music [gymnopedies_intro_dark.ogg, gymnopedies_loop_dark.ogg]
 	stop_previous_music false
-    ambience cogs.ogg
+    ambience stormship.ogg
     art_alts [
    	 [OrbSmall, orbblob]
    	 [ChainLink2, None]
 	 [GlowShroom, GlowBulb][GlowShroomSmall, GlowBulbSmall][Cartridge, cart2]
    	 ]
-
-    1 {
-	shader_param 0.6
-	palette 1055
-    }
-    2 {
-    music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
-    }
+	
 	4 {
-	shader_param 1
+		global_particle_4 fgrain
 	}
-}
-6bx {
-    area_name "Atlantis"
-    area_label_frame 17
-    #tile_graphics theglow
-    tile_graphics Tileatlantis
-    overlay_graphics Overlaystox2
-    background_graphics bgsolid
-    foreground_graphics None
-    fx_shader ripples
-    fx_shader_mid cloudripples
-    midfx_layer 2
-    palette 1054
-
-    tile_particle_1 bubbles
-    global_particle_1 cold
-    global_particle_2 mist2
-    decoration_1 DecoAlgae
-    decoration_2 DecoAlgaeTip
-    
-    toxic_timer 4
-
-    fx_shader_mid lightingmodded
-    midfx_graphics ShadeBox
-    midfx_layer 2
-
-    npc_1 NPCdud23
-    
-    area_type normal
-
-    shader_param 0
-
-	art_alts [
-   	 [OrbSmall, orbblob][ChainLink2, None][Cartridge, cart2]
-   	]
-	1 {
-		palette 1156
-	}
-	2 {
-		palette 1156
-	}
-    3 {
-    music [gymnopedies_intro.ogg, gymnopedies_loop.ogg]
-    }
-	4 {
-    shader_param 0.6
-    art_alts [
-   	 [OrbSmall, orbblob][Cartridge, cart2]
-   	 ]
-    }
-
-    #global_particle_1 lightingtest
-    
-    music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
-    stop_previous_music false
-    ambience ruins.ogg
-
 }
 6cx {
     area_name "Sheol"
@@ -5324,7 +5506,7 @@ o {
 }
 3b {
     area_name "Mechanical"
-    area_label_frame 0
+    area_label_frame 51
     tile_graphics Tileairship
     overlay_graphics Overlaysairship
     background_graphics bgsolid
@@ -6139,14 +6321,14 @@ gn7 {
     ]
 
 }
-gn8 {
-    tile_graphics TileGlitch
+c8c {
+    tile_graphics Tileretronograv
     overlay_graphics Overlaysretro
     background_graphics bgretro
     foreground_graphics none
 	palette 1173
 	
-	music [glitch/funeral_intro.ogg, glitch/funeral_loop.ogg]
+	music [retro/dante_intro.ogg, retro/dante_loop.ogg]
     
     music_volume 1
     ambience_volume 1
@@ -6156,9 +6338,11 @@ gn8 {
     cart_intro_png carts/cart_herpes
     cart_intro_palette 1173
 	
-	decoration_1 Retrotip2
+	lowgrav_physics "data/player_physics/icephysics.txt"
+	decoration_1 retrosnow_part
+	decoration_2 IceIceMotherfucker
     
-    area_type glitch
+    area_type cart
 	art_alts [
         [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
         [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
@@ -6482,6 +6666,8 @@ ix0 {
 	ambience wind.ogg
 	ambience_volume 0.3
 
+	npc_1 NPCSDR2
+
     cart_intro_png carts/cart_wip
     cart_intro_palette 993
     
@@ -6736,6 +6922,50 @@ ix6 {
 		ambience_volume 0.3
 	}
 }
+ix6b {
+    tile_graphics Tileretrobricks
+    overlay_graphics Overlaysretro
+    background_graphics neverbgretro
+    foreground_graphics none
+    fx_shader_mid lightingmoddedretro
+	shader_param 0.8
+	midfx_graphics ShadeBox
+	midfx_layer 2
+    palette 999
+	
+	music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
+
+    cart_intro_png carts/icart_relapse
+    cart_intro_palette 999
+	
+	global_particle_1 lightning
+    
+    area_type ironcart
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FireRetro][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro][ElectroBall, RetroElectroBall][CreepingMass, CreepingMassRetro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroom, just_a_block][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+	2 {
+		npc_1 NPCdudp16
+		decoration_1 RetroLeaves3
+		decoration_2 warpzone_arrow
+		music retro/gnossiennes_loop.ogg
+	}
+}
 ix7 {
     tile_graphics Tileretrobricks
     overlay_graphics Overlaysretro
@@ -6749,6 +6979,8 @@ ix7 {
     cart_intro_png carts/cart_wip
     cart_intro_palette 993
     
+	npc_1 NPCSDR3
+	
 	decoration_1 RetroLeaves1
 	decoration_2 RetroLeaves2
 	decoration_3 RetroLeaves3
@@ -7640,7 +7872,7 @@ but2 {
 
     tile_particle_1 dust
 
-    music [dante_intro_dark.ogg, dante_loop_dark.ogg]
+    music [ASH2328_intro.ogg, ASH2328_loop.ogg]
     ambience caves.ogg
 
     area_type normal
@@ -7671,7 +7903,7 @@ but2b {
 
     tile_particle_1 dust
 
-    music [dante_intro_dark.ogg, dante_loop_dark.ogg]
+    music [ASH2328_intro.ogg, ASH2328_loop.ogg]
     ambience caves.ogg
 
     area_type normal
