@@ -147,11 +147,6 @@ c6 {
 		decoration_1 WarpzonePortal
 	}
 }
-5b {
-	23 {
-		decoration_1 WarpzonePortal
-	}
-}
 5ax {
 	15 {
 		music none
@@ -167,6 +162,13 @@ c6 {
 }
 5bxu {
 	palette 1211
+	
+	14 {
+		area_label_frame 0
+		tile_graphics Tiletracksdud
+		decoration_1 WarpzonePortal
+		decoration_2 decotrackswheel
+	}
 }
 5bxd {
 	palette 1212

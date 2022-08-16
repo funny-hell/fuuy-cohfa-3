@@ -62,8 +62,6 @@ r1 {
     
     music_volume 1
     ambience_volume 1
-	
-	decoration_1 decoshit3
     
     tile_particle_1 drip
 	tile_particle_2 bloodwaterfall
@@ -906,7 +904,7 @@ gr3 {
     cart_intro_png carts/cart_wip
     cart_intro_palette 1108
 
-    music [glitch/bumblebee2_intro.ogg, glitch/bumblebee2_loop.ogg]
+    music [glitch/1812_intro.ogg, glitch/1812_loop.ogg]
     music_volume 1
     ambience_volume 1
 
@@ -961,7 +959,7 @@ gr5 {
     cart_intro_png carts/cart_wip
     cart_intro_palette 1133
 
-    music [glitch/homk2_intro.ogg, glitch/homk2_loop.ogg]
+    music [glitch/bumblebee2_intro.ogg, glitch/bumblebee2_loop.ogg]
     music_volume 1
     ambience_volume 1
 
@@ -1518,6 +1516,7 @@ but {
 	
 	decoration_1 windowdeco
 	decoration_2 decotrackswheel
+	
 
     tile_particle_5 dust
 
@@ -1533,6 +1532,8 @@ but {
 		
 	0x {
 	background_graphics trainbg_small
+	decoration_2 Decoration6
+	decoration_3 Decoration7_down
 	area_label_frame 0
 	}
 	0 {
@@ -1869,6 +1870,7 @@ npc_1 NPCdud22
     palette 55
 
     tile_particle_1 bubbles
+	tile_particle_4 waterfall_splash
     global_particle_1 cold
     global_particle_2 mist2
     decoration_1 DecoAlgae
@@ -4254,8 +4256,6 @@ r1x {
     
     music_volume 1
     ambience_volume 1
-	
-	decoration_1 decoshit3
     
     tile_particle_1 drip
 	tile_particle_2 bloodwaterfall

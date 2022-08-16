@@ -382,10 +382,10 @@
 "6b_u-6" {name="Atlantis 12" id=-1}
 "6b_u-7" {name="Atlantis 13" id=-1}
 "6b_u-8" {name="Atlantis 14" id=-1}
-"6b_d-7" {name="Atlantis 15" id=-1}
-"6b_d-8" {name="Atlantis 16" id=-1}
-"6b_d-9" {name="Atlantis 17" id=-1}
-"6b_u-9" {name="Atlantis 18" id=-1}
+"6b_u-9" {name="Atlantis 15" id=-1}
+"6b_d-7" {name="Atlantis 16" id=-1}
+"6b_d-8" {name="Atlantis 17" id=-1}
+"6b_d-9" {name="Atlantis 18" id=-1}
 "6b_u-10" {name="Atlantis 19" id=-1}
 "6b_u-11" {name="Atlantis 20" id=-1}
 "6b_d-10" {name="Atlantis 21" id=-1}
@@ -814,6 +814,7 @@
 "r5-18" {name="Desintegration 18" id=-1}
 "r5-19" {name="Desintegration 19" id=-1}
 "r5-20" {name="Desintegration 20" id=-1}
+"5bxu-14" {name="???" id=-1}
 "8hid-0" {name="???" id=-1}
 "8hid-1" {name="Hidden Glade 1" id=-1}
 "8hid-2" {name="Hidden Glade 2" id=-1}

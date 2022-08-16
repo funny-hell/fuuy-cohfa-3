@@ -45,10 +45,10 @@ meta {
 		1-0 8-0 ki-1 k2-1 o-1 8c-17 6-2x
 	]
     rightwipes [1-20 2-19 3-20 4-1hub 4b-15 1d-20 2d-19 r1-20 r2-20 r3-20 qu-3 5bxu-10 5c-21 5ax-15 hub-1 hub2-5 3d-21 dud3-12 6a-16 7b-20 j-1hub 7d-1t 1xu-5a but-11 a-8 1d-2b 1-2b
-		2xu-1 3xd-2 4a-15 5a-18 4cx-3 5cx-7 4bx-7 5b-23 5-25 ki-11 1-3b t-10 8c-16 8c-17 6x-10
+		2xu-1 3xd-2 4a-15 5a-18 4cx-3 5cx-7 4bx-7 5-25 ki-11 1-3b t-10 8c-16 8c-17 6x-10
 	]
     upwipes [4-1hub 4a-16 4c-1 5c-1 6-1 7-0 4b-15 ex-15 hub-3 6d-1 m-1 7c-12 7d-16 7d-16x 6bx-0 7d-17x 8-14 8c-1 7x-7 8x-10]
-    downwipes [4-1hub 4c-15 5a-1 3d-23 4a-1 5bxu-5 6-21 hub-1 xs-1 xs-10 5b-23 xs-20 ex-1 5bxd-7 6b-23x r1-1 r4b-1 r3-1 6d-23 7d-16x 2-0 8cx-0 5-22 7ax-4 1bx-5 dud3-1 8a-0x 9x-8 7-8x]
+    downwipes [4-1hub 4c-15 5a-1 3d-23 4a-1 5bxu-5 6-21 hub-1 xs-1 xs-10 5b-23 xs-20 ex-1 5bxd-7 6b-23x r1-1 r4b-1 r3-1 6d-23 7d-16x 2-0 8cx-0 5-22 7ax-4 1bx-5 dud3-1 8a-0x 9x-8 7-8x 5bxu-14 but-0x]
     
     stevenheads [NPCH1 NPCH2 NPCH3 NPCH4 NPCH5 NPCH5b NPCH5c NPCH6 NPCHX NPCdudH1 NPCdudH2 NPCHM NPCSDR2warp1 NPCSDR2warp2 NPCSDR2warp3 NPCSDR2warp4]
     steventhreshtumors [50 100 170 300 450 450 450 530 689 600 1 650 1 1 1 1] //tumors: light-506 right-95 console-93 total-689 (outdated)
