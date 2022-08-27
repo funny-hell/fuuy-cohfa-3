@@ -2203,7 +2203,7 @@ NPCNAN0 {
 NPCNAN1{
 #unfinished
     movieclip NPCdudNAN3
-sound_id NPCBlob
+	sound_id NPCBlob
     text [
 		"we have\nsome loose ends\nhere, don't we"
 		"ah,\nhow\nunfortunate"
@@ -2231,5 +2231,19 @@ NPCNAN3{
     sound_id NPCBlob
     text [
 		"\n. . ."
+    ]
+}
+NPCNAN4{
+#unfinished
+    movieclip NPCdudNAN3
+    sound_id NPCBlob
+    text [
+		"we have\nsome loose ends\nhere, don't we"
+		"it's true,\nguy workin on it\ndidnt finish it"
+		"too busy\nbeing dead or\nsome horseshit"
+		"do not fret!\ni know a\nshortcut"
+		"just keep going\nright through\nthis tunnel"
+		"\n. . ."
+		"\ngood luck!"
     ]
 }

@@ -1901,6 +1901,10 @@ npc_1 NPCdud22
    	 [OrbSmall, orbblob][GlowShroomSmall, CeilingLamp]
    	 ]
 
+	9 {
+		tile_particle_3 waterfall
+		npc_1 NPCNAN4
+	}
     23 {
     area_name "Shore"
 	
@@ -1947,7 +1951,7 @@ npc_1 NPCdud22
 6bx {
     area_name "Atlantis"
     area_label_frame 17
-	tile_graphics Tileatlantissurface
+	tile_graphics Tileatlantis
     overlay_graphics Overlaystox2
     background_graphics bgsolid
     foreground_graphics None
@@ -1990,6 +1994,7 @@ npc_1 NPCdud22
 		ambience atlantis_underwater.ogg
 		music_volume 0
 		ambience_volume 1.3
+		tile_graphics Tileatlantissurface
 	}
 	1x {
 		palette 54
@@ -2003,6 +2008,11 @@ npc_1 NPCdud22
 	}
 	1xx {
 		tile_graphics Tileatlantissurface
+	}
+	4 {
+		art_alts [
+		[OrbSmall, orbblob]
+		]
 	}
 }
 6a {
