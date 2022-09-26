@@ -367,7 +367,7 @@
 "6bx-2" {name="???" id=1}
 "6bx-3" {name="???" id=2}
 "6bx-4" {name="???" id=-1}
-"6b_u-0" {name="???" id=-1}
+"6bx-0" {name="???" id=-1}
 "6b_u-1" {name="Atlantis 1" id=-1}
 "6b_u-2" {name="Atlantis 2" id=-1}
 "6b_d-1" {name="Atlantis 3" id=-1}
@@ -1177,16 +1177,16 @@
 "gn4-9" {name="Frighten The Moods 9" id=-1}
 "gn4-10" {name="Frighten The Moods 10" id=-1}
 
-"gn5-1" {name="Mori 1" id=-1}
-"gn5-2" {name="Mori 2" id=-1}
-"gn5-3" {name="Mori 3" id=-1}
-"gn5-4" {name="Mori 4" id=-1}
-"gn5-5" {name="Mori 5" id=-1}
-"gn5-6" {name="Mori 6" id=-1}
-"gn5-7" {name="Mori 7" id=-1}
-"gn5-8" {name="Mori 8" id=-1}
-"gn5-9" {name="Mori 9" id=-1}
-"gn5-10" {name="Mori 10" id=-1}
+"gn5-1" {name="Omophagy 1" id=-1}
+"gn5-2" {name="Omophagy 2" id=-1}
+"gn5-3" {name="Omophagy 3" id=-1}
+"gn5-4" {name="Omophagy 4" id=-1}
+"gn5-5" {name="Omophagy 5" id=-1}
+"gn5-6" {name="Omophagy 6" id=-1}
+"gn5-7" {name="Omophagy 7" id=-1}
+"gn5-8" {name="Omophagy 8" id=-1}
+"gn5-9" {name="Omophagy 9" id=-1}
+"gn5-10" {name="Omophagy 10" id=-1}
 
 "gn6-1" {name="Lunatic 1" id=-1}
 "gn6-2" {name="Lunatic 2" id=-1}
@@ -1425,38 +1425,9 @@
 "t-11" {name="Yet To Be" id=-1}
 
 # Surreal's areas
-"2c-0" {name="???" id=1}
-"2c-1" {name="Mirror Planetarium" id=-1}
-"2cx-1" {name="Mirror Planetarium" id=-1}
-"2cx-2" {name="Mirror Planetarium" id=-1}
-"2cx-3" {name="Mirror Planetarium" id=-1}
-"2cx-4" {name="Mirror Planetarium" id=-1}
-"2cx-5" {name="Mirror Planetarium" id=-1}
-"2cx-6" {name="Mirror Planetarium" id=-1}
-"2cx-7" {name="Mirror Planetarium" id=-1}
-"2cx-8" {name="Mirror Planetarium" id=-1}
-"2cx-9" {name="Mirror Planetarium" id=-1}
-"2cx-10" {name="Mirror Planetarium" id=-1}
-"2cx-11" {name="Mirror Planetarium" id=-1}
-"2cx-12" {name="Mirror Planetarium" id=-1}
-"2cx-13" {name="Mirror Planetarium" id=-1}
-"2cx-14" {name="Mirror Planetarium" id=-1}
-"2cx-15" {name="Mirror Planetarium" id=-1}
-"2cx-16" {name="Mirror Planetarium" id=-1}
-"2cx-17" {name="Mirror Planetarium" id=-1}
-"2cx-18" {name="Mirror Planetarium" id=-1}
-"2cx-13b" {name="Mirror Planetarium" id=-1}
-"2cx-14b" {name="Mirror Planetarium" id=-1}
-"2cx-15b" {name="Mirror Planetarium" id=-1}
-"2cx-16b" {name="Mirror Planetarium" id=-1}
-"2cx-17b" {name="Mirror Planetarium" id=-1}
-"2cx-18b" {name="Mirror Planetarium" id=-1}
-"2cx-19" {name="Mirror Planetarium" id=-1}
-"2cx-20" {name="Mirror Planetarium" id=-1}
-"2cx-21" {name="Mirror Planetarium" id=-1}
-"2cx-22" {name="Mirror Planetarium" id=-1}
-"2cx-23" {name="Mirror Planetarium" id=-1}
-"2cx-24" {name="Mirror Planetarium" id=-1}
+"1xd-1x" {name="???" id=-1}
+"1shop-1" {name="Hoarders Retreat" id=-1}
+"1shop-2" {name="Hoarders Retreat" id=-1}
 "wlspl-0" {name="???" id=-1}
 "wlspl-1" {name="???" id=-1}
 "wlspl-2" {name="The Wailing Sepulcher" id=-1}

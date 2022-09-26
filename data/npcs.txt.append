@@ -810,7 +810,7 @@ NPCdud8 {
 		"havent seen\nno one in\na long time"
 		"welcome\nto the\nfarlands"
 		"these are the\nfar reaches\nof the world"
-		"or,\nyou know,\nthe great city"
+		"or,\nyou know,\nof these lands"
 		"everything\ngets fucky\nfrom here on"
 		"whats beyond\nthe farlands\nyou ask?"
 		"\nhell do i know"
@@ -1221,19 +1221,16 @@ NPCdud32 {
     movieclip NPC6
     sound_id NPCSkull
     text [
-		"\nyep"
-		"\nthis the end"
-		"good\nwhile\nit lasted"
-		". . .\n. . .\nNOT!"
-		"cant believe i spent\nthis whole time\ntryin to get here"
-		"and all i get\nis this shitty\nfucking wall here"
-		"\n. . ."
-		"i still cant\nget my head\naround it"
-		"i swear\ni saw it,\nright here"
-		"a tower as\ntall as the eye\ncould see"
-		"nothin' like\nive ever\nseen before"
-		"\n. . ."
-		"maybe it\nwas just\na dream?"
+		"\nthis is it"
+		"the\ngreat\ndoor"
+		"this here\nthe place\nof legends"
+		"door here would\nlead to great\ntreasure"
+		"the entrance to\na paradise never\nseen before"
+		"but,\nyou'd notice,\nthere's no door!"
+		"just\nthis empty\ndoorframe"
+		"\nsucks!"
+		"but hey, at least\nthis side of the\ndoor is nice"
+		"wouldnt mind\nto be stuck\nhere forever"
     ]
 }
 NPCdud33a {
@@ -1464,6 +1461,80 @@ NPCdud44 {
 		"not like theres\nany explosive shit\ndown here tho"
 		"just these\nweird bumpy\ntesticles"
 		"\n. . . shame!"
+    ]
+}
+NPCdud45 {
+#shopkeeper
+    movieclip NPCdud23
+    sound_id GhostMove
+    text [
+		"\n. . ."
+		"what is that\nthing my eyes\n're seeing?"
+		"\ncould it be???"
+		"\na customer!"
+		"its hard to find\ncustomers in this\nday and age!"
+		"you know, with\neveryone bein\ndead and shit"
+		"i knew setting up\nshop in this pit\nwas a good idea!"
+		"come take a look,\nweve got a real\nstash down here"
+		"a real\nbargain basement,\njust for you"
+		"\n. . ."
+		"you dont\ngot any\nmoney on ya?"
+		"thats fine,\neverythings\ncheap here"
+		"so cheap it\nmight aswell\nbe free!"
+		"we actually dont\naccept money,\nlike at all"
+		"even if you\nfind like,\ngiant pennies"
+		"we dont\nwant em!\ntheir useless"
+		"what do\nwe sell,\nyou ask?"
+		"well, we take\npride in our\ndiverse supplies"
+		"information!\nblackmail!\nwe've got it all!"
+		"\n. . . no?"
+		"\nthats fine"
+		"guy downstairs\nmight have something\nto ur liking"
+		"if you know\nwhat i mean,\nwink"
+		"\n. . ."
+		"\ncome back soon!"
+    ]
+}
+NPCdud46 {
+#shopkeeper
+    movieclip NPCdud23
+    sound_id GhostMove
+    text [
+		"\n. . . psst"
+		"\nhey kid"
+		"ive got\nthe real\nshit here"
+		"\nwanna buy?"
+		"\n. . . what?"
+		"im talking about\nthat warp thing\ndown there"
+		"the service\nis pretty\nsimple:"
+		"its a tunnel\nsystem, been here\nfor a while now"
+		"but we let\nyou use it,\nfree of charge"
+		"jump in that fleshy\nthing, and come out\non the other end"
+		"its a one way\ntrip, but still a\ngreat shortcut"
+		"a shortcut\nto what,\nyou ask?"
+		"a shortcut to\nplaces youve\nalready been in"
+		"who knows,\nmaybe those places\nhave changed?"
+		"cant let you go\nto places youve not\nyet been to though"
+		"its pretty useless\nif youre going there\non your own"
+		"this a service\nfor the lazy folk,\nyou could say"
+		"and, who knows,\nmaybe some paths\nwill appear later on"
+		"think of it as\na subscription\nservice"
+		"\n. . ."
+		"\nhope it helped"
+    ]
+}
+NPCdud47 {
+#shopkeeper
+    movieclip NPCdud22
+    sound_id NPCBlob
+    text [
+		"\ngah!"
+		"you know\nwhat they\nsay"
+		"looks\ncan be\ndeceiving"
+		"and i\ncouldnt\nagree more"
+		"i might look\nlike i eat\ncats for fun"
+		"but thats just\njudging a book\nby its cover"
+		"in fact, i\nonly eat cats\nfor the protein!"
     ]
 }
 

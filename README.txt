@@ -8,6 +8,8 @@ OST Credits:
 -Tracks: Mysterjaxxx - ASH 2328. https://vk.com/wall-171805802_10466?lang=en
 -Stormscapes: Chopin - Torrent. Cover by: https://www.youtube.com/watch?v=RNXxBkaEZvQ (Mats Kleppe)
 -The Castle: Beethoven - Beethoven's 5th Symphony. Cover by: https://www.youtube.com/watch?v=g7YayFjiiaM (Marcin Jakubek)
+RETRO:
+-Spinecraft, Don't Drown, Omophagy, "comomesiento" : SurrealDude
 
 (Yet to implement)
 Insanity    - Moonlight Sonata Mvt. 3

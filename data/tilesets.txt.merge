@@ -44,6 +44,9 @@ c6 {
 	0 {
 		decoration_1 WarpzonePortal
 	}
+	2 {
+		decoration_1 dudropedeco2
+	}
     2b {
 	palette 1001
 	area_label_frame 0
@@ -64,6 +67,12 @@ c6 {
 	global_particle_1 rain
 	global_particle_2 fog
 	global_particle_3 fogbg2
+	1x {
+		global_particle_1 fgrain
+		tile_particle_2 splash
+		decoration_2 dudropedeco2
+		decoration_3 Decoration7_down
+	}
 }
 1xu {
 	palette 1200
