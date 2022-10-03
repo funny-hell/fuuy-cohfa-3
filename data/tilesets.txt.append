@@ -1681,50 +1681,11 @@ npc_1 NPCdud22
 
 }
 6b {
-    area_name "Atlantis"
     area_label_frame 17
     #tile_graphics theglow
     tile_graphics Tileatlantis
-    overlay_graphics Overlaystox2
-    background_graphics bgsolid
     foreground_graphics None
-    fx_shader ripples
-    fx_shader_mid cloudripples
-    midfx_layer 2
-    palette 1054
-
-    tile_particle_1 bubbles
-    global_particle_1 cold
-    global_particle_2 mist2
-    decoration_1 DecoAlgae
-    decoration_2 DecoAlgaeTip
-    decoration_3 none
-    
-    toxic_timer 4
-
-    fx_shader_mid lightingmodded
-    midfx_graphics ShadeBox
-    midfx_layer 2
-
-    npc_1 NPCdud23
-    
-    area_type normal
-
-    shader_param 0.1
-
-    #global_particle_1 lightingtest
-    
-    music [atlantis_intro.ogg, atlantis_loop.ogg]
-	music_volume 1.3
-    ambience ruins.ogg
-
-    art_alts [
-   	 [OrbSmall, orbblob]
-   	 ]
-
-    23 {
-    area_name "Shore"
-	
+	area_name "Shore"
     overlay_graphics Overlayscaves
     background_graphics ch3bg
     palette 1098
@@ -1737,32 +1698,35 @@ npc_1 NPCdud22
 
     music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
     ambience ruins.ogg
+    
 
-    art_alts [
-   	 [OrbSmall, orbblob]
-   	 ]
-    }
-    23x {
-    area_name "Shore"
-    area_label_frame 0
-    tile_graphics theglow
-    overlay_graphics Overlaystox2
-    background_graphics ch3bg
-    foreground_graphics None
-    palette 1098
+    tile_particle_1 bubbles
+    global_particle_1 cold
+    global_particle_2 mist2
+    decoration_1 DecoAlgae
+    decoration_2 DecoAlgaeTip
+    
+    toxic_timer 4
 
-    shader_param 0.1
+    fx_shader_mid lightingmodded
+    midfx_graphics ShadeBox
+    midfx_layer 2
+
+    npc_1 NPCdud23
+    
+    area_type normal
 
     #global_particle_1 lightingtest
-    global_particle_3 bgrain    
-
-    music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
-    ambience ruins.ogg
 
     art_alts [
    	 [OrbSmall, orbblob]
    	 ]
-    }
+
+    23x {
+    overlay_graphics Overlaystox2
+
+    shader_param 0.1
+	}
 
 }
 6b_u {
