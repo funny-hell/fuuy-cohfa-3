@@ -1,4 +1,3 @@
-//{ NEW
 15x {
     area_name "Hyperfuture"
     area_label_frame 29
@@ -63,8 +62,6 @@ r1 {
     
     music_volume 1
     ambience_volume 1
-	
-	decoration_1 decoshit3
     
     tile_particle_1 drip
 	tile_particle_2 bloodwaterfall
@@ -246,7 +243,6 @@ r4b {
     tile_particle_3 bubbles
     tile_particle_4 drip    
     global_particle_1 fullsnow
-    global_particle_2 snowdist
     global_particle_4 rocks
 
     #decoration_1 Decoration4
@@ -259,7 +255,7 @@ r4b {
 	npc_3 NPCNAN1
 
     art_alts[
-        [OrbSmall, orbblob][ChainLink2, none][OrbLarge, OrbLarge2]
+        [OrbSmall, orbblob][ChainLink2, none][OrbLarge, OrbLarge2][Player, PlayerCold]
     ]
 
     music [rapture_intro.ogg, rapture_loop.ogg]
@@ -391,21 +387,44 @@ hub {
         [Bullet,eyebullet][MiniFrog, MiniFlea][OrbSmall, OrbBlob2][OrbLarge, OrbLarge2]
 		[Cartridge, cart2]
     ]
-	4 {
-	area_label_frame 0
-	}
-	5 {
-	area_label_frame 56
-	}
-	0x {
-	area_label_frame 56
-	}
+	
 	2x {
 		art_alts [
         [AimSpitter,eyeshooter][ChainLink2, None]
         [Bullet,eyebullet][MiniFrog, MiniFlea][OrbSmall, OrbBlob2][OrbLarge, OrbLarge2]
 		[Cartridge, cart3]
 		]
+	}
+}
+hub2 {
+    area_name "The Grave"
+    area_label_frame 56
+    tile_graphics Tilecaves
+    overlay_graphics Overlaystox
+    background_graphics bg2
+    foreground_graphics None
+    fx_shader reflectionripples
+    palette 1074
+
+    npc_1 NPCHX
+    npc_2 NPC17
+    npc_3 NPCdudp0
+    decoration_1 Decoration5
+    decoration_2 Decoration6
+    decoration_3 Decoration7
+    
+    area_type dark
+    
+    music [split_intro_superdark.ogg, none]
+    ambience wind.ogg
+
+    art_alts [
+        [AimSpitter,eyeshooter][ChainLink2, None]
+        [Bullet,eyebullet][MiniFrog, MiniFlea][OrbSmall, OrbBlob2][OrbLarge, OrbLarge2]
+		[Cartridge, cart2]
+    ]
+	4 {
+	area_label_frame 0
 	}
 }
 qu {
@@ -476,6 +495,10 @@ gb {
 
     music [hell_intro_superdark.ogg, hell_loop_superdark.ogg]
     ambience volcano.ogg
+	
+	art_alts[
+		[OrbLarge, just_a_block][Floater, fire_my_guy]
+	]
 }
 6d {
     area_name "Shock"
@@ -557,14 +580,14 @@ gb {
     global_particle_2 bgrain
     global_particle_3 lightning
     global_particle_4 cloudwindlight
-    
-	npc_1 NPC1
+	
+	npc_1 NPCdud43
 
     decoration_1 eyeball
 	decoration_2 Decoration7
 	decoration_3 Decoration7_right
    
-	do_tilt true
+	#do_tilt true
 
     music [requiem_intro_dark.ogg, requiem_loop_dark.ogg]
     ambience flesh.ogg
@@ -579,9 +602,7 @@ gb {
         [Cartridge, cart2]
 		[GlowShroom, GlowCandle][GlowShroomSmall, GlowCandle]
     ]
-	1x {
-		decoration_3 cutscene1_sw
-	}
+	
 	15 {
 		overlay_graphics Overlaysend
 	}
@@ -596,13 +617,88 @@ gb {
 		palette 1061
 		shader_param 1141
 		
-	do_tilt false
+	#do_tilt false
 	}
 	17x {
 		overlay_graphics Overlaysend
 		palette 1141
-	do_tilt false
+	#do_tilt false
 	}
+	
+	#TL
+	
+	1t {
+    tile_graphics Tilecitygirders
+	fx_shader_mid filmgrain
+    palette 1099
+    music [terminal_intro.ogg, terminal_loop.ogg]
+	ambience vinyl.ogg
+	area_label_frame 40
+    }
+
+    2t {
+    tile_graphics Tilefield
+	fx_shader_mid filmgrain
+    palette 1100
+    music [terminal_intro.ogg, terminal_loop.ogg]
+	ambience vinyl.ogg
+	area_label_frame 40
+    }
+
+    3t {
+    tile_graphics Tilecaves
+	fx_shader_mid filmgrain
+    palette 1101
+    music [terminal_intro.ogg, terminal_loop.ogg]
+	ambience vinyl.ogg
+	area_label_frame 40
+    }
+
+    4t {
+    tile_graphics Tiletox
+	fx_shader_mid filmgrain
+    palette 1103
+    music [terminal_intro.ogg, terminal_loop.ogg]
+	ambience vinyl.ogg
+	area_label_frame 40
+    }
+
+    5t {
+    tile_graphics Tileairship
+	fx_shader_mid filmgrain
+    palette 1102
+    music [terminal_intro.ogg, terminal_loop.ogg]
+	ambience vinyl.ogg
+	area_label_frame 40
+    }
+
+    6t {
+    tile_graphics Tilehell
+	fx_shader_mid filmgrain
+    palette 1104
+    music [terminal_intro.ogg, terminal_loop.ogg]
+	ambience vinyl.ogg
+	area_label_frame 40
+    }
+
+    7t {
+    tile_graphics theglow
+	fx_shader_mid filmgrain
+    palette 1105
+    music [terminal_intro.ogg, terminal_loop.ogg]
+	ambience vinyl.ogg
+	area_label_frame 40
+	}
+
+    8t {
+	palette 1092
+    tile_graphics TileEnd
+	fx_shader_mid filmgrain
+    background_graphics neverbg
+    music [terminal_intro.ogg, terminal_loop.ogg]
+	ambience vinyl.ogg
+	area_label_frame 40
+    }
 }
 
 gi0 {
@@ -755,7 +851,7 @@ gr1 {
     ambience_volume 1
 
     cart_intro_png carts/cart_wip
-    cart_intro_palette 1311
+    cart_intro_palette 1095
     
     area_type glitch
 
@@ -766,7 +862,9 @@ gr1 {
         [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
         [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro][CreepingMass, CreepingMassRetro][OrbLarge, BlobOrbLargeretro][OrbSmall, BlobOrbSmallretro][OrbChomp, OrbChompretro][OrbChomp, MovingOrbBlobretro][ChargeSlug, RetroChargerSlug][Floater, FloaterGlitch][SkullFloaterBreaky, SkullFloaterretroBreaky][FloatingMine, FloatingMineRetro][BigCharger, RetroBigChargerSlug][ElectroBall, RetroElectroBall][Fish, RetroFish]
     ]
-
+	1x {
+		cart_intro_png carts/npp
+	}
 }
 gr2 {
     tile_graphics TileGlitch
@@ -776,7 +874,7 @@ gr2 {
     palette 1093
 
     cart_intro_png carts/cart_wip
-    cart_intro_palette 1183
+    cart_intro_palette 1093
 
     music [glitch/newworld2_intro.ogg, glitch/newworld2_loop.ogg]
     music_volume 1
@@ -804,9 +902,9 @@ gr3 {
     toxic_timer 1.05
 
     cart_intro_png carts/cart_wip
-    cart_intro_palette 1363
+    cart_intro_palette 1108
 
-    music [glitch/bumblebee2_intro.ogg, glitch/bumblebee2_loop.ogg]
+    music [glitch/1812_intro.ogg, glitch/1812_loop.ogg]
     music_volume 1
     ambience_volume 1
 
@@ -831,7 +929,7 @@ gr4 {
     palette 1065
 
     cart_intro_png carts/doomed
-    cart_intro_palette 1067
+    cart_intro_palette 1065
     
     music [glitch/flip_intro.ogg, glitch/flip_loop.ogg]
     
@@ -859,9 +957,9 @@ gr5 {
     palette 1133
 
     cart_intro_png carts/cart_wip
-    cart_intro_palette 410
+    cart_intro_palette 1133
 
-    music [glitch/homk2_intro.ogg, glitch/homk2_loop.ogg]
+    music [glitch/bumblebee2_intro.ogg, glitch/bumblebee2_loop.ogg]
     music_volume 1
     ambience_volume 1
 
@@ -886,7 +984,7 @@ gr6 {
     palette 1117
 
     cart_intro_png carts/cart_wip
-    cart_intro_palette 380
+    cart_intro_palette 1117
 
     music [retro/knights_intro.ogg, retro/knights_loop.ogg]
     music_volume 1
@@ -1064,9 +1162,9 @@ g6b {
     cart_intro_png carts/cart_wip
     cart_intro_palette 1054
     
-    music [glitch/1812_intro.ogg, glitch/1812_loop.ogg]
+    music [retro/atlantis_intro.ogg, retro/atlantis_loop.ogg]
     
-    music_volume 1
+    music_volume 1.6
     ambience_volume 1
 
     toxic_timer 1.25
@@ -1093,10 +1191,10 @@ g7c {
 	
 	npc_1 NPCNAN1
 
-	// fx_shader_mid lightingmoddedretro
-	// shader_param 0.5
-	// midfx_graphics ShadeBox
-	// midfx_layer 2
+	#fx_shader_mid lightingmoddedretro
+	#shader_param 0.5
+	#midfx_graphics ShadeBox
+	#midfx_layer 2
 
     cart_intro_png carts/nauseous
     cart_intro_palette 1184
@@ -1401,66 +1499,6 @@ gbt {
 	
 }
 
-potb {
-    area_name "Facility"
-    area_label_frame 13
-    tile_graphics Tileairship
-    overlay_graphics Overlaysfield
-    background_graphics ch3bg
-    foreground_graphics None
-    fx_shader reflectionripples
-    fx_shader_mid radiation
-    midfx_graphics SolidBox
-    palette 0
-    midfx_layer 1
-
-    tile_particle_1 toxicdump_left2
-    tile_particle_2 toxicdump_right2
-    tile_particle_3 toxicdump_down2
-    tile_particle_4 bubbles
-    
-    global_particle_1 wind
-    global_particle_2 wind2
-    global_particle_3 bgrainantigrav
-
-    toxic_timer 0.02
-
-    area_type normal
-
-    player_physics "data/player_physics/playerphysicslow.txt"
-    water_physics "data/player_physics/playerphysics_waterslow.txt"
-    lowgrav_physics "data/player_physics/playerphysics_highgravity.txt"
-
-    npc_1 NPC14
-
-    music [facility_intro.ogg, facility_loop.ogg]
-    ambience cogs.ogg
-    
-    2 {
-    decoration_1 DecorationX
-    }
-
-    6 {
-    tile_graphics theglow
-    }
-    7 {
-    tile_graphics theglow
-    }
-    8 {
-    tile_graphics theglow
-    }
-    9 {
-    tile_graphics theglow
-    }
-
-    1x {
-    fx_shader ripples
-
-    fx_shader_mid cloudripples
-    midfx_layer 0
-    }
-}
-
 but {
     area_name "The Tracks"
     area_label_frame 21
@@ -1478,11 +1516,13 @@ but {
 	
 	decoration_1 windowdeco
 	decoration_2 decotrackswheel
+	
 
     tile_particle_5 dust
 
     music [ASH2328_intro.ogg, ASH2328_loop.ogg]
-    ambience wind.ogg
+    ambience sand.ogg
+	ambience_volume 0.6
 
     area_type normal
 
@@ -1492,32 +1532,30 @@ but {
 		
 	0x {
 	background_graphics trainbg_small
+	decoration_2 Decoration6
+	decoration_3 Decoration7_down
 	area_label_frame 0
 	}
 	0 {
 background_graphics trainbg_small
 music_volume 1
-ambience_volume 0
 }
 
 	1 {
 background_graphics trainbg_medium
 music_volume 1
-ambience_volume 0.25
 }
 
 	2 {
 background_graphics trainbg_small
 platform_physics "data/player_physics/platform_tracks_1.txt"
 music_volume 1
-ambience_volume 0.25
 }
 
 	3 {
 background_graphics trainbg_medium
 platform_physics "data/player_physics/platform_tracks_1.txt"
 music_volume 1
-ambience_volume 0.3
 }
 
 	4 {
@@ -1525,34 +1563,37 @@ background_graphics trainbg_xlarge
 global_particle_2 cloudwind_heavy
 platform_physics "data/player_physics/platform_tracks_1.txt"
 music_volume 1
-ambience_volume 0.8
+ambience_volume 0.9
 }
 
 	5 {
 background_graphics trainbg_large
 music_volume 1
-ambience_volume 0.6
 }
 
 	6 {
 background_graphics trainbg_trans
 palette 1068
 music_volume 1
-ambience_volume 0.3
 }
 
 	7 {
 background_graphics trainbg_trans
 palette 1068
 music_volume 1
-ambience_volume 0.4
 }
 
 	8 {
-background_graphics trainbg_n_xlarge
+background_graphics trainbg_n_large
 palette 1067
 music_volume 1
-ambience_volume 0.3
+global_particle_1 cloudwind_light2
+}
+
+	8x {
+background_graphics trainbg_n_medium
+palette 1067
+music_volume 1
 global_particle_1 cloudwind_light2
 }
 
@@ -1565,7 +1606,6 @@ tile_particle_2 toxwaterfall_splash
 fx_shader_mid cloudripples
 midfx_layer 2
 music_volume 1
-ambience_volume 0.2
 }
 
 	10 {
@@ -1577,7 +1617,6 @@ tile_particle_2 toxwaterfall_splash
 fx_shader_mid cloudripples
 midfx_layer 2
 music_volume 1
-ambience_volume 0.2
 }
 
 	11 {
@@ -1589,126 +1628,10 @@ tile_particle_2 toxwaterfall_splash
 fx_shader_mid cloudripples
 midfx_layer 2
 music_volume 0.6
-ambience_volume 0.1
+ambience_volume 0.8
 npc_1 NPCdud22
 }
 
-}
-but2 {
-    area_name "The Tracks"
-    area_label_frame 21
-    tile_graphics Tiletracksdud
-    overlay_graphics Overlaysairship
-    background_graphics bgsolid
-    foreground_graphics none
-    palette 1077
-	
-	fx_shader_mid lightingmodded
-    midfx_graphics ShadeBox
-    midfx_layer 2
-	shader_param 0.7
-	
-    npc_1 NPCdud25
-	npc_2 NPCdud2m
-	
-	decoration_1 windowdeco
-	decoration_2 decotrackswheel
-
-    tile_particle_1 dust
-
-    music [dante_intro_dark.ogg, dante_loop_dark.ogg]
-    ambience caves.ogg
-
-    area_type normal
-
-    art_alts [
-        [GlowShroom, just_a_block]
-	]
-}
-but2b {
-    area_name "The Train"
-    area_label_frame 21
-    tile_graphics Tiletracksdud
-    overlay_graphics Overlaysairship
-    background_graphics trainbg_n_small
-    foreground_graphics none
-    palette 1077
-	
-	fx_shader_mid lightingmodded
-    midfx_graphics ShadeBox
-    midfx_layer 2
-	shader_param 0.7
-	
-    npc_1 NPCdud25
-	npc_2 NPCdud2m
-	
-	decoration_1 windowdeco
-	decoration_2 decotrackswheel
-
-    tile_particle_1 dust
-
-    music [dante_intro_dark.ogg, dante_loop_dark.ogg]
-    ambience caves.ogg
-
-    area_type normal
-
-    art_alts [
-        [GlowShroom, just_a_block]
-	]
-	music none
-}
-but3 {
-    area_name "The Train"
-    area_label_frame 0
-    tile_graphics Tiletracksdud
-    overlay_graphics Overlaysairship
-    background_graphics trainbg_n_small
-    foreground_graphics none
-    palette 1078
-	
-    npc_1 NPCdud25
-	npc_2 NPCdud2m
-	
-	sfx_file mainsounds_train.txt
-	
-	decoration_1 windowdeco
-	decoration_2 decotrackswheel
-
-    tile_particle_1 dust
-
-    music trainstation_loop.ogg
-	ambience labloop.ogg
-	do_tilt true
-    area_type normal
-
-    art_alts [
-        [GlowShroom, just_a_block][MiniFly, MiniWisp]
-	]
-	7 {
-		fx_shader_mid lightingmodded
-		midfx_graphics ShadeBox
-		midfx_layer 2
-		shader_param 0.7
-		do_tilt false
-	}
-	8 {
-		fx_shader_mid lightingmodded
-		midfx_graphics ShadeBox
-		midfx_layer 2
-		shader_param 0.7
-		npc_1 NPCdud25b
-		npc_2 NPCdud2mb
-		palette 1079
-		global_particle_1 cold_train
-		do_tilt false
-	}
-	9 {
-		background_graphics trainbg_small
-		npc_1 NPCdud25c
-		npc_2 NPCdud2mc
-		palette 1081
-		tile_particle_2 drip
-	}
 }
 
 6c {
@@ -1750,7 +1673,7 @@ but3 {
     }
 
     15 {
-    background_graphics bg2
+    background_graphics bgpit
 	global_particle_1 rocksfall
     }
     music [gnossiennes_intro_dark.ogg, gnossiennes_loop_dark.ogg]
@@ -1758,24 +1681,30 @@ but3 {
 
 }
 6b {
-    area_name "Atlantis"
     area_label_frame 17
     #tile_graphics theglow
     tile_graphics Tileatlantis
-    overlay_graphics Overlaystox2
-    background_graphics bgsolid
     foreground_graphics None
-    fx_shader ripples
-    fx_shader_mid cloudripples
-    midfx_layer 2
-    palette 1054
+	area_name "Shore"
+    overlay_graphics Overlayscaves
+    background_graphics ch3bg
+    palette 1098
+	fx_shader reflectionripples
+	
+	shader_param 1
+
+    #global_particle_1 lightingmoddedtest
+    global_particle_3 bgrain    
+
+    music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
+    ambience ruins.ogg
+    
 
     tile_particle_1 bubbles
     global_particle_1 cold
     global_particle_2 mist2
     decoration_1 DecoAlgae
     decoration_2 DecoAlgaeTip
-    decoration_3 none
     
     toxic_timer 4
 
@@ -1787,17 +1716,69 @@ but3 {
     
     area_type normal
 
-    shader_param 0.1
-
     #global_particle_1 lightingtest
-    
-    music [mountainking_intro_light.ogg, mountainking_loop_light.ogg]
-    ambience ruins.ogg
 
     art_alts [
    	 [OrbSmall, orbblob]
    	 ]
 
+    23x {
+    overlay_graphics Overlaystox2
+
+    shader_param 0.1
+	}
+
+}
+6b_u {
+    area_name "Atlantis"
+    area_label_frame 17
+    tile_graphics Tileatlantissurface
+    overlay_graphics Overlaystox2
+    background_graphics bgsolid
+    foreground_graphics None
+    fx_shader reflectionripples
+    fx_shader_mid distortionparticles
+    midfx_layer 2
+    palette 54
+
+    tile_particle_1 bubbles
+	tile_particle_2 drip
+	tile_particle_3 waterfall
+	tile_particle_4 waterfall_splash
+	tile_particle_5 waterfall_splash
+    global_particle_1 cold
+    global_particle_2 mist2
+    decoration_1 DecoAlgae
+    decoration_2 DecoAlgaeTip
+    decoration_3 CeilingLamp
+    
+    toxic_timer 4
+    
+    area_type normal
+
+    #global_particle_1 lightingtest
+    
+    music atlantis_surface.ogg
+	ambience atlantis_underwater.ogg
+	music_volume 1.3
+	ambience_volume 0.1
+	stop_previous_music false
+
+    art_alts [
+   	 [OrbSmall, orbblob][GlowShroom, CeilingLamp][GlowShroomSmall, CeilingLampOff]
+   	 ]
+	0 {
+		area_label_frame 0
+		palette 55
+		music atlantis_surface.ogg
+		ambience atlantis_underwater.ogg
+		music_volume 0
+		ambience_volume 1.3
+		fx_shader_mid lightingmodded
+		midfx_graphics ShadeBox
+		midfx_layer 2
+		shader_param 0.1
+	}
     23 {
     area_name "Shore"
 	
@@ -1841,44 +1822,221 @@ but3 {
     }
 
 }
+6b_d {
+    area_name "Atlantis"
+    area_label_frame 17
+    #tile_graphics theglow
+    tile_graphics Tileatlantis
+    overlay_graphics Overlaystox2
+    background_graphics bgsolid
+    foreground_graphics None
+    fx_shader ripples
+    palette 55
+
+    tile_particle_1 bubbles
+	tile_particle_4 waterfall_splash
+    global_particle_1 cold
+    global_particle_2 mist2
+    decoration_1 DecoAlgae
+    decoration_2 DecoAlgaeTip
+    decoration_3 none
+    
+    toxic_timer 4
+
+    fx_shader_mid lightingmodded
+    midfx_graphics ShadeBox
+    midfx_layer 2
+
+    npc_1 NPCdud44
+    
+    area_type normal
+
+    shader_param 0.1
+
+    #global_particle_1 lightingtest
+    
+    music atlantis_surface.ogg
+	ambience atlantis_underwater.ogg
+	music_volume 0.2
+	ambience_volume 1.3
+	stop_previous_music false
+
+    art_alts [
+   	 [OrbSmall, orbblob][GlowShroomSmall, CeilingLamp]
+   	 ]
+
+	9 {
+		tile_particle_3 waterfall
+		npc_1 NPCNAN4
+	}
+    23 {
+    area_name "Shore"
+	
+    overlay_graphics Overlayscaves
+    background_graphics ch3bg
+    palette 1098
+	fx_shader reflectionripples
+	
+	shader_param 1
+
+    #global_particle_1 lightingmoddedtest
+    global_particle_3 bgrain    
+
+    music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
+    ambience ruins.ogg
+
+    art_alts [
+   	 [OrbSmall, orbblob]
+   	 ]
+    }
+    23x {
+    area_name "Shore"
+    area_label_frame 0
+    tile_graphics theglow
+    overlay_graphics Overlaystox2
+    background_graphics ch3bg
+    foreground_graphics None
+    palette 1098
+
+    shader_param 0.1
+
+    #global_particle_1 lightingtest
+    global_particle_3 bgrain    
+
+    music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
+    ambience ruins.ogg
+
+    art_alts [
+   	 [OrbSmall, orbblob]
+   	 ]
+    }
+
+}
+6bx {
+    area_name "Atlantis"
+    area_label_frame 17
+	tile_graphics Tileatlantis
+    overlay_graphics Overlaystox2
+    background_graphics bgsolid
+    foreground_graphics None
+    fx_shader ripples
+	fx_shader_mid lightingmodded
+    midfx_graphics ShadeBox
+    midfx_layer 2
+	shader_param 0.1
+    
+    palette 55
+
+    tile_particle_1 bubbles
+	tile_particle_2 drip
+	tile_particle_3 waterfall
+	tile_particle_4 waterfall_splash
+	tile_particle_5 waterfall_splash
+    global_particle_1 cold
+    global_particle_2 mist2
+    decoration_1 DecoAlgae
+    decoration_2 DecoAlgaeTip
+    decoration_3 CeilingLamp
+    
+    toxic_timer 4
+	npc_1 NPCdud23
+    
+    area_type normal
+
+    #global_particle_1 lightingtest
+    
+    music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
+    ambience ruins.ogg
+
+	art_alts [
+   	 [OrbSmall, orbblob][GlowShroomSmall, CeilingLamp][ChainLink2, none]
+   	 ]
+	 0 {
+		area_label_frame 0
+		music atlantis_surface.ogg
+		ambience atlantis_underwater.ogg
+		music_volume 0
+		ambience_volume 1.3
+		tile_graphics Tileatlantissurface
+	}
+	1x {
+		palette 54
+		fx_shader_mid distortionparticles
+		midfx_graphics none
+		midfx_layer 2
+		tile_graphics Tileatlantissurface
+		art_alts [
+		[OrbSmall, orbblob][GlowShroom, CeilingLamp][GlowShroomSmall, CeilingLampOff][Cartridge, cart2]
+		]
+	}
+	1xx {
+		tile_graphics Tileatlantissurface
+	}
+	4 {
+		art_alts [
+		[OrbSmall, orbblob]
+		]
+	}
+}
 6a {
     area_name "Insanity"
     area_label_frame 18
-    tile_graphics Tileairship
+    tile_graphics Tilemothership
     overlay_graphics Overlayscomplex
-    background_graphics airshipbg
+    background_graphics mothershipbg
     foreground_graphics None
-    fx_shader_mid lightingmodded
-    midfx_graphics ShadeBox
-    shader_param 0.8
     palette 1055
 	
+	do_wobble true
+	
 	npc_1 NPCdud35
-    
+	npc_2 NPCdud35b
     area_type normal
 
     global_particle_1 wind
     global_particle_2 lightning
-	global_particle_3 embers
+	global_particle_3 bgrain
 	
+	tile_particle_1 embertilebeam
     tile_particle_2 smoke2
+	tile_particle_3 drip
+	tile_particle_4 raintile
+	tile_particle_5 splash
 	
-    decoration_1 Deco10
+    decoration_1 BeamEmitter
     decoration_2 decorationinsanity
-    decoration_3 none
+    decoration_3 BeamEmitterShort
     
     music [gymnopedies_intro_dark.ogg, gymnopedies_loop_dark.ogg]
-    ambience cogs.ogg
+    ambience abductionbeams.ogg
     art_alts [
    	 [OrbSmall, orbblob]
    	 [ChainLink2, None]
 	 [GlowShroom, GlowBulb][GlowShroomSmall, GlowBulbSmall]
    	 ]
-
+	1 {
+		ambience stormship.ogg
+	}
+	2 {
+		ambience stormship.ogg
+	}
+	3 {
+		ambience stormship.ogg
+	}
+	4 {
+		ambience stormship.ogg
+	}
+	5 {
+		ambience stormship.ogg
+	}
+	9x {
+		ambience stormship.ogg
+	}
+	15 {
+		ambience stormship.ogg
+	}
 	16 {
-		music none
-		palette 1219
-		shader_param 1
+		ambience stormship.ogg
 	}
 }
 
@@ -1924,20 +2082,20 @@ but3 {
 7c {
     area_name "The Pit"
     area_label_frame 24
-    tile_graphics Tiletox
-    overlay_graphics Overlaystox
-    background_graphics bg2
+    tile_graphics Tilecitygirders
+    overlay_graphics Overlayscaves
+    background_graphics bgpit
     foreground_graphics None
     palette 1155
 	
     global_particle_1 embers
-    global_particle_2 mist2
 	global_particle_3 shooting_star2
     decoration_1 Deco10
     decoration_2 Deco11
 
 	area_type normal
     tile_particle_1 drip
+	tile_particle_2 debris
     
     #global_particle_1 lightingmoddedtest
     
@@ -1946,6 +2104,7 @@ but3 {
 	art_alts [
         [MiniFly, MiniWisp][MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite]
 		[GlowShroom, just_a_block][GlowShroomSmall, just_a_block]
+		[ThwampGear, ThwampGearFastRight][ThwampEye, ThwampGearFastLeft]
 	]
 
 	1 {
@@ -1954,28 +2113,23 @@ but3 {
 		[GlowShroom, just_a_block][GlowShroomSmall, just_a_block]
 		]
 	}
-    1x {
-        music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
-    }
-	5x {
-	area_label_frame 0
-	}
-	6x {
-	area_label_frame 0
-	}
-	7x {
-	area_label_frame 0
-	}
-	8x {
-	area_label_frame 0
+	8 {
+		tile_graphics Tiletox
 	}
 	20 {
+		tile_graphics Tiletox
 		sfx_file mainsounds_mirror.txt
 		art_alts [
         [MiniFly, MiniWisp][MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite]
 		[GlowShroom, just_a_block][GlowShroomSmall, just_a_block][Cartridge, CartCoin]
 		]
-	}  
+	}
+	21 {
+		tile_graphics Tiletox
+	}
+	23 {
+		tile_graphics Tiletox
+	}
 }
 7a {
     area_name "The Sky"
@@ -2009,13 +2163,22 @@ but3 {
     ambience caves.ogg
 	
 	art_alts [
-        [MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite][SkullFloater, DeadSkullCrow][Fish, FlyingFish]
+        [MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite][SkullFloater, DeadSkullCrow][Fish, FlyingFish][ButtonBlock_Out, just_a_block]
 	]
 	
+	10x {
+		sfx_file mainsounds_mirror.txt
+	}
 	11 {
 		sfx_file mainsounds_mirror.txt
 	}
+	11x {
+		sfx_file mainsounds_mirror.txt
+	}
 	12 {
+		sfx_file mainsounds_mirror.txt
+	}
+	12x {
 		sfx_file mainsounds_mirror.txt
 	}
 	13 {
@@ -2041,21 +2204,34 @@ but3 {
     area_name "The Breeze"
     area_label_frame 45
     tile_graphics Tilebreeze
-    overlay_graphics Overlaystox2
-    background_graphics Background
+    overlay_graphics Overlayscaves
+    background_graphics hellbg
     foreground_graphics None
     fx_shader sludgeripples
     palette 1143
     toxic_timer 1.3
 
     tile_particle_1 hailsplash
-	tile_particle_2 hailblood
+	tile_particle_2 waterfall_thin
+	tile_particle_3 waterfall_splash
+	tile_particle_4 drip
+	tile_particle_5 hail_tile
     global_particle_1 cold
     global_particle_2 mist2
     global_particle_3 coldfog
     decoration_1 IceShine
-    decoration_2 IceShine2
-    decoration_3 IceShine3
+    decoration_2 sidestone_left
+    decoration_3 sidestone_right
+	
+	fx_shader_mid lightingmodded
+    midfx_graphics ShadeBox
+    midfx_layer 2
+	
+	npc_1 NPCdud29
+	
+    ambience_volume .8
+    area_type normal
+    shader_param .8
 	
 	lowgrav_physics "data/player_physics/icephysics.txt"
     
@@ -2063,78 +2239,85 @@ but3 {
     ambience wind.ogg
 	art_alts [
     [MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite][OrbSmall, frozenorbsmall][Cartridge, cart2]
+	[Player, PlayerCold][ThwampGear, ThwampGearFastRight][GasCloud, none]
 	]
-
-	
-	0 {
-	area_label_frame 0
-	music none
-	}
 	
     6 {
     global_particle_3 fastcoldfog
-    ambience wind.ogg
-    ambience_volume 20
+    ambience_volume 1.2
+	tile_particle_2 waterfall_thin_wind
+	tile_particle_4 dripwindright
     }
     
     7 {
     global_particle_3 fastcoldfog
-    ambience wind.ogg
-    ambience_volume 20
+    ambience_volume 1.2
+	tile_particle_2 waterfall_thin_wind
+	tile_particle_4 dripwindright
     }
     
     8 {
     global_particle_3 fastcoldfog
-    global_particle_4 hail
-    ambience wind.ogg
-    ambience_volume 20
+    ambience_volume 1.2
+	tile_particle_2 waterfall_thin_wind
+	tile_particle_4 dripwindright
+    }
+	
+	8x {
+    global_particle_3 fastcoldfog
+    ambience_volume 1.2
+	tile_particle_2 waterfall_thin_wind
+	tile_particle_4 dripwindright
     }
 
     9 {
-    global_particle_3 coldfog
-    global_particle_4 hail
-    ambience wind.ogg
-    ambience_volume 20
+	sfx_file mainsounds_mirror.txt
     }
 
     10 {
-    global_particle_3 coldfog
-    global_particle_4 hail
-    ambience wind.ogg
-    ambience_volume 20
+	sfx_file mainsounds_mirror.txt
     }
 
     11 {
-    global_particle_3 fastcoldfog
-    global_particle_4 hail
-    ambience wind.ogg
-    ambience_volume 20
+	sfx_file mainsounds_mirror.txt
     }
     
 	12 {
-		fx_shader distortionparticles
+		shader_param 0.6
 	}
 	
     13 {
-		fx_shader distortionparticles
+		shader_param 0.6
 	}
     
     14 {
-		fx_shader distortionparticles
+		shader_param 0.6
 	}
 	
 	15 {
-		fx_shader distortionparticles
+		shader_param 0.6
 	}
+	17 {
+		area_name "Shore"
+		area_label_frame 0
 	
-    fx_shader_mid lightingmodded
-    midfx_graphics ShadeBox
-    midfx_layer 2
+		overlay_graphics Overlayshell
+		background_graphics coastbg
+		palette 728
+		fx_shader reflectionripples
+		
+		fx_shader_mid distortionparticles
+		midfx_graphics none
+		midfx_layer 2
 
-    npc_1 NPCdud29
-    ambience_volume 1
-    area_type normal
-    shader_param .6
+		global_particle_2 cloudwind_stormy
+		global_particle_3 lightning
+		global_particle_4 bgrain3  
+
+		music none
+		ambience ocean.ogg
+		ambience_volume 0.4
+    }
 }
 
 j {
@@ -2392,11 +2575,6 @@ a {
     decoration_3 inst10
     
     area_type normal
-
-    1 {
-        area_name "none"
-        area_label_frame 0
-    }
     
     0 {
         area_name "none"
@@ -2430,7 +2608,7 @@ a {
     fx_shader reflectionripples
     
 
-    fx_shader_mid cloudripples
+    fx_shader_mid distortionparticles
     midfx_layer 2
     
     palette 1084
@@ -2442,7 +2620,7 @@ a {
     ambience_volume 1
 
 	tile_particle_1 bubbles
-	tile_particle_2 waterfall
+	tile_particle_2 waterfall_thin
 	tile_particle_3 waterfall_splash
 	tile_particle_4 drip
     decoration_1 decorationfci1
@@ -2476,19 +2654,17 @@ a {
             [OrbSmall, dudsawsmall][OrbLarge, dudsawbig]
             [ChainLink2, None]]
     }
-    10 {
-        player_physics "data/player_physics/playerphysics_ibelieveicanfly.txt"
-		global_particle_1 cloudwind2
-		global_particle_2 wind_up
-    }
-    15 {
-        player_physics "data/player_physics/playerphysics_ibelieveicanfly.txt"
-		global_particle_1 cloudwind2
-		global_particle_2 wind_up
-        art_alts [
-            [OrbSmall, dudsawsmall][OrbLarge, dudsawbig]
-            [ChainLink2, None]]
-    }
+    11 {
+		art_alts[
+			[Floater, Ghost][OrbSmall, BalloonSmall][OrbLarge, BalloonLarge][ChainLink2, BalloonLink2]
+		]
+	}
+	14 {
+		art_alts[
+			[Floater, Ghost][OrbSmall, BalloonSmall][OrbLarge, BalloonLarge][ChainLink2, BalloonLink2]
+		]
+	}
+	
 	16 {
 		background_graphics bg2xl
 	}
@@ -2518,55 +2694,6 @@ m {
 
     music [bumblebee_intro.ogg, bumblebee_loop.ogg]
     ambience castle.ogg
-}
-2b {
-    area_name "Despair"
-    area_label_frame 47
-    tile_graphics Tiletox2
-    overlay_graphics Overlaystox2
-    background_graphics Background
-    foreground_graphics none
-    fx_shader ripples
-    fx_shader_mid lightingmodded
-    midfx_graphics ShadeBox
-    midfx_layer 2
-    shader_param 0
-    palette 500
-    
-    tile_particle_1 dust
-	decoration_1 SpiderHang
-    
-    ambience_volume 4
-    
-    area_type normal
-
-    npc_1 warningghost
-    npc_2 platform
-	npc_3 2bNPC3
-    
-    art_alts [
-        [OrbSmall, orbblob]
-		[OrbLarge, LargeGlub]
-        [ChainLink2, None]
-    ]
-
-    music [dante2_intro.ogg, dante2_loop.ogg]
-    ambience caves.ogg
-    1 {
-        shader_param 0.7
-    }
-    2 {
-        shader_param 0.5
-    }
-    3 {
-        shader_param 0.3
-    }
-    4 {
-        shader_param 0.1
-    }
-	20 {
-		npc_1 NPCNAN1
-	}
 }
 
 r1d {
@@ -3034,8 +3161,9 @@ r4ad {
     palette 1089
     midfx_layer 2
 
-    global_particle_1 rain
-    global_particle_2 rocks2
+    global_particle_1 windsf
+    global_particle_2 wind2sf
+	global_particle_3 cloudwindsf
     
     music [hungarian_intro_dark.ogg, hungarian_loop_dark.ogg]
     ambience flesh.ogg
@@ -3298,6 +3426,7 @@ r7d {
         [Cartridge, cart2]
 		[GlowShroom, GlowCandleBig][GlowShroomSmall, GlowCandle]
     ]
+	
 }
 r14d {
     area_name "OH SHIT"
@@ -3492,76 +3621,6 @@ rr3 {
     tile_particle_5 toxicbubbles
 }
 
-o {
-    area_name "Omnificance"
-    area_label_frame 40
-    overlay_graphics Overlaysend
-    tile_graphics Tileairship
-    background_graphics airshipbg
-    foreground_graphics None
-    fx_shader ripples
-    palette 547
-    fx_shader_mid heatwave2
-    midfx_graphics SolidBox
-    midfx_layer 2
-    
-    area_type dark
-
-    do_tilt true
-
-    tile_particle_1 waterfall
-    tile_particle_2 waterfall_splash
-    tile_particle_3 bubbles
-    tile_particle_4 drip
-    
-    #global_particle_1 fgrain
-    #global_particle_2 bgrain
-    #global_particle_3 lightning and another one bites the dust!
-    #global_particle_4 cloudwindlight
-    
-
-    decoration_1 eyeball
-    
-    2{
-    palette 456
-    tile_graphics Tilehell
-    }
-
-    3{
-    palette 546
-    tile_graphics Tilefield
-    }
-
-    4{
-    palette 561
-    tile_graphics Tilecity
-    }
-
-    5{
-    palette 516
-    tile_graphics Tilecomplex
-    }
-
-    6{
-    palette 415
-    tile_graphics Tiletracksdud
-    decoration_1 dudropedeco
-    decoration_2 windowdeco
-    }
-
-    #music [terminal_intro.ogg, terminal_loop.ogg]
-    ambience vinyl.ogg
-
-    art_alts [
-        [OrbSmall, OrbBlob2]
-        [OrbLarge, OrbLarge2]
-        [ChainLink2, None]
-        [OrbChomp, MovingOrbBlob]
-        [AimSpitter,eyeshooter]
-        [Bullet,eyebullet]
-        [Cartridge, cart3]
-    ]
-}
 t {
     area_name "Terminal Lucidity"
     area_label_frame 40
@@ -3577,9 +3636,10 @@ t {
     
     area_type dark
 
-    //do_tilt true
+    #do_tilt true
 	
 	npc_1 NPCNAN3
+	npc_2 NPCdudx18
 
     tile_particle_1 waterfall
     tile_particle_2 waterfall_splash
@@ -3594,8 +3654,6 @@ t {
 
     decoration_1 eyeball
    
-
-    music [terminal_intro.ogg, terminal_loop.ogg]
     ambience vinyl.ogg
 
     art_alts [
@@ -3614,26 +3672,21 @@ t {
     1 {
     tile_graphics Tilecitygirders
     background_graphics bg2
-    music [gnossiennes_intro.ogg, gnossiennes_loop.ogg]
     }
     2 {
     tile_graphics Tilecaves
     background_graphics ch3bg
-    music [gnossiennes_intro.ogg, gnossiennes_loop.ogg]
     }
     3 {
     tile_graphics Tilefield
     background_graphics field2bg
-    music [gnossiennes_intro.ogg, gnossiennes_loop.ogg]
     }
     4 {
     tile_graphics Tileairship
     background_graphics airshipbg
-    music [gnossiennes_intro.ogg, gnossiennes_loop.ogg]
     }
 
-
-    music [terminal_intro.ogg, terminal_loop.ogg]
+    music [gnossiennes_intro.ogg, gnossiennes_loop.ogg]
     
     8 {
     background_graphics bgsolidchunky
@@ -3643,228 +3696,15 @@ t {
     background_graphics bgsolidchunky
     }
 
-#levels before the grave
-    15 {
-    tile_graphics Tilecitygirders
-    palette 1099
-    music [terminal_intro.ogg, terminal_loop.ogg]
-    }
-
-    16 {
-    tile_graphics Tilefield
-    palette 1100
-    music [terminal_intro.ogg, terminal_loop.ogg]
-    }
-
-    17 {
-    tile_graphics Tilecaves
-    palette 1101
-    music [terminal_intro.ogg, terminal_loop.ogg]
-    }
-
-    18 {
-    tile_graphics Tiletox
-    palette 1103
-    music [terminal_intro.ogg, terminal_loop.ogg]
-    }
-
-    19 {
-    tile_graphics Tileairship
-    palette 1102
-    music [terminal_intro.ogg, terminal_loop.ogg]
-    }
-
-    20 {
-    tile_graphics Tilehell
-    palette 1104
-    music [terminal_intro.ogg, terminal_loop.ogg]
-    }
-
-    21 {
-    tile_graphics theglow
-    palette 1105
-    music [terminal_intro.ogg, terminal_loop.ogg]
-    }
-
-    22 {
-    tile_graphics TileEnd
-    background_graphics neverbg
-    music [terminal_intro.ogg, terminal_loop.ogg]
-    }
-
     28 {
     tile_graphics Tileairship
+	fx_shader_mid filmgrain
     background_graphics airshipbg
     }
 
 }
 
-ki {
-    area_name "Aqueros Coast"
-    area_label_frame 0
-    tile_graphics theglow
-    background_graphics coastbg
-    foreground_graphics none
-    fx_shader sludgeripples
-    shader_param .6
-    palette 728
-    overlay_graphics Overlayshell
-    player_physics "data/player_physics/playerphysics_sckrunkly.txt"
-    decoration_1 inst10
-    global_particle_1 cloudwind_stormy
-    global_particle_2 bgrain3
-    global_particle_3 fgrain3
-    global_particle_4 lightning
-    tile_particle_1 waterfall_thin
-    tile_particle_2 waterfall_splash
-    tile_particle_3 smoke
-    tile_particle_4 drip
-    tile_particle_5 surface_splash
-    npc_1 NPCKI9
-    npc_3 NPCNAN1
-
-	ambience ocean.ogg
-	
-	music_volume 1.3
-    ambience_volume 1
-}
-k2 {
-    area_name "Mount Hydredron"
-    area_label_frame 0
-    tile_graphics Tilehydredron
-    background_graphics Background
-    foreground_graphics none
-    fx_shader sludgeripples
-	fx_shader_mid lightingmodded
-	midfx_graphics ShadeBox
-	midfx_layer 2
-    shader_param .6
-    #palette 728
-	palette 751
-    overlay_graphics Overlayshell
-    player_physics "data/player_physics/playerphysics_sckrunkly.txt"
-	
-	sfx_file hydredronsounds.txt
-	
-    decoration_1 BlockSnow
-	decoration_2 HydredronFlag
-	
-    global_particle_1 cloudwind_stormy
-    global_particle_2 bgsnowstormright
-    global_particle_3 fgsnowstormright
-    global_particle_4 lightning
-    tile_particle_1 waterfall_thin
-    tile_particle_2 waterfall_splash
-    tile_particle_3 smoke
-    tile_particle_4 drip
-    tile_particle_5 surface_splash 
-	
-	music [vivaldiwinter_intro.ogg, vivaldiwinter_loop.ogg]
-	ambience wind.ogg
-	
-	npc_1 NPC_HYDREDRONSUMMIT
-	
-	art_alts [
-		[GlowShroomSmall,GlowBulbSmall]
-		[AimSpitter,eyeshooter][Bullet,eyebullet]
-	]
-	
-	1 {
-		background_graphics coastbg
-		global_particle_2 bgrain3
-		global_particle_3 fgrain3
-		ambience storm.ogg
-	}
-	2 {
-		background_graphics coastbg
-		global_particle_2 bgrain3
-		global_particle_3 fgrain3
-		ambience storm.ogg
-	}
-	3 {
-		background_graphics coastbg
-		global_particle_2 bgrain3
-		global_particle_3 fgrain3
-		ambience storm.ogg
-	}
-	4 {
-		global_particle_2 bgrain3
-		global_particle_3 fgrain3
-		ambience storm.ogg
-	}
-	17 {
-		global_particle_1 cloudwind_light
-		global_particle_2 cold
-		global_particle_3 cold
-		global_particle_4 cold
-		
-		player_physics "data/playerphysics.txt"
-	}
-	18 {
-		global_particle_1 cloudwind_light
-		global_particle_2 cold
-		global_particle_3 cold
-		global_particle_4 cold
-		
-		player_physics "data/playerphysics.txt"
-	}
-	19 {
-		global_particle_1 cloudwind_light
-		global_particle_2 cold
-		global_particle_3 cold
-		global_particle_4 cold
-		
-		player_physics "data/playerphysics.txt"
-	}
-	20 {
-		global_particle_1 cloudwind_light
-		global_particle_2 cold
-		global_particle_3 cold
-		global_particle_4 cold
-		
-		player_physics "data/playerphysics.txt"
-	}
-	21 {
-		global_particle_1 cloudwind_light
-		global_particle_2 cold
-		global_particle_3 cold
-		global_particle_4 cold
-		
-		player_physics "data/playerphysics.txt"
-		
-		music none
-	}
-	
-	9unf {
-		music none
-		
-		npc_1 NPCNAN1
-	}
-	20unf {
-		global_particle_1 cloudwind_light
-		global_particle_2 cold
-		global_particle_3 cold
-		global_particle_4 cold
-		
-		player_physics "data/playerphysics.txt"
-		
-		music none
-		
-		npc_1 NPCNAN1
-	}
-	21 {
-		global_particle_1 cloudwind_light
-		global_particle_2 cold
-		global_particle_3 cold
-		global_particle_4 cold
-		
-		player_physics "data/playerphysics.txt"
-		
-		music none
-	}
-}
-//}
-//{	 Secrets	
+# Secrets	
 
 ax {
     area_name "Skyfolding"
@@ -3911,7 +3751,7 @@ ax {
     fx_shader reflectionripples
     
 
-    fx_shader_mid cloudripples
+    fx_shader_mid distortionparticles
     midfx_layer 2
     
     palette 1222
@@ -3924,7 +3764,7 @@ ax {
     ambience_volume 1
 
 	tile_particle_1 bubbles
-	tile_particle_2 waterfall
+	tile_particle_2 waterfall_thin
 	tile_particle_3 waterfall_splash
 	tile_particle_4 drip
     decoration_1 decorationfci1
@@ -4001,7 +3841,7 @@ butx {
     tile_particle_5 dust
 
     music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
-    ambience wind.ogg
+    ambience sand.ogg
 	stop_previous_music false
 	
 	music_volume 1
@@ -4021,104 +3861,42 @@ butx {
 6ax {
     area_name "Insanity"
     area_label_frame 18
-    tile_graphics Tileairship
+    tile_graphics Tilemothership
     overlay_graphics Overlayscomplex
-    background_graphics airshipbg
+    background_graphics mothershipbg
     foreground_graphics None
-    fx_shader_mid lightingmodded
-    midfx_graphics ShadeBox
-    shader_param 0.8
-    palette 1219
+	palette 1055
+	
+	do_wobble true
     
     area_type normal
 
     global_particle_1 wind
     global_particle_2 lightning
-	global_particle_3 embers
+	global_particle_3 bgrain
 	
 	tile_particle_1 smoke
-	tile_particle_2 smoke2
+    tile_particle_2 smoke2
+	tile_particle_3 drip
+	tile_particle_4 raintile
+	tile_particle_5 splash
 	
     decoration_1 antenaDeco
-    decoration_2 Deco11
-    decoration_3 none
+    decoration_2 BeamEmitter
+    decoration_3 BeamEmitterShort
     
     music [gymnopedies_intro_dark.ogg, gymnopedies_loop_dark.ogg]
 	stop_previous_music false
-    ambience cogs.ogg
+    ambience stormship.ogg
     art_alts [
    	 [OrbSmall, orbblob]
    	 [ChainLink2, None]
 	 [GlowShroom, GlowBulb][GlowShroomSmall, GlowBulbSmall][Cartridge, cart2]
    	 ]
-
-    1 {
-	shader_param 0.6
-	palette 1055
-    }
-    2 {
-    music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
-    }
+	
 	4 {
-	shader_param 1
+		global_particle_4 fgrain
 	}
-}
-6bx {
-    area_name "Atlantis"
-    area_label_frame 17
-    #tile_graphics theglow
-    tile_graphics Tileatlantis
-    overlay_graphics Overlaystox2
-    background_graphics bgsolid
-    foreground_graphics None
-    fx_shader ripples
-    fx_shader_mid cloudripples
-    midfx_layer 2
-    palette 1054
-
-    tile_particle_1 bubbles
-    global_particle_1 cold
-    global_particle_2 mist2
-    decoration_1 DecoAlgae
-    decoration_2 DecoAlgaeTip
-    
-    toxic_timer 4
-
-    fx_shader_mid lightingmodded
-    midfx_graphics ShadeBox
-    midfx_layer 2
-
-    npc_1 NPCdud23
-    
-    area_type normal
-
-    shader_param 0
-
-	art_alts [
-   	 [OrbSmall, orbblob][ChainLink2, None][Cartridge, cart2]
-   	]
-	1 {
-		palette 1156
-	}
-	2 {
-		palette 1156
-	}
-    3 {
-    music [gymnopedies_intro.ogg, gymnopedies_loop.ogg]
-    }
-	4 {
-    shader_param 0.6
-    art_alts [
-   	 [OrbSmall, orbblob][Cartridge, cart2]
-   	 ]
-    }
-
-    #global_particle_1 lightingtest
-    
-    music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
-    stop_previous_music false
-    ambience ruins.ogg
-
 }
 6cx {
     area_name "Sheol"
@@ -4212,6 +3990,8 @@ butx {
     decoration_1 Deco10
     decoration_2 Deco11
     decoration_3 none
+	
+	npc_1 NPCdudx10
     
     toxic_timer 999999
     area_type normal
@@ -4226,7 +4006,7 @@ butx {
     ambience caves.ogg
 	
 	art_alts [
-        [MiniFly, MiniWisp][MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite][SkullFloater, DeadSkullCrow][Fish, FlyingFish][Cartridge, cart2]
+        [MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite][SkullFloater, DeadSkullCrow][Fish, FlyingFish][Cartridge, cart2]
 	]
 }
 7bx {
@@ -4267,9 +4047,9 @@ butx {
 7cx {
     area_name "The Pit"
     area_label_frame 24
-    tile_graphics Tiletox
-    overlay_graphics Overlaystox
-    background_graphics bg2
+    tile_graphics Tilecitygirders
+    overlay_graphics Overlayscaves
+    background_graphics bgpit
     foreground_graphics None
     palette 1221
 	
@@ -4293,6 +4073,9 @@ butx {
         [MiniFly, MiniWisp][MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite]
 		[GlowShroom, just_a_block][GlowShroomSmall, just_a_block][Cartridge, cart2]
 	]
+	1 {
+		music [gymnopedies_intro.ogg, gymnopedies_loop.ogg]
+	}
 	5 {
 		area_label_frame 0
 	}
@@ -4446,8 +4229,6 @@ r1x {
     
     music_volume 1
     ambience_volume 1
-	
-	decoration_1 decoshit3
     
     tile_particle_1 drip
 	tile_particle_2 bloodwaterfall
@@ -4818,15 +4599,17 @@ rr3x {
     area_name "The Breeze"
     area_label_frame 45
     tile_graphics Tilebreeze
-    overlay_graphics Overlaystox2
-    background_graphics Background
+    overlay_graphics Overlayscaves
+    background_graphics hellbg
     foreground_graphics None
-    fx_shader ripples
+    fx_shader sludgeripples
     palette 1143
     toxic_timer 1.3
 
     tile_particle_1 hailsplash
-	tile_particle_2 hailblood
+	tile_particle_2 waterfall_thin
+	tile_particle_3 waterfall_splash
+	tile_particle_4 drip
     global_particle_1 cold
     global_particle_2 mist2
     global_particle_3 mist2
@@ -4842,17 +4625,22 @@ rr3x {
 	npc_2 NPCdud28
     ambience_volume 1
     area_type normal
-    shader_param .6
+    shader_param .8
     
     music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
 	stop_previous_music false
     ambience wind.ogg
 	art_alts [
         [MiniFly, MiniWisp][MiniRat, MiniRatWhite][OrbSmall, frozenorbsmall][MiniFrog, MiniFrogWhite]
+		[Player, PlayerCold][ThwampGear, ThwampGearFastRight]
 	]
+	
+	0 {
+	area_label_frame 0
+	palette 1221
+	ambience ruins.ogg
+	}
 }
-/* 
-
 tx {
     area_name "Terminal Lucidity"
     area_label_frame 40
@@ -5072,936 +4860,10 @@ rr2x {
 		fx_shader_mid lighting
 	}
 }
-	 */
-//}
-//{ SURREAL
-csd1 {
-    tile_graphics TileGlitch
-    overlay_graphics Overlaysretro
-    background_graphics bgsolid2
-    foreground_graphics none
-    palette 1148
-	fx_shader ripples
-	fx_shader_mid fuckedup
-	midfx_graphics ShadeBox
-	midfx_layer 0
-    
-    music [glitch/farlands_intro.ogg, glitch/farlands_loop.ogg]
-    
-    music_volume 1
-    ambience_volume 1
 
-	npc_1 NPCNAN1
+# Post-FC
 
-    cart_intro_png carts/darkanoid
-    cart_intro_palette 1147
-
-	decoration_1 retrosnow_part
-	decoration_2 IceIceMotherfucker
-    
-    area_type glitch
-
-    art_alts [
-        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
-        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
-        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
-        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
-        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
-        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
-		
-		[SkullFloaterBreaky, SkullFloaterretroBreaky]
-		[FloatingMine, FloatingMineRetroGlitch]
-		[Sentry, SentryRetro]
-		[BigSlug, MegaSlugretro]
-		[BigCharger, RetroBigChargerSlug]
-		
-		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
-		
-		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
-    ]
-	3 { palette 1150 }
-	4 { palette 1150 }
-	5 { palette 1149 }
-	6 { palette 1149 }
-	7 { palette 1151 }
-	8 { palette 1151 }
-	9 { palette 1152 }
-	10 { palette 1152 }
-}
-csd2 {
-    tile_graphics TileGlitch
-    overlay_graphics Overlaysretro
-    background_graphics bgsolid2
-    foreground_graphics none
-	palette 1145
-	
-	music [glitch/comomesiento_intro.ogg, glitch/comomesiento_loop.ogg]
-    
-    music_volume 1
-    ambience_volume 1
-
-	npc_1 NPCSDR1
-
-    cart_intro_png icanalmostsmellyou
-    cart_intro_palette 1183
-	
-	decoration_1 Retrotip2
-    
-    area_type glitch
-
-	1 {
-    art_alts [
-        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
-        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
-        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
-        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, none][ChainLink, none]
-        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
-        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
-		
-		[SkullFloaterBreaky, SkullFloaterretroBreaky]
-		[FloatingMine, FloatingMineRetroGlitch]
-		[Sentry, SentryRetro]
-		[BigSlug, MegaSlugretro]
-		[BigCharger, RetroBigChargerSlug]
-    ]
-	fx_shader_mid partyhard
-	midfx_graphics SolidBox
-	midfx_layer 2
-	player_physics "data/player_physics/what_have_you_done.txt"
-	}
-	98 {
-		music [none, none]
-		tile_graphics Tileretro
-		overlay_graphics Overlaysretro
-	}
-}
-//{ new carts
-gn1 {
-    tile_graphics TileGlitch
-    overlay_graphics Overlaysretro
-    background_graphics bgretro
-    foreground_graphics none
-	palette 1167
-	
-	music [retro/newworld3_intro.ogg, retro/newworld3_loop.ogg]
-    
-    music_volume 1
-    ambience_volume 1
-
-	npc_1 NPCNAN1
-
-    cart_intro_png carts/cart_ashcarnageroll
-    cart_intro_palette 1167
-	
-	decoration_1 Retrotip2
-    
-    area_type glitch
-	art_alts [
-        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
-        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
-        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
-        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, BalloonLink2Retro][ChainLink, ChainLinkretro]
-        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
-        [OrbSmall, BalloonSmallRetro][OrbLarge, BalloonLargeRetro][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
-		
-		[SkullFloaterBreaky, SkullFloaterretroBreaky]
-		[FloatingMine, FloatingMineRetroGlitch]
-		[Sentry, SentryRetro]
-		[BigSlug, MegaSlugretro]
-		[BigCharger, RetroBigChargerSlug]
-		
-		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
-		
-		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
-    ]
-	1x {
-		cart_intro_png carts/cart_stashpros
-		cart_intro_palette 1030
-	}
-}
-gn2 {
-    tile_graphics TileGlitch
-    overlay_graphics Overlaysretro
-    background_graphics bgretro
-    foreground_graphics none
-	palette 1168
-	
-	music glitch/chopin_loop.ogg
-    
-    music_volume 1
-    ambience_volume 1
-
-	npc_1 NPCNAN1
-
-    cart_intro_png carts/cart_ulcerwilds
-    cart_intro_palette 1177
-	
-	decoration_1 Retrotip2
-    
-    area_type glitch
-
-	art_alts [
-        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
-        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
-        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
-        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
-        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
-        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
-		
-		[SkullFloaterBreaky, SkullFloaterretroBreaky]
-		[FloatingMine, FloatingMineRetroGlitch]
-		[Sentry, SentryRetro]
-		[BigSlug, MegaSlugretro]
-		[BigCharger, RetroBigChargerSlug]
-		
-		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
-		
-		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
-    ]
-}
-gn3 {
-    tile_graphics TileGlitch
-    overlay_graphics Overlaysretro
-    background_graphics bgretrox
-    foreground_graphics none
-	palette 1188
-	
-	music [glitch/beeth5_intro.ogg, glitch/beeth5_loop.ogg]
-    
-    music_volume 1
-    ambience_volume 1
-
-	npc_1 NPCNAN1
-
-    cart_intro_png carts/cart_deathspoor
-    cart_intro_palette 1179
-	
-	decoration_1 Retrotip2
-    
-    area_type glitch
-	art_alts [
-        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
-        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
-        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
-        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, none][ChainLink, ChainLinkretro]
-        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
-        [OrbSmall, RetroSaw1][OrbLarge, RetroSaw2][ThwampGear, ThwampGearRetro][ThwampEye,ThwampEyeRetro]
-		
-		[SkullFloaterBreaky, SkullFloaterretroBreaky]
-		[FloatingMine, FloatingMineRetroGlitch]
-		[Sentry, SentryRetro]
-		[BigSlug, MegaSlugretro]
-		[BigCharger, RetroBigChargerSlug]
-		
-		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
-		
-		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
-    ]
-
-}
-gn4 {
-    tile_graphics TileGlitch
-    overlay_graphics Overlaysretro
-    background_graphics bgretro
-    foreground_graphics none
-	palette 1169
-	
-	music [retro/torrent_intro.ogg, retro/torrent_loop.ogg]
-    
-    music_volume 0.8
-    ambience_volume 1
-
-	npc_1 NPCNAN1
-
-    cart_intro_png carts/cart_frightenthemoods
-    cart_intro_palette 1169
-	
-	decoration_1 Retrotip2
-    
-    area_type glitch
-	art_alts [
-        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
-        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
-        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
-        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
-        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
-        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
-		
-		[SkullFloaterBreaky, SkullFloaterretroBreaky]
-		[FloatingMine, FloatingMineRetroGlitch]
-		[Sentry, SentryRetro]
-		[BigSlug, MegaSlugretro]
-		[BigCharger, RetroBigChargerSlug]
-		
-		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
-		
-		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
-    ]
-
-}
-gn5 {
-    tile_graphics TileGlitch
-    overlay_graphics Overlaysretro
-    background_graphics bgretrox
-    foreground_graphics none
-    palette 1170
-	
-	music [retro/badinerie_intro.ogg, retro/badinerie_loop.ogg]
-    
-    music_volume 1
-    ambience_volume 1
-
-	npc_1 NPCNAN1
-
-    cart_intro_png carts/cart_mori
-    cart_intro_palette 1160
-	
-	decoration_1 Retrotip2
-    
-    area_type glitch
-	art_alts [
-        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
-        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
-        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
-        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
-        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
-        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
-		
-		[SkullFloaterBreaky, SkullFloaterretroBreaky]
-		[FloatingMine, FloatingMineRetroGlitch]
-		[Sentry, SentryRetro]
-		[BigSlug, MegaSlugretro]
-		[BigCharger, RetroBigChargerSlug]
-		
-		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
-		
-		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
-    ]
-
-}
-gn6 {
-    tile_graphics TileGlitch
-    overlay_graphics Overlaysretro
-    background_graphics bgretro
-    foreground_graphics none
-	palette 1171
-	
-	music [retro/farlands_intro.ogg, retro/farlands_loop.ogg]
-    
-    music_volume 1
-    ambience_volume 1
-
-	npc_1 NPCNAN1
-
-    cart_intro_png carts/cart_lunatic
-    cart_intro_palette 1181
-	
-	decoration_1 Retrotip2
-    
-    area_type glitch
-	art_alts [
-        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
-        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
-        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
-        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
-        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
-        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
-		
-		[SkullFloaterBreaky, SkullFloaterretroBreaky]
-		[FloatingMine, FloatingMineRetroGlitch]
-		[Sentry, SentryRetro]
-		[BigSlug, MegaSlugretro]
-		[BigCharger, RetroBigChargerSlug]
-		
-		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
-		
-		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
-    ]
-
-}
-gn7 {
-    tile_graphics TileGlitch
-    overlay_graphics Overlaysretro
-    background_graphics bgretro
-    foreground_graphics none
-	palette 1172
-	
-	music [glitch/funeral_intro.ogg, glitch/funeral_loop.ogg]
-    
-    music_volume 1
-    ambience_volume 1
-
-	npc_1 NPCNAN1
-
-    cart_intro_png carts/cart_goophero
-    cart_intro_palette 1180
-	
-	decoration_1 Retrotip2
-    
-    area_type glitch
-	art_alts [
-        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
-        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
-        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
-        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
-        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
-        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
-		
-		[SkullFloaterBreaky, SkullFloaterretroBreaky]
-		[FloatingMine, FloatingMineRetroGlitch]
-		[Sentry, SentryRetro]
-		[BigSlug, MegaSlugretro]
-		[BigCharger, RetroBigChargerSlug]
-		
-		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
-		
-		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
-    ]
-
-}
-gn8 {
-    tile_graphics TileGlitch
-    overlay_graphics Overlaysretro
-    background_graphics bgretro
-    foreground_graphics none
-	palette 1173
-	
-	music [glitch/funeral_intro.ogg, glitch/funeral_loop.ogg]
-    
-    music_volume 1
-    ambience_volume 1
-
-	npc_1 NPCNAN1
-
-    cart_intro_png carts/cart_herpes
-    cart_intro_palette 1173
-	
-	decoration_1 Retrotip2
-    
-    area_type glitch
-	art_alts [
-        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
-        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
-        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
-        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
-        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
-        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
-		
-		[SkullFloaterBreaky, SkullFloaterretroBreaky]
-		[FloatingMine, FloatingMineRetroGlitch]
-		[Sentry, SentryRetro]
-		[BigSlug, MegaSlugretro]
-		[BigCharger, RetroBigChargerSlug]
-		
-		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
-		
-		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
-    ]
-
-}
-gn9 {
-    tile_graphics TileGlitch
-    overlay_graphics Overlaysretro
-    background_graphics bgretro
-    foreground_graphics none
-	palette 1174
-	fx_shader_mid verticalflip
-    midfx_graphics SolidBox
-	midfx_layer 2
-	
-	music [retro/chopin_intro.ogg, retro/chopin_loop.ogg]
-    
-    music_volume 1
-    ambience_volume 1
-
-	npc_1 NPCNAN1
-
-    cart_intro_png carts/cart_afraid
-    cart_intro_palette 1182
-	
-	decoration_1 Retrotip2
-    
-    area_type glitch
-	art_alts [
-        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
-        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
-        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
-        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
-        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
-        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
-		
-		[SkullFloaterBreaky, SkullFloaterretroBreaky]
-		[FloatingMine, just_a_block]
-		[Sentry, SentryRetro]
-		[BigSlug, MegaSlugretro]
-		[BigCharger, RetroBigChargerSlug]
-		
-		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
-		
-		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
-    ]
-
-}
-gn10 {
-    tile_graphics TileGlitch
-    overlay_graphics Overlaysretro
-    background_graphics bgretro
-    foreground_graphics none
-	palette 1175
-	
-	music [glitch/funeral_intro.ogg, glitch/funeral_loop.ogg]
-    
-    music_volume 1
-    ambience_volume 1
-
-	npc_1 NPCNAN1
-
-    cart_intro_png carts/cart_wip
-    cart_intro_palette 1175
-	
-	decoration_1 RetroLeaves1
-	decoration_2 RetroLeaves2
-	decoration_3 RetroLeaves3
-    
-    area_type glitch
-	art_alts [
-        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
-        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
-        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
-        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
-        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
-        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
-		
-		[SkullFloaterBreaky, SkullFloaterretroBreaky]
-		[FloatingMine, FloatingMineRetroGlitch]
-		[Sentry, SentryRetro]
-		[BigSlug, MegaSlugretro]
-		[BigCharger, RetroBigChargerSlug]
-		
-		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
-		
-		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
-    ]
-
-}
-
-gnr1 {
-    tile_graphics TileGlitch
-    overlay_graphics Overlaysretro
-    background_graphics bgretro
-    foreground_graphics none
-    palette 1095
-    
-    music [glitch/danse_intro.ogg, glitch/danse_loop.ogg]
-    
-    music_volume 1
-    ambience_volume 1
-	
-	npc_1 NPCNAN1
-
-    cart_intro_png carts/cart_wip
-    cart_intro_palette 311
-    
-    area_type glitch
-
-    art_alts [
-        [Player, PlayerRetro][Frog, Frogretro][Slug, Slugretro]
-        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
-        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
-        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
-        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro][CreepingMass, CreepingMassRetro][OrbLarge, BlobOrbLargeretro][OrbSmall, BlobOrbSmallretro][OrbChomp, OrbChompretro][OrbChomp, MovingOrbBlobretro][ChargeSlug, RetroChargerSlug][Floater, FloaterGlitch][SkullFloaterBreaky, SkullFloaterretroBreaky][FloatingMine, FloatingMineRetro][BigCharger, RetroBigChargerSlug][ElectroBall, RetroElectroBall][Fish, RetroFish]
-    ]
-
-}
-gnr2 {
-    tile_graphics TileGlitch
-    overlay_graphics Overlaysretro
-    background_graphics bgretrox
-    foreground_graphics none
-    palette 1093
-
-    cart_intro_png carts/cart_wip
-    cart_intro_palette 1183
-	
-	npc_1 NPCNAN1
-
-    music [glitch/newworld2_intro.ogg, glitch/newworld2_loop.ogg]
-    music_volume 1
-    ambience_volume 1
-
-    area_type glitch
-
-    art_alts [
-        [Player, PlayerRetro][Frog, Frogretro][Slug, Slugretro]
-        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
-        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
-        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
-        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro]
-        [ElectroBall, RetroElectroBall][OrbSmall, RetroOrbSmall][OrbLarge, RetroOrbLarge][ChargeSlug, RetroChargerSlug][Sentry, SentryRetro][Floater, FloaterGlitch]
-        [Fish, RetroFish][CreepingMass, CreepingMassRetro][FloatingMine, FloatingMineRetro][ThwampGear, ThwampGearRetro][SkullFloaterBreaky, SkullFloaterretroBreaky]
-    ]
-
-}
-gnr3 {
-    tile_graphics TileGlitch
-    overlay_graphics Overlaysretro
-    background_graphics bgretrox
-    foreground_graphics none
-    palette 1108
-    toxic_timer 1.05
-
-    cart_intro_png carts/cart_wip
-    cart_intro_palette 363
-	
-	npc_1 NPCNAN1
-
-    music [glitch/bumblebee2_intro.ogg, glitch/bumblebee2_loop.ogg]
-    music_volume 1
-    ambience_volume 1
-
-    area_type glitch
-
-    art_alts [
-        [Player, PlayerRetro][Frog, Frogretro][Slug, Slugretro]
-        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
-        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
-        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
-        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro]
-        [ElectroBall, RetroElectroBall][OrbSmall, RetroOrbSmall][OrbLarge, RetroOrbLarge][ChargeSlug, RetroChargerSlug][Sentry, SentryRetro][Floater, FloaterGlitch]
-        [Fish, RetroFish][CreepingMass, CreepingMassRetro][FloatingMine, FloatingMineRetro][ThwampGear, ThwampGearRetro][SkullFloaterBreaky, SkullFloaterretroBreaky]
-    ]
-
-}
-
-gj {
-	area_name "Super Stash Pros!"
-    tile_graphics TileGlitch
-    overlay_graphics Overlaysretro
-    background_graphics bgretro
-	fx_shader_mid retro
-	midfx_graphics SolidBox
-	midfx_layer 2
-	palette 1187
-	
-	music none
-    
-    music_volume 1
-    ambience_volume 1
-
-	npc_1 NPCSDR2warp1
-	npc_2 NPCSDR2warp2
-	npc_3 NPCSDR2warp3
-
-    cart_intro_png carts/cart_ulcerwilds
-    cart_intro_palette 1175
-	
-	sfx_file retrosounds.txt
-    
-    area_type normal
-	art_alts [
-        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
-        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
-        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
-        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
-        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
-        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
-		
-		[SkullFloaterBreaky, SkullFloaterretroBreaky]
-		[FloatingMine, FloatingMineRetroGlitch]
-		[Sentry, SentryRetro]
-		[BigSlug, MegaSlugretro]
-		[BigCharger, RetroBigChargerSlug]
-		
-		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
-		
-		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
-		[Wipetranssteven, fadetrans]
-    ]
-	4 {
-		npc_1 NPCSDR2warp4
-		palette 1175
-	}
-}
-gn11 {
-    tile_graphics TileGlitch
-    overlay_graphics Overlaysretro
-    background_graphics bgretro
-    foreground_graphics none
-	palette 1186
-	
-	music [glitch/the_end_is_nigh_intro.ogg, glitch/the_end_is_nigh_loop.ogg]
-    
-    music_volume 1
-    ambience_volume 1
-
-	npc_1 NPCNAN1
-
-    cart_intro_png carts/cart_stashpros
-    cart_intro_palette 1175
-	
-	decoration_1 RetroLeaves1
-	decoration_2 RetroLeaves2
-	decoration_3 RetroLeaves3
-    
-    area_type glitch
-	art_alts [
-        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
-        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
-        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
-        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
-        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
-        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
-		
-		[SkullFloaterBreaky, SkullFloaterretroBreaky]
-		[FloatingMine, FloatingMineRetroGlitch]
-		[Sentry, SentryRetro]
-		[BigSlug, MegaSlugretro]
-		[BigCharger, RetroBigChargerSlug]
-		
-		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
-		
-		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
-    ]
-
-}
-
-
-//}
-
-dud3x {
-    area_name "Wreckage"
-    area_label_frame 55
-    tile_graphics Tiledud4
-    overlay_graphics Overlayscity
-    background_graphics dudbg2
-    foreground_graphics none
-    fx_shader ripples
-    palette 1193
-	
-    area_type normal
-	
-	npc_1 NPCdud8
-	npc_2 NPCdud2
-	npc_3 NPCdud3
-	
-	decoration_1 dudropedeco
-	decoration_2 windowdeco
-	
-    tile_particle_1 dust
-    tile_particle_2 dustdud
-	global_particle_1 rocks
-    global_particle_2 mist2
-    
-    music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
-	music_volume 1
-    ambience wind.ogg
-	ambience_volume 1
-
-	art_alts [
-		[ChainLink, none][ChainLink2, none]
-	]
-
-}
-dud3xu {
-    area_name "Wreckage"
-    area_label_frame 55
-    tile_graphics Tiledud4
-    overlay_graphics Overlayscity
-    background_graphics dudbg2
-    foreground_graphics none
-    fx_shader ripples
-    palette 1192
-	
-    area_type normal
-	
-	npc_1 NPCdud1
-	npc_2 NPCdud2
-	npc_3 NPCdud5
-	
-	decoration_1 dudropedeco
-	decoration_2 windowdeco
-	
-    tile_particle_1 dust
-    tile_particle_2 dustdud
-	global_particle_1 rocks
-    global_particle_2 mist2
-    
-    music [gymnopedies_intro.ogg, gymnopedies_loop.ogg]
-	music_volume 1
-    ambience wind.ogg
-	ambience_volume 1
-
-	art_alts [
-		[ChainLink, none][ChainLink2, none][Cartridge, cart2]
-	]
-
-}
-dud3 {
-    area_name "Wreckage"
-    area_label_frame 55
-    tile_graphics Tiledud4
-    overlay_graphics Overlayscity
-    background_graphics dudbg2
-    foreground_graphics none
-    fx_shader ripples
-    palette 1146
-	
-    area_type normal
-	
-	npc_1 NPCdud6
-	npc_2 NPCdud2
-	npc_3 NPCdud7
-	
-	decoration_1 dudropedeco
-	decoration_2 windowdeco
-	
-    tile_particle_1 dust
-    tile_particle_2 dustdud
-	global_particle_1 rocks
-    global_particle_2 mist2
-    
-    music [badinerie_intro.ogg, badinerie_loop.ogg] #music by liviulove, listen to it here https://www.newgrounds.com/audio/listen/65107
-	music_volume 1.3
-    ambience wind.ogg
-	ambience_volume 1
-
-	art_alts [
-		[ChainLink, none][ChainLink2, none]
-	]
-	12 {
-		music [none, none]
-		ambience_volume 1.3
-	}
-}
-
-0 {
-    area_name "Meta"
-    area_label_frame 0
-    tile_graphics Tilecaves
-    overlay_graphics Overlaystox2
-    background_graphics BgVoid
-    foreground_graphics None
-    fx_shader sludgeripples
-    palette 0
-	
-    decoration_1 starDeco
-    decoration_2 Deco11
-    decoration_3 none
-
-    npc_1 NPCNAN0
-    
-    area_type normal
-
-    tile_particle_1 drip
-    
-	music none
-    ambience none
-	art_alts [
-        [MiniFly, MiniWisp][MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite][GlowShroomSmall, GlowShard2][GlowShroom, GlowShard]
-	]
-	unf {
-		npc_1 NPCNAN1
-	}
-	unf2 {
-		npc_1 NPCNAN2
-	}
-}
-
-2c {
-    area_name "Mirror Planetarium"
-    area_label_frame 46
-    tile_graphics Tilecrystal
-    overlay_graphics Overlaystox2
-    background_graphics iceicebabybg
-    foreground_graphics None
-    fx_shader sludgeripples
-    palette 1161
-
-    global_particle_1 cold
-    global_particle_2 mist2
-	global_particle_3 embers
-    decoration_1 starDeco
-    decoration_2 Deco11
-    decoration_3 none
-    
-    fx_shader_mid lightingmodded
-    midfx_graphics ShadeBox
-    midfx_layer 2
-
-    npc_1 NPCdud19
-	npc_2 NPCdud20
-    
-    area_type normal
-
-    tile_particle_1 drip
-    shader_param 0.8
-    
-	music gymnopediesreversed_loop.ogg
-    ambience crystal.ogg
-	art_alts [
-        [MiniFly, MiniWisp][MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite][GlowShroomSmall, GlowShard2][GlowShroom, GlowShard]
-	]
-	0 {
-		area_label_frame 0
-		music none
-	}
-}
-2cx {
-    area_name "Mirror Planetarium"
-    area_label_frame 46
-    tile_graphics Tilecrystal
-    overlay_graphics Overlaystox2
-    background_graphics iceicebabybg
-    foreground_graphics None
-    fx_shader sludgeripples
-    palette 1161
-	
-    global_particle_1 cold
-    global_particle_2 mist2
-	global_particle_3 embers
-    decoration_1 starDeco
-    decoration_2 Deco11
-    decoration_3 none
-    
-    fx_shader_mid lightingmodded
-    midfx_graphics ShadeBox
-    midfx_layer 2
-	
-	sfx_file mainsounds_mirror.txt
-	
-    npc_1 NPCdud1m
-    
-    area_type normal
-
-    tile_particle_1 drip
-    shader_param 0.8
-    
-    music gymnopediesreversed_loop.ogg
-    ambience crystal.ogg
-	art_alts [
-        [MiniFly, MiniWisp][MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite][GlowShroomSmall, GlowShard2][GlowShroom, GlowShard2]
-	]
-	//{EVERY LEVEL
-	1 {
-	art_alts [
-        [MiniFly, MiniWisp][MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite][GlowShroomSmall, GlowShard2][GlowShroom, GlowShard]
-	]
-	}
-	19 {
-		npc_2 NPCHM
-	}
-	
-	b0 {
-		fx_shader lavaripples
-		palette 1198
-	}
-	b1 {
-		fx_shader lavaripples
-		palette 1198
-	}
-	//}
-}
-
+# Potassium's areas
 8a {
     area_name "Hell"
     area_label_frame 58
@@ -6037,7 +4899,7 @@ dud3 {
 	0x {
 		area_label_frame 0
 		palette 1227
-		music [torrent_intro.ogg, torrent_loop.ogg]
+		music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
 		music_volume 0.6
 	}
 	0 {
@@ -6079,7 +4941,7 @@ dud3 {
 8ax {
     area_name "Hell?"
     area_label_frame 58
-    tile_graphics Tilehell
+    tile_graphics Tilecoldsweat
     overlay_graphics Overlayshell
     background_graphics bg2
     foreground_graphics None
@@ -6097,7 +4959,7 @@ dud3 {
     global_particle_2 bgsnow
     global_particle_3 fgsnow_light
 
-    decoration_1 Deco10
+    decoration_1 decorationminejump
     decoration_2 Deco11
     decoration_3 none
     
@@ -6110,16 +4972,19 @@ dud3 {
         [OrbChomp, MovingOrbBlob]
         [AimSpitter, AimSpitter2]
         [Cartridge, cart3]
+		[Player, PlayerCold]
     ]
 
     music [requiem20000volts_intro.ogg, requiem20000volts_loop.ogg]
-    0 { art_alts[
-	[OrbSmall, Saw1]
+    0 { 
+	art_alts[
+		[OrbSmall, Saw1]
         [ChainLink2, None]
         [OrbChomp, MovingOrbBlob]
         [OrbLarge, Saw2]
         [AimSpitter, AimSpitter2]
-        [Cartridge, cart3]]
+        [Cartridge, cart3][Player, PlayerCold]
+	]
         ambience coldsweatunderground.ogg
     }
     1 { art_alts[
@@ -6128,7 +4993,7 @@ dud3 {
         [OrbChomp, MovingOrbBlob]
         [OrbLarge, Saw2]
         [AimSpitter, AimSpitter2]
-        [Cartridge, cart3]]
+        [Cartridge, cart3][Player, PlayerCold]]
         ambience coldsweatunderground.ogg
     }
     8 {
@@ -6505,7 +5370,2012 @@ dud3 {
     ]
     }
 }
+o {
+    area_name "Omnificance"
+    area_label_frame 40
+    overlay_graphics Overlaysend
+    tile_graphics Tileairship
+    background_graphics airshipbg
+    foreground_graphics None
+    fx_shader ripples
+    palette 547
+    fx_shader_mid heatwave2
+    midfx_graphics SolidBox
+    midfx_layer 2
+    
+    area_type dark
 
+    do_tilt true
+
+    tile_particle_1 waterfall
+    tile_particle_2 waterfall_splash
+    tile_particle_3 bubbles
+    tile_particle_4 drip
+    
+    #global_particle_1 fgrain
+    #global_particle_2 bgrain
+    #global_particle_3 lightning and another one bites the dust!
+    #global_particle_4 cloudwindlight
+    
+
+    decoration_1 eyeball
+    
+    2{
+    palette 456
+    tile_graphics Tilehell
+    }
+
+    3{
+    palette 546
+    tile_graphics Tilefield
+    }
+
+    4{
+    palette 561
+    tile_graphics Tilecity
+    }
+
+    5{
+    palette 516
+    tile_graphics Tilecomplex
+    }
+
+    6{
+    palette 415
+	tile_graphics Tiletracksdud
+    decoration_1 dudropedeco
+    decoration_2 windowdeco
+    }
+
+    #music [terminal_intro.ogg, terminal_loop.ogg]
+    ambience vinyl.ogg
+
+    art_alts [
+        [OrbSmall, OrbBlob2]
+        [OrbLarge, OrbLarge2]
+        [ChainLink2, None]
+        [OrbChomp, MovingOrbBlob]
+        [AimSpitter,eyeshooter]
+        [Bullet,eyebullet]
+        [Cartridge, cart3]
+    ]
+}
+12 {
+    area_name "Heartbreak"
+    area_label_frame 0
+    tile_graphics TileEnd
+    overlay_graphics Overlaysend
+    background_graphics neverbg
+    foreground_graphics None
+    fx_shader ripples
+    fx_shader_mid ripples
+    midfx_layer 2
+    palette 520
+    #palette 876
+
+    toxic_timer 1.05
+
+    do_tilt true
+
+    area_type dark
+
+    tile_particle_1 waterfall
+    tile_particle_2 waterfall_splash
+    tile_particle_3 bubbles
+    tile_particle_4 drip
+    
+    global_particle_1 cloudwind_stormy
+    global_particle_2 bgrain3
+    global_particle_3 lightning
+    global_particle_4 rocksright
+    
+
+    decoration_1 eyeball
+   
+
+    music heartbreak.ogg
+    ambience saws.ogg
+
+    art_alts [
+        [OrbSmall, dudsawsmall][OrbLarge, dudsawbig]
+        [ChainLink2, None]
+        [OrbChomp, MovingOrbBlob]
+        [AimSpitter, AimSpitter2]
+        [Cartridge, cart3]
+    ]
+}
+3b {
+    area_name "Mechanical"
+    area_label_frame 51
+    tile_graphics Tileairship
+    overlay_graphics Overlaysairship
+    background_graphics bgsolid
+    foreground_graphics None
+    fx_shader ripples
+    fx_shader_mid ripples
+    midfx_layer 2
+    palette 890
+    #palette 876
+
+    toxic_timer 1.05
+
+    do_tilt true
+
+
+    tile_particle_1 smoke
+    tile_particle_2 smoke2
+    tile_particle_3 bubbles
+    tile_particle_4 drip
+    
+    global_particle_1 cloudwind_light
+    global_particle_2 bgrain2
+    global_particle_3 rocks2
+    global_particle_4 rocks2
+    
+	npc_1 NPCNAN1
+
+    decoration_1 eyeball
+   
+
+    music [factorio_intro.ogg, factorio_loop.ogg]
+    ambience cogs.ogg
+
+    art_alts [
+        [OrbSmall, dudsawsmall][OrbLarge, dudsawbig]
+        [ChainLink2, None]
+        [OrbChomp, MovingOrbBlob]
+        [AimSpitter, AimSpitter2]
+        [Cartridge, cart3]
+    ]
+}
+
+# Derzox and Adenator's areas
+ki {
+    area_name "Aqueros Coast"
+    area_label_frame 48
+    tile_graphics Tilecoral
+	overlay_graphics Overlayshell
+    background_graphics coastbg
+    foreground_graphics none
+    fx_shader sludgeripples
+	fx_shader_mid lightingmodded
+	midfx_graphics ShadeBox
+	midfx_layer 2
+    shader_param .8
+    palette 728
+    player_physics "data/player_physics/playerphysics_sckrunkly.txt"
+    decoration_1 inst10
+    global_particle_1 cloudwind_stormy
+    global_particle_2 bgrain3
+    global_particle_3 fgrain3
+    global_particle_4 lightning
+    tile_particle_1 waterfall_thin
+    tile_particle_2 waterfall_splash
+    tile_particle_3 smoke
+    tile_particle_4 drip
+    tile_particle_5 surface_splash
+    npc_1 NPCKI9
+    npc_3 NPCNAN1
+
+	ambience ocean.ogg
+	
+	music_volume 1.3
+    ambience_volume 1
+	
+	art_alts [
+		[GlowShroomSmall,GlowBulbSmall]
+	]
+	2 {
+		ambience_volume 0.7
+	}
+	3 {
+		global_particle_1 cloudwind_stormyleft
+		global_particle_2 bgrain3left
+		global_particle_3 fgrain3left
+	}
+	4 {
+		ambience_volume 0.7
+	}
+	5 {
+		ambience_volume 0.7
+	}
+	7 {
+		ambience_volume 0.7
+	}
+	8 {
+		ambience_volume 0.7
+	}
+	10 {
+		ambience_volume 0.7
+	}
+	11 {
+		ambience_volume 0.7
+	}
+	1x {
+		ambience deepocean.ogg
+		global_particle_2 none
+		global_particle_3 none
+	}
+	2x {
+		ambience deepocean.ogg
+		global_particle_2 none
+		global_particle_3 none
+	}
+	3x {
+		ambience deepocean.ogg
+		global_particle_2 none
+		global_particle_3 none
+	}
+	4x {
+		ambience deepocean.ogg
+		global_particle_2 none
+		global_particle_3 none
+	}
+	5x {
+		ambience deepocean.ogg
+		global_particle_2 none
+		global_particle_3 none
+	}
+	6x {
+		ambience deepocean.ogg
+		global_particle_2 none
+		global_particle_3 none
+	}
+}
+k2 {
+    area_name "Mount Hydredron"
+    area_label_frame 49
+    tile_graphics Tilehydredron
+    background_graphics Background
+    foreground_graphics none
+    fx_shader sludgeripples
+	fx_shader_mid lightingmodded
+	midfx_graphics ShadeBox
+	midfx_layer 2
+    shader_param .6
+    #palette 728
+	palette 751
+    overlay_graphics Overlayshell
+    player_physics "data/player_physics/playerphysics_sckrunkly.txt"
+	
+	#sfx_file hydredronsounds.txt
+	
+    decoration_1 BlockSnow
+	decoration_2 HydredronFlag
+	
+    global_particle_1 cloudwind_stormy
+    global_particle_2 fullsnowh
+    #global_particle_3 fgsnowstormright
+    global_particle_4 lightning
+    tile_particle_1 waterfall_thin
+    tile_particle_2 waterfall_splash
+    tile_particle_3 smoke
+    tile_particle_4 drip
+    tile_particle_5 surface_splash 
+	
+	music [vivaldiwinter_intro.ogg, vivaldiwinter_loop.ogg]
+	ambience wind.ogg
+	
+	npc_1 NPC_HYDREDRONSUMMIT
+	
+	art_alts [
+		[GlowShroomSmall,GlowBulbSmall]
+		[AimSpitter,eyeshooter][Bullet,eyebullet]
+		[ChargeSlug, ChargeWormer]
+		[Mask, MaskSeeker]
+		[Player, PlayerCold]
+	]
+	
+	1 {
+		background_graphics coastbg
+		global_particle_2 bgrain3
+		global_particle_3 fgrain3
+		ambience storm.ogg
+	}
+	2 {
+		background_graphics coastbg
+		global_particle_2 bgrain3
+		global_particle_3 fgrain3
+		ambience storm.ogg
+	}
+	3 {
+		background_graphics coastbg
+		global_particle_2 bgrain3
+		global_particle_3 fgrain3
+		ambience storm.ogg
+	}
+	4 {
+		global_particle_2 bgrain3
+		global_particle_3 fgrain3
+		ambience storm.ogg
+	}
+	17 {
+		global_particle_1 cloudwind_light
+		global_particle_2 cold
+		global_particle_3 cold
+		global_particle_4 cold
+		
+		player_physics "data/playerphysics.txt"
+	}
+	18 {
+		global_particle_1 cloudwind_light
+		global_particle_2 cold
+		global_particle_3 cold
+		global_particle_4 cold
+		
+		player_physics "data/playerphysics.txt"
+	}
+	19 {
+		global_particle_1 cloudwind_light
+		global_particle_2 cold
+		global_particle_3 cold
+		global_particle_4 cold
+		
+		player_physics "data/playerphysics.txt"
+	}
+	20 {
+		global_particle_1 cloudwind_light
+		global_particle_2 cold
+		global_particle_3 cold
+		global_particle_4 cold
+		
+		player_physics "data/playerphysics.txt"
+	}
+	21 {
+		global_particle_1 cloudwind_light
+		global_particle_2 cold
+		global_particle_3 cold
+		global_particle_4 cold
+		
+		player_physics "data/playerphysics.txt"
+		
+		music none
+	}
+	
+	9unf {
+		music none
+		
+		npc_1 NPCNAN1
+	}
+	20unf {
+		global_particle_1 cloudwind_light
+		global_particle_2 cold
+		global_particle_3 cold
+		global_particle_4 cold
+		
+		player_physics "data/playerphysics.txt"
+		
+		music none
+		
+		npc_1 NPCNAN1
+	}
+	21 {
+		global_particle_1 cloudwind_light
+		global_particle_2 cold
+		global_particle_3 cold
+		global_particle_4 cold
+		
+		player_physics "data/playerphysics.txt"
+		
+		music none
+	}
+}
+
+# Surreal's areas
+  # carts
+cwarp{
+    tile_graphics Tileretro
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+
+    cart_intro_png carts/cart_warpzone
+    cart_intro_palette 0
+	
+	decoration_1 warpzone_arrow
+    
+    area_type cart
+
+    art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, Floater2][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky][CreepingMass, CreepingMassRetro]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+	
+	1 {
+	music [retro/warpzone_intro.ogg, retro/danse_loop.ogg]
+	palette 16
+    cart_intro_palette 30
+	}
+	2 {
+	music [retro/warpzone_intro.ogg, retro/newworld_loop.ogg]
+	palette 17
+    cart_intro_palette 31
+	}
+	3 {
+	music [retro/warpzone_intro.ogg, retro/1812_loop.ogg]
+	palette 19
+    cart_intro_palette 32
+	}
+	4 {
+	music [retro/warpzone_intro.ogg, retro/hungarian_rhapsody_loop.ogg]
+	palette 20
+    cart_intro_palette 33
+	}
+	5 {
+	music [retro/warpzone_intro.ogg, retro/slave_loop.ogg]
+	palette 23
+    cart_intro_palette 36
+	}
+	6 {
+	music [retro/warpzone_intro.ogg, retro/fields_loop.ogg]
+	palette 22
+    cart_intro_palette 35
+	}
+	7 {
+	music [retro/warpzone_intro.ogg, retro/bumblebee_loop.ogg]
+	palette 24
+    cart_intro_palette 37
+	}
+	8 {
+	music [retro/warpzone_intro.ogg, retro/dante_loop.ogg]
+	palette 21
+    cart_intro_palette 34
+	}
+	9 {
+	music [retro/warpzone_intro.ogg, retro/hell_loop.ogg]
+	palette 25
+    cart_intro_palette 38
+	}
+}
+gwarp{
+    tile_graphics TileGlitch
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+
+    cart_intro_png carts/glitch_warpzone
+    cart_intro_palette 0
+	
+	decoration_1 warpzone_arrow
+    
+    area_type glitch
+
+    art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro][ElectroBall, RetroElectroBall][CreepingMass, CreepingMassRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro][Cartridge, cart3retro]
+    ]
+	
+	1 {
+	palette 983
+	music [glitch/warpzone_intro.ogg, glitch/dance_loop.ogg]
+    cart_intro_palette 983
+	}
+	2 {
+	palette 987
+	background_graphics bgretro
+	music [glitch/warpzone_intro.ogg, glitch/newworld_loop.ogg]
+    cart_intro_palette 11
+	}
+	3 {
+	palette 985
+	music [glitch/warpzone_intro.ogg, glitch/bumblebee_loop.ogg]
+    cart_intro_palette 985
+	art_alts [
+		[Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, none][ChainLink, none]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][Life, LifeRetro][BigLife, BigLifeRetro][Cartridge, cart3retro]
+	]
+	}
+	4 {
+	palette 984
+	music [glitch/warpzone_intro.ogg, glitch/homk_loop.ogg]
+    cart_intro_palette 984
+	}
+	5 {
+	palette 984
+    cart_intro_palette 984
+    music [glitch/warpzone_intro.ogg, glitch/dante_loop.ogg]	
+	}
+	6 {
+	palette 986
+	music [glitch/warpzone_intro.ogg, glitch/dance_loop.ogg]
+    cart_intro_palette 18
+	}
+}
+csd1 {
+    tile_graphics TileGlitch
+    overlay_graphics Overlaysretro
+    background_graphics bgsolid2
+    foreground_graphics none
+    palette 1148
+	fx_shader ripples
+	fx_shader_mid fuckedup
+	midfx_graphics ShadeBox
+	midfx_layer 0
+    
+    music [glitch/farlands_intro.ogg, glitch/farlands_loop.ogg]
+    
+    music_volume 1
+    ambience_volume 1
+
+	npc_1 NPCNAN1
+
+    cart_intro_png carts/darkanoid
+    cart_intro_palette 1147
+
+	decoration_1 retrosnow_part
+	decoration_2 IceIceMotherfucker
+    
+    area_type glitch
+
+    art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+	3 { palette 1150 }
+	4 { palette 1150 }
+	5 { palette 1149 }
+	6 { palette 1149 }
+	7 { palette 1151 }
+	8 { palette 1151 }
+	9 { palette 1152 }
+	10 { palette 1152 }
+}
+csd2 {
+    tile_graphics TileGlitch
+    overlay_graphics Overlaysretro
+    background_graphics bgsolid2
+    foreground_graphics none
+	palette 1145
+	
+	music [glitch/comomesiento_intro.ogg, glitch/comomesiento_loop.ogg]
+    
+    music_volume 1
+    ambience_volume 1
+
+	npc_1 NPCSDR1
+
+    cart_intro_png icanalmostsmellyou
+    cart_intro_palette 1183
+	
+	decoration_1 Retrotip2
+    
+    area_type glitch
+
+	1 {
+    art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, none][ChainLink, none]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+    ]
+	fx_shader_mid partyhard
+	midfx_graphics SolidBox
+	midfx_layer 2
+	player_physics "data/player_physics/what_have_you_done.txt"
+	}
+	98 {
+		music [none, none]
+		tile_graphics Tileretro
+		overlay_graphics Overlaysretro
+	}
+}
+gn1 {
+    tile_graphics TileGlitch
+    overlay_graphics Overlaysretro
+    background_graphics bgretro
+    foreground_graphics none
+	palette 1167
+	
+	music [retro/newworld3_intro.ogg, retro/newworld3_loop.ogg]
+    
+    music_volume 1
+    ambience_volume 1
+
+	npc_1 NPCNAN1
+
+    cart_intro_png carts/cart_ashcarnageroll
+    cart_intro_palette 1167
+	
+	decoration_1 Retrotip2
+    
+    area_type glitch
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, BalloonLink2Retro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbSmall, BalloonSmallRetro][OrbLarge, BalloonLargeRetro][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+	1x {
+		cart_intro_png carts/cart_stashpros
+		cart_intro_palette 1030
+	}
+}
+gn2 {
+    tile_graphics TileGlitch
+    overlay_graphics Overlaysretro
+    background_graphics bgretro
+    foreground_graphics none
+	palette 1168
+	
+	music glitch/chopin_loop.ogg
+    
+    music_volume 1
+    ambience_volume 1
+
+	npc_1 NPCNAN1
+
+    cart_intro_png carts/cart_ulcerwilds
+    cart_intro_palette 1177
+	
+	decoration_1 Retrotip2
+    
+    area_type glitch
+
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+}
+gn3 {
+    tile_graphics TileGlitch
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+	palette 1188
+	
+	music [glitch/beeth5_intro.ogg, glitch/beeth5_loop.ogg]
+    
+    music_volume 1
+    ambience_volume 1
+
+	npc_1 NPCNAN1
+
+    cart_intro_png carts/cart_deathspoor
+    cart_intro_palette 1179
+	
+	decoration_1 Retrotip2
+    
+    area_type glitch
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, none][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbSmall, RetroSaw1][OrbLarge, RetroSaw2][ThwampGear, ThwampGearRetro][ThwampEye,ThwampEyeRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+gn4 {
+    tile_graphics TileGlitch
+    overlay_graphics Overlaysretro
+    background_graphics bgretro
+    foreground_graphics none
+	palette 1169
+	
+	music [retro/torrent_intro.ogg, retro/torrent_loop.ogg]
+    
+    music_volume 0.8
+    ambience_volume 1
+
+	npc_1 NPCNAN1
+
+    cart_intro_png carts/cart_frightenthemoods
+    cart_intro_palette 1169
+	
+	decoration_1 Retrotip2
+    
+    area_type glitch
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+gn5 {
+    tile_graphics TileGlitch
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 1170
+	
+	music [retro/badinerie_intro.ogg, retro/badinerie_loop.ogg]
+    
+    music_volume 1
+    ambience_volume 1
+
+	npc_1 NPCNAN1
+
+    cart_intro_png carts/cart_omophagy
+    cart_intro_palette 1160
+	
+	decoration_1 Retrotip2
+    
+    area_type glitch
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+gn6 {
+    tile_graphics TileGlitch
+    overlay_graphics Overlaysretro
+    background_graphics bgretro
+    foreground_graphics none
+	palette 1171
+	
+	music [retro/farlands_intro.ogg, retro/farlands_loop.ogg]
+    
+    music_volume 1
+    ambience_volume 1
+
+	npc_1 NPCNAN1
+
+    cart_intro_png carts/cart_lunatic
+    cart_intro_palette 1181
+	
+	decoration_1 Retrotip2
+    
+    area_type glitch
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+gn7 {
+    tile_graphics TileGlitch
+    overlay_graphics Overlaysretro
+    background_graphics bgretro
+    foreground_graphics none
+	palette 1172
+	
+	music [glitch/funeral_intro.ogg, glitch/funeral_loop.ogg]
+    
+    music_volume 1
+    ambience_volume 1
+
+	npc_1 NPCNAN1
+
+    cart_intro_png carts/cart_goophero
+    cart_intro_palette 1180
+	
+	decoration_1 Retrotip2
+    
+    area_type glitch
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+c8c {
+    tile_graphics Tileretronograv
+    overlay_graphics Overlaysretro
+    background_graphics bgretro
+    foreground_graphics none
+	palette 1173
+	
+	music [retro/dante_intro.ogg, retro/dante_loop.ogg]
+    
+    music_volume 1
+    ambience_volume 1
+
+	npc_1 NPCNAN1
+
+    cart_intro_png carts/cart_herpes
+    cart_intro_palette 1173
+	
+	lowgrav_physics "data/player_physics/icephysics.txt"
+	decoration_1 retrosnow_part
+	decoration_2 IceIceMotherfucker
+    
+    area_type cart
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+gn9 {
+    tile_graphics TileGlitch
+    overlay_graphics Overlaysretro
+    background_graphics bgretro
+    foreground_graphics none
+	palette 1174
+	fx_shader_mid verticalflip
+    midfx_graphics SolidBox
+	midfx_layer 2
+	
+	music [retro/chopin_intro.ogg, retro/chopin_loop.ogg]
+    
+    music_volume 1
+    ambience_volume 1
+
+	npc_1 NPCNAN1
+
+    cart_intro_png carts/cart_afraid
+    cart_intro_palette 1182
+	
+	decoration_1 Retrotip2
+    
+    area_type glitch
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, just_a_block]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+gn10 {
+    tile_graphics TileGlitch
+    overlay_graphics Overlaysretro
+    background_graphics bgretro
+    foreground_graphics none
+	palette 1175
+	
+	music [glitch/funeral_intro.ogg, glitch/funeral_loop.ogg]
+    
+    music_volume 1
+    ambience_volume 1
+
+	npc_1 NPCNAN1
+
+    cart_intro_png carts/cart_wip
+    cart_intro_palette 1175
+	
+	decoration_1 RetroLeaves1
+	decoration_2 RetroLeaves2
+	decoration_3 RetroLeaves3
+    
+    area_type glitch
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+gnr1 {
+    tile_graphics TileGlitch
+    overlay_graphics Overlaysretro
+    background_graphics bgretro
+    foreground_graphics none
+    palette 1095
+    
+    music [glitch/danse_intro.ogg, glitch/danse_loop.ogg]
+    
+    music_volume 1
+    ambience_volume 1
+	
+	npc_1 NPCNAN1
+
+    cart_intro_png carts/cart_wip
+    cart_intro_palette 311
+    
+    area_type glitch
+
+    art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro][CreepingMass, CreepingMassRetro][OrbLarge, BlobOrbLargeretro][OrbSmall, BlobOrbSmallretro][OrbChomp, OrbChompretro][OrbChomp, MovingOrbBlobretro][ChargeSlug, RetroChargerSlug][Floater, FloaterGlitch][SkullFloaterBreaky, SkullFloaterretroBreaky][FloatingMine, FloatingMineRetro][BigCharger, RetroBigChargerSlug][ElectroBall, RetroElectroBall][Fish, RetroFish]
+    ]
+
+}
+gnr2 {
+    tile_graphics TileGlitch
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 1093
+
+    cart_intro_png carts/cart_wip
+    cart_intro_palette 1183
+	
+	npc_1 NPCNAN1
+
+    music [glitch/newworld2_intro.ogg, glitch/newworld2_loop.ogg]
+    music_volume 1
+    ambience_volume 1
+
+    area_type glitch
+
+    art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro]
+        [ElectroBall, RetroElectroBall][OrbSmall, RetroOrbSmall][OrbLarge, RetroOrbLarge][ChargeSlug, RetroChargerSlug][Sentry, SentryRetro][Floater, FloaterGlitch]
+        [Fish, RetroFish][CreepingMass, CreepingMassRetro][FloatingMine, FloatingMineRetro][ThwampGear, ThwampGearRetro][SkullFloaterBreaky, SkullFloaterretroBreaky]
+    ]
+
+}
+gnr3 {
+    tile_graphics TileGlitch
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 1108
+    toxic_timer 1.05
+
+    cart_intro_png carts/cart_wip
+    cart_intro_palette 363
+	
+	npc_1 NPCNAN1
+
+    music [glitch/bumblebee2_intro.ogg, glitch/bumblebee2_loop.ogg]
+    music_volume 1
+    ambience_volume 1
+
+    area_type glitch
+
+    art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro]
+        [ElectroBall, RetroElectroBall][OrbSmall, RetroOrbSmall][OrbLarge, RetroOrbLarge][ChargeSlug, RetroChargerSlug][Sentry, SentryRetro][Floater, FloaterGlitch]
+        [Fish, RetroFish][CreepingMass, CreepingMassRetro][FloatingMine, FloatingMineRetro][ThwampGear, ThwampGearRetro][SkullFloaterBreaky, SkullFloaterretroBreaky]
+    ]
+
+}
+gj {
+	area_name "Super Stash Pros!"
+    tile_graphics TileGlitch
+    overlay_graphics Overlaysretro
+    background_graphics bgretro
+	fx_shader_mid retro
+	midfx_graphics SolidBox
+	midfx_layer 2
+	palette 1187
+	
+	music none
+    
+    music_volume 1
+    ambience_volume 1
+
+	npc_1 NPCSDR2warp1
+	npc_2 NPCSDR2warp2
+	npc_3 NPCSDR2warp3
+
+    cart_intro_png carts/cart_ulcerwilds
+    cart_intro_palette 1175
+	
+	sfx_file retrosounds.txt
+    
+    area_type normal
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+		[Wipetranssteven, fadetrans]
+    ]
+	4 {
+		npc_1 NPCSDR2warp4
+		palette 1175
+	}
+}
+gn11 {
+    tile_graphics TileGlitch
+    overlay_graphics Overlaysretro
+    background_graphics bgretro
+    foreground_graphics none
+	palette 1186
+	
+	music [glitch/the_end_is_nigh_intro.ogg, glitch/the_end_is_nigh_loop.ogg]
+    
+    music_volume 1
+    ambience_volume 1
+
+	npc_1 NPCNAN1
+
+    cart_intro_png carts/cart_stashpros
+    cart_intro_palette 1175
+	
+	decoration_1 RetroLeaves1
+	decoration_2 RetroLeaves2
+	decoration_3 RetroLeaves3
+    
+    area_type glitch
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+i5b {
+    tile_graphics Tileretro
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 49
+
+    cart_intro_png Acceptance
+    cart_intro_palette 49
+    
+    music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
+    
+    music_volume 1
+    ambience_volume 1
+    
+    area_type ironcart
+
+    art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, RetroGhost][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro]
+        [ElectroBall, RetroElectroBall][OrbSmall, RetroOrbSmall][OrbLarge, RetroOrbLarge][ChargeSlug, RetroChargerSlug]
+        [Fish, RetroFish][CreepingMass, CreepingMassRetro]
+    ]
+
+}
+ix0 {
+    tile_graphics Tileretro
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 993
+	
+	decoration_1 retrosnow_part
+	
+	ambience wind.ogg
+	ambience_volume 0.3
+
+	npc_1 NPCSDR2
+
+    cart_intro_png carts/cart_wip
+    cart_intro_palette 993
+    
+    area_type ironcart
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+ix1 {
+    tile_graphics Tileretrobricks
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 994
+	
+	music [retro/dwspiral_intro.ogg, retro/dwspiral_loop.ogg]
+
+    cart_intro_png carts/icart_contemplation
+    cart_intro_palette 994
+    
+    area_type ironcart
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+	1y {
+		cart_intro_png carts/icart_relapse
+	}
+}
+ix2 {
+    tile_graphics Tileretrobricks
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 995
+	
+	music [retro/dwspiral_intro.ogg, retro/dwspiral_loop.ogg]
+
+    cart_intro_png carts/icart_preparation
+    cart_intro_palette 995
+    
+    area_type ironcart
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+ix3 {
+    tile_graphics Tileretrobricks
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 996
+	
+	music [retro/dwspiral_intro.ogg, retro/dwspiral_loop.ogg]
+
+    cart_intro_png carts/icart_action
+    cart_intro_palette 996
+    
+    area_type ironcart
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][ThwampEye, ThwampGearRetroFast][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+ix4 {
+    tile_graphics Tileretrobricks
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 997
+	
+	music [retro/dwspiral_intro.ogg, retro/dwspiral_loop.ogg]
+
+    cart_intro_png carts/icart_maintenance
+    cart_intro_palette 997
+    
+    area_type ironcart
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FireRetro][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+ix5 {
+    tile_graphics Tileretrobricks
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 998
+	
+	music [retro/dwspiral_intro.ogg, retro/dwspiral_loop.ogg]
+
+    cart_intro_png carts/icart_degradation
+    cart_intro_palette 998
+    
+    area_type ironcart
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+ix6 {
+    tile_graphics Tileretrobricks
+    overlay_graphics Overlaysretro
+    background_graphics neverbgretro
+    foreground_graphics none
+	fx_shader_mid lightingmoddedretro
+	shader_param 0.8
+	midfx_graphics ShadeBox
+	midfx_layer 2
+    palette 999
+	
+	music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
+
+	global_particle_1 lightning
+	
+    cart_intro_png carts/icart_relapse
+    cart_intro_palette 999
+    
+    area_type ironcart
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FireRetro][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro][ElectroBall, RetroElectroBall][CreepingMass, CreepingMassRetro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroom, just_a_block][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+	1 {
+		music none
+		ambience shiny.ogg
+		ambience_volume 0.3
+	}
+	2 {
+		music none
+		ambience shiny.ogg
+		ambience_volume 0.3
+	}
+	3 {
+		music none
+		ambience shiny.ogg
+		ambience_volume 0.3
+	}
+	4 {
+		music none
+		ambience shiny.ogg
+		ambience_volume 0.3
+	}
+	5 {
+		music none
+		ambience shiny.ogg
+		ambience_volume 0.3
+	}
+}
+ix6b {
+    tile_graphics Tileretrobricks
+    overlay_graphics Overlaysretro
+    background_graphics neverbgretro
+    foreground_graphics none
+    fx_shader_mid lightingmoddedretro
+	shader_param 0.8
+	midfx_graphics ShadeBox
+	midfx_layer 2
+    palette 999
+	
+	music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
+
+    cart_intro_png carts/icart_relapse
+    cart_intro_palette 999
+	
+	global_particle_1 lightning
+    
+    area_type ironcart
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FireRetro][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro][ElectroBall, RetroElectroBall][CreepingMass, CreepingMassRetro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroom, just_a_block][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+	2 {
+		npc_1 NPCdudp16
+		decoration_1 RetroLeaves3
+		decoration_2 warpzone_arrow
+		music retro/gnossiennes_loop.ogg
+	}
+}
+ix7 {
+    tile_graphics Tileretrobricks
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 1175
+
+	ambience forest.ogg
+	ambience_volume 0.3
+
+    cart_intro_png carts/cart_wip
+    cart_intro_palette 993
+    
+	npc_1 NPCSDR3
+	
+	decoration_1 RetroLeaves1
+	decoration_2 RetroLeaves2
+	decoration_3 RetroLeaves3
+	
+    area_type ironcart
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FloaterGlitch][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+ix8 {
+    tile_graphics Tileretrobricks
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 979
+	fx_shader_mid retroheatwave
+	midfx_graphics ShadeBox
+	midfx_layer 0
+	
+	music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
+
+    cart_intro_png carts/cart_wip
+    cart_intro_palette 979
+	
+	decoration_1 RetroLeaves3
+    
+    area_type ironcart
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FireRetro][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch][BigLife, BigLifeRetro]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+
+}
+ix8b {
+    tile_graphics Tileretrobricks
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 979
+	fx_shader_mid retroheatwave
+	midfx_graphics ShadeBox
+	midfx_layer 0
+	
+	music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
+
+    cart_intro_png carts/cart_wip
+    cart_intro_palette 979
+	
+	decoration_1 RetroLeaves3
+    
+    area_type ironcart
+	art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FireRetro][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch][BigLife, BigLifeRetro]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+    ]
+	2 {
+		npc_1 NPCdudp16
+		decoration_1 RetroLeaves3
+		decoration_2 warpzone_arrow
+		music retro/gnossiennes_loop.ogg
+		fx_shader_mid fire
+	}
+}
+
+
+0 {
+    area_name "Meta"
+    area_label_frame 0
+    tile_graphics Tilecaves
+    overlay_graphics Overlaystox2
+    background_graphics BgVoid
+    foreground_graphics None
+    fx_shader sludgeripples
+    palette 0
+	
+    decoration_1 starDeco
+    decoration_2 Deco11
+    decoration_3 none
+
+    npc_1 NPCNAN0
+    
+    area_type normal
+
+    tile_particle_1 drip
+    
+	music none
+    ambience none
+	art_alts [
+        [MiniFly, MiniWisp][MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite][GlowShroomSmall, GlowShard2][GlowShroom, GlowShard]
+	]
+	unf {
+		npc_1 NPCNAN1
+	}
+	unf2 {
+		npc_1 NPCNAN2
+	}
+}
+dud0 {
+    area_name "Cutscene"
+    area_label_frame 0
+    
+    area_type normal
+    
+	music none
+    ambience none
+	1 {
+		tile_graphics Tilefarlands
+		overlay_graphics Overlaystox
+		background_graphics farlandsbg2
+		fx_shader ripples
+		palette 1081
+		tile_particle_1 rocktile
+		global_particle_1 wind
+		global_particle_2 none
+		global_particle_3 none
+		ambience wind.ogg
+		ambience_volume 0.2
+		sfx_file cutscene1.txt
+	}
+	2 {
+		tile_graphics Tileretrobricks
+		overlay_graphics Overlaysretro
+		background_graphics bgretrox
+		foreground_graphics none
+		palette 979
+		npc_1 NPCdudp16
+		decoration_1 RetroLeaves3
+		decoration_2 warpzone_arrow
+		music retro/gnossiennes_loop.ogg
+		fx_shader_mid retro
+		midfx_graphics SolidBox
+		midfx_layer 2
+		art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, FireRetro][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
+		
+		[SkullFloaterBreaky, SkullFloaterretroBreaky]
+		[FloatingMine, FloatingMineRetroGlitch][BigLife, BigLifeRetro]
+		[Sentry, SentryRetro]
+		[BigSlug, MegaSlugretro]
+		[BigCharger, RetroBigChargerSlug]
+		
+		[TheBody, TheBodyretro][TheHead, TheHeadretro][TheHeart, TheHeartretro][Stand, Standretro][GlowShroomSmall, GlowShroomSmallretro][GlowShroom, GlowShroomretro][Cartridge, cart2retro][Key, Keyretro]
+		
+		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
+		]
+	}
+}
+dud1 {
+    area_name "Surreal In Space? Let's Fucking Go"
+    area_label_frame 0
+    tile_graphics Tileairship
+    overlay_graphics Overlayscaves
+    background_graphics sunbg
+    foreground_graphics None
+	fx_shader reflectionripples
+	fx_shader_mid fire
+    midfx_graphics SolidBox
+    midfx_layer 2
+    
+    palette 982
+	
+	tile_particle_1 drip
+	tile_particle_2 waterfall
+	tile_particle_3 waterfall_splash
+    tile_particle_5 toxicbubbles
+    global_particle_1 embers
+	global_particle_2 cloudwind2
+	
+    area_type normal
+	
+	music [requiem_intro.ogg, requiem_loop.ogg]
+    ambience volcano.ogg
+}
+dud2 {
+    area_name "Spiraling Tower"
+    area_label_frame 0
+    tile_graphics Tileairship
+    overlay_graphics Overlayscaves
+    background_graphics neverbg
+    foreground_graphics None
+	fx_shader reflectionripples
+    
+    palette 992
+	
+	tile_particle_1 drip
+	tile_particle_2 waterfall
+	tile_particle_3 waterfall_splash
+    tile_particle_5 toxicbubbles
+    global_particle_1 lightning
+    global_particle_2 wind
+	
+    area_type dark
+    toxic_timer 0
+
+    npc_1 NPCdud24
+	
+	art_alts[
+		[GlowShroom, GlowCandleBig][GlowShroomSmall, GlowCandle]
+	]
+	
+	music [requiem_intro.ogg, requiem_loop.ogg]
+    ambience castle.ogg
+	1 {
+		palette 992
+		tile_graphics Tilehell
+	}
+	2 {
+		palette 991
+		tile_graphics Tilebreeze
+	}
+	3 {
+		palette 990
+		fx_shader_mid sun
+		midfx_graphics SolidBox
+		midfx_layer 1
+	}
+	4 {
+		palette 989
+		tile_graphics TileEnd
+		fx_shader_mid lighting
+		midfx_graphics ShadeBox
+		midfx_layer 2
+		shader_param 0.5
+	}
+	5 {
+		palette 988
+	}
+}
+dud3 {
+    area_name "Wreckage"
+    area_label_frame 55
+    tile_graphics Tiledud4
+    overlay_graphics Overlayscity
+    background_graphics dudbg2
+    foreground_graphics none
+    fx_shader ripples
+    palette 1146
+	
+    area_type normal
+	
+	npc_1 NPCdud6
+	npc_2 NPCdud2
+	npc_3 NPCdud7
+	
+	decoration_1 dudropedeco
+	decoration_2 windowdeco
+	
+    tile_particle_1 dust
+    tile_particle_2 dustdud
+	global_particle_1 rocks
+    global_particle_2 mist2
+    
+    music [badinerie_intro.ogg, badinerie_loop.ogg] #music by liviulove, listen to it here https://www.newgrounds.com/audio/listen/65107
+	music_volume 1.3
+    ambience wind.ogg
+	ambience_volume 1
+
+	art_alts [
+		[ChainLink, none][ChainLink2, none]
+	]
+	12 {
+		music [none, none]
+		ambience_volume 1.3
+	}
+}
+dud3x {
+    area_name "Wreckage"
+    area_label_frame 55
+    tile_graphics Tiledud4
+    overlay_graphics Overlayscity
+    background_graphics dudbg2
+    foreground_graphics none
+    fx_shader ripples
+    palette 1193
+	
+    area_type normal
+	
+	npc_1 NPCdud8
+	npc_2 NPCdud2
+	npc_3 NPCdud3
+	
+	decoration_1 dudropedeco
+	decoration_2 windowdeco
+	
+    tile_particle_1 dust
+    tile_particle_2 dustdud
+	global_particle_1 rocks
+    global_particle_2 mist2
+    
+    music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
+	music_volume 1
+    ambience wind.ogg
+	ambience_volume 1
+
+	art_alts [
+		[ChainLink, none][ChainLink2, none]
+	]
+
+}
+dud3xu {
+    area_name "Wreckage"
+    area_label_frame 55
+    tile_graphics Tiledud4
+    overlay_graphics Overlayscity
+    background_graphics dudbg2
+    foreground_graphics none
+    fx_shader ripples
+    palette 1192
+	
+    area_type normal
+	
+	npc_1 NPCdud1
+	npc_2 NPCdud2
+	npc_3 NPCdud5
+	
+	decoration_1 dudropedeco
+	decoration_2 windowdeco
+	
+    tile_particle_1 dust
+    tile_particle_2 dustdud
+	global_particle_1 rocks
+    global_particle_2 mist2
+    
+    music [gymnopedies_intro.ogg, gymnopedies_loop.ogg]
+	music_volume 1
+    ambience wind.ogg
+	ambience_volume 1
+
+	art_alts [
+		[ChainLink, none][ChainLink2, none][Cartridge, cart2]
+	]
+
+}
+1shop {
+    area_name "The Shop"
+    area_label_frame 1
+    tile_graphics Tilecaves
+    overlay_graphics Overlayscaves
+    background_graphics bg2
+    palette 1245
+    fx_shader reflectionripples
+    
+    music_volume 1
+    ambience_volume 1
+    
+    area_type normal
+    
+	npc_1 NPCdud45
+	npc_2 NPCdud46
+	npc_3 NPCdud47
+	
+	decoration_1 dudropedeco3
+    decoration_2 dudropedeco2
+	decoration_3 Decoration7_down
+
+    tile_particle_1 drip
+    
+	music [shop_intro.ogg, shop_loop.ogg]
+    ambience rain.ogg
+    stop_previous_music false
+	
+	0 {
+		area_label_frame 0
+		music none
+	}
+}
 9 {
     area_name "The Farlands"
     area_label_frame 28
@@ -6561,15 +7431,6 @@ dud3 {
 	palette 1081
 	global_particle_3 none
 	do_wobble false
-	}
-	20 {
-	background_graphics farlandsbg2
-	music none
-	palette 1081
-	global_particle_2 none
-	global_particle_3 none
-	do_wobble false
-	ambience_volume 0.2
 	}
 }
 9xd {
@@ -6685,9 +7546,8 @@ dud3 {
 
     npc_1 NPCdud13
     npc_2 NPCdudH2
+	npc_3 NPCdud15
     decoration_1 EnderDeco
-    decoration_2 Decoration1
-    decoration_3 inst10
     
     area_type dark
 
@@ -6701,6 +7561,11 @@ dud3 {
 	1 {
 	art_alts [
 	[OrbSmall, OrbRocks][OrbLarge, OrbRocksBig][ChainLink2, None][Floater, LilBoro]
+	]
+	}
+	3 {
+	art_alts [
+	[OrbSmall, OrbRocks][OrbLarge, OrbRocksBig][ChainLink2, None][Floater, LilBoro][Player, Player_glitchleft]
 	]
 	}
 }
@@ -6750,7 +7615,6 @@ dud3 {
 	npc_1 NPCdud2x
 	}
 }
-
 wlspl {
     area_name "The Wailing Sepulcher"
     area_label_frame 57
@@ -6797,6 +7661,8 @@ wlspl {
 	}
 	4 {
 		npc_1 NPCdudp7
+		npc_2 NPCdudp7c
+		npc_3 NPCdudp7d
 	}
 	5 {
 		npc_1 NPCdudp8
@@ -6819,143 +7685,12 @@ wlspl {
 		npc_3 NPCdudp14c
 	}
 	9 {
+		#npc_1 NPCdudp15
+		npc_1 NPCdudp7d
+	}
+	10 {
 		npc_1 NPCNAN1
 	}
-}
-
-
-ad {
-    area_name "Skyfolding"
-    area_label_frame 43
-    tile_graphics Tilecitygirders
-    overlay_graphics Overlayscity
-    background_graphics bg2
-    foreground_graphics none
-    fx_shader distortionparticles
-    palette 1142
-    
-    music [danse_intro.ogg, danse_loop.ogg]
-    ambience rain.ogg
-    
-    music_volume 1
-    ambience_volume 1
-    
-    tile_particle_1 drip
-    tile_particle_2 splash
-    global_particle_1 fgrain
-    global_particle_2 bgrain
-    global_particle_3 distortrain
-    
-    npc_1 NPCdud17
-    npc_2 NPC1
-    npc_3 NPC2
-    decoration_1 Decoration0
-    decoration_2 Decoration1
-    decoration_3 inst10
-    
-    area_type normal
-
-    1 {
-        area_name "none"
-        area_label_frame 0
-    }
-    
-    0 {
-        area_name "none"
-        area_label_frame 0
-	    npc_1 NPCH4
-    }
-	14 {
-	 fx_shader_mid reflectionripples
-	 midfx_layer 2
-	 global_particle_2 fgrain
-	 global_particle_3 none	
-	}
-	20 {
-	 fx_shader_mid reflectionripples
-	 midfx_layer 2
-	 global_particle_3 none	
-	}
-
- art_alts [
-        [Floater, Ghost]
-    ]
-
-}
-1bd {
-    area_name "Decay"
-    area_label_frame 59
-    tile_graphics Tilefci
-    overlay_graphics Overlayscaves
-    background_graphics bg2
-    foreground_graphics None
-    fx_shader reflectionripples
-
-    fx_shader_mid radiation
-    midfx_layer 2
-	midfx_graphics ShadeBox
-    
-    palette 1196
-
-    music [newworld2_intro_dark.ogg, newworld3_loop_dark.ogg]
-    ambience wind.ogg
-    
-    music_volume 2
-    ambience_volume 1
-
-	tile_particle_1 bubbles
-	tile_particle_2 waterfall
-	tile_particle_3 waterfall_splash
-	tile_particle_4 drip
-	global_particle_1 rocks
-	global_particle_2 rocks2
-	global_particle_3 declinelights
-    
-    npc_1 waterguidesreturn
-    npc_2 fly
-
-
-    area_type dark
-	
-	
-	
-    5 {
-        art_alts [
-            [OrbSmall, dudsawsmall][OrbLarge, dudsawbig]
-            [ChainLink2, None]]
-    }
-
-
-    9 {
-        art_alts [
-            [OrbSmall, dudsawsmall][OrbLarge, dudsawbig]
-            [ChainLink2, None]]
-    }
-    13 {
-		art_alts [ [Floater, FloaterSaw] ]
-	}
-	14 {
-		tile_graphics Tileairship
-	}
-	15 {
-		tile_graphics Tileairship
-	}
-	16 {
-		tile_graphics Tileairship
-		background_graphics bg2xl
-	}
-    17 {
-		tile_graphics Tileairship
-        art_alts [
-            [OrbSmall, dudsawsmall][OrbLarge, dudsawbig]
-            [ChainLink2, None][Floater, FloaterSaw]]
-    }
-	18 {
-		tile_graphics Tileairship
-        art_alts [
-            [OrbSmall, dudsawsmall][OrbLarge, dudsawbig]
-            [ChainLink2, None][Floater, FloaterSaw]]
-    }
 }
 r1b {
     area_name "Solitude"
@@ -7034,9 +7769,619 @@ r1b {
             [ChainLink2, None]]
     }
 }
+but2 {
+	#technically butcher's areas, but whatever
+    area_name "The Tracks"
+    area_label_frame 21
+    tile_graphics Tiletracksdud
+    overlay_graphics Overlaysairship
+    background_graphics bgsolid
+    foreground_graphics none
+    palette 1077
+	
+	fx_shader_mid lightingmodded
+    midfx_graphics ShadeBox
+    midfx_layer 2
+	shader_param 0.7
+	
+    npc_1 NPCdud25
+	npc_2 NPCdud2m
+	
+	decoration_1 windowdeco
+	decoration_2 decotrackswheel
 
-//}
-//{ THE CUTTING FLOOR
+    tile_particle_1 dust
+
+    music [ASH2328_intro.ogg, ASH2328_loop.ogg]
+    ambience caves.ogg
+
+    area_type normal
+
+    art_alts [
+        [GlowShroom, just_a_block]
+	]
+}
+but2b {
+    area_name "The Train"
+    area_label_frame 21
+    tile_graphics Tiletracksdud
+    overlay_graphics Overlaysairship
+    background_graphics trainbg_n_small
+    foreground_graphics none
+    palette 1077
+	
+	fx_shader_mid lightingmodded
+    midfx_graphics ShadeBox
+    midfx_layer 2
+	shader_param 0.7
+	
+    npc_1 NPCdud25
+	npc_2 NPCdud2m
+	
+	decoration_1 windowdeco
+	decoration_2 decotrackswheel
+
+    tile_particle_1 dust
+
+    music [ASH2328_intro.ogg, ASH2328_loop.ogg]
+    ambience caves.ogg
+
+    area_type normal
+
+    art_alts [
+        [GlowShroom, just_a_block]
+	]
+	music none
+}
+but3 {
+    area_name "The Train"
+    area_label_frame 0
+    tile_graphics Tiletracksdud
+    overlay_graphics Overlaysairship
+    background_graphics trainbg_n_small
+    foreground_graphics none
+    palette 1078
+	
+    npc_1 NPCdud25
+	npc_2 NPCdud2m
+	
+	sfx_file mainsounds_train.txt
+	
+	decoration_1 windowdeco
+	decoration_2 decotrackswheel
+
+    tile_particle_1 dust
+
+    music trainstation_loop.ogg
+	ambience labloop.ogg
+	do_tilt true
+    area_type normal
+
+    art_alts [
+        [GlowShroom, just_a_block][MiniFly, MiniWisp]
+	]
+	7 {
+		fx_shader_mid lightingmodded
+		midfx_graphics ShadeBox
+		midfx_layer 2
+		shader_param 0.7
+		do_tilt false
+	}
+	8 {
+		fx_shader_mid lightingmodded
+		midfx_graphics ShadeBox
+		midfx_layer 2
+		shader_param 0.7
+		npc_1 NPCdud25b
+		npc_2 NPCdud2mb
+		palette 1079
+		global_particle_1 cold_train
+		do_tilt false
+	}
+	9 {
+		background_graphics trainbg_small
+		npc_1 NPCdud25c
+		npc_2 NPCdud2mc
+		palette 1081
+		tile_particle_2 drip
+	}
+	10 {
+		npc_1 NPCbut1
+		npc_2 NPCdud2mo
+		do_tilt false
+		palette 1241
+		overlay_graphics Overlaystox
+		global_particle_1 cold_train
+		global_particle_2 declinelights
+	}
+}
+
+# BlockByte's areas
+wlsplx {
+    area_name "The Wailing Sepulcher"
+    area_label_frame 0
+    tile_graphics Tilehell
+    overlay_graphics Overlayshell
+    background_graphics ch3bg
+    foreground_graphics none
+    palette 1047
+    fx_shader sludgeripples
+    fx_shader_mid lighting
+    midfx_graphics ShadeBox
+    midfx_layer 2
+    shader_param .8
+    
+    npc_1 NPCflygon
+    
+	decoration_1 WarpzonePortal
+
+    tile_particle_1 bubbles
+    tile_particle_2 drip_front
+
+    ambience wind.ogg
+    ambience_volume 0.7
+    area_type normal
+	art_alts [
+		[GlowShroom, GlowCandle][GlowShroomSmall, GlowCandle]
+	]
+}
+
+# Mysterytank's areas
+1bd {
+    area_name "Decay"
+    area_label_frame 59
+    tile_graphics Tilefci
+    overlay_graphics Overlayscaves
+    background_graphics bg2
+    foreground_graphics None
+    fx_shader reflectionripples
+
+    fx_shader_mid radiation
+    midfx_layer 2
+	midfx_graphics ShadeBox
+    
+    palette 1196
+
+    music [newworld2_intro_dark.ogg, newworld3_loop_dark.ogg]
+    ambience wind.ogg
+    
+    music_volume 2
+    ambience_volume 1
+
+	tile_particle_1 bubbles
+	tile_particle_2 waterfall
+	tile_particle_3 waterfall_splash
+	tile_particle_4 drip
+	global_particle_1 rocks
+	global_particle_2 rocks2
+	global_particle_3 declinelights
+    
+    npc_1 waterguidesreturn
+    npc_2 fly
+
+
+    area_type dark
+	
+	
+	
+    5 {
+        art_alts [
+            [OrbSmall, dudsawsmall][OrbLarge, dudsawbig]
+            [ChainLink2, None]]
+    }
+
+
+    9 {
+        art_alts [
+            [OrbSmall, dudsawsmall][OrbLarge, dudsawbig]
+            [ChainLink2, None]]
+    }
+    12 {
+		art_alts [ [Floater, FloaterSaw] ]
+	}
+	13 {
+		art_alts [ [Floater, FloaterSaw] ]
+	}
+	14 {
+		tile_graphics Tileairship
+	}
+	15 {
+		tile_graphics Tileairship
+	}
+	16 {
+		tile_graphics Tileairship
+		background_graphics bg2xl
+	}
+    17 {
+		tile_graphics Tileairship
+        art_alts [
+            [OrbSmall, dudsawsmall][OrbLarge, dudsawbig]
+            [ChainLink2, None][Floater, FloaterSaw]]
+    }
+	18 {
+		tile_graphics Tileairship
+        art_alts [
+            [OrbSmall, dudsawsmall][OrbLarge, dudsawbig]
+            [ChainLink2, None][Floater, FloaterSaw]]
+    }
+}
+2b {
+    area_name "Depths"
+    area_label_frame 47
+    tile_graphics Tiledod
+    overlay_graphics Overlaysdod
+    background_graphics hellbg
+    foreground_graphics none
+    fx_shader ripples
+    fx_shader_mid lightingmodded
+    midfx_graphics ShadeBox
+    midfx_layer 2
+    shader_param 0
+    palette 500
+    
+    tile_particle_1 dustspikes
+	decoration_1 SpiderHang
+    #global_particle_1 cloudwind_light    
+
+    ambience_volume 4
+    
+    area_type normal
+
+    #npc_1 warningghost
+    #npc_2 platform
+	#npc_3 2bNPC3
+    
+    art_alts [
+        [OrbSmall, orbblob]
+[OrbLarge, LargeGlub]
+        [ChainLink2, None]
+[MiniFly, MiniWisp]
+    ]
+
+    music despair.ogg
+    ambience ruins.ogg
+    0 {
+    music none
+        shader_param 0.8
+    palette 892
+    area_label_frame 0
+    }
+    1 {
+        shader_param 0.6
+    }
+    1x {
+    palette 893
+    music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
+}
+    
+    2 {
+        shader_param 0.4
+    }
+    3 {
+        shader_param 0.2
+    }
+    4 {
+        shader_param 0
+    }
+	20 {
+		npc_1 NPCNAN1
+	}
+}
+br {
+    area_name "The Backrooms"
+    area_label_frame 0
+    tile_graphics Tilenoclipped
+    overlay_graphics Overlayscity
+    background_graphics bgsolid
+    fx_shader_mid lighting
+    midfx_graphics ShadeBox
+    midfx_layer 2
+	shader_param 0.9
+    palette 1127
+	
+    area_type normal
+
+    sfx_file mainsounds_rocket.txt
+
+
+    ambience hum.ogg
+    ambience_volume 0.6
+    t {
+        tile_graphics Tilecity
+        overlay_graphics Overlayscity
+        ambience castle.ogg
+    }
+    t2 {
+        tile_graphics Tilecity
+        overlay_graphics Overlayscity
+        ambience castle.ogg
+    }
+    t3 {
+        tile_graphics Tilecity
+        overlay_graphics Overlayscity
+        ambience castle.ogg
+    }
+    t4 {
+        tile_graphics Tilecity
+        overlay_graphics Overlayscity
+        ambience castle.ogg
+    }
+    t5 {
+        tile_graphics Tilecity
+        overlay_graphics Overlayscity
+        ambience castle.ogg
+    }
+    art_alts [
+        [Floater, TumorMimic][GlowShroom, CeilingLamp][GlowShroomSmall, GlowBulbSmall]
+    ]
+}
+br1 {
+    area_name "The Backrooms"
+    area_label_frame 0
+    tile_graphics Tilenoclipped
+    overlay_graphics Overlayscity
+    background_graphics bgsolid
+    fx_shader_mid lightingbr
+    midfx_graphics ShadeBox
+    midfx_layer 2
+	shader_param 0.3
+    palette 1243
+	
+    area_type normal
+
+
+    sfx_file mainsounds_rocket.txt
+
+    art_alts [
+        [Floater, TumorMimic][GlowShroom, CeilingLampOff][GlowShroomSmall, GlowBulbOff][AimSpitter,eyeshooter][OrbChomp, MovingOrbBlob][Bullet,eyebullet]
+    ]
+}
+
+# Butcher's areas
+
+o1 {
+    area_name "Fuelyard"
+	area_label_frame 50
+    tile_graphics Tilespace
+    overlay_graphics Overlaystox
+    background_graphics ch4abg
+    foreground_graphics None
+    palette 1240
+	fx_shader nooverlay
+
+	tile_particle_1 smoke2
+	tile_particle_2 boostpad_left
+	tile_particle_3 boostpad_bottom
+	tile_particle_4 boostpad_right
+	tile_particle_5 rocket_particle
+
+	global_particle_1 rocks
+	global_particle_2 declinelights
+	global_particle_3 declinestars
+
+	npc_1 NPCbut2
+	npc_2 NPCbut3
+	npc_3 NPCbutNAN1
+
+	decoration_1 RocketTip
+	decoration_2 RocketWindow
+
+    toxic_timer 999999999
+
+    lowgrav_physics "data/player_physics/playerphysics_boostpad.txt"
+	
+	music flip_loop.ogg
+	ambience shiny.ogg
+	ambience_volume 0.5
+
+    art_alts [
+        [GasCloud, None]
+	[ElectroBall, RocketThruster]
+	[Gasser, LargeFloast]
+    ]
+	
+	sfx_file mainsounds_rocket.txt
+
+	start {
+		music none
+		ambience_volume 0.7
+		area_label_frame 0
+		decoration_1 windowdeco
+		decoration_2 decotrackswheel
+		decoration_3 trackdeco
+
+		art_alts [
+			[GlowShroom, just_a_block]
+		]
+	}
+}
+o1x {
+    area_name "Fuelyard"
+    tile_graphics Tilespace
+	area_label_frame 50
+    overlay_graphics Overlaystox
+    background_graphics ch4abg
+    foreground_graphics None
+    palette 1240
+	fx_shader nooverlay
+
+	tile_particle_1 smoke2
+	tile_particle_2 boostpad_left
+	tile_particle_3 boostpad_bottom
+	tile_particle_4 boostpad_right
+	tile_particle_5 rocket_particle
+
+	global_particle_1 rocks2
+	global_particle_2 declinelights
+	global_particle_3 declinestars
+
+	npc_1 NPCbut4
+
+	decoration_1 RocketTip
+	decoration_2 RocketWindow
+
+    toxic_timer 999999999
+
+    lowgrav_physics "data/player_physics/playerphysics_boostpad.txt"
+
+    art_alts [
+        [GasCloud, None]
+	[ElectroBall, RocketThruster]
+	[Gasser, LargeFloast]
+    ]
+
+	music [gymnopedies_intro.ogg, gymnopedies_loop.ogg]
+	ambience shiny.ogg
+	ambience_volume 0.5
+	
+	stop_previous_music false
+	sfx_file mainsounds_rocket.txt
+
+}
+4f {
+    area_name "The Factory" #technically potassium's idea, but whatever
+    area_label_frame 0
+    tile_graphics Tilecomplex
+    overlay_graphics Overlayscomplex
+    background_graphics bgsolid
+    foreground_graphics None
+    fx_shader gravripples
+    palette 885
+    
+    area_type normal
+    toxic_timer 0
+    fx_shader_mid cloudripples
+    midfx_layer 2
+
+    tile_particle_1 spark2
+    tile_particle_2 smoke
+    tile_particle_3 fallout2tile
+    global_particle_1 rocks
+    global_particle_2 fallout2    
+
+    art_alts [
+        [Fireball, ThwampGear]
+    ]
+
+    music [summer_intro.ogg, summer_loop.ogg]
+    ambience labloop.ogg
+}
+4d {
+    area_name "Skyline"
+    area_label_frame 0
+    tile_graphics Tiletox
+    overlay_graphics Overlaystox2
+    background_graphics bg2
+    foreground_graphics fg1
+    fx_shader distortionparticles
+    palette 886
+    
+    music [vivaldiwinter_intro.ogg, vivaldiwinter_loop.ogg]
+    ambience rain.ogg
+    
+    music_volume 1
+    ambience_volume 1
+    
+    tile_particle_1 drip
+    tile_particle_2 splash
+    global_particle_1 rocks
+    global_particle_2 fallout2
+    global_particle_3 cloudwind_light
+    global_particle_4 embers
+    
+    npc_1 NPC0
+    npc_2 NPC1
+    npc_3 NPC2
+    decoration_1 Decoration0
+    decoration_2 Decoration1
+    decoration_3 inst10
+    
+    area_type normal
+
+    1 {
+        area_name "none"
+        area_label_frame 0
+    }
+    
+    0 {
+        area_name "none"
+        area_label_frame 0
+	    npc_1 NPCH4
+    }
+ art_alts [
+        [Floater, Ghost]
+    ]
+
+}
+4e {
+    area_name "The Mausoleum"
+    area_label_frame 9
+    tile_graphics Tilecaves
+    overlay_graphics Overlayshell
+    background_graphics bgsolid
+    foreground_graphics None
+    fx_shader ripples
+    palette 887
+
+    global_particle_1 cold
+    global_particle_2 mist2
+    decoration_1 Deco10
+    decoration_2 Deco11
+    decoration_3 none
+    
+    fx_shader_mid ripples
+    midfx_layer 2
+
+    npc_1 NPC9
+    
+    area_type normal
+
+    tile_particle_1 drip
+    shader_param 0.75
+    
+    music [autumn_intro.ogg, autumn_loop.ogg]
+    ambience ruins.ogg
+ art_alts [
+        [MiniFly, MiniWisp][MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite]]
+
+}
+4g {
+    area_name "Heaven"
+    area_label_frame 0
+    tile_graphics Tilehell
+    overlay_graphics Overlayshell
+    background_graphics airshipbg
+    foreground_graphics fg1
+    fx_shader ripples
+    palette 898
+    
+    music [spring_intro.ogg, spring_loop.ogg]
+    ambience water.ogg
+    
+    global_particle_1 Light
+    global_particle_2 cloud
+
+    fx_shader_mid ripples
+    midfx_layer 2
+
+    music_volume 1
+    ambience_volume 1
+ art_alts [
+        [ChainLink2, None]
+]
+            
+    npc_1 NPCB9
+    npc_2 NPCB10
+    npc_3 NPCB11
+    decoration_1 Decoration0
+    decoration_2 Decoration1
+    decoration_3 inst10
+    
+    area_type normal
+
+}
+
+# THE CUTTING FLOOR
 
 	8hid {
     area_name "Hidden Glade"
@@ -7116,4 +8461,3 @@ r1b {
     }
 
 }
-}//

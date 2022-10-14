@@ -1,37 +1,7 @@
-//{ FC
-
-"ki-1" {name="Aqueros Coast 1" id=1}
-"ki-2" {name="Aqueros Coast 2" id=2}
-"ki-3" {name="Aqueros Coast 3" id=3}
-"ki-4" {name="Aqueros Coast 4" id=4}
-"ki-5" {name="Aqueros Coast 5" id=5}
-"ki-6" {name="Aqueros Coast 6" id=6}
-"ki-7" {name="Aqueros Coast 7" id=7}
-"ki-8" {name="Aqueros Coast 8" id=8}
-"ki-9" {name="Aqueros Coast 9" id=9}
-"ki-10" {name="Aqueros Coast 10" id=10}
-"ki-11" {name="Aqueros Coast 11" id=11}
-"k2-1" {name="Mount Hydredron 1" id=1}
-"k2-2" {name="Mount Hydredron 2" id=2}
-"k2-3" {name="Mount Hydredron 3" id=3}
-"k2-4" {name="Mount Hydredron 4" id=4}
-"k2-5" {name="Mount Hydredron 5" id=5}
-"k2-6" {name="Mount Hydredron 6" id=6}
-"k2-7" {name="Mount Hydredron 7" id=7}
-"k2-8" {name="Mount Hydredron 8" id=8}
-// "k2-9" {name="Mount Hydredron 9" id=9}
-// "k2-10" {name="Mount Hydredron 10" id=10}
-// "k2-11" {name="Mount Hydredron 11" id=11}
-// "k2-12" {name="Mount Hydredron 12" id=12}
-// "k2-13" {name="Mount Hydredron 13" id=13}
-// "k2-14" {name="Mount Hydredron 14" id=14}
-// "k2-15" {name="Mount Hydredron 15" id=15}
-// "k2-16" {name="Mount Hydredron 16" id=16}
-// "k2-17" {name="Mount Hydredron 17" id=17}
-// "k2-18" {name="Mount Hydredron 18" id=18}
-// "k2-19" {name="Mount Hydredron 19" id=19}
-// "k2-20" {name="Mount Hydredron 20" id=20}
-// "k2-21" {name="The Summit" id=-1}
+"8x-10" {name="???" id=-1}
+"7x-7" {name="???" id=-1}
+"6x-9" {name="???" id=-1}
+"6x-10" {name="???" id=-1}
 "rr1-1" {name="Denial 1" id=-1}
 "rr1-2" {name="Denial 2" id=-1}
 "rr1-3" {name="Denial 3" id=-1}
@@ -74,44 +44,34 @@
 "rr2-20" {name="Anger 20" id=-1}
 "rr3-1" {name="Bargaining 1" id=-1}
 "rr3-2" {name="Bargaining 2" id=-1}
-// "rr3-3" {name="Bargaining 3" id=-1}
-// "rr3-4" {name="Bargaining 4" id=-1}
-// "rr3-5" {name="Bargaining 5" id=-1}
-// "rr3-6" {name="Bargaining 6" id=-1}
-// "rr3-7" {name="Bargaining 7" id=-1}
-// "rr3-8" {name="Bargaining 8" id=-1}
-// "rr3-9" {name="Bargaining 9" id=-1}
-// "rr3-10" {name="Bargaining 10" id=-1}
-// "rr3-11" {name="Bargaining 11" id=-1}
-// "rr3-12" {name="Bargaining 12" id=-1}
-// "rr3-13" {name="Bargaining 13" id=-1}
-// "rr3-14" {name="Bargaining 14" id=-1}
-// "rr3-15" {name="Bargaining 15" id=-1}
-// "rr3-16" {name="Bargaining 16" id=-1}
-// "rr3-17" {name="Bargaining 17" id=-1}
-// "rr3-18" {name="Bargaining 18" id=-1}
-// "rr3-19" {name="Bargaining 19" id=-1}
-// "rr3-20" {name="Bargaining 20" id=-1}
+# "rr3-3" {name="Bargaining 3" id=-1}
+# "rr3-4" {name="Bargaining 4" id=-1}
+# "rr3-5" {name="Bargaining 5" id=-1}
+# "rr3-6" {name="Bargaining 6" id=-1}
+# "rr3-7" {name="Bargaining 7" id=-1}
+# "rr3-8" {name="Bargaining 8" id=-1}
+# "rr3-9" {name="Bargaining 9" id=-1}
+# "rr3-10" {name="Bargaining 10" id=-1}
+# "rr3-11" {name="Bargaining 11" id=-1}
+# "rr3-12" {name="Bargaining 12" id=-1}
+# "rr3-13" {name="Bargaining 13" id=-1}
+# "rr3-14" {name="Bargaining 14" id=-1}
+# "rr3-15" {name="Bargaining 15" id=-1}
+# "rr3-16" {name="Bargaining 16" id=-1}
+# "rr3-17" {name="Bargaining 17" id=-1}
+# "rr3-18" {name="Bargaining 18" id=-1}
+# "rr3-19" {name="Bargaining 19" id=-1}
+# "rr3-20" {name="Bargaining 20" id=-1}
 
-"c1-x" {name="Warpzone!" id=-1}
-"c2-x" {name="Warpzone!" id=-1}
-"c3-x" {name="Warpzone!" id=-1}
-"c4a-x" {name="Warpzone!" id=-1}
-"c5a-x" {name="Warpzone!" id=-1}
-"c4b-x" {name="Warpzone!" id=-1}
-"c5b-x" {name="Warpzone!" id=-1}
-"c4c-x" {name="Warpzone!" id=-1}
-"c5c-x" {name="Warpzone!" id=-1}
-
-"10x-0" {name="???" id=-1}
-"10x-1x" {name="???" id=-1}
-"10x-2x" {name="???" id=-1}
-"10x-3x" {name="???" id=-1}
-"10x-4x" {name="???" id=-1}
-"10x-5x" {name="???" id=-1}
-"10x-6x" {name="???" id=-1}
-"10x-7x" {name="???" id=-1}
-"10x-8x" {name="???" id=5} #cart
+"7-0x" {name="???" id=-1}
+"7-1x" {name="???" id=-1}
+"7-2x" {name="???" id=-1}
+"7-3x" {name="???" id=-1}
+"7-4x" {name="???" id=-1}
+"7-5x" {name="???" id=-1}
+"7-6x" {name="???" id=-1}
+"7-7x" {name="???" id=-1}
+"7-8x" {name="???" id=2} #cart
 
 "15x-1" {name="???" id=-1}
 "15x-2" {name="???" id=1} #cart
@@ -202,6 +162,9 @@
 "hub-1" {name="The Hub" id=-1}
 "hub-2" {name="The Hub" id=-1}
 "hub-3" {name="The Hub" id=-1}
+"hub2-0x" {name="???" id=-1}
+"hub-1x" {name="???" id=-1}
+"hub-2x" {name="???" id=1}
 "6dx-1" {name="???" id=-1}
 "6dx-2" {name="???" id=1}
 "6d-1" {name="???" id=-1}
@@ -397,34 +360,51 @@
 "g7-10" {name="Microbe Platformer 10" id=-1}
 "g7-10x" {name="Microbe Platformer 10" id=-1}
 "g7-1x" {name="Microbe Platformer 1" id=-1}
+"6bx-1x" {name="???" id=-1}
+"6bx-1xx" {name="???" id=-1}
+"6bx-2x" {name="???" id=1}
 "6bx-1" {name="???" id=-1}
 "6bx-2" {name="???" id=1}
-"6bx-3" {name="???" id=1}
+"6bx-3" {name="???" id=2}
 "6bx-4" {name="???" id=-1}
-"6b-1" {name="Atlantis 1" id=-1}
-"6b-2" {name="Atlantis 2" id=-1}
-"6b-3" {name="Atlantis 3" id=-1}
-"6b-4" {name="Atlantis 4" id=-1}
-"6b-5" {name="Atlantis 5" id=-1}
-"6b-6" {name="Atlantis 6" id=-1}
-"6b-7" {name="Atlantis 7" id=-1}
-"6b-8" {name="Atlantis 8" id=-1}
-"6b-9" {name="Atlantis 9" id=-1}
-"6b-9x" {name="Atlantis 10" id=-1}
-"6b-10" {name="Atlantis 11" id=-1}
-"6b-11" {name="Atlantis 12" id=-1}
-"6b-12" {name="Atlantis 13" id=-1}
-"6b-13" {name="Atlantis 14" id=-1}
-"6b-14" {name="Atlantis 15" id=-1}
-"6b-15" {name="Atlantis 16" id=-1}
-"6b-16" {name="Atlantis 17" id=-1}
-"6b-17" {name="Atlantis 18" id=-1}
-"6b-18" {name="Atlantis 19" id=-1}
-"6b-19" {name="Atlantis 20" id=-1}
-"6b-20" {name="Atlantis 21" id=-1}
-"6b-21" {name="Atlantis 22" id=-1}
-"6b-22" {name="Atlantis 23" id=-1}
+"6bx-0" {name="???" id=-1}
+"6b_u-1" {name="Atlantis 1" id=-1}
+"6b_u-2" {name="Atlantis 2" id=-1}
+"6b_d-1" {name="Atlantis 3" id=-1}
+"6b_d-2" {name="Atlantis 4" id=-1}
+"6b_d-3" {name="Atlantis 5" id=-1}
+"6b_u-3" {name="Atlantis 6" id=-1}
+"6b_u-4" {name="Atlantis 7" id=-1}
+"6b_u-5" {name="Atlantis 8" id=-1}
+"6b_d-4" {name="Atlantis 9" id=-1}
+"6b_d-5" {name="Atlantis 10" id=-1}
+"6b_d-6" {name="Atlantis 11" id=-1}
+"6b_u-6" {name="Atlantis 12" id=-1}
+"6b_u-7" {name="Atlantis 13" id=-1}
+"6b_u-8" {name="Atlantis 14" id=-1}
+"6b_u-9" {name="Atlantis 15" id=-1}
+"6b_d-7" {name="Atlantis 16" id=-1}
+"6b_d-8" {name="Atlantis 17" id=-1}
+"6b_d-9" {name="Atlantis 18" id=-1}
+"6b_u-10" {name="Atlantis 19" id=-1}
+"6b_u-11" {name="Atlantis 20" id=-1}
 "6b-23" {name="The Shore" id=-1}
+"8c-17" {name="The Shore" id=-1}
+"6cx-1" {name="???" id=1}
+"6cx-2" {name="???" id=1}
+"6cx-3" {name="???" id=-1}
+"6cx-4" {name="???" id=-1}
+"6cx-5" {name="???" id=2}
+"7cx-1" {name="???" id=1}
+"7bx-1" {name="???" id=1}
+"7bx-2" {name="???" id=-1}
+"7bx-3" {name="???" id=-1}
+"7bx-4" {name="???" id=1}
+"6cx-4x" {name="???" id=-1}
+"7cx-5" {name="???" id=-1}
+"7cx-6" {name="???" id=1}
+"7cx-7" {name="???" id=-1}
+"7cx-8" {name="???" id=-1}
 "6c-1" {name="Sheol 1" id=-1}
 "6c-2" {name="Sheol 2" id=-1}
 "6c-3" {name="Sheol 3" id=-1}
@@ -458,12 +438,13 @@
 "6a-13" {name="Insanity 14" id=-1}
 "6a-14" {name="Insanity 15" id=-1}
 "6a-15" {name="Insanity 16" id=-1}
-"6a-16" {name="???" id=-1}
+"6a-16" {name="Insanity" id=-1}
 "6ax-1" {name="???" id=1}
 "6ax-2" {name="???" id=2}
 "6ax-3" {name="???" id=-1}
 "6ax-4" {name="???" id=1}
 "5ax-15" {name="???" id=-1}
+"5ax-16" {name="???" id=-1}
 "but-0x" {name="???" id=-1}
 "butx-1" {name="???" id=2}
 "butx-2" {name="???" id=-1}
@@ -480,19 +461,22 @@
 "but-6" {name="The Tracks 6" id=6}
 "but-7" {name="The Tracks 7" id=7}
 "but-8" {name="The Tracks 8" id=8}
-"but-9" {name="The Tracks 9" id=9}
-"but-10" {name="The Tracks 10" id=10}
-"but-11" {name="The Tracks 11" id=11}
-"but2-1" {name="The Tracks 12" id=-1}
-"but2-2" {name="The Tracks 13" id=-1}
-"but2-3" {name="The Tracks 14" id=-1}
-"but2-4" {name="The Tracks 15" id=-1}
-"but2-5" {name="The Tracks 16" id=-1}
-"but2b-6" {name="The Train" id=-1}
-"but2b-7" {name="The Train" id=1}
-"but3-7" {name="The Train" id=-1}
-"but3-8" {name="The Train" id=-1}
-"but3-9" {name="The Train" id=-1}
+"but-8x" {name="The Tracks 9" id=9}
+"but-9" {name="The Tracks 10" id=10}
+"but-10" {name="The Tracks 11" id=11}
+"but-11" {name="The Tracks 12" id=12}
+"but2-1" {name="The Tracks 13" id=-1}
+"but2-2" {name="The Tracks 14" id=-1}
+"but2-3" {name="The Tracks 15" id=-1}
+"but2-4" {name="The Tracks 16" id=-1}
+"but2-5" {name="The Tracks 17" id=-1}
+"but2b-6" {name="Trainstation" id=-1}
+"but2b-7" {name="Trainstation" id=1}
+"but3-7" {name="Trainstation" id=-1}
+"but3-8" {name="Trainstation" id=-1}
+"but3-9" {name="Trainstation" id=-1}
+"but3-10" {name="Trainstation" id=-1}
+
 "g99-1x" {name="- FINALE 1 -" id=-1}
 "g99-2x" {name="- FINALE 2 -" id=-1}
 "g99-3x" {name="- FINALE 3 -" id=-1}
@@ -544,18 +528,16 @@
 "7d-15" {name="???" id=-1}
 "7d-16" {name="???" id=-1}
 "7d-16x" {name="Superposition" id=-1}
-"t-15" {name="%%%%%%%% %%%%%%%%" id=-1}
-"t-16" {name="%%r%%%%% %%%%%%t%" id=-1}
-"t-17" {name="%%r%i%%% %%c%%%t%" id=-1}
-"t-18" {name="T%r%i%%% %%c%%%ty" id=-1}
-"t-19" {name="T%r%i%a% L%c%%%ty" id=-1}
-"t-18" {name="T%r%i%al L%c%d%ty" id=-1}
-"t-19" {name="T%rmi%al Luc%d%ty" id=-1}
-"t-20" {name="T%rminal Luc%dity" id=-1}
-"t-21" {name="Terminal Lucidity" id=-1}
-"t-22" {name=". . ." id=-1}
-"hub-4" {name=". . ." id=-1}
-"hub-5" {name="The Grave" id=-1}
+"7d-1t" {name="%%%%%%%% %%%%%%%%" id=-1}
+"7d-2t" {name="%%r%%%%% %%%%%%t%" id=-1}
+"7d-3t" {name="T%r%i%%% %%c%%%ty" id=-1}
+"7d-4t" {name="T%r%i%a% L%c%%%ty" id=-1}
+"7d-5t" {name="T%rmi%al Luc%d%ty" id=-1}
+"7d-6t" {name="T%rminal Luc%dity" id=-1}
+"7d-7t" {name="Terminal Lucidity" id=-1}
+"7d-8t" {name=". . ." id=-1}
+"hub2-4" {name=". . ." id=1}
+"hub2-5" {name="The Grave" id=-1}
 "gr1-1" {name="OE Fake 1" id=-1}
 "gr1-2" {name="OE Fake 2" id=-1}
 "gr1-3" {name="OE Fake 3" id=-1}
@@ -647,45 +629,55 @@
 "5x-2" {name="???" id=1}
 "5x-3" {name="???" id=-1}
 "5x-4" {name="???" id=-1}
-"5-1" {name="The Castle 1" id=-1}
-"5-2" {name="The Castle 2" id=-1}
-"5-3" {name="The Castle 3" id=-1}
-"5-4" {name="The Castle 4" id=-1}
-"5-5" {name="The Castle 5" id=-1}
-"5-6" {name="The Castle 6" id=-1}
-"5-7" {name="The Castle 7" id=-1}
-"5-8" {name="The Castle 8" id=-1}
-"5-9" {name="The Castle 9" id=-1}
-"5-10" {name="The Castle 10" id=-1}
-"5-11" {name="The Castle 11" id=-1}
-"5-12" {name="The Castle 12" id=-1}
-"5-13" {name="The Castle 13" id=-1}
-"5-14" {name="The Castle 14" id=-1}
-"5-15" {name="The Castle 15" id=-1}
-"5-16" {name="The Castle 16" id=-1}
-"5-17" {name="The Castle 17" id=-1}
-"5-18" {name="The Castle 18" id=-1}
-"5-19" {name="The Castle 19" id=-1}
-"5-20" {name="The Castle 20" id=1}
+"5-1" {name="Castle 1" id=-1}
+"5-2" {name="Castle 2" id=-1}
+"5-3" {name="Castle 3" id=-1}
+"5-4" {name="Castle 4" id=-1}
+"5-5" {name="Castle 5" id=-1}
+"5-6" {name="Castle 6" id=-1}
+"5-7" {name="Castle 7" id=-1}
+"5-8" {name="Castle 8" id=-1}
+"5-9" {name="Castle 9" id=-1}
+"5-10" {name="Castle 10" id=-1}
+"5-11" {name="Castle 11" id=-1}
+"5-12" {name="Castle 12" id=-1}
+"5-13" {name="Castle 13" id=-1}
+"5-14" {name="Castle 14" id=-1}
+"5-15" {name="Castle 15" id=-1}
+"5-16" {name="Castle 16" id=-1}
+"5-17" {name="Castle 17" id=-1}
+"5-18" {name="Castle 18" id=-1}
+"5-19" {name="Castle 19" id=-1}
+"5-20" {name="Castle 20" id=1}
 "5-21" {name="???" id=-1}
 "5-22" {name="???" id=-1}
-"5-23" {name="The Castle" id=-1}
+"5-23" {name="Castle" id=-1}
 "5-24" {name="???" id=-1}
 "5-25" {name="???" id=-1}
-"7c-1" {name="The Pit 1" id=-1}
-"7c-2" {name="The Pit 2" id=-1}
-"7c-3" {name="The Pit 3" id=-1}
-"7c-4" {name="The Pit 4" id=-1}
-"7c-5" {name="The Pit 5" id=-1}
-"7c-6" {name="The Pit 6" id=-1}
-"7c-7" {name="The Pit 7" id=-1}
-"7c-8" {name="The Pit 8" id=-1}
-"7c-9" {name="The Pit 9" id=-1}
+"7c-1" {name="The Pit 1" id=1}
+"7c-2" {name="The Pit 2" id=2}
+"7c-2x" {name="The Pit 3" id=3}
+"7c-3" {name="The Pit 4" id=4}
+"7c-4" {name="The Pit 5" id=5}
+"7c-5" {name="The Pit 6" id=6}
+"7c-6" {name="The Pit 7" id=7}
+"7c-7" {name="The Pit 8" id=8}
+"7c-8" {name="The Pit 9" id=-1}
+"7c-9" {name="The Pit 10" id=-1}
+"7c-10" {name="The Pit 11" id=-1}
+"7c-11" {name="The Pit 12" id=-1}
+"7c-12" {name="The Pit 13" id=-1}
+"7c-13" {name="The Pit 14" id=-1}
+"7c-14" {name="The Pit 15" id=-1}
+"7c-15" {name="The Pit 16" id=-1}
+"7c-16" {name="The Pit 17" id=-1}
+"7c-17" {name="The Pit 18" id=-1}
+"7c-18" {name="The Pit 19" id=-1}
 "7c-20" {name="The Pit 20" id=2}
-"7c-10" {name="???" id=-1}
-"7c-11" {name="???" id=-1}
-"7c-12" {name="???" id=-1}
-"7c-13" {name="???" id=-1}
+"7c-21" {name="???" id=-1}
+"7c-22" {name="???" id=-1}
+"7c-23" {name="???" id=-1}
+"7c-24" {name="???" id=-1}
 "7b-1" {name="The Gallery 1" id=-1}
 "7b-2" {name="The Gallery 2" id=-1}
 "7b-3" {name="The Gallery 3" id=-1}
@@ -701,6 +693,11 @@
 "7b-13" {name="The Gallery 13" id=-1}
 "7b-14" {name="The Gallery 14" id=-1}
 "7b-20" {name="The Gallery 20" id=2}
+"7ax-1" {name="???" id=1}
+"7ax-2" {name="???" id=-1}
+"7ax-3" {name="???" id=-1}
+"7ax-4" {name="???" id=-1}
+"7ax-5" {name="???" id=-1}
 "7a-1" {name="The Sky 1" id=-1}
 "7a-2" {name="The Sky 2" id=-1}
 "7a-3" {name="The Sky 3" id=-1}
@@ -711,10 +708,13 @@
 "7a-8" {name="The Sky 8" id=-1}
 "7a-9" {name="The Sky 9" id=-1}
 "7a-10" {name="The Sky 10" id=-1}
-"7a-11" {name="The Sky 11" id=-1}
-"7a-12" {name="The Sky 12" id=-1}
-"7a-13" {name="The Sky 13" id=-1}
-"7a-14" {name="The Sky 14" id=-1}
+"7a-10x" {name="The Sky 11" id=-1}
+"7a-11x" {name="The Sky 12" id=-1}
+"7a-11" {name="The Sky 13" id=-1}
+"7a-12x" {name="The Sky 14" id=-1}
+"7a-12" {name="The Sky 15" id=-1}
+"7a-13" {name="The Sky 16" id=-1}
+"7a-14" {name="The Sky 17" id=-1}
 "7a-20" {name="The Sky 20" id=2}
 "8-0" {name="Stormscapes 1" id=-1}
 "8-1" {name="Stormscapes 2" id=-1}
@@ -729,13 +729,13 @@
 "8-10" {name="Stormscapes 11" id=-1}
 "8-11" {name="Stormscapes 12" id=-1}
 "8-12" {name="Stormscapes 13" id=-1}
-"8-12x" {name="Stormscapes" id=-1}
-"8-13" {name="Stormscapes 14" id=-1}
-"8-14" {name="Stormscapes 15" id=-1}
+"8-12x" {name="Stormscapes 14" id=-1}
+"8-13" {name="Stormscapes 15" id=-1}
+"8-14" {name="Stormscapes 16" id=-1}
 "8xd-1" {name="???" id=1}
 "8xd-2" {name="???" id=-1}
 "8xd-3" {name="???" id=-1}
-"j-1hub" {name="The Juxtaposition" id=-1}
+"j-1hub" {name="Juxtaposition" id=-1}
 "gx-1" {name="Undead-chamber 1" id=-1}
 "gx-2" {name="Undead-chamber 2" id=-1}
 "gx-3" {name="Undead-chamber 3" id=-1}
@@ -772,6 +772,7 @@
 "m-8" {name="The Maze 5" id=-1}
 "m-9" {name="The Maze 6" id=-1}
 "m-10" {name="The Maze 7" id=-1}
+"m-11" {name="The Maze 8" id=-1}
 "r4x-1" {name="???" id=1}
 "r4-1" {name="The Flip 1" id=-1}
 "r4-2" {name="The Flip 2" id=-1}
@@ -810,6 +811,7 @@
 "r5-18" {name="Desintegration 18" id=-1}
 "r5-19" {name="Desintegration 19" id=-1}
 "r5-20" {name="Desintegration 20" id=-1}
+"5bxu-14" {name="???" id=-1}
 "8hid-0" {name="???" id=-1}
 "8hid-1" {name="Hidden Glade 1" id=-1}
 "8hid-2" {name="Hidden Glade 2" id=-1}
@@ -859,30 +861,33 @@
 "8as-7" {name="???" id=-1}
 "8as-8" {name="???" id=-1}
 "8as-9" {name="???" id=1}
-"8cx-1" {name="???" id=1} #biglife
+"8cx-1" {name="???" id=1} #cart
 "8cx-2" {name="???" id=-1}
 "8cx-3" {name="???" id=2} #biglife
-"8c-0" {name="???" id=-1}
+"8cx-4" {name="???" id=-1} #biglife
+"8cx-5" {name="???" id=1} #biglife
+"8cx-0" {name="???" id=-1}
 "8c-1" {name="Breeze 1" id=-1}
 "8c-2" {name="Breeze 2" id=-1}
 "8c-3" {name="Breeze 3" id=-1}
 "8c-4" {name="Breeze 4" id=-1}
-"8c-5" {name="Breeze 5" id=-1}
-"8c-6" {name="Breeze 6" id=-1}
-"8c-7" {name="Breeze 7" id=-1}
-"8c-8" {name="Breeze 8" id=-1}
-"8c-9" {name="Breeze 9" id=-1}
-"8c-10" {name="Breeze 10" id=-1}
-"8c-11" {name="Breeze 11" id=-1}
-"8c-12" {name="Breeze 12" id=-1}
-"8c-13" {name="Breeze 13" id=-1}
-"8c-14" {name="Breeze 14" id=-1}
-"8c-15" {name="Breeze 15" id=-1}
-"8c-16" {name="Breeze 16" id=1}
-"8c-17" {name="Breeze 17" id=-1}
-"8c-18" {name="Breeze 18" id=-1}
-"8c-19" {name="Breeze 19" id=-1}
-"8c-20" {name="Breeze 20" id=-1}
+"8c-4x" {name="Breeze 5" id=-1}
+"8c-5" {name="Breeze 6" id=-1}
+"8c-5x" {name="Breeze 7" id=-1}
+"8c-6x" {name="Breeze 8" id=-1}
+"8c-6" {name="Breeze 9" id=-1}
+"8c-7" {name="Breeze 10" id=-1}
+"8c-8" {name="Breeze 11" id=-1}
+"8c-8x" {name="Breeze 12" id=-1}
+"8c-9" {name="Breeze 13" id=-1}
+"8c-10" {name="Breeze 14" id=-1}
+"8c-11" {name="Breeze 15" id=-1}
+"8c-12" {name="Breeze 16" id=-1}
+"8c-13" {name="Breeze 17" id=-1}
+"8c-14" {name="Breeze 18" id=-1}
+"8c-15" {name="Breeze 19" id=-1}
+"8c-16" {name="Breeze 20" id=-1}
+"t-help" {name="Last Resort" id=-1}
 "r1d-1" {name="???" id=-1}
 "r1d-2" {name="Dark Rapture" id=-1}
 "r1d-3" {name="Dark Rapture 3" id=-1}
@@ -917,11 +922,10 @@
 "r1d-12x" {name="Dark Rapture 32" id=-1}
 "r1d-13x" {name="Dark Rapture 33" id=-1}
 "r1d-14x" {name="Dark Rapture 34" id=-1}
-"6x-9" {name="???" id=-1}
-"6x-10" {name="???" id=-1}
-"1xu-5a" {name="???" id=-1}
+"1xu-5a" {name="???" id=21}
 "1xu-6a" {name="???" id=-1}
 "1-2b" {name="???" id=-1}
+"1-3b" {name="???" id=-1}
 "1d-2b" {name="???" id=-1}
 "a-1" {name="Skyfolding 1" id=1}
 "a-2" {name="Skyfolding 2" id=2}
@@ -945,21 +949,23 @@
 "a-20" {name="Skyfolding 20" id=1}
 "ax-1" {name="???" id=1}
 "1b-1" {name="Floating City 1" id=1}
-"1b-2" {name="Floating City 2" id=2}
-"1b-3" {name="Floating City 3" id=3}
-"1b-4" {name="Floating City 4" id=4}
-"1b-5" {name="Floating City 5" id=5}
-"1b-6" {name="Floating City 6" id=6}
-"1b-7" {name="Floating City 7" id=7}
-"1b-8" {name="Floating City 8" id=8}
-"1b-9" {name="Floating City 9" id=9}
-"1b-11" {name="Floating City 10" id=10}
-"1b-12" {name="Floating City 11" id=11}
-"1b-13" {name="Floating City 12" id=12}
-"1b-14" {name="Floating City 13" id=13}
-"1b-16" {name="Floating City 14" id=14}
-"1b-17" {name="Floating City 15" id=15}
-"1b-18" {name="Floating City 16" id=16}
+"1b-2x" {name="Floating City 2" id=2}
+"1b-2" {name="Floating City 3" id=3}
+"1b-3" {name="Floating City 4" id=4}
+"1b-4" {name="Floating City 5" id=5}
+"1b-4x" {name="Floating City 6" id=6}
+"1b-5" {name="Floating City 7" id=7}
+"1b-6" {name="Floating City 8" id=8}
+"1b-7" {name="Floating City 9" id=9}
+"1b-8" {name="Floating City 10" id=10}
+"1b-9" {name="Floating City 11" id=11}
+"1b-11" {name="Floating City 12" id=12}
+"1b-12" {name="Floating City 13" id=13}
+"1b-13" {name="Floating City 14" id=14}
+"1b-14" {name="Floating City 15" id=15}
+"1b-16" {name="Floating City 16" id=16}
+"1b-17" {name="Floating City 17" id=17}
+"1b-18" {name="Floating City 18" id=18}
 "1bx-1" {name="???" id=1}
 "1bx-2" {name="Floating City" id=1}
 "1bx-3" {name="Floating City" id=1}
@@ -1016,9 +1022,101 @@
 "i0-8x" {name="IS THIS ANNIVERSARRY 7?" id=-1}
 "i0-9x" {name="LSD RADIX SORT" id=-1}
 "i0-10x" {name="- TRUE FINALE -" id=-1}
-//}
-//{ Surreal
-	//{ CARTS
+
+# Post-FC
+	# CARTS
+"cwarp-1" {name="Warpzone!" id=1}
+"cwarp-2" {name="Warpzone!" id=2}
+"cwarp-3" {name="Warpzone!" id=3}
+"cwarp-4" {name="Warpzone!" id=4}
+"cwarp-5" {name="Warpzone!" id=5}
+"cwarp-6" {name="Warpzone!" id=6}
+"cwarp-7" {name="Warpzone!" id=7}
+"cwarp-8" {name="Warpzone!" id=8}
+"cwarp-9" {name="Warpzone!" id=9}
+"gwarp-1" {name="Warpzone?!" id=1}
+"gwarp-2" {name="Warpzone?!" id=2}
+"gwarp-3" {name="Warpzone?!" id=3}
+"gwarp-4" {name="Warpzone?!" id=4}
+"gwarp-5" {name="Warpzone?!" id=5}
+"gwarp-6" {name="Warpzone?!" id=6}
+
+
+"i1-1x" {name="-1-1" id=-1}
+"i5b-1" {name="-5-1" id=-1}
+"i5b-5" {name="-5-5" id=-1}
+"i5-5x" {name="-5-5" id=-1}
+
+"ix0-1x" {name="-6-1" id=-1}
+"ix0-1" {name="-6-1" id=-1}
+"ix0-2" {name="-6-2" id=-1}
+"ix0-3" {name="-6-3" id=-1}
+"ix0-4" {name="-6-4" id=-1}
+"ix0-5" {name="-6-5" id=-1}
+"ix0-5x" {name="-6-5" id=-1}
+
+"ix1-1" {name="~-1" id=-1}
+"ix1-1x" {name="~-1" id=-1}
+"ix1-1y" {name="~-1" id=-1}
+"ix1-2" {name="~-1" id=-1}
+"ix1-3" {name="~-1" id=-1}
+"ix1-4" {name="~-1" id=-1}
+"ix1-5" {name="~-1" id=-1}
+"ix1-5x" {name="~-1" id=-1}
+"ix2-1" {name="~-2" id=-1}
+"ix2-1x" {name="~-2" id=-1}
+"ix2-2" {name="~-2" id=-1}
+"ix2-3" {name="~-2" id=-1}
+"ix2-4" {name="~-2" id=-1}
+"ix2-5" {name="~-2" id=-1}
+"ix2-5x" {name="~-2" id=-1}
+"ix3-1" {name="~-3" id=-1}
+"ix3-1x" {name="~-3" id=-1}
+"ix3-2" {name="~-3" id=-1}
+"ix3-3" {name="~-3" id=-1}
+"ix3-4" {name="~-3" id=-1}
+"ix3-5" {name="~-3" id=-1}
+"ix3-5x" {name="~-3" id=-1}
+"ix4-1" {name="~-4" id=-1}
+"ix4-1x" {name="~-4" id=-1}
+"ix4-2" {name="~-4" id=-1}
+"ix4-3" {name="~-4" id=-1}
+"ix4-4" {name="~-4" id=-1}
+"ix4-5" {name="~-4" id=-1}
+"ix4-5x" {name="~-4" id=-1}
+"ix5-1" {name="~-5" id=-1}
+"ix5-1x" {name="~-5" id=-1}
+"ix5-2" {name="~-5" id=-1}
+"ix5-3" {name="~-5" id=-1}
+"ix5-4" {name="~-5" id=-1}
+"ix5-5" {name="~-5" id=-1}
+"ix5-5x" {name="~-5" id=-1}
+"ix6-1" {name="~-6" id=-1}
+"ix6-2" {name="~-6" id=-1}
+"ix6-3" {name="~-6" id=-1}
+"ix6-4" {name="~-6" id=-1}
+"ix6-5" {name="~-6" id=-1}
+"ix6-1x" {name="~-6" id=-1}
+"ix6-2x" {name="~-6" id=-1}
+"ix6-3x" {name="~-6" id=-1}
+"ix6-4x" {name="~-6" id=-1}
+"ix6-5x" {name="~-6" id=-1}
+"ix6-5y" {name="~-6" id=-1}
+"ix7-1" {name="~-0" id=-1}
+"ix7-1x" {name="~-0" id=-1}
+"ix7-2" {name="~-0" id=-1}
+"ix7-3" {name="~-0" id=-1}
+"ix7-4" {name="~-0" id=-1}
+"ix7-5" {name="~-0" id=-1}
+"ix8-1" {name="~-7" id=-1}
+"ix8-2" {name="~-7" id=-1}
+"ix8-3" {name="~-7" id=-1}
+"ix8-4" {name="~-7" id=-1}
+"ix8-5" {name="~-7" id=-1}
+"ix8-6" {name="~-7" id=-1}
+"ix8b-5" {name="~-7" id=-1}
+"ix8b-6" {name="~-7" id=-1}
+	
 "csd1-1" {name="Darkanoid-1" id=-1}
 "csd1-10" {name="Darkanoid-10" id=-1}
 "csd1-2" {name="Darkanoid-2" id=-1}
@@ -1076,16 +1174,16 @@
 "gn4-9" {name="Frighten The Moods 9" id=-1}
 "gn4-10" {name="Frighten The Moods 10" id=-1}
 
-"gn5-1" {name="Mori 1" id=-1}
-"gn5-2" {name="Mori 2" id=-1}
-"gn5-3" {name="Mori 3" id=-1}
-"gn5-4" {name="Mori 4" id=-1}
-"gn5-5" {name="Mori 5" id=-1}
-"gn5-6" {name="Mori 6" id=-1}
-"gn5-7" {name="Mori 7" id=-1}
-"gn5-8" {name="Mori 8" id=-1}
-"gn5-9" {name="Mori 9" id=-1}
-"gn5-10" {name="Mori 10" id=-1}
+"gn5-1" {name="Omophagy 1" id=-1}
+"gn5-2" {name="Omophagy 2" id=-1}
+"gn5-3" {name="Omophagy 3" id=-1}
+"gn5-4" {name="Omophagy 4" id=-1}
+"gn5-5" {name="Omophagy 5" id=-1}
+"gn5-6" {name="Omophagy 6" id=-1}
+"gn5-7" {name="Omophagy 7" id=-1}
+"gn5-8" {name="Omophagy 8" id=-1}
+"gn5-9" {name="Omophagy 9" id=-1}
+"gn5-10" {name="Omophagy 10" id=-1}
 
 "gn6-1" {name="Lunatic 1" id=-1}
 "gn6-2" {name="Lunatic 2" id=-1}
@@ -1190,9 +1288,69 @@
 "gnr3-8" {name="Prescryption 8" id=-1}
 "gnr3-9" {name="Prescryption 9" id=-1}
 "gnr3-10" {name="Prescryption 10" id=-1}
-	//}
+	#
 
-"2-0b" {name="???" id=-1}
+# Derzox and Adenator's areas
+"nil-0x" {name="!?!?!?" id=-1}
+"nil-0" {name="!?!?!?" id=-1}
+"nil-0y" {name="!?!?!?" id=-1}
+"nil-0z" {name="!?!?!?" id=-1}
+"nil-1" {name="Nil 1" id=-1}
+"nil-2" {name="Nil 2" id=-1}
+"nil-3" {name="Nil 3" id=-1}
+"nil-4" {name="Nil 4" id=-1}
+"nil-5" {name="Nil 5" id=-1}
+"nil-6" {name="Nil 6" id=-1}
+"nil-7" {name="Nil 7" id=-1}
+"nil-8" {name="Nil 8" id=-1}
+"nil-9" {name="Nil 9" id=-1}
+"nil-10" {name="Nil 10" id=-1}
+"nil-11" {name="Nil 11" id=-1}
+"nil-12" {name="Nil 12" id=-1}
+"nil-13" {name="Nil 13" id=-1}
+"nil-14" {name="Nil 14" id=-1}
+"nil-15" {name="Nil 15" id=-1}
+"ki-1" {name="Aqueros Coast 1" id=1}
+"ki-2" {name="Aqueros Coast 2" id=2}
+"ki-3" {name="Aqueros Coast 3" id=3}
+"ki-4" {name="Aqueros Coast 4" id=4}
+"ki-5" {name="Aqueros Coast 5" id=-1}
+"ki-6" {name="Aqueros Coast 6" id=5}
+"ki-1x" {name="Aqueros Coast 6?" id=1}
+"ki-7" {name="Aqueros Coast 7" id=6}
+"ki-2x" {name="Aqueros Coast 7?" id=2}
+"ki-8" {name="Aqueros Coast 8" id=7}
+"ki-3x" {name="Aqueros Coast 8?" id=-1}
+"ki-9" {name="Aqueros Coast 9" id=8}
+"ki-4x" {name="Aqueros Coast 9?" id=-1}
+"ki-10" {name="Aqueros Coast 10" id=9}
+"ki-5x" {name="Aqueros Coast 10?" id=-1}
+"ki-11" {name="Aqueros Coast 11" id=10}
+"ki-6x" {name="Aqueros Coast 11?" id=11}
+"k2-1" {name="Mount Hydredron 1" id=1}
+"k2-2" {name="Mount Hydredron 2" id=2}
+"k2-3" {name="Mount Hydredron 3" id=3}
+"k2-4" {name="Mount Hydredron 4" id=4}
+"k2-5" {name="Mount Hydredron 5" id=5}
+"k2-6" {name="Mount Hydredron 6" id=6}
+"k2-7" {name="Mount Hydredron 7" id=7}
+"k2-8" {name="Mount Hydredron 8" id=8}
+# "k2-9" {name="Mount Hydredron 9" id=9}
+# "k2-10" {name="Mount Hydredron 10" id=10}
+# "k2-11" {name="Mount Hydredron 11" id=11}
+# "k2-12" {name="Mount Hydredron 12" id=12}
+# "k2-13" {name="Mount Hydredron 13" id=13}
+# "k2-14" {name="Mount Hydredron 14" id=14}
+# "k2-15" {name="Mount Hydredron 15" id=15}
+# "k2-16" {name="Mount Hydredron 16" id=16}
+# "k2-17" {name="Mount Hydredron 17" id=17}
+# "k2-18" {name="Mount Hydredron 18" id=18}
+# "k2-19" {name="Mount Hydredron 19" id=19}
+# "k2-20" {name="Mount Hydredron 20" id=20}
+# "k2-21" {name="The Summit" id=-1}
+
+# Mysterytank's areas
+"2b-0" {name="???" id=-1}
 "2b-1" {name="Depths Of Despair 1" id=1}
 "2b-2" {name="Depths Of Despair 2" id=2}
 "2b-3" {name="Depths Of Despair 3" id=3}
@@ -1213,40 +1371,60 @@
 "2b-18" {name="Depths Of Despair 18" id=-1}
 "2b-19" {name="Depths Of Despair 19" id=-1}
 "2b-20" {name="Depths Of Despair 20" id=-1}
+"3b-1" {name="Mechanical 1" id=1}
+"3b-2" {name="Mechanical 2" id=2}
+"3b-3" {name="Mechanical 3" id=3}
+"3b-4" {name="Mechanical 4" id=4}
+"3b-5" {name="Mechanical 5" id=5}
+"br-1" {name="The Backrooms" id=-1}
+"br-2" {name="The Backrooms" id=-1}
+"br-2x" {name="The Backrooms" id=-1}
+"br-3" {name="The Backrooms" id=-1}
+"br-4" {name="The Backrooms" id=-1}
+"br-5" {name="The Backrooms" id=-1}
+"br-6" {name="The Backrooms" id=-1}
+"br-6x" {name="The Backrooms" id=-1}
+"br-7" {name="The Backrooms" id=-1}
+"br-7x" {name="The Backrooms" id=-1}
+"br-8" {name="The Backrooms" id=-1}
+"br-9" {name="The Backrooms" id=-1}
+"br-10" {name="The Backrooms" id=-1}
+"br-11" {name="The Backrooms" id=-1}
+"br-12" {name="The Backrooms" id=-1}
+"br-13" {name="The Backrooms" id=-1}
+"br-14" {name="The Backrooms" id=-1}
+"br-15" {name="The Backrooms" id=-1}
+"br-15x" {name="The Backrooms" id=-1}
+"br-16" {name="The Backrooms" id=-1}
+"br-16x" {name="The Backrooms" id=-1}
+"br1-1" {name="The Backrooms" id=-1}
+"br1-2" {name="The Backrooms" id=-1}
+"br1-2x" {name="The Backrooms" id=-1}
+"br1-3" {name="The Backrooms" id=-1}
 
-"2c-0" {name="???" id=1}
-"2c-1" {name="Mirror Planetarium" id=-1}
-"2cx-1" {name="Mirror Planetarium" id=-1}
-"2cx-2" {name="Mirror Planetarium" id=-1}
-"2cx-3" {name="Mirror Planetarium" id=-1}
-"2cx-4" {name="Mirror Planetarium" id=-1}
-"2cx-5" {name="Mirror Planetarium" id=-1}
-"2cx-6" {name="Mirror Planetarium" id=-1}
-"2cx-7" {name="Mirror Planetarium" id=-1}
-"2cx-8" {name="Mirror Planetarium" id=-1}
-"2cx-9" {name="Mirror Planetarium" id=-1}
-"2cx-10" {name="Mirror Planetarium" id=-1}
-"2cx-11" {name="Mirror Planetarium" id=-1}
-"2cx-12" {name="Mirror Planetarium" id=-1}
-"2cx-13" {name="Mirror Planetarium" id=-1}
-"2cx-14" {name="Mirror Planetarium" id=-1}
-"2cx-15" {name="Mirror Planetarium" id=-1}
-"2cx-16" {name="Mirror Planetarium" id=-1}
-"2cx-17" {name="Mirror Planetarium" id=-1}
-"2cx-18" {name="Mirror Planetarium" id=-1}
-"2cx-13b" {name="Mirror Planetarium" id=-1}
-"2cx-14b" {name="Mirror Planetarium" id=-1}
-"2cx-15b" {name="Mirror Planetarium" id=-1}
-"2cx-16b" {name="Mirror Planetarium" id=-1}
-"2cx-17b" {name="Mirror Planetarium" id=-1}
-"2cx-18b" {name="Mirror Planetarium" id=-1}
-"2cx-19" {name="Mirror Planetarium" id=-1}
-"2cx-20" {name="Mirror Planetarium" id=-1}
-"2cx-21" {name="Mirror Planetarium" id=-1}
-"2cx-22" {name="Mirror Planetarium" id=-1}
-"2cx-23" {name="Mirror Planetarium" id=-1}
-"2cx-24" {name="Mirror Planetarium" id=-1}
+# Potassium's areas
+"t-1" {name="Terminal Lucidity 1" id=-1}
+"t-2" {name="Terminal Lucidity 2" id=-1}
+"t-3" {name="Terminal Lucidity 3" id=-1}
+"t-4" {name="Terminal Lucidity 4" id=-1}
+"t-5" {name="Terminal Lucidity 5" id=-1}
+"t-6" {name="Terminal Lucidity 6" id=-1}
+"t-7" {name="Terminal Lucidity 7" id=-1}
+"t-8" {name="Terminal Lucidity 8" id=-1}
+"t-9" {name="Terminal Lucidity 9" id=-1}
+"t-10" {name="Terminal Lucidity 10" id=-1}
+"o-1" {name="Omnificance 1" id=-1}
+"o-2" {name="Omnificance 2" id=-1}
+"o-3" {name="Omnificance 3" id=-1}
+"o-4" {name="Omnificance 4" id=-1}
+"o-5" {name="Omnificance 5" id=-1}
+"o-6" {name="Omnificance 6" id=-1}
+"t-11" {name="Yet To Be" id=-1}
 
+# Surreal's areas
+"1xd-1x" {name="???" id=-1}
+"1shop-1" {name="Hoarders Retreat" id=-1}
+"1shop-2" {name="Hoarders Retreat" id=-1}
 "wlspl-0" {name="???" id=-1}
 "wlspl-1" {name="???" id=-1}
 "wlspl-2" {name="The Wailing Sepulcher" id=-1}
@@ -1258,26 +1436,7 @@
 "wlspl-8" {name="The Wailing Sepulcher" id=-1}
 "wlspl-9" {name="The Wailing Sepulcher" id=-1}
 "wlspl-10" {name="The Wailing Sepulcher" id=-1}
-
-"6cx-1" {name="???" id=1}
-"6cx-2" {name="???" id=1}
-"6cx-3" {name="???" id=-1}
-"6cx-4" {name="???" id=-1}
-"6cx-5" {name="???" id=2}
-"7cx-1" {name="???" id=1}
-"7bx-1" {name="???" id=1}
-
 "aus-1" {name="Australia 1" id=-1}
-
-"7bx-2" {name="???" id=-1}
-"7bx-3" {name="???" id=-1}
-"7bx-4" {name="???" id=1}
-"6cx-4x" {name="???" id=-1}
-"7cx-5" {name="???" id=-1}
-"7cx-6" {name="???" id=1}
-"7cx-7" {name="???" id=-1}
-"7cx-8" {name="???" id=-1}
-
 "dud3-1" {name="Wreckage 1" id=1} 
 "dud3-2" {name="Wreckage 2" id=2} 
 "dud3-3" {name="Wreckage 3" id=3} 
@@ -1289,8 +1448,7 @@
 "dud3-9" {name="Wreckage 9" id=9} 
 "dud3-10" {name="Wreckage 10" id=10}
 "dud3-11" {name="Wreckage 11" id=-1}
-"dud3-12" {name="???" id=-1}
-
+"dud3-12" {name="Wreckage" id=-1}
 "dud3xu-2" {name="???" id=-1}
 "dud3xu-4" {name="???" id=1}
 "dud3xu-5" {name="???" id=-1}
@@ -1299,7 +1457,6 @@
 "dud3xu-7" {name="???" id=4}
 "dud3xu-8" {name="???" id=-1}
 "dud3xu-9" {name="???" id=1}
-
 "9xd-0" {name="???" id=-1}
 "9xd-0x" {name="???" id=-1}
 "9xd-1x" {name="???" id=-1}
@@ -1312,7 +1469,9 @@
 "9-14" {name="The Farlands 14" id=14} #life
 "9-15" {name="The Farlands 15" id=15} #life
 "9-19" {name="???" id=2} #cart
-"9-20" {name="End of the Road" id=-1}
+"dud0-1" {name="End of the Road" id=-1}
+"ix6b-4" {name="~-6" id=-1}
+"ix6b-2" {name="Epilogue" id=-1}
 "9-2" {name="The Farlands 2" id=2} #life
 "9-3" {name="The Farlands 3" id=3} #life
 "9-4" {name="The Farlands 4" id=4} #life
@@ -1321,7 +1480,6 @@
 "9-7" {name="The Farlands 7" id=7} #life
 "9-8" {name="The Farlands 8" id=8} #life
 "9-9" {name="The Farlands 9" id=9} #life
-
 "9xd-2" {name="???" id=3}
 "9xd-3" {name="???" id=4}
 "9xd-4" {name="???" id=6}
@@ -1330,7 +1488,6 @@
 "9xu-1" {name="???" id=1}
 "9xu-2" {name="???" id=2}
 "9xu-3" {name="???" id=5}
-
 "9d-0" {name="???" id=-1}
 "9d-1" {name="The Fartherlands 1" id=-1}
 "9d-10" {name="The Fartherlands 10" id=-1}
@@ -1344,10 +1501,27 @@
 "9d-7" {name="The Fartherlands 7" id=-1}
 "9d-8" {name="The Fartherlands 8" id=-1}
 "9d-9" {name="The Fartherlands 9" id=-1}
-
 "9dx-1" {name="???" id=-1}
 "9dx-2" {name="???" id=-1}
 "9dx-3" {name="???" id=-1}
 "9dx-4" {name="???" id=-1}
 "9dx-5" {name="???" id=-1}
-//}
+
+# Butcher's areas
+"o1-start" {name="???" id=-1} 
+"o1-0" {name="Fuelyard" id=-1} 
+"o1-1" {name="Fuelyard 1" id=1} 
+"o1-2" {name="Fuelyard 2" id=2} 
+"o1-3" {name="Fuelyard 3" id=3} 
+"o1-4" {name="Fuelyard 4" id=4}
+"o1-5" {name="Fuelyard 5" id=5} 
+"o1-6" {name="Fuelyard 6" id=6} 
+"o1-7" {name="Fuelyard 7" id=7} 
+"o1-8" {name="Fuelyard 8" id=8} 
+"o1-9" {name="Fuelyard 9" id=9} 
+"o1-10" {name="Fuelyard 10" id=10}
+"o1-11" {name="Fuelyard 11" id=11}
+"o1x-1" {name="???" id=-1}
+"4d-1x" {name="The Skyline" id=-1}
+"4e-1x" {name="Mausoleum" id=-1}
+"4f-1x" {name="The Factory" id=-1}
