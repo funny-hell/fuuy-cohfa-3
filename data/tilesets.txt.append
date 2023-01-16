@@ -145,6 +145,8 @@ r3 {
     midfx_graphics SolidBox
     palette 1053
     midfx_layer 2
+	
+	decoration_1 Decoration5
 
     npc_1 NPC15
     npc_2 none
@@ -1252,7 +1254,7 @@ g7b {
 	
 	npc_1 NPCNAN1
 	
-    cart_intro_png carts/cart_chore
+    cart_intro_png carts/cart_sore
     cart_intro_palette 1034
 	
     music [glitch/waltz2_intro.ogg, glitch/waltz2_loop.ogg]
@@ -1945,8 +1947,10 @@ npc_1 NPCdud22
 
     #global_particle_1 lightingtest
     
-    music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
-    ambience ruins.ogg
+    music atlantis_surface.ogg
+	ambience atlantis_underwater.ogg
+	music_volume 0
+	ambience_volume .6
 
 	art_alts [
    	 [OrbSmall, orbblob][GlowShroomSmall, CeilingLamp][ChainLink2, none]
@@ -1975,6 +1979,16 @@ npc_1 NPCdud22
 	4 {
 		art_alts [
 		[OrbSmall, orbblob]
+		]
+	}
+	5 {
+		tile_graphics Tileatlantissurface
+		npc_1 NPCbut2_10
+		ambience_volume .7
+		decoration_3 windowdeco
+		area_label_frame 0
+		art_alts [
+        [SpeechBubble, SpeechBubbleRetro][GlowShroomSmall, CeilingLamp]
 		]
 	}
 }
@@ -3607,7 +3621,7 @@ rr3 {
     toxic_timer 1.05
 
     music [1812_intro_superdark.ogg, 1812_loop_superdark.ogg]
-    ambience labloo.ogg
+    ambience labloop.ogg
 
     area_type dark
 
@@ -4581,7 +4595,7 @@ rr3x {
 
     music [hmk_secret_intro_uhoh.ogg, hmk_secret_loop_uhoh.ogg]
 	stop_previous_music false
-    ambience labloo.ogg
+    ambience labloop.ogg
 
     area_type dark
 
@@ -5469,12 +5483,14 @@ o {
     global_particle_3 lightning
     global_particle_4 rocksright
     
+	npc_1 NPCdud43
 
     decoration_1 eyeball
    
 
     music heartbreak.ogg
-    ambience saws.ogg
+    ambience heartbreak.ogg
+	ambience_volume 0
 
     art_alts [
         [OrbSmall, dudsawsmall][OrbLarge, dudsawbig]
@@ -5483,6 +5499,20 @@ o {
         [AimSpitter, AimSpitter2]
         [Cartridge, cart3]
     ]
+	16 {
+		ambience_volume 0.2
+	}
+	17 {
+		ambience_volume 0.4
+	}
+	18 {
+		music_volume 0.7
+		ambience_volume 0.7
+	}
+	0 {
+		music_volume 0
+		ambience_volume 1
+	}
 }
 3b {
     area_name "Mechanical"
@@ -6235,7 +6265,7 @@ gn6 {
 
 	npc_1 NPCNAN1
 
-    cart_intro_png carts/cart_lunatic
+    cart_intro_png carts/cart_tumult
     cart_intro_palette 1181
 	
 	decoration_1 Retrotip2
@@ -6313,14 +6343,13 @@ c8c {
     music_volume 1
     ambience_volume 1
 
-	npc_1 NPCNAN1
-
     cart_intro_png carts/cart_herpes
     cart_intro_palette 1173
 	
 	lowgrav_physics "data/player_physics/icephysics.txt"
 	decoration_1 retrosnow_part
 	decoration_2 IceIceMotherfucker
+	decoration_3 retrohail_part
     
     area_type cart
 	art_alts [
@@ -6328,7 +6357,7 @@ c8c {
         [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
         [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, eyeshooterretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
         [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink2, ChainLinkretro][ChainLink, ChainLinkretro]
-        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, just_a_block][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
         [OrbLarge, pacman][ThwampGear, ThwampGearRetro][SpeechBubble, SpeechBubbleRetro][SpeechBubble2, SpeechBubbleRetro]
 		
 		[SkullFloaterBreaky, SkullFloaterretroBreaky]
@@ -7071,7 +7100,7 @@ ix8b {
 
 
 0 {
-    area_name "Meta"
+    area_name "N/A"
     area_label_frame 0
     tile_graphics Tilecaves
     overlay_graphics Overlaystox2
@@ -7100,6 +7129,9 @@ ix8b {
 	}
 	unf2 {
 		npc_1 NPCNAN2
+	}
+	0x {
+		npc_1 NPCNAN5
 	}
 }
 dud0 {
@@ -7171,73 +7203,28 @@ dud1 {
     
     palette 982
 	
+	npc_1 NPCbut2_12
+	npc_2 NPCbut2_12x
+	decoration_1 windowdeco
 	tile_particle_1 drip
 	tile_particle_2 waterfall
 	tile_particle_3 waterfall_splash
     tile_particle_5 toxicbubbles
     global_particle_1 embers
-	global_particle_2 cloudwind2
+	
+	player_physics "data/player_physics/playerphysics_sun.txt"
 	
     area_type normal
 	
 	music [requiem_intro.ogg, requiem_loop.ogg]
     ambience volcano.ogg
+	
+	0 {
+	music none
+	art_alts [[SpeechBubble, SpeechBubbleRetro]]
+	}
 }
-dud2 {
-    area_name "Spiraling Tower"
-    area_label_frame 0
-    tile_graphics Tileairship
-    overlay_graphics Overlayscaves
-    background_graphics neverbg
-    foreground_graphics None
-	fx_shader reflectionripples
-    
-    palette 992
-	
-	tile_particle_1 drip
-	tile_particle_2 waterfall
-	tile_particle_3 waterfall_splash
-    tile_particle_5 toxicbubbles
-    global_particle_1 lightning
-    global_particle_2 wind
-	
-    area_type dark
-    toxic_timer 0
 
-    npc_1 NPCdud24
-	
-	art_alts[
-		[GlowShroom, GlowCandleBig][GlowShroomSmall, GlowCandle]
-	]
-	
-	music [requiem_intro.ogg, requiem_loop.ogg]
-    ambience castle.ogg
-	1 {
-		palette 992
-		tile_graphics Tilehell
-	}
-	2 {
-		palette 991
-		tile_graphics Tilebreeze
-	}
-	3 {
-		palette 990
-		fx_shader_mid sun
-		midfx_graphics SolidBox
-		midfx_layer 1
-	}
-	4 {
-		palette 989
-		tile_graphics TileEnd
-		fx_shader_mid lighting
-		midfx_graphics ShadeBox
-		midfx_layer 2
-		shader_param 0.5
-	}
-	5 {
-		palette 988
-	}
-}
 dud3 {
     area_name "Wreckage"
     area_label_frame 55
@@ -7571,7 +7558,7 @@ dud3xu {
 }
 9dx {
     area_name "The Fartherlands"
-    area_label_frame 0
+    area_label_frame 54
     tile_graphics Tilefarlands
     overlay_graphics Overlaystox
     background_graphics farlandsbg
@@ -7605,6 +7592,10 @@ dud3xu {
 	]
 	
 	1 {
+	decoration_1 minecraft_leaves
+	decoration_2 minecraft_chest
+	}
+	1x {
 	decoration_1 minecraft_leaves
 	decoration_2 minecraft_chest
 	}
@@ -7886,7 +7877,7 @@ but3 {
 		tile_particle_2 drip
 	}
 	10 {
-		npc_1 NPCbut1
+		npc_1 NPCbut1_1
 		npc_2 NPCdud2mo
 		do_tilt false
 		palette 1241
@@ -8139,6 +8130,98 @@ br1 {
 
 # Butcher's areas
 
+co1 {
+    #DEBRIS, based on ROCKET (1969)
+    tile_graphics Tileretrofuelyard
+    overlay_graphics Overlaysretro
+    background_graphics bgretro
+    foreground_graphics none
+    palette 951
+    fx_shader nooverlay
+
+    cart_intro_png carts/cart_wip
+    cart_intro_palette 951
+
+    decoration_1 RetroRocketTip
+    decoration_2 RetroFuelyardParticle
+
+    lowgrav_physics "data/player_physics/playerphysics_boostpad.txt"
+    platform_physics "data/player_physics/platformphysics_fuelcart.txt"
+    
+    music [retro/danse_intro.ogg, retro/danse_loop.ogg]
+    
+    music_volume .8
+    ambience_volume 1
+    
+    area_type cart
+
+    art_alts [
+	[ElectroBall, RetroThruster]
+        [Player, PlayerRetro][Frog, Frogretro][Floater, Floater2][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro]
+    ]
+
+}
+
+co2 {
+    #END-100, based on TIS-100 (2015)
+    tile_graphics Tileretro
+    overlay_graphics Overlaysretro
+    background_graphics bgretro
+    foreground_graphics none
+    palette 946
+
+    cart_intro_png carts/cart_wip
+    cart_intro_palette 946
+    
+    music [retro/danse_intro.ogg, retro/danse_loop.ogg]
+    
+    music_volume .8
+    ambience_volume 1
+    
+    area_type cart
+
+    art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, Floater2][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro]
+    ]
+
+}
+
+co3 {
+    #ZeroShot, based on OneShot (2016)
+    tile_graphics Tileretro
+    overlay_graphics Overlaysretro
+    background_graphics bgretro
+    foreground_graphics none
+    palette 949
+
+    cart_intro_png carts/cart_wip
+    cart_intro_palette 946
+
+    music [retro/danse_intro.ogg, retro/danse_loop.ogg]
+    
+    music_volume .8
+    ambience_volume 1
+    
+    area_type cart
+
+    art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Floater, Floater2][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro]
+    ]
+
+}
+
 o1 {
     area_name "Fuelyard"
 	area_label_frame 50
@@ -8146,7 +8229,7 @@ o1 {
     overlay_graphics Overlaystox
     background_graphics ch4abg
     foreground_graphics None
-    palette 1240
+    palette 946
 	fx_shader nooverlay
 
 	tile_particle_1 smoke2
@@ -8159,8 +8242,8 @@ o1 {
 	global_particle_2 declinelights
 	global_particle_3 declinestars
 
-	npc_1 NPCbut2
-	npc_2 NPCbut3
+	npc_1 NPCbut1_2
+	npc_2 NPCbut1_3
 	npc_3 NPCbutNAN1
 
 	decoration_1 RocketTip
@@ -8194,7 +8277,15 @@ o1 {
 			[GlowShroom, just_a_block]
 		]
 	}
+	16 {
+		music none
+		ambience_volume 0.7
+		decoration_1 windowdeco
+		palette 955
+	npc_1 NPCbut2_1
+	}
 }
+
 o1x {
     area_name "Fuelyard"
     tile_graphics Tilespace
@@ -8202,7 +8293,7 @@ o1x {
     overlay_graphics Overlaystox
     background_graphics ch4abg
     foreground_graphics None
-    palette 1240
+    palette 946
 	fx_shader nooverlay
 
 	tile_particle_1 smoke2
@@ -8215,7 +8306,8 @@ o1x {
 	global_particle_2 declinelights
 	global_particle_3 declinestars
 
-	npc_1 NPCbut4
+	npc_1 NPCbut1_4
+	npc_2 NPCbut1_5
 
 	decoration_1 RocketTip
 	decoration_2 RocketWindow
@@ -8238,6 +8330,513 @@ o1x {
 	sfx_file mainsounds_rocket.txt
 
 }
+
+o1a {
+    area_name "Fuelyard"
+	area_label_frame 50
+    tile_graphics Tilespace
+    overlay_graphics Overlaystox
+    background_graphics ch4abg
+    foreground_graphics None
+    palette 948
+	fx_shader nooverlay
+
+	tile_particle_1 smoke2
+	tile_particle_2 boostpad_left
+	tile_particle_3 boostpad_bottom
+	tile_particle_4 boostpad_right
+	tile_particle_5 rocket_particle
+
+	global_particle_1 rocks
+	global_particle_2 declinelights
+	global_particle_3 declinestars
+
+	npc_1 NPCbut1_6
+
+	decoration_1 RocketTip
+	decoration_2 RocketWindow
+	decoration_3 RocketThrusterOff
+
+    toxic_timer 999999999
+
+    lowgrav_physics "data/player_physics/playerphysics_boostpad.txt"
+	
+	music none
+	ambience shiny.ogg
+	ambience_volume 0.5
+
+    art_alts [
+        [GasCloud, None]
+	[ElectroBall, RocketThruster]
+	[Gasser, LargeFloast]
+	[MiniFly, MiniWisp]
+    ]
+	
+	sfx_file mainsounds_rocket.txt
+
+	16 {
+		music none
+		ambience_volume 0.7
+		decoration_1 windowdeco
+		palette 956
+	npc_1 NPCbut2_1
+	}
+}
+
+o1ax {
+    area_name "Fuelyard"
+    tile_graphics Tilespace
+	area_label_frame 50
+    overlay_graphics Overlaystox
+    background_graphics ch4abg
+    foreground_graphics None
+    palette 948
+	fx_shader nooverlay
+
+	tile_particle_1 smoke2
+	tile_particle_2 boostpad_left
+	tile_particle_3 boostpad_bottom
+	tile_particle_4 boostpad_right
+	tile_particle_5 rocket_particle
+
+	global_particle_1 rocks2
+	global_particle_2 declinelights
+	global_particle_3 declinestars
+
+	npc_1 NPCbut1_7
+	npc_2 NPCbut1_8
+
+	decoration_1 RocketTip
+	decoration_2 RocketWindow
+	decoration_3 RocketThrusterOff
+
+    toxic_timer 999999999
+
+    lowgrav_physics "data/player_physics/playerphysics_boostpad.txt"
+
+    art_alts [
+        [GasCloud, None]
+	[ElectroBall, RocketThruster]
+	[Gasser, LargeFloast]
+	[MiniFly, MiniWisp]
+    ]
+
+	music [gymnopedies_intro.ogg, gymnopedies_loop.ogg]
+	ambience shiny.ogg
+	music_volume 0.5
+	ambience_volume 0.5
+	
+	stop_previous_music false
+	sfx_file mainsounds_rocket.txt
+
+}
+
+o2 {
+    area_name "Command"
+    tile_graphics Tilecommand
+	area_label_frame 52
+    overlay_graphics Overlayscomplex
+    background_graphics field2bg
+    foreground_graphics None
+    palette 952
+	fx_shader nooverlay
+
+	tile_particle_1 boostpad_left
+	tile_particle_2 boostpad_bottom
+	tile_particle_3 boostpad_right
+
+	global_particle_1 rocks2
+	global_particle_2 declinestars
+
+	decoration_1 tv_screen_deco
+	decoration_3 windowdeco
+
+	npc_1 NPCbut2_1
+
+    toxic_timer 999999999
+
+    lowgrav_physics "data/player_physics/playerphysics_boostpad.txt"
+
+	music trainstation_loop_nil.ogg
+	ambience labloop.ogg
+	ambience_volume 0.5
+	
+	art_alts [
+        [SpeechBubble, SpeechBubbleRetro]
+    ]
+	1 {
+	npc_2 NPCbut2_8
+	}
+	6 {
+	npc_2 NPCbut2_2
+	}
+	6x {
+	npc_2 NPCbut2_2
+	}
+	12 {
+	npc_2 NPCbut2_3
+	}
+	13 {
+    palette 957
+	npc_2 NPCbut2_5
+	}
+	14 {
+    palette 957
+	}
+	15 {
+    palette 957
+	}
+	16 {
+    palette 957
+	npc_2 NPCbut2_4
+    background_graphics fieldlongbg
+	}
+	21 {
+    palette 957
+	}
+	22 {
+	palette 957
+	npc_1 NPCbut2_9
+	}
+}
+
+o2x {
+    area_name "Command"
+    tile_graphics Tilecommand
+	area_label_frame 52
+    overlay_graphics Overlayscomplex
+    background_graphics field2bg
+    foreground_graphics None
+    palette 957
+	fx_shader nooverlay
+
+	tile_particle_1 boostpad_left
+	tile_particle_2 boostpad_bottom
+	tile_particle_3 boostpad_right
+
+	global_particle_1 rocks2
+	global_particle_2 declinestars
+
+	decoration_1 tv_screen_deco
+	decoration_3 windowdeco
+
+	npc_1 NPCbut2_1
+	npc_2 NPCbut2_6
+	npc_3 NPCbut2_7
+
+    toxic_timer 999999999
+
+    lowgrav_physics "data/player_physics/playerphysics_boostpad.txt"
+
+	music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
+	ambience labloop.ogg
+	ambience_volume 0.5
+
+	1 {
+    palette 952
+	}
+	2 {
+	music [gymnopedies_intro.ogg, gymnopedies_loop.ogg]
+	}
+	3 {
+    platform_physics "data/player_physics/platformphysics_fuelcart.txt"
+	music [gymnopedies_intro.ogg, gymnopedies_loop.ogg]
+	}
+	4 {
+    palette 956
+    art_alts [
+	[MiniFly, MiniWisp]
+    ]
+	music [gymnopedies_intro.ogg, gymnopedies_loop.ogg]
+	}
+	5 {
+    tile_graphics Tilespace
+    overlay_graphics Overlaystox
+    background_graphics ch4abg
+    foreground_graphics None
+    palette 948
+
+    art_alts [
+        [GasCloud, None]
+	[ElectroBall, RocketThruster]
+	[Gasser, LargeFloast]
+	[MiniFly, MiniWisp]
+    ]
+	music [gymnopedies_intro.ogg, gymnopedies_loop.ogg]
+	}
+	6 {
+	npc_1 NPCbut2_11
+	}
+}
+
+o2a {
+    area_name "Command"
+    tile_graphics Tileterminal
+	area_label_frame 52
+    overlay_graphics Overlaysretro
+    background_graphics bg_terminal
+    foreground_graphics None
+    palette 953
+	fx_shader nooverlay
+
+	tile_particle_1 boostpad_left
+	tile_particle_2 boostpad_bottom
+	tile_particle_3 boostpad_right
+
+	decoration_1 tv_screen_deco
+
+	npc_1 NPCbut2_1
+	npc_2 NPCbut2_2
+
+    toxic_timer 999999999
+
+    lowgrav_physics "data/player_physics/playerphysics_boostpad.txt"
+
+	sfx_file retrosounds_command.txt
+
+	music command.ogg
+	ambience labloop.ogg
+	ambience_volume 0.5
+	
+	art_alts [
+        [SpeechBubble, SpeechBubbleRetro]
+    ]
+	2x {
+	area_label_frame 0
+	}
+	5x {
+    palette 954
+	}
+	6x {
+    palette 954
+	}
+	17 {
+    palette 954
+	}
+	18 {
+    palette 954
+	}
+	19 {
+    palette 954
+	}
+	20 {
+    palette 954
+	}
+	19x {
+    palette 954
+	}
+	18x {
+    palette 954
+	art_alts [
+        [SpitterX, SpitterX_redshift][SpitterY, SpitterY_redshift][Bullet, Bullet_redshift]
+    ]
+	}
+	20x {
+    palette 954
+	}
+	21x {
+    palette 954
+	}
+	17x {
+    palette 954
+	}
+	21 {
+    palette 954
+	}
+	7x {
+    palette 954
+	}
+	8x {
+    palette 954
+	}
+	25 {
+	music_volume 0
+	}
+}
+
+
+o2ax {
+    area_name "Command"
+    tile_graphics Tileterminal
+	area_label_frame 52
+    overlay_graphics Overlaysretro
+    background_graphics bg_terminal
+    foreground_graphics None
+    palette 953
+	fx_shader nooverlay
+
+	tile_particle_1 boostpad_left
+	tile_particle_2 boostpad_bottom
+	tile_particle_3 boostpad_right
+
+	decoration_1 tv_screen_deco
+
+	npc_1 NPCbut2_1
+	npc_2 NPCbut2_2
+
+    toxic_timer 999999999
+
+    lowgrav_physics "data/player_physics/playerphysics_boostpad.txt"
+
+	music command.ogg
+	ambience labloop.ogg
+	ambience_volume 0.5
+	
+	art_alts [
+        [SpeechBubble, SpeechBubbleRetro]
+    ]
+
+}
+
+o3 {
+    area_name "Acheron"
+	area_label_frame 53
+    tile_graphics Tilecoldsweat
+    overlay_graphics Overlaysend
+    background_graphics bgstyxwaterfall
+    foreground_graphics None
+    palette 949
+
+	fx_shader nooverlay
+    fx_shader_mid lightingmodded
+    midfx_graphics ShadeBox
+    midfx_layer 2
+    shader_param 0.4
+	
+	tile_particle_1 smoke
+	tile_particle_2 drip
+
+	npc_1 NPCbut3_1
+	npc_2 NPCbut3_2
+	npc_3 NPCbut3_3
+	
+	global_particle_1 shockghosts
+	global_particle_2 cold
+
+    lowgrav_physics "data/player_physics/playerphysics_water_sky.txt"
+    player_physics "data/player_physics/playerphysics_waterfall.txt"
+	
+	music none
+	ambience caves.ogg
+	ambience_volume 0.5
+
+	art_alts [
+        [Floater, Ghost]
+	[MiniFly, MiniWisp]
+	[GlowShroom, MiniWisp]
+	[GlowShroomSmall, MiniWisp]
+        [OrbSmall, OrbGhost]
+        [OrbLarge, GhostLarge]
+        [ChainLink2, None]
+    ]
+	0 {
+		shader_param 0.7
+    		tile_graphics Tilehell
+	}
+	1 {
+		shader_param 0.6
+	}
+	2 {
+		shader_param 0.6
+	}
+	3 {
+		shader_param 0.6
+	}
+	4 {
+		shader_param 0.5
+	}
+	5 {
+		shader_param 0.5
+	}
+	9 {
+    lowgrav_physics "data/player_physics/playerphysics_waterfall.txt"
+    player_physics "data/player_physics/playerphysics_water_sky.txt"
+	}
+	10 {
+    lowgrav_physics "data/player_physics/playerphysics_waterfall.txt"
+    player_physics "data/player_physics/playerphysics_water_sky.txt"
+	}
+	11 {
+    lowgrav_physics "data/player_physics/playerphysics_waterfall.txt"
+    player_physics "data/player_physics/playerphysics_water_sky.txt"
+	}
+
+	15 {
+	palette 959
+	}
+	16 {
+	fx_shader_mid heatwave2
+    midfx_graphics SolidBox
+	palette 959
+	global_particle_2 none
+	}
+	17 {
+	fx_shader_mid heatwave2
+    midfx_graphics SolidBox
+	palette 959
+	global_particle_2 none
+	}
+	18 {
+	fx_shader_mid heatwave2
+    midfx_graphics SolidBox
+	palette 959
+	global_particle_2 none
+	}
+	19 {
+	area_label_frame 0
+	fx_shader ripples
+	fx_shader_mid heatwave2
+    midfx_graphics SolidBox
+	palette 959
+	global_particle_2 none
+	player_physics "data/playerphysics.txt"
+	}
+}
+
+o3x {
+    area_name "Acheron"
+	area_label_frame 53
+    tile_graphics Tilecoldsweat
+    overlay_graphics Overlaysend
+    background_graphics bgstyxwaterfall
+    foreground_graphics None
+    palette 949
+
+	fx_shader nooverlay
+    fx_shader_mid lightingmodded
+    midfx_graphics ShadeBox
+    midfx_layer 2
+        shader_param 0.4
+	
+	npc_1 NPCbut3_4
+	npc_2 NPCbut3_5
+
+	global_particle_1 shockghosts
+
+    lowgrav_physics "data/player_physics/playerphysics_water_sky.txt"
+    player_physics "data/player_physics/playerphysics_waterfall.txt"
+	
+	music none
+	ambience caves.ogg
+	ambience_volume 0.5
+
+	art_alts [
+        [Floater, Ghost]
+	[MiniFly, MiniWisp]
+	[GlowShroom, MiniWisp]
+	[GlowShroomSmall, MiniWisp]
+        [OrbSmall, OrbGhost]
+        [OrbLarge, GhostLarge]
+        [ChainLink2, None]
+    ]
+
+	1 {
+    player_physics "data/player_physics/playerphysics_water_sky.txt"
+    lowgrav_physics "data/player_physics/playerphysics_waterfall.txt"
+	}
+
+}
+
 4f {
     area_name "The Factory" #technically potassium's idea, but whatever
     area_label_frame 0

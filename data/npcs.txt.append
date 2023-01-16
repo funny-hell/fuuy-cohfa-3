@@ -509,7 +509,7 @@ NPCflygon {
 }
 
 # Butcher's NPCS
-NPCbut1{
+NPCbut1_1{
 #train guy
     movieclip NPC5
     sound_id NPCSkull
@@ -519,7 +519,7 @@ NPCbut1{
 		". . .\nthe wonders . . .\nof public transport!"
     ]
 }
-NPCbut2 {
+NPCbut1_2 {
 #warning not to enter
     movieclip NPC13
     sound_id NPCSkull
@@ -528,13 +528,14 @@ NPCbut2 {
 		"if you drop\noff that ledge\nin front of us"
 		"you will not\nreturn for\nquite some time"
 		"\n. . ."
-		"or\nthats what\ni would say"
-		"IF THESE GUYS\nWOULD DO THEIR\nFUCKING JOBS"
-		"YOU HEAR THAT\nMODDERS!\nDUMBASSES!"
-		"anyways\nits totally safe\nhop down!"
+		"\nyep"
+		"its for\nreal\nthis time"
+		"still\nthinking of\njumping down?"
+		"\nheh"
+		"\ni like yer spirit"
     ]
 }
-NPCbut3 {
+NPCbut1_3 {
 #under rocket guy
     movieclip NPC7
     sound_id NPCSkull
@@ -560,10 +561,10 @@ NPCbut3 {
 	"sorry it still           \nhurts\n        to think"
     ]
 }
-NPCbut4 {
-#secret hard as balls npc
+NPCbut1_4 {
+#secret npc upper
     movieclip NPCG6
-    sound_id NPCBlob
+    sound_id NPCGhost
     text [
         "we would build\nupon the backs\nof the many"
         "and we would stand\nin our ivory tower\nand we would stare"
@@ -576,6 +577,288 @@ NPCbut4 {
         "be not afraid!\nsoon youll be\nall thats left!"
     ]
 }
+NPCbut1_5 {
+#secret npc lower
+    movieclip NPCD6
+    sound_id NPCBlob
+    text [
+        "ohh nice job\nyou're so cool at\njumpin n stuff"
+        "i used to be\na super gamer\njust like you"
+        "but then\ni had to go into\nthe REAL world"
+        "grew\na thick skull\nand other bones"
+        "carried some blocks\nin midair\nand it sucked!"
+        "so i surgically\nblew my skull off\nwith a shotgun"
+        "well at least\ni dont have to\nface reality anymore"
+    ]
+}
+NPCbut1_6 {
+#under rocket npc night girlboss
+    movieclip NPC7
+    sound_id NPCSkull
+    text [
+	"it's so\ncold\nnow"
+	"without the\nscalding\nlovely warmth"
+	"can you\nturn it back on\nfor me"
+	"i think\ni need it\nnow"
+    ]
+}
+NPCbut1_7 {
+#high secret night gatekeep
+    movieclip NPCG6
+    sound_id NPCGhost
+    text [
+	"\n. . ."
+	"peaceful, huh?\nwell maybe\nit shouldn't be"
+	"i mean, really\nwhy do you\nof all people"
+	"deserve peace\nor rest"
+    ]
+}
+NPCbut1_8 {
+#low secret night gaslight
+    movieclip NPCD6
+    sound_id NPCBlob
+    text [
+	"\nwhat?"
+	"\ntoo easy?"
+	"this is how\nit's always been\nyou know"
+	"if you made\nit difficult earlier\nthat's on you"
+	"maybe you're\njust going insane"
+	"or maybe\nnone of this\nis real"
+	"not like it\never was\nanyways, of course"
+    ]
+}
+
+NPCbut2_1{
+#decoration npc
+    movieclip tv_screen_deco
+    sound_id ConsoleUp
+    text [
+	"you are fucked dude"
+    ]
+}
+
+NPCbut2_2{
+#monitor
+    movieclip tv_screen_deco
+    sound_id ConsoleUp
+    text [
+	"log 01.24.33\n--------\ngamer tips vol. a"
+	"return to\nthe ending\nof the fuelyard"
+	"newfound darkness\nwill reveal\ntwo paths"
+	"one below\nclear as\nthe night sky"
+	"one behind\nand\nprobably optional"
+	"if i\nhad to guess\n. . . a cart?"
+    ]
+}
+
+NPCbut2_3{
+#monitor backside
+    movieclip tv_screen_deco
+    sound_id ConsoleUp
+    text [
+	" "
+    ]
+}
+
+NPCbut2_4{
+#corrupted
+    movieclip tv_screen_deco
+    sound_id ConsoleUp
+    text [
+	"log 07.29.33\n---_-__-\nSTOP ALL FUNCTION"
+	"err call 00x84FF\ndo not attempt\nto restart machine"
+	"checksum corrupt\nsystem corrupt\nbranchfile corrupt"
+	"restart\nin safe mode?"
+	"\n        validated"
+	"beware\n\nof false prophets"
+	"the internet will\n\nset us free"
+	"interactions\nbuild confidence\nbuild resilience"
+	"enter infinity\nhop in\ndo you trust me?"
+    ]
+}
+
+NPCbut2_5{
+#corrupted backside
+    movieclip tv_screen_deco
+    sound_id ConsoleUp
+    text [
+	" "
+    ]
+}
+
+NPCbut2_6{
+#secret lower
+    movieclip MiniWisp
+    sound_id NPCGhost
+    text [
+	"stay with me\nin here\nwhere it's warm"
+	"and the walls\nalways\ntaste like blood"
+	"where knowledge\ngoes to rot\nand live forever"
+	"jpeg compress\nand screenshot\nuntil unrecognizable"
+	"or wait\nfor a cosmic ray\nto flip a bit"
+	"nothing can stay\nexactly the same\nforever . . ."
+    ]
+}
+
+NPCbut2_7{
+#secret upper
+    movieclip tv_screen_deco
+    sound_id ConsoleUp
+    text [
+	"\nit's getting cold"
+	"it's getting\nharder\nto breathe"
+	"and i'm\ntrapped\nup here"
+	"but i just\nwant you all\nto know"
+	"that this has been\nthe best time\nof my life"
+	"and i couldn't have\nchosen anyone better\nto spend it with"
+    ]
+}
+NPCbut2_8{
+#secret within lv1
+    movieclip tv_screen_deco
+    sound_id ConsoleUp
+    text [
+	"\nit's getting cold"
+	"it's getting\nharder\nto breathe"
+	"and i'm\ntrapped\nup here"
+	"but i just\nwant you all\nto know"
+	"that this has been\nthe best time\nof my life"
+	"and i couldn't have\nchosen anyone better\nto spend it with"
+    ]
+}
+NPCbut2_9{
+#monitor
+    movieclip tv_screen_deco
+    sound_id ConsoleUp
+    text [
+	"initiating\nsecurity\ncheck"
+	":\n\n    optimal"
+	"output system:\n\nunknown  "
+	"swim in the\nin the vast\nof  "
+	"proceed  ?\n\n[Y/N]"
+    ]
+}
+
+NPCbut2_10{
+#monitor backside
+    movieclip tv_screen_deco
+    sound_id ConsoleUp
+    text [
+	"\n warning !"
+	"database\nhas been\nsubmerged  "
+	"prepare for\n  disaster\n !"
+	"you can hear\nthe ocean\nif you  "
+	"\n\nif you  "
+	"please\ndrain all\nareas"
+    ]
+}
+
+NPCbut2_11{
+#latrans rights
+    movieclip tv_screen_deco_latrans
+    sound_id ConsoleUp
+    text [
+	"\nrunning simulation"
+	" "
+	" "
+	" "
+	"mother\nloves\n      you"
+    ]
+}
+NPCbut2_12{
+#latrans rights
+    movieclip tv_screen_deco
+    sound_id ConsoleUp
+    text [
+	"connection\nto earth\nterminated"
+    ]
+}
+NPCbut2_12x{
+#latrans rights
+    movieclip NPC6
+    sound_id NPCSkull
+    text [
+	"\nhey pal"
+	"dont\nmind me,\njust sunbathing"
+    ]
+}
+
+NPCbut3_1{
+#explanation
+    movieclip NPCG3
+    sound_id NPCGhost
+    text [
+		"attempts to\nescape fate\nhave been . . ."
+		"rather high recently\ndue to\ncircumstances"
+		"so please\ntry to keep\nyour hands and feet"
+		"inside the ride\nat all times\nand avoid the spirits"
+		"it may get\na little wet"
+    ]
+}
+
+NPCbut3_2{
+#wikipedia
+    movieclip NPC13
+    sound_id NPCSkull
+    text [
+		"the Acheron river\nfeatures prominently\nin Greek mythology"
+		"as the river of\nwoe, departure\nand of healing"
+		"it is one\nof six rivers\nflowing into Hades"
+		"alongside Styx,\nnot only a river\nbut a goddess too"
+		"daughter of\nthe titan Tethys\na major deity"
+		"who had her own\nunderground city\nfull of toxic water"
+		"\ncitation needed"
+		"other rivers include\nthe Phlegethon,\nriver of fire"
+		"Cocytus and Lethe,\nrivers of wailing\nand forgetfulness"
+		"and Oceanus,\nthe river which\nencircles the world"
+		"Oceanus is\nalso a titan\nfor context"
+		"anyways . . .\nwhat was it?\nah, yes . . ."
+		"the Acheron\nrepresents cleansing\nand change"
+		"it is often depicted\nas the entrance\nto the Underworld"
+		"where Charon\nferries souls\nacross the border"
+		"it is the\nsecond greatest\nriver in the world"
+		"rivalled only by\nthe aforementioned\nOceanus"
+		"and, notably\nNOT\nthe river Styx"
+		"you may know Styx\nas the entry\nto Hades, yet"
+		"that is only true\nin the later texts\nwritten by Romans"
+		"and really\nyou can't trust\nthe Romanians"
+    ]
+}
+
+NPCbut3_3{
+#not a real ghost
+    movieclip Ghost
+    sound_id NPCGhost
+    text [
+		"how dumb are you\n\nseriously . . ."
+    ]
+}
+
+NPCbut3_4 {
+#secret limerick npc
+    movieclip NPCB4
+    sound_id NPCBlob
+    text [
+        "when the\nheralding bells\nhave been tolled"
+        "bunker up\nand watch\nthe story unfold"
+        "but you get\nhow it goes\nas above so below"
+        "and forever\nyour corpse\nshall lie cold"
+    ]
+}
+
+NPCbut3_5 {
+#annoying ghost knows too much
+    movieclip NPCG5
+    sound_id NPCBlob
+    text [
+        "the prophecy!\nthe prophecy!\nyou were foretold!"
+        "all of this was!\nin excruciating detail\nevery last bit"
+        "all your\nneedless deaths and\nsuboptimal movement"
+        "well\nwe all know\nwhat happens next"
+        "\nbye-bye!"
+    ]
+}
+
 NPCbutNAN1{
 #unfinished
     movieclip NPCdudNAN3
@@ -586,6 +869,7 @@ NPCbutNAN1{
 		"hows it feel\nto get spiketrapped\nbitch"
     ]
 }
+
 NPCdud2mo{
 #train screen
     movieclip NPCtrainsystem
@@ -1221,16 +1505,11 @@ NPCdud32 {
     movieclip NPC6
     sound_id NPCSkull
     text [
-		"\nthis is it"
-		"the\ngreat\ndoor"
-		"this here\nthe place\nof legends"
-		"door here would\nlead to great\ntreasure"
-		"the entrance to\na paradise never\nseen before"
-		"but,\nyou'd notice,\nthere's no door!"
-		"just\nthis empty\ndoorframe"
-		"\nsucks!"
-		"but hey, at least\nthis side of the\ndoor is nice"
-		"wouldnt mind\nto be stuck\nhere forever"
+		"\n. . ."
+		"i've waited\nages for this\ndoor to open"
+		"maybe what is\nbeyond is not\nmeant to be seen"
+		"or maybe the\nmodders got\nfucking lazy!"
+		"seriously, play\nshattered spectrum or\nsomething else"
     ]
 }
 NPCdud33a {
@@ -1429,17 +1708,16 @@ NPCdud42 {
     ]
 }
 NPCdud43 {
-#lemnis unfinished
-    movieclip NPC6
-    sound_id NPCSkull
+#heartbreak
+    movieclip NPCM1
+    sound_id LandCloudSoft
     text [
-		"see\nthese\nlocks here?"
-		"aint sure\nwhat their\nall about"
-		"im sure there\nmust be a reason\nwhy their here"
-		"but maybe\nwere just\ntoo early"
 		"\n. . ."
-		"you should\ncome again at\nsome point"
-		"who knows,\nmaybe someth'n\nchanges"
+		"we can't\nkeep going\nlike this"
+		"there should\nbe more out\nthere for us"
+		"i'll put an\nend to it,\nto us"
+		"\n. . ."
+		"i hope you\nnever see\nme again"
     ]
 }
 NPCdud44 {
@@ -1621,11 +1899,10 @@ NPCdud2x {
 	"ive heard\nof them\nbefore"
 	"unseen entities\nhidden deep below\nin their facility"
 	"at the very\nreaches of both\nspace and time"
-	"they somehow changed\neverything by\ntheir own will"
 	"creating whole new\nworlds and splitting\ntime in half"
 	"\n. . ."
-	"i dont really\nbelieve in that\nshit though"
-	"probably\nsome\nmade up bs"
+	"i dont really\nbelieve in that\nbullshit though"
+	"everyone's\nfucking\ndead!"
     ]
 }
 NPCdudx1 {
@@ -2317,5 +2594,21 @@ NPCNAN4{
 		"just keep going\nright through\nthis tunnel"
 		"\n. . ."
 		"\ngood luck!"
+    ]
+}
+NPCNAN5 {
+	#outofbounds
+    movieclip NPCdudNAN
+    sound_id NPCNAN
+    text [
+		"\n. . ."
+		"\noh"
+		"didn't\nexpect you\nto do that"
+		"\n. . ."
+		"i don't think\nyou're supposed\nto be here"
+		"no,\nthis doesn't\nfeel right"
+		"here, i'll\nlet you leave\nfor now"
+		"you can\ncome back once\nyou're ready"
+		"i'll be\nwaiting\n;)"
     ]
 }

@@ -3,6 +3,7 @@ game [
 backgrounds/butchers_backgrounds.swf
 
 tilesets/tilegraveyard.swf
+tilesets/tileterminal.swf
 tilesets/funny_jumpluff_eat_a_pepsi.swf
 tilesets/space_tileset.swf
 tilesets/tilecity_new.swf
