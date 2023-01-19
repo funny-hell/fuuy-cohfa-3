@@ -499,7 +499,7 @@ gb {
     ambience volcano.ogg
 	
 	art_alts[
-		[OrbLarge, just_a_block][Floater, fire_my_guy]
+		[OrbLarge, just_a_block][Floater, firehazard]
 	]
 }
 6d {
@@ -3895,7 +3895,7 @@ butx {
 	tile_particle_4 raintile
 	tile_particle_5 splash
 	
-    decoration_1 antenaDeco
+    decoration_1 antennaDeco
     decoration_2 BeamEmitter
     decoration_3 BeamEmitterShort
     
@@ -5398,6 +5398,7 @@ o {
     midfx_layer 2
     
     area_type dark
+	npc_1 NPCHM
 
     do_tilt true
 
@@ -5435,6 +5436,13 @@ o {
     }
 
     6{
+    palette 415
+	tile_graphics Tiletracksdud
+    decoration_1 dudropedeco
+    decoration_2 windowdeco
+    }
+	
+	7{
     palette 415
 	tile_graphics Tiletracksdud
     decoration_1 dudropedeco
@@ -5970,7 +5978,7 @@ csd1 {
     cart_intro_palette 1147
 
 	decoration_1 retrosnow_part
-	decoration_2 IceIceMotherfucker
+	decoration_2 IceShineRetro
     
     area_type glitch
 
@@ -5992,14 +6000,6 @@ csd1 {
 		
 		[MiniFly, MiniFlyretro][Fly, MiniFlyretro][MiniBird, MiniBirdretro][MiniWorm, MiniWormretro][MiniFish, MiniFishWhiteretro][MiniDrone, MiniDroneretro][MiniRat, MiniRatretro][MiniFrog, MiniFrogretro]
     ]
-	3 { palette 1150 }
-	4 { palette 1150 }
-	5 { palette 1149 }
-	6 { palette 1149 }
-	7 { palette 1151 }
-	8 { palette 1151 }
-	9 { palette 1152 }
-	10 { palette 1152 }
 }
 csd2 {
     tile_graphics TileGlitch
@@ -6348,7 +6348,7 @@ c8c {
 	
 	lowgrav_physics "data/player_physics/icephysics.txt"
 	decoration_1 retrosnow_part
-	decoration_2 IceIceMotherfucker
+	decoration_2 IceShineRetro
 	decoration_3 retrohail_part
     
     area_type cart
@@ -7552,7 +7552,7 @@ dud3xu {
 	}
 	3 {
 	art_alts [
-	[OrbSmall, OrbRocks][OrbLarge, OrbRocksBig][ChainLink2, None][Floater, LilBoro][Player, Player_glitchleft]
+	[OrbSmall, OrbRocks][OrbLarge, OrbRocksBig][ChainLink2, None][Floater, LilBoro][Player, PlayerGlitch]
 	]
 	}
 }
@@ -7676,11 +7676,8 @@ wlspl {
 		npc_3 NPCdudp14c
 	}
 	9 {
-		#npc_1 NPCdudp15
-		npc_1 NPCdudp7d
-	}
-	10 {
-		npc_1 NPCNAN1
+		npc_1 NPCdudp15
+		npc_2 NPCdudp14d
 	}
 }
 r1b {
@@ -9021,42 +9018,5 @@ o3x {
 	art_alts [
         [Floater, Ghost][Cartridge, cart2]
     ]
-
-}
-	aus {
-    area_name "Australia"
-    area_label_frame 0
-    tile_graphics Tilehanging
-    overlay_graphics Overlaystox2
-    background_graphics iceicebabybg
-    fx_shader distortionparticles
-    fx_shader_mid verticalflip
-    midfx_graphics SolidBox
-	midfx_layer 2
-
-    palette 1162
-
-    global_particle_1 mist2
-    global_particle_3 cold
-    tile_particle_1 dust
-    
-    area_type normal
-
-    npc_1 NPCdud18
-    npc_2 NPC5
-    npc_3 NPC6
-    decoration_1 Decoration9
-    decoration_2 none
-    decoration_3 none
-    
-    music [chopin_intro.ogg, chopin_loop.ogg]
-    ambience wind.ogg
-	
-	art_alts [
-        [OrbSmall, just_a_block][FloatingMine, just_a_block][Cartridge, cart2]
-	]
-    4 {
-        npc_1 NPCH1
-    }
 
 }

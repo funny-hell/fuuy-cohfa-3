@@ -839,7 +839,7 @@ nilbubbles_jumpers {
 # Surreal's particles
 declinelights {
     #system TestParticle
-    movieclip shinylikemyvaginy
+    movieclip FireflyParticle
     max_particles 200
     layer 0
     livebounds [-10, 64, -10, 42]
@@ -1334,7 +1334,7 @@ shockghosts {
 }
 shooting_star {
     #system TestParticle
-    movieclip shinylikemyvaginy
+    movieclip FireflyParticle
     max_particles 200
     layer 3
     livebounds [-32, 64, -10, 50]
@@ -1367,7 +1367,7 @@ shooting_star {
 }
 shooting_star2 {
     #system TestParticle
-    movieclip shinylikemyvaginy
+    movieclip FireflyParticle
     max_particles 200
     layer 0
     livebounds [-32, 64, -10, 50]

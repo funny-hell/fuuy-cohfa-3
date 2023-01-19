@@ -762,7 +762,10 @@ NPCbut2_11{
 	" "
 	" "
 	" "
-	"mother\nloves\n      you"
+	"want to\ngo to\nspace?"
+	"in space, no one\ncan hear you\n ,"
+	"go to space now\nfor only:\nwhat are you doing!?"
+	"she will\nprotect\nyou!"
     ]
 }
 NPCbut2_12{
@@ -1852,6 +1855,7 @@ NPCdudH2 {
 		"would it be too\nselfish to ask you\nto do it again?"
 		"it would\nbe fair,\nmethinks"
 		"this time you\ncould try to\ndie less, yes!"
+		"400, no less!\nwould you\naccept?"
 		"i cant wait!\nor, more accurately,\ni can!"
 	]
 	
@@ -2210,14 +2214,12 @@ NPCHM{
 		"\nah!"
 		"youve been\nthrough\na lot"
 		"im afraid i\ncant give you\nwhat you want"
-		"650,\nyou do not\npossess"
+		"150,\nyou do not\npossess"
     ]
 	
 	alt_text [
 		"\n. . ."
 		"\nah!"
-		"\nyou again!"
-		"fancy\nseeing\nyou here"
 		"is suffering\nwhat you\nseek?"
 		"\n. . ."
 		"\nvery well"
@@ -2264,6 +2266,10 @@ NPCdudp3{
 		"this person was an uncreative\nsadist who made areas that\nhad to be revamped"
 		"he had caused another person\nsuffering for no reason\nat all"
 		"\ngood riddance hes gone"
+		"\n. . ."
+		"we will still\nremember him\nfondly"
+		"or at\nleast\ni will"
+		"\n- signed,\n#1 Floating City fan"
     ]
 }
 
@@ -2330,6 +2336,7 @@ NPCdudp7d{
 		"\n. . ."
 		"this\ngrave\nis empty"
 		"someone might be\nburied here at\nsome point"
+		"if there's anyone\naround to bury them,\nthat is"
     ]
 }
 NPCdudp7a{
@@ -2337,7 +2344,7 @@ NPCdudp7a{
     movieclip NPCdudm4
     sound_id NPCDefault
     text [
-		"here\nlies\nblockbyte"
+		"here\nlies\nBlockByte"
 		"\nyou will be missed"
     ]
 }
@@ -2366,6 +2373,10 @@ NPCdudp8{
         "\nwhich he did"
         "but he was happy that\nhe tried."
         "he was very\nthankful\nfor the chance"
+		"\n. . ."
+		"that's what\nthey told me\nto write here"
+		"but whatever,\ni liked\nhis areas"
+		"aqueros coast enjoyer?\nsí soy"
     ]
 }
 NPCdudp9{
@@ -2496,8 +2507,23 @@ NPCdudp14c{
     movieclip NPCdudm6
     sound_id NPCDefault
     text [
+		"this one reads:\nFleeting Dream\nby BlockByte and Adenator"
 		"\n. . ."
-		"looks like some\ndreams havent been\nfully dreamed yet"
+		"it also reads:\nsorry, i fucked up the icon,\ni swear it looks better on the workshop"
+    ]
+}
+NPCdudp14d{
+#museum picture
+    movieclip NPCdudm6
+    sound_id NPCDefault
+    text [
+		"this one reads:\nhonorary mentions:\n(aka recent cool mods)"
+		"TEIN Randomizer\n(Also known as Anni 5)\nby Uzerro"
+		"Enana's Collection\n\nby Enana Blanca"
+		"The Hospital\nand Dwarf Fortress\nby Peepperson"
+		"\n. . ."
+		"ok fuck it\nthere's so many\ncool mods in here"
+		"like really, just\ncheck the workshop,\nwhat are you doing here"
     ]
 }
 NPCdudp15{
