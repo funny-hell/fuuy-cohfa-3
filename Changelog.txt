@@ -1,0 +1,6 @@
+Changelog:
+Removed a random unused image.
+Make transition to FCi less jarring.
+Got rid of 2 difficult to avoid kuko patterns.
+Shrunk many screens.
+Retrograde Roots.

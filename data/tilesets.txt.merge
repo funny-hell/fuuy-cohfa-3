@@ -48,7 +48,6 @@ c6 {
 		decoration_1 dudropedeco2
 	}
     2b {
-	palette 1001
 	area_label_frame 0
 	art_alts [
         [Floater, Floater][OrbSmall, BalloonSmall][OrbLarge, BalloonLarge][ChainLink2, BalloonLink2]

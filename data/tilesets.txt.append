@@ -2651,6 +2651,10 @@ a {
         [Floater, Floater][OrbSmall, BalloonSmall][OrbLarge, BalloonLarge][ChainLink2, BalloonLink2]
 	]
 	
+	4x {
+		sfx_file mainsounds_noswitch.txt
+	}
+	
     5 {
         art_alts [
             [OrbSmall, dudsawsmall][OrbLarge, dudsawbig]
@@ -2661,7 +2665,11 @@ a {
     7 {
         toxic_timer 3
     }
-
+	
+	
+	6 {
+		toxic_timer 2
+	}
 
     9 {
         art_alts [
