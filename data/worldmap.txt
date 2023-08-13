@@ -45,7 +45,7 @@ pages {
 meta {
     default_node TheEnd
     
-    leftwipes [2-0 3-1 4-1hub 4b-1 5b-1 2d-0 3d-1 r2-1 r3-1 hub-1 9xd-0x but-0x 6a-1 7a-1 6c-1 5-0 7d-14 r4-1 a-1 but2-1 1bx-1 1bd-1 1b-1
+    leftwipes [2-0 3-1 4-1hub 4b-1 5b-1 2d-0 3d-1 r2-1 r3-1 hub-1 9xd-0x but-0x 6a-1 7a-1 6c-1 5-0 7d-14 r4-1 a-1 but2-1 1bx-1 1bd-1 1b-1 j-1hub
 		1-0 8-0 ki-1 k2-1 o-1 8c-17 6-2x
 	]
     rightwipes [1-20 2-19 3-20 4-1hub 4b-15 1d-20 2d-19 r1-20 r2-20 r3-20 qu-3 5bxu-10 5c-21 5ax-15 hub-1 hub2-5 3d-21 dud3-12 6a-16 7b-20 j-1hub 7d-1t 1xu-5a but-11 a-8 1d-2b

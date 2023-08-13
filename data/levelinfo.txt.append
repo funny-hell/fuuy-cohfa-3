@@ -655,7 +655,7 @@
 "5-8" {name="Castle 8" id=-1}
 "5-9" {name="Castle 9" id=-1}
 "5-10" {name="Castle 10" id=-1}
-"5-11" {name="Castle 11" id=-1}
+"5-11" {name="Castle" id=-1}
 "5-12" {name="Castle 12" id=-1}
 "5-13" {name="Castle 13" id=-1}
 "5-14" {name="Castle 14" id=-1}
@@ -1541,7 +1541,6 @@
 "9dx-4" {name="???" id=-1}
 "9dx-5" {name="???" id=-1}
 
-# Butcher's areas
 # Butcher's areas
 "o1-start" {name="Fuelyard" id=-1}
 "o1-0" {name="Fuelyard" id=-1}

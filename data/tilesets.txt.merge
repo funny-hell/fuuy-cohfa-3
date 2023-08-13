@@ -74,7 +74,7 @@ c6 {
 	}
 }
 1xu {
-	palette 1200
+	palette 1201
 	global_particle_4 cloudwind
 	6a {
 		npc_1 NPCdudx11

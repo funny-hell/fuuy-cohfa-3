@@ -57,73 +57,33 @@ varying vec2 blurcoords[25];
 #elif COMPILING_FRAGMENT_PROGRAM
 
     void frag(){
-
-        vec4 outcolor = vec4(0,0,0,0);
-        /*
-        //outcolor += texture(framebuf, blurcoords[0 ]) * 0.023528;
-        outcolor += texture(framebuf, blurcoords[1 ]) * 0.033969;
-        outcolor += texture(framebuf, blurcoords[2 ]) * 0.038393;
-        outcolor += texture(framebuf, blurcoords[3 ]) * 0.033969;
-        //outcolor += texture(framebuf, blurcoords[4 ]) * 0.023528;
-                                                      
-        outcolor += texture(framebuf, blurcoords[5 ]) * 0.033969;
-        outcolor += texture(framebuf, blurcoords[6 ]) * 0.049045;
-        outcolor += texture(framebuf, blurcoords[7 ]) * 0.055432;
-        outcolor += texture(framebuf, blurcoords[8 ]) * 0.049045;
-        outcolor += texture(framebuf, blurcoords[9 ]) * 0.033969;
-                                                      
-        outcolor += texture(framebuf, blurcoords[10]) * 0.038393;
-        outcolor += texture(framebuf, blurcoords[11]) * 0.055432;
-        outcolor += texture(framebuf, blurcoords[12]) * 0.062651;
-        outcolor += texture(framebuf, blurcoords[13]) * 0.055432;
-        outcolor += texture(framebuf, blurcoords[14]) * 0.038393;
-                                                      
-        outcolor += texture(framebuf, blurcoords[15]) * 0.033969;
-        outcolor += texture(framebuf, blurcoords[16]) * 0.049045;
-        outcolor += texture(framebuf, blurcoords[17]) * 0.055432;
-        outcolor += texture(framebuf, blurcoords[18]) * 0.049045;
-        outcolor += texture(framebuf, blurcoords[19]) * 0.033969;
-                                                      
-        //outcolor += texture(framebuf, blurcoords[20]) * 0.023528;
-        outcolor += texture(framebuf, blurcoords[21]) * 0.033969;
-        outcolor += texture(framebuf, blurcoords[22]) * 0.038393;
-        outcolor += texture(framebuf, blurcoords[23]) * 0.033969;
-        //outcolor += texture(framebuf, blurcoords[24]) * 0.023528;
-        */
-
-        //outcolor += texture(framebuf, blurcoords[0 ]) * 0.023528;
-        outcolor += texture(framebuf, blurcoords[1 ]) * 4.0/252.0;
-        outcolor += texture(framebuf, blurcoords[2 ]) * 6.0/252.0;
-        outcolor += texture(framebuf, blurcoords[3 ]) * 4.0/252.0;
-        //outcolor += texture(framebuf, blurcoords[4 ]) * 0.023528;
-
-        outcolor += texture(framebuf, blurcoords[5 ]) * 4.0/252.0;
-        outcolor += texture(framebuf, blurcoords[6 ]) * 16.0/252.0;
-        outcolor += texture(framebuf, blurcoords[7 ]) * 24.0/252.0;
-        outcolor += texture(framebuf, blurcoords[8 ]) * 16.0/252.0;
-        outcolor += texture(framebuf, blurcoords[9 ]) * 4.0/252.0;
-
-        outcolor += texture(framebuf, blurcoords[10]) * 6.0/252.0;
-        outcolor += texture(framebuf, blurcoords[11]) * 24.0/252.0;
-        outcolor += texture(framebuf, blurcoords[12]) * 36.0/252.0;
-        outcolor += texture(framebuf, blurcoords[13]) * 24.0/252.0;
-        outcolor += texture(framebuf, blurcoords[14]) * 6.0/252.0;
-
-        outcolor += texture(framebuf, blurcoords[15]) * 4.0/252.0;
-        outcolor += texture(framebuf, blurcoords[16]) * 16.0/252.0;
-        outcolor += texture(framebuf, blurcoords[17]) * 24.0/252.0;
-        outcolor += texture(framebuf, blurcoords[18]) * 16.0/252.0;
-        outcolor += texture(framebuf, blurcoords[19]) * 4.0/252.0;
-
-        //outcolor += texture(framebuf, blurcoords[20]) * 0.023528;
-        outcolor += texture(framebuf, blurcoords[21]) * 4.0/252.0;
-        outcolor += texture(framebuf, blurcoords[22]) * 6.0/252.0;
-        outcolor += texture(framebuf, blurcoords[23]) * 4.0/252.0;
-        //outcolor += texture(framebuf, blurcoords[24]) * 0.023528;
-
-
-        //outcolor.a = 1.0;
-        gl_FragColor = outcolor;//texture(framebuf, screencoords.xy);
+		float Pi = 6.28318530718; // Pi*2
+    
+		// GAUSSIAN BLUR SETTINGS {{{
+		float Directions = 16.0; // BLUR DIRECTIONS (Default 16.0 - More is better but slower)
+		float Quality = 3.0; // BLUR QUALITY (Default 4.0 - More is better but slower)
+		float Size = 6.0; // BLUR SIZE (Radius)
+		// GAUSSIAN BLUR SETTINGS }}}
+	
+		vec2 Radius = Size/screensize.xy;
+		
+		// Normalized pixel coordinates (from 0 to 1)
+		vec2 uv = screencoords.xy;
+		// Pixel colour
+		vec4 Color = texture(framebuf, uv);
+		
+		// Blur calculations
+		for( float d=0.0; d<Pi; d+=Pi/Directions)
+		{
+			for(float i=1.0/Quality; i<=1.0; i+=1.0/Quality)
+			{
+				Color += texture( framebuf, uv+vec2(cos(d),sin(d))*Radius*i);		
+			}
+		}
+		
+		Color /= Quality * Directions - 15.0;
+		
+        gl_FragColor = Color;
     }
     
 #endif
