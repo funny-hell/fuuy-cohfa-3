@@ -1,17 +1,17 @@
 NPC_Sign1 {
 #first_sign
-    movieclip NPCSign
-    sound_id NPCSkull
-    text [
-        "you arent\nmeant to\nsee this."
+	movieclip NPCSign
+	sound_id NPCSkull
+	text [
+		"you arent\nmeant to\nsee this."
 		"be kinda\nwacky if\nyou did"
-    ]
+	]
 }
 NPC_Helper {
 #expository
-    movieclip NPC18
-    sound_id NPCSkull
-    text [
+	movieclip NPC18
+	sound_id NPCSkull
+	text [
 		"\nhey, you"
 		"plannin to follow\nalong these tracks?\nheheh, well . . ."
 		"not a bad idea\nthere, sonny\nbut . . ."
@@ -23,16 +23,16 @@ NPC_Helper {
 		". . .\na strong one\nfor a fact"
 		"since even now\nalls gone to shit\nthe wind's still here"
 		"\nhowlin away."
-    ]
+	]
 }
 NPC_Soldier {
 #bootlicker lmao
-    movieclip NPC19
-    sound_id NPCSkull
-    text [
+	movieclip NPC19
+	sound_id NPCSkull
+	text [
 		"man\nthat gas\nis funky"
 		"had me\nlaughing\nfor days!"
-    ]
+	]
 }
 NPCEX {
 #basic sideways
@@ -45,26 +45,26 @@ NPCEX {
 }
 NPC_Horny {
 #tethysmoment
-    movieclip NPC0
-    sound_id NPCSkull
-    text [
+	movieclip NPC0
+	sound_id NPCSkull
+	text [
 		"CAN'T YOU\nSEE I'M\nMA- wait"
 		"\n. . ."
 		"where\nthe fuck\nam i?"
 		"whatever dont\ntouch my fabulous\ngold jaw"
 		"that's\nmine and\nMINE only"
-    ]
+	]
 }
 
 NPC_FUCKFUCKFUCKFUCK {
 #npc but EPIC!!!!!!!!!
-    movieclip NPC0
-    sound_id NPCSkull
-    text [
+	movieclip NPC0
+	sound_id NPCSkull
+	text [
 		"\nepic"
 		"\n. . ."
 		"the world\ngot giga\nfucked now"
-    ]
+	]
 }
 
 waterguide {
@@ -102,17 +102,17 @@ fly {
 
 NPCSky1 {
 #not funny, didnt laugh
-    movieclip NPCdudG1
-    sound_id NPCGhost
-    text [
-        "ah, we\nnever\nfinished it!"
-        "all this\nscaffolding\nleft here"
+	movieclip NPCdudG1
+	sound_id NPCGhost
+	text [
+		"ah, we\nnever\nfinished it!"
+		"all this\nscaffolding\nleft here"
 		"all this\nscaffolding\nin the sky"
-        "\nyou could say"
-        "\nthat its skyfolding"
-        "\n. . ."
-        "what are\nyou still\ndoing here?"
-         ]
+		"\nyou could say"
+		"\nthat its skyfolding"
+		"\n. . ."
+		"what are\nyou still\ndoing here?"
+		 ]
 }
 
 NPCC1 {
@@ -334,29 +334,29 @@ NPCH7 {
 # Derzox and Adenator's NPCS
 NPCKI9 {
 #basic sideways
-    movieclip NPCad00
-    sound_id NPCBlob
-    text [
-    "mmh\n. . .\nhi."
-    "welcome to uh,\nAQUEROS COAST!\n. . ."
-    "ow, my throat hurts\nits quite epic though"
-    "well anyways, the\nrocky sea\nis this way."
-    "although this one\nisnt actually any sea\nthis is more of lake"
-    "the sea's actually\nbehind that mountain\nover there"
-    "its more convenient\nto call it\n a sea"
-    "so uh, you might\nhave noticed\n. . ."
-    "the rain's preetty\nbad here, it rains\nhere ALL the time!"
-    "something wacky\nhappened after the bombings"
+	movieclip NPCad00
+	sound_id NPCBlob
+	text [
+	"mmh\n. . .\nhi."
+	"welcome to uh,\nAQUEROS COAST!\n. . ."
+	"ow, my throat hurts\nits quite epic though"
+	"well anyways, the\nrocky sea\nis this way."
+	"although this one\nisnt actually any sea\nthis is more of lake"
+	"the sea's actually\nbehind that mountain\nover there"
+	"its more convenient\nto call it\n a sea"
+	"so uh, you might\nhave noticed\n. . ."
+	"the rain's preetty\nbad here, it rains\nhere ALL the time!"
+	"something wacky\nhappened after the bombings"
 	"\nto the clouds here"
-    "im not a nerd\nso i dont know\n all the details"
-    "but you can\nkinda jump on\nthe rain here"
-    ". . .\ni dont really jump much."
-    "anyways, if you wanna go\nfurther"
-    "\ngood luck!"
-    ". . .\nsorry for the long talk"
-    "i dont get\nmuch visitors\n. . ."
-    "\nbye!"   	
-        ]
+	"im not a nerd\nso i dont know\n all the details"
+	"but you can\nkinda jump on\nthe rain here"
+	". . .\ni dont really jump much."
+	"anyways, if you wanna go\nfurther"
+	"\ngood luck!"
+	". . .\nsorry for the long talk"
+	"i dont get\nmuch visitors\n. . ."
+	"\nbye!"   	
+		]
 }
 NPC_HYDREDRONSUMMIT {
 # god fucking dammit how could i forget this guy -adenator
@@ -384,9 +384,9 @@ NPC_HYDREDRONSUMMIT {
 }
 NPCnil1 {
 #first guy idk	
-    movieclip NPCad01
-    sound_id NPCBlob
-    text [
+	movieclip NPCad01
+	sound_id NPCBlob
+	text [
 		"oh, are you\none of\n. . ."
 		"you dont\nlook like\nit"
 		"its unfortunate\nto see\nanother soul."
@@ -492,39 +492,39 @@ NPCad08 {
 # BlockByte's NPCS
 NPCflygon {
 #universe
-    movieclip NPC2
-    sound_id NPCSkull
-    text [
-        "\n. . . oh, hi!"
-        "was wondering\nwho drove the train\ninto the water."
-        "\nso . . ."
-        "im looking for\nan arceus, do\nyou know where they are?"
-        "what!?\ntheyre\ndead?"
-        "wow this place\nsure has\ngone downhill!"
-        "ill be on\nmy way now!\nthanks for telling me."
-        "\n. . ."
-        "\n. . . that portal is\none-way"
+	movieclip NPC2
+	sound_id NPCSkull
+	text [
+		"\n. . . oh, hi!"
+		"was wondering\nwho drove the train\ninto the water."
+		"\nso . . ."
+		"im looking for\nan arceus, do\nyou know where they are?"
+		"what!?\ntheyre\ndead?"
+		"wow this place\nsure has\ngone downhill!"
+		"ill be on\nmy way now!\nthanks for telling me."
+		"\n. . ."
+		"\n. . . that portal is\none-way"
 
-    ]
+	]
 }
 
 # Butcher's NPCS
 NPCbut1_1{
 #train guy
-    movieclip NPC5
-    sound_id NPCSkull
-    text [
+	movieclip NPC5
+	sound_id NPCSkull
+	text [
 		"and . . .\n. . .\nhere we are"
 		"wait . . .\n. . .\nwhere are we?"
 		". . .\nthe wonders . . .\nof public transport!"
-    ]
+	]
 }
 NPCbut1_2 {
 #warning not to enter
-    movieclip NPC13
-    sound_id NPCSkull
-    text [
-        "im getting\na strange feeling\nthat"
+	movieclip NPC13
+	sound_id NPCSkull
+	text [
+		"im getting\na strange feeling\nthat"
 		"if you drop\noff that ledge\nin front of us"
 		"you will not\nreturn for\nquite some time"
 		"\n. . ."
@@ -533,18 +533,18 @@ NPCbut1_2 {
 		"still\nthinking of\njumping down?"
 		"\nheh"
 		"\ni like yer spirit"
-    ]
+	]
 }
 NPCbut1_3 {
 #under rocket guy
-    movieclip NPC7
-    sound_id NPCSkull
-    text [
+	movieclip NPC7
+	sound_id NPCSkull
+	text [
 	"haha you can TELL\nthese guys just\ndidnt want me here"
 	"but\nhere i am!\nanyways!"
 	"and in revenge\nwhat can they\ndo about it?"
 	"i dunno\nkill my family?\nstarve me?"
-        "really taking\nSCORCHED EARTH\nto another level!"
+		"really taking\nSCORCHED EARTH\nto another level!"
 	" "
 	" "
 	" "
@@ -558,66 +558,66 @@ NPCbut1_3 {
 	" "
 	" "
 	" "
-	"sorry it still           \nhurts\n        to think"
-    ]
+	"sorry it still		   \nhurts\n		to think"
+	]
 }
 NPCbut1_4 {
 #secret npc upper
-    movieclip NPCG6
-    sound_id NPCGhost
-    text [
-        "we would build\nupon the backs\nof the many"
-        "and we would stand\nin our ivory tower\nand we would stare"
-        "with such longing\n. . .\nat them"
-        "our gods\nhidden in the stars\never higher yet"
-        "a collaborative\npursuit of knowledge\nand of truth"
-        "of course each\nand every\none of us"
-        "would betray it all\nfor just a glimpse\nat glory"
-        "ee-hee-hee!\ndoes that\nworry you?"
-        "be not afraid!\nsoon youll be\nall thats left!"
-    ]
+	movieclip NPCG6
+	sound_id NPCGhost
+	text [
+		"we would build\nupon the backs\nof the many"
+		"and we would stand\nin our ivory tower\nand we would stare"
+		"with such longing\n. . .\nat them"
+		"our gods\nhidden in the stars\never higher yet"
+		"a collaborative\npursuit of knowledge\nand of truth"
+		"of course each\nand every\none of us"
+		"would betray it all\nfor just a glimpse\nat glory"
+		"ee-hee-hee!\ndoes that\nworry you?"
+		"be not afraid!\nsoon youll be\nall thats left!"
+	]
 }
 NPCbut1_5 {
 #secret npc lower
-    movieclip NPCD6
-    sound_id NPCBlob
-    text [
-        "ohh nice job\nyou're so cool at\njumpin n stuff"
-        "i used to be\na super gamer\njust like you"
-        "but then\ni had to go into\nthe REAL world"
-        "grew\na thick skull\nand other bones"
-        "carried some blocks\nin midair\nand it sucked!"
-        "so i surgically\nblew my skull off\nwith a shotgun"
-        "well at least\ni dont have to\nface reality anymore"
-    ]
+	movieclip NPCD6
+	sound_id NPCBlob
+	text [
+		"ohh nice job\nyou're so cool at\njumpin n stuff"
+		"i used to be\na super gamer\njust like you"
+		"but then\ni had to go into\nthe REAL world"
+		"grew\na thick skull\nand other bones"
+		"carried some blocks\nin midair\nand it sucked!"
+		"so i surgically\nblew my skull off\nwith a shotgun"
+		"well at least\ni dont have to\nface reality anymore"
+	]
 }
 NPCbut1_6 {
 #under rocket npc night girlboss
-    movieclip NPC7
-    sound_id NPCSkull
-    text [
+	movieclip NPC7
+	sound_id NPCSkull
+	text [
 	"it's so\ncold\nnow"
 	"without the\nscalding\nlovely warmth"
 	"can you\nturn it back on\nfor me"
 	"i think\ni need it\nnow"
-    ]
+	]
 }
 NPCbut1_7 {
 #high secret night gatekeep
-    movieclip NPCG6
-    sound_id NPCGhost
-    text [
+	movieclip NPCG6
+	sound_id NPCGhost
+	text [
 	"\n. . ."
 	"peaceful, huh?\nwell maybe\nit shouldn't be"
 	"i mean, really\nwhy do you\nof all people"
 	"deserve peace\nor rest"
-    ]
+	]
 }
 NPCbut1_8 {
 #low secret night gaslight
-    movieclip NPCD6
-    sound_id NPCBlob
-    text [
+	movieclip NPCD6
+	sound_id NPCBlob
+	text [
 	"\nwhat?"
 	"\ntoo easy?"
 	"this is how\nit's always been\nyou know"
@@ -625,139 +625,139 @@ NPCbut1_8 {
 	"maybe you're\njust going insane"
 	"or maybe\nnone of this\nis real"
 	"not like it\never was\nanyways, of course"
-    ]
+	]
 }
 
 NPCbut2_1{
 #decoration npc
-    movieclip tv_screen_deco
-    sound_id ConsoleUp
-    text [
+	movieclip tv_screen_deco
+	sound_id ConsoleUp
+	text [
 	"you are fucked dude"
-    ]
+	]
 }
 
 NPCbut2_2{
 #monitor
-    movieclip tv_screen_deco
-    sound_id ConsoleUp
-    text [
+	movieclip tv_screen_deco
+	sound_id ConsoleUp
+	text [
 	"log 01.24.33\n--------\ngamer tips vol. a"
 	"return to\nthe ending\nof the fuelyard"
 	"newfound darkness\nwill reveal\ntwo paths"
 	"one below\nclear as\nthe night sky"
 	"one behind\nand\nprobably optional"
 	"if i\nhad to guess\n. . . a cart?"
-    ]
+	]
 }
 
 NPCbut2_3{
 #monitor backside
-    movieclip tv_screen_deco
-    sound_id ConsoleUp
-    text [
+	movieclip tv_screen_deco
+	sound_id ConsoleUp
+	text [
 	" "
-    ]
+	]
 }
 
 NPCbut2_4{
 #corrupted
-    movieclip tv_screen_deco
-    sound_id ConsoleUp
-    text [
+	movieclip tv_screen_deco
+	sound_id ConsoleUp
+	text [
 	"log 07.29.33\n---_-__-\nSTOP ALL FUNCTION"
 	"err call 00x84FF\ndo not attempt\nto restart machine"
 	"checksum corrupt\nsystem corrupt\nbranchfile corrupt"
 	"restart\nin safe mode?"
-	"\n        validated"
+	"\n		validated"
 	"beware\n\nof false prophets"
 	"the internet will\n\nset us free"
 	"interactions\nbuild confidence\nbuild resilience"
 	"enter infinity\nhop in\ndo you trust me?"
-    ]
+	]
 }
 
 NPCbut2_5{
 #corrupted backside
-    movieclip tv_screen_deco
-    sound_id ConsoleUp
-    text [
+	movieclip tv_screen_deco
+	sound_id ConsoleUp
+	text [
 	" "
-    ]
+	]
 }
 
 NPCbut2_6{
 #secret lower
-    movieclip MiniWisp
-    sound_id NPCGhost
-    text [
+	movieclip MiniWisp
+	sound_id NPCGhost
+	text [
 	"stay with me\nin here\nwhere it's warm"
 	"and the walls\nalways\ntaste like blood"
 	"where knowledge\ngoes to rot\nand live forever"
 	"jpeg compress\nand screenshot\nuntil unrecognizable"
 	"or wait\nfor a cosmic ray\nto flip a bit"
 	"nothing can stay\nexactly the same\nforever . . ."
-    ]
+	]
 }
 
 NPCbut2_7{
 #secret upper
-    movieclip tv_screen_deco
-    sound_id ConsoleUp
-    text [
+	movieclip tv_screen_deco
+	sound_id ConsoleUp
+	text [
 	"\nit's getting cold"
 	"it's getting\nharder\nto breathe"
 	"and i'm\ntrapped\nup here"
 	"but i just\nwant you all\nto know"
 	"that this has been\nthe best time\nof my life"
 	"and i couldn't have\nchosen anyone better\nto spend it with"
-    ]
+	]
 }
 NPCbut2_8{
 #secret within lv1
-    movieclip tv_screen_deco
-    sound_id ConsoleUp
-    text [
+	movieclip tv_screen_deco
+	sound_id ConsoleUp
+	text [
 	"\nit's getting cold"
 	"it's getting\nharder\nto breathe"
 	"and i'm\ntrapped\nup here"
 	"but i just\nwant you all\nto know"
 	"that this has been\nthe best time\nof my life"
 	"and i couldn't have\nchosen anyone better\nto spend it with"
-    ]
+	]
 }
 NPCbut2_9{
 #monitor
-    movieclip tv_screen_deco
-    sound_id ConsoleUp
-    text [
+	movieclip tv_screen_deco
+	sound_id ConsoleUp
+	text [
 	"initiating\nsecurity\ncheck"
-	":\n\n    optimal"
+	":\n\n	optimal"
 	"output system:\n\nunknown  "
 	"swim in the\nin the vast\nof  "
 	"proceed  ?\n\n[Y/N]"
-    ]
+	]
 }
 
 NPCbut2_10{
 #monitor backside
-    movieclip tv_screen_deco
-    sound_id ConsoleUp
-    text [
+	movieclip tv_screen_deco
+	sound_id ConsoleUp
+	text [
 	"\n warning !"
 	"database\nhas been\nsubmerged  "
 	"prepare for\n  disaster\n !"
 	"you can hear\nthe ocean\nif you  "
 	"\n\nif you  "
 	"please\ndrain all\nareas"
-    ]
+	]
 }
 
 NPCbut2_11{
 #latrans rights
-    movieclip tv_screen_deco_latrans
-    sound_id ConsoleUp
-    text [
+	movieclip tv_screen_deco_latrans
+	sound_id ConsoleUp
+	text [
 	"\nrunning simulation"
 	" "
 	" "
@@ -766,44 +766,44 @@ NPCbut2_11{
 	"in space, no one\ncan hear you\n ,"
 	"go to space now\nfor only:\nwhat are you doing!?"
 	"she will\nprotect\nyou!"
-    ]
+	]
 }
 NPCbut2_12{
 #latrans rights
-    movieclip tv_screen_deco
-    sound_id ConsoleUp
-    text [
+	movieclip tv_screen_deco
+	sound_id ConsoleUp
+	text [
 	"connection\nto earth\nterminated"
-    ]
+	]
 }
 NPCbut2_12x{
 #latrans rights
-    movieclip NPC6
-    sound_id NPCSkull
-    text [
+	movieclip NPC6
+	sound_id NPCSkull
+	text [
 	"\nhey pal"
 	"dont\nmind me,\njust sunbathing"
-    ]
+	]
 }
 
 NPCbut3_1{
 #explanation
-    movieclip NPCG3
-    sound_id NPCGhost
-    text [
+	movieclip NPCG3
+	sound_id NPCGhost
+	text [
 		"attempts to\nescape fate\nhave been . . ."
 		"rather high recently\ndue to\ncircumstances"
 		"so please\ntry to keep\nyour hands and feet"
 		"inside the ride\nat all times\nand avoid the spirits"
 		"it may get\na little wet"
-    ]
+	]
 }
 
 NPCbut3_2{
 #wikipedia
-    movieclip NPC13
-    sound_id NPCSkull
-    text [
+	movieclip NPC13
+	sound_id NPCSkull
+	text [
 		"the Acheron river\nfeatures prominently\nin Greek mythology"
 		"as the river of\nwoe, departure\nand of healing"
 		"it is one\nof six rivers\nflowing into Hades"
@@ -825,84 +825,84 @@ NPCbut3_2{
 		"you may know Styx\nas the entry\nto Hades, yet"
 		"that is only true\nin the later texts\nwritten by Romans"
 		"and really\nyou can't trust\nthe Romanians"
-    ]
+	]
 }
 
 NPCbut3_3{
 #not a real ghost
-    movieclip Ghost
-    sound_id NPCGhost
-    text [
+	movieclip Ghost
+	sound_id NPCGhost
+	text [
 		"how dumb are you\n\nseriously . . ."
-    ]
+	]
 }
 
 NPCbut3_4 {
 #secret limerick npc
-    movieclip NPCB4
-    sound_id NPCBlob
-    text [
-        "when the\nheralding bells\nhave been tolled"
-        "bunker up\nand watch\nthe story unfold"
-        "but you get\nhow it goes\nas above so below"
-        "and forever\nyour corpse\nshall lie cold"
-    ]
+	movieclip NPCB4
+	sound_id NPCBlob
+	text [
+		"when the\nheralding bells\nhave been tolled"
+		"bunker up\nand watch\nthe story unfold"
+		"but you get\nhow it goes\nas above so below"
+		"and forever\nyour corpse\nshall lie cold"
+	]
 }
 
 NPCbut3_5 {
 #annoying ghost knows too much
-    movieclip NPCG5
-    sound_id NPCBlob
-    text [
-        "the prophecy!\nthe prophecy!\nyou were foretold!"
-        "all of this was!\nin excruciating detail\nevery last bit"
-        "all your\nneedless deaths and\nsuboptimal movement"
-        "well\nwe all know\nwhat happens next"
-        "\nbye-bye!"
-    ]
+	movieclip NPCG5
+	sound_id NPCBlob
+	text [
+		"the prophecy!\nthe prophecy!\nyou were foretold!"
+		"all of this was!\nin excruciating detail\nevery last bit"
+		"all your\nneedless deaths and\nsuboptimal movement"
+		"well\nwe all know\nwhat happens next"
+		"\nbye-bye!"
+	]
 }
 
 NPCbutNAN1{
 #unfinished
-    movieclip NPCdudNAN3
-    sound_id NPCBlob
-    text [
+	movieclip NPCdudNAN3
+	sound_id NPCBlob
+	text [
 		"we have\nsome loose ends\nhere, dont we"
 		"ooh,\n\nsucks. . ."
 		"hows it feel\nto get spiketrapped\nbitch"
-    ]
+	]
 }
 
 NPCdud2mo{
 #train screen
-    movieclip NPCtrainsystem
-    sound_id ConsoleUp
-    text [
+	movieclip NPCtrainsystem
+	sound_id ConsoleUp
+	text [
 		"TRAIN HAS\nARRIVED\nSUCCESSFULLY"
 		"\nEXIT SAFELY"
-    ]
+	]
 }
 
 # Surreal's NPCS
 NPCSDR1 {
 #surreals favorite skel
-    movieclip NPCR1
-    sound_id Boing
-    text [
-        "\nlife, mate"
+	movieclip NPCR1
+	sound_id Boing
+	text [
+		"\nlife, mate"
 		"its\njust so bloody\nbeautiful"
 		"a"
 		"b"
 		"c"
 		"have\nyou\ndied yet"
-    ]
+	]
 }
 NPCSDR2 {
 #surreal loves this skel
-    movieclip NPCR1
-    sound_id Boing
-    text [
-        "\n. . ."
+	movieclip NPCR1
+	sound_id Boing
+	text [
+		"\n. . ."
 		"youve\ncome a\nlong way"
 		"its cold\nup here,\naint it?"
 		"\n. . ."
@@ -942,14 +942,14 @@ NPCSDR2 {
 		"like\nstay dead\nand stuff"
 		"\n. . ."
 		"\nsee ya!"
-    ]
+	]
 }
 NPCSDR3 {
 #surreal hates this skel
-    movieclip NPCR1
-    sound_id Boing
-    text [
-        "\n. . ."
+	movieclip NPCR1
+	sound_id Boing
+	text [
+		"\n. . ."
 		"so you\nfinally show\nyour face"
 		"must\nbe nice,\nright?"
 		"refusing to\nchange, same\nold you"
@@ -967,71 +967,71 @@ NPCSDR3 {
 		"so\ngo on,\nnow"
 		"try to\nprove me\nwrong"
 		"\n. . ."
-    ]
+	]
 }
 NPCSDR2warp1 {
 #intermission 1
-    movieclip NPCR_warp
-    sound_id Boing
-    text [
-        "\nerror"
-    ]
-    
-    alt_text [
-        "you can save\nand take a\nbreak now"
+	movieclip NPCR_warp
+	sound_id Boing
+	text [
+		"\nerror"
+	]
+	
+	alt_text [
+		"you can save\nand take a\nbreak now"
 		"you can exit\nthe game now\nif you want"
 		"as long as\nyou dont pull\nthis cart out"
 		"you can\ncontinue\nwhenever you want"
-    ]
+	]
 }
 NPCSDR2warp2 {
 #intermission 2
-    movieclip NPCR_warp
-    sound_id Boing
-    text [
-        "\nerror"
-    ]
-    
-    alt_text [
-        "you can save\nand take a\nbreak now"
+	movieclip NPCR_warp
+	sound_id Boing
+	text [
+		"\nerror"
+	]
+	
+	alt_text [
+		"you can save\nand take a\nbreak now"
 		"you can exit\nthe game now\nif you want"
 		"you shouldnt\nexit the cart,\nhowever"
 		"got it?\ngood, now\nget inside"
-    ]
+	]
 }
 NPCSDR2warp3 {
 #intermission 3
-    movieclip NPCR_warp
-    sound_id Boing
-    text [
-        "\nerror"
-    ]
-    
-    alt_text [
-        "you\nknow\nthe drill"
+	movieclip NPCR_warp
+	sound_id Boing
+	text [
+		"\nerror"
+	]
+	
+	alt_text [
+		"you\nknow\nthe drill"
 		"you can\nexit the\ngame now"
 		"so take\na break\nor continue"
-    ]
+	]
 }
 NPCSDR2warp4 {
 #intermission 4
-    movieclip NPCR_warp
-    sound_id Boing
-    text [
-        "\nerror"
-    ]
-    
-    alt_text [
-        "\none last time"
+	movieclip NPCR_warp
+	sound_id Boing
+	text [
+		"\nerror"
+	]
+	
+	alt_text [
+		"\none last time"
 		"take\na break\nor continue"
-    ]
+	]
 }
 NPCdud2 {
 #surreal dud surreal dud
-    movieclip NPCdud1
-    sound_id NPCBlob
-    text [
-    "\n. . ."
+	movieclip NPCdud1
+	sound_id NPCBlob
+	text [
+	"\n. . ."
 	"i often\nask myself,\nwhats the point?"
 	"like,\nwhy bother\neven trying?"
 	"when no matter\nwhat, you cant\nchange shit"
@@ -1044,13 +1044,13 @@ NPCdud2 {
 	"welp!\nheaven knows\ni tried"
 	"guess ill\njust lie here\nforever now"
 	"you\nshould do\nthe same"
-    ]
+	]
 }
 NPCdud5{
 #lore blob
-    movieclip NPCB3
-    sound_id NPCBlob
-    text [
+	movieclip NPCB3
+	sound_id NPCBlob
+	text [
 	"one\nmight\nwonda"
 	"whats\nwith  all\nthese cannons"
 	"where did\nthey\ncame from"
@@ -1058,25 +1058,25 @@ NPCdud5{
 	"i aint\nhave no\nclue"
 	"but i suspect it\nhas to do with\ngetting high"
 	"sniff them smokes\nthats what\ni say"
-    ]
+	]
 }
 NPCdud6{
 #cowfucker
-    movieclip NPC6
-    sound_id NPCSkull
-    text [
+	movieclip NPC6
+	sound_id NPCSkull
+	text [
 	"cannons\nare like\ncows"
 	"you ride them\nand they\ntake you somewhere"
 	"and like cows\nyou might die\nif they kick you"
 	"but also yea\ndont try to\nfuck cannons"
 	"bad\nhabits\ni tell ya"
-    ]
+	]
 }
 NPCdud7{
 #stand still blob
-    movieclip NPC3
-    sound_id NPCSkull
-    text [
+	movieclip NPC3
+	sound_id NPCSkull
+	text [
 	"did you know\nthat if you\nstop moving"
 	"you dont\nlose any\nmomentum ?"
 	"so you can\nstop mid-air without\nmoving an inch"
@@ -1085,7 +1085,7 @@ NPCdud7{
 	"but,\nif you do\nso . . ."
 	"youll realize you\nhavent achieved\nanything"
 	"have\nyou ever,\nthough?"
-    ]
+	]
 }
 NPCdud8 {
 #farlands skeleton
@@ -1121,23 +1121,23 @@ NPCdud9 {
 }
 NPCdud10 {
 #worm
-    movieclip NPCdud2
-    sound_id NPCBlob
-    text [
-    "us worms\nhave it\npretty tough!"
+	movieclip NPCdud2
+	sound_id NPCBlob
+	text [
+	"us worms\nhave it\npretty tough!"
 	"we follow the group\nand we get crushed\nby these walls!"
 	"i hope we find\na safe place\nsomeday . . ."
 	"far from\nthese splintered\nlands"
 	"\n. . ."
 	"i guess dying\naint that bad\neither!"
-    ]
+	]
 }
 NPCdud11 {
 #schrodingers blob
-    movieclip NPCdud7
-    sound_id NPCBlob
-    text [
-    "\ncareful now!"
+	movieclip NPCdud7
+	sound_id NPCBlob
+	text [
+	"\ncareful now!"
 	"there is\nno floor\nhere!"
 	"if you fall\ndown there\n. . . well . . ."
 	"nothing good\ncan come out\nof it"
@@ -1151,14 +1151,14 @@ NPCdud11 {
 	"when you\ncould be living\nhappily instead?"
 	"\n. . ."
 	"do i\nknow\nyou?"
-    ]
+	]
 }
 NPCdud12 {
 #blocks
-    movieclip NPCdud6
-    sound_id NPCBlob
-    text [
-    "\nwelcome stranger"
+	movieclip NPCdud6
+	sound_id NPCBlob
+	text [
+	"\nwelcome stranger"
 	"this is\nmy stack\nof blocks!"
 	"but\ncareful\nnow!"
 	"the other day i\nwas standing here\nas usual . . ."
@@ -1170,7 +1170,7 @@ NPCdud12 {
 	"\nGUh!"
 	"\nsorry"
 	"im trying\nto hold back\nmy impulses"
-    ]
+	]
 }
 NPCdud13 {
 #fart lands skeleton
@@ -1221,9 +1221,9 @@ NPCdud16 {
 }
 NPCdud17{
 #i love my skyfolding like i love my coffee: not making any fucking sense
-    movieclip NPC1
-    sound_id NPCSkull
-    text [
+	movieclip NPC1
+	sound_id NPCSkull
+	text [
 		"\nhah!"
 		"\nwelcome welcome!"
 		"been ages since\ni seen nother\nliving being!"
@@ -1237,13 +1237,13 @@ NPCdud17{
 		"to be fair\nwho even knows\nanymore"
 		"\neveryones dead!"
 		"and\nsoon\nso will you!"
-    ]
+	]
 }
 NPCdud18{
 #budder doesnt like australia
-    movieclip NPC1
-    sound_id NPCSkull
-    text [
+	movieclip NPC1
+	sound_id NPCSkull
+	text [
 		"\noi!"
 		"\nwelcome to australia!"
 		"\n. . ."
@@ -1253,13 +1253,13 @@ NPCdud18{
 		"its a\nnice name\nfor it"
 		"reminds\nme of\nmy home town"
 		". . .\nwisconsin,\nthat is"
-    ]
+	]
 }
 NPCdud19{
 #den of wonders 1
-    movieclip NPCHM2
-    sound_id NPCSteven
-    text [
+	movieclip NPCHM2
+	sound_id NPCSteven
+	text [
 		"hmmm\n. . .\nwelcome!"
 		"this is\nthe mirror\nplanetarium"
 		"here youll get\nanswers to all\nof your questions"
@@ -1273,25 +1273,25 @@ NPCdud19{
 		"and maybe\ncome back\nlater on"
 		"\nhmmm!"
 		"\nfarewell then"
-    ]
+	]
 }
 NPCdud20{
 #den of wonders 0
-    movieclip NPCdud13
-    sound_id NPCBlob
-    text [
+	movieclip NPCdud13
+	sound_id NPCBlob
+	text [
 		"\nhm . . ."
 		"well you\nsure look like\na moron"
 		"\n. . ."
 		"\nyup"
 		"\nstill a moron"
-    ]
+	]
 }
 NPCdud21{
 #gloom secret
-    movieclip NPCdud14
-    sound_id NPCBlob
-    text [
+	movieclip NPCdud14
+	sound_id NPCBlob
+	text [
 		"\n. . ."
 		"\nfuck"
 		"what\nhappened\nhere?"
@@ -1300,13 +1300,13 @@ NPCdud21{
 		"\nanyone?"
 		"\n. . ."
 		". . .\nso cold\n. . ."
-    ]
+	]
 }
 NPCdud22{
 #tracks end
-    movieclip NPC6
-    sound_id NPCSkull
-    text [
+	movieclip NPC6
+	sound_id NPCSkull
+	text [
 		"\n. . ."
 		"the\ntracks\nend here"
 		"but\nwhat lies\nbeyond?"
@@ -1318,13 +1318,13 @@ NPCdud22{
 		"i dont\nreally care\neither"
 		"he was really\nunpleasant\nto be around"
 		"and also\nreeked\nof ass!"
-    ]
+	]
 }
 NPCdud23{
 #surreal reference
-    movieclip NPCdud15
-    sound_id NPCBlob
-    text [
+	movieclip NPCdud15
+	sound_id NPCBlob
+	text [
 		"have you heard\nthe tale of\nthe gravedigger?"
 		"its a tale that\nhas been told time\nand time again"
 		"it goes\nlike this\n. . ."
@@ -1356,25 +1356,25 @@ NPCdud23{
 		"i watched it\nhappen before my\nvery own eyes"
 		"we all\nhave . . .\nin fact"
 		"all of us\nthat are\nstill here"
-    ]
+	]
 }
 NPCdud24{
 #train ticket
-    movieclip NPC4
-    sound_id NPCSkull
-    text [
+	movieclip NPC4
+	sound_id NPCSkull
+	text [
 		"\noh hey"
 		"look\nwhat i\nhave here!"
 		"its\na train\nticket!"
 		"if only i\ncould use it\n. . ."
 		"\noh well"
-    ]
+	]
 }
 NPCdud25{
 #train hint
-    movieclip NPC5
-    sound_id NPCSkull
-    text [
+	movieclip NPC5
+	sound_id NPCSkull
+	text [
 		"\ney there"
 		"\nthis a train"
 		"\ncould be useful"
@@ -1387,13 +1387,13 @@ NPCdud25{
 		"so at\nleast were\nstuck together!"
 		"\n. . ."
 		"who\nare you\nanyway?"
-    ]
+	]
 }
 NPCdud25b{
 #train hint
-    movieclip NPC5
-    sound_id NPCSkull
-    text [
+	movieclip NPC5
+	sound_id NPCSkull
+	text [
 		"\nwoah"
 		"you\nactually\ndid it!"
 		"you made\nthe train\nmove!"
@@ -1402,24 +1402,24 @@ NPCdud25b{
 		"\n. . ."
 		"not like\nit changes\nanything for me"
 		". . .\nyup\nstill dead"
-    ]
+	]
 }
 NPCdud25c{
 #train hint
-    movieclip NPC5
-    sound_id NPCSkull
-    text [
+	movieclip NPC5
+	sound_id NPCSkull
+	text [
 		"what\nthe\nfuck?"
 		"did you just\ndrive the train\ninto the ocean?"
 		"thats such\na stupid\nfucking idea"
 		". . .\nand i\nlove it!"
-    ]
+	]
 }
 NPCdud26{
 #stormscapes npc
-    movieclip NPC2
-    sound_id NPCSkull
-    text [
+	movieclip NPC2
+	sound_id NPCSkull
+	text [
 		"\nhey"
 		"you\nwith the\npretty face"
 		"\nwelcome!"
@@ -1434,13 +1434,13 @@ NPCdud26{
 		"\n. . ."
 		"would you mind\nwalking off\nfor a sec"
 		"there is something\ni must FINISH\ndoing, heh heh"
-    ]
+	]
 }
 NPCdud27{
 #shard - unused
-    movieclip NPC8
-    sound_id NPCSkull
-    text [
+	movieclip NPC8
+	sound_id NPCSkull
+	text [
 		"\nhey"
 		"that\nthing there\nsome cool stuff"
 		"i been\nlookin at it\nfor so long"
@@ -1448,52 +1448,52 @@ NPCdud27{
 		"to me it\nkinda look like\nmeth crystal"
 		"\n. . ."
 		"uh . . .\nhavent done\nmeth, i swear"
-    ]
+	]
 }
 NPCdud28 {
 #hypothermia npc
-    movieclip NPC_SD_1
-    sound_id NPCSkull
-    text [
-        "my beloved tree\naint so\nspecial no more"
+	movieclip NPC_SD_1
+	sound_id NPCSkull
+	text [
+		"my beloved tree\naint so\nspecial no more"
 		"with all those\nother cooler trees\nout there"
 		"i honestly\nkinda hate\nmy tree now"
 		"do you ever\nfeel that\nway too?"
 		"well i guess\nits time to\nbuild another one"
 		"\n. . ."
 		"whenever\ni feel\nlike it"
-    ]
+	]
 }
 NPCdud29 {
 #frost npc
-    movieclip NPC7
-    sound_id NPCSkull
-    text [
-        "wanna see\nsomething\ncool?"
+	movieclip NPC7
+	sound_id NPCSkull
+	text [
+		"wanna see\nsomething\ncool?"
 		"see\nthat shit\nthere?"
 		"\nthat ice"
 		"\n. . ."
 		"see?\nit is\ncool!"
-    ]
+	]
 }
 NPCdud30 {
 #beseech npc
-    movieclip NPC1
-    sound_id NPCSkull
-    text [
-        "\naw hell nah"
+	movieclip NPC1
+	sound_id NPCSkull
+	text [
+		"\naw hell nah"
 		"they turned my\nbridge into a\nslaughterhouse!"
 		"now how will\ni get to\nmy loving wife?"
 		"\n. . ."
 		"\nha!"
 		"just kidding,\nwere\nall dead"
-    ]
+	]
 }
 NPCdud31 {
 #glade npc 1
-    movieclip NPC4
-    sound_id NPCSkull
-    text [
+	movieclip NPC4
+	sound_id NPCSkull
+	text [
 		"\n. . . oh!"
 		"\nwelcome!"
 		"these\nare the\nhidden glades!"
@@ -1501,36 +1501,36 @@ NPCdud31 {
 		"unlucky for you,\nit seems this place\nhasnt been finished"
 		"its some\nloose ends bullshit,\nmakes sense?"
 		"cool,\nthen\nsee ya"
-    ]
+	]
 }
 NPCdud32 {
 #glade npc 2
-    movieclip NPC6
-    sound_id NPCSkull
-    text [
+	movieclip NPC6
+	sound_id NPCSkull
+	text [
 		"\n. . ."
 		"i've waited\nages for this\ndoor to open"
 		"maybe what is\nbeyond is not\nmeant to be seen"
 		"or maybe the\nmodders got\nfucking lazy!"
 		"seriously, play\nshattered spectrum or\nsomething else"
-    ]
+	]
 }
 NPCdud33a {
 #superposition npc 1
-    movieclip NPC3
-    sound_id NPCSkull
-    text [
+	movieclip NPC3
+	sound_id NPCSkull
+	text [
 		"\nhuh"
 		"it looks like\nthe universe is\nin superposition"
 		"like two different\nuniverses are\nmerging or some shit"
 		"im glad im not\non the universe\nwhere im a dumbass"
-    ]
+	]
 }
 NPCdud33b {
 #superposition npc 2
-    movieclip NPCdudm1
-    sound_id NPCSkull
-    text [
+	movieclip NPCdudm1
+	sound_id NPCSkull
+	text [
 		"pst . . .\nhey\n. . . you"
 		"\nyes! you!"
 		"what did\nthat fucker\nsay to you"
@@ -1539,13 +1539,13 @@ NPCdud33b {
 		"tell him\nthat\nhe sucks"
 		"i would\ntell him myself\n. . ."
 		"but im afraid\nthe universe would\nbreak, yknow?"
-    ]
+	]
 }
 NPCdud34 {
 #hollows npc secret
-    movieclip NPCdud17
-    sound_id NPCBlob
-    text [
+	movieclip NPCdud17
+	sound_id NPCBlob
+	text [
 		"\n. . ."
 		"\nah . . ."
 		"\nhow disappointing"
@@ -1561,13 +1561,13 @@ NPCdud34 {
 		"go\nhome,\nsmall one"
 		"go home\nand sleep\naway"
 		"we cant\nfix the world\nanyways"
-    ]
+	]
 }
 NPCdud35 {
 #cloudjump tutorial
-    movieclip NPC2
-    sound_id NPCSkull
-    text [
+	movieclip NPC2
+	sound_id NPCSkull
+	text [
 		"so cloudy\nup here,\naint it?"
 		"im sure you think\nyouve got it all\nfigured it out"
 		"like how\ngravity works\nand all of that"
@@ -1579,13 +1579,13 @@ NPCdud35 {
 		"you can just\ndo a small tiny\njump . . ."
 		"and follow it\nup with a\nbig jump!"
 		"give\nit\na go!"
-    ]
+	]
 }
 NPCdud35b {
 #lowgravmixie tutorial
-    movieclip NPC6
-    sound_id NPCSkull
-    text [
+	movieclip NPC6
+	sound_id NPCSkull
+	text [
 		"see\nthis beam\nthing?"
 		"kinda\ncool to\nlook at"
 		"but\ndont get\ndistracted!"
@@ -1601,13 +1601,13 @@ NPCdud35b {
 		"unless you fuck it\nup and fall all\nthe way down"
 		"just like\npoor cousin\nbobby"
 		"man,\ni miss\nthat guy"
-    ]
+	]
 }
 NPCdud36 {
 #croastjump tutorial
-    movieclip NPC3
-    sound_id NPCSkull
-    text [
+	movieclip NPC3
+	sound_id NPCSkull
+	text [
 		"\nbirds!"
 		"i like\nme some\nbirds!"
 		"but\ndid you\nknow . . ."
@@ -1617,39 +1617,39 @@ NPCdud36 {
 		"s a shame\nall of em\nare long gone"
 		"but we do have\nthese weird skull\nthings instead"
 		"\nworks for me!"
-    ]
+	]
 }
 NPCdud37 {
 #meta npc 1
-    movieclip NPC4
-    sound_id NPCSkull
-    text [
+	movieclip NPC4
+	sound_id NPCSkull
+	text [
 		"time and space\ndont abide by\nany rules here"
 		"things get quite\n'meta', if\nthat makes sense"
 		"really a\nplace for the\nbig thunkers"
 		"im not\none of those,\nyou see"
 		"so here\ni shall\nlie forever"
 		"and so will\nyou, dumbass\nlookin ass"
-    ]
+	]
 }
 NPCdud38 {
 #meta npc 2
-    movieclip NPC6
-    sound_id NPCSkull
-    text [
+	movieclip NPC6
+	sound_id NPCSkull
+	text [
 		"\nagh!"
 		"these\ndarn\nwalls!"
 		"no matter what\ni do i cant\nget past em"
 		"maybe i should\ngive it a rest,\nu know?"
 		"maybe i should\nQUIT, and come\nback later"
 		"\nwink wink"
-    ]
+	]
 }
 NPCdud39{
 #letitsinkin
-    movieclip NPC8
-    sound_id NPCSkull
-    text [
+	movieclip NPC8
+	sound_id NPCSkull
+	text [
 		"\nhehe"
 		"\ni was thinking"
 		"i would sure\nlove me some\ninkin tits"
@@ -1657,13 +1657,13 @@ NPCdud39{
 		"i\njust want\nle tits inkin!"
 		"why\ndoes no one\nunderstand?"
 		"oh well,\nthey them\nlosers!"
-    ]
+	]
 }
 NPCdud40{
 #tutorial
-    movieclip NPC6
-    sound_id NPCSkull
-    text [
+	movieclip NPC6
+	sound_id NPCSkull
+	text [
 		"\nhey kiddo"
 		"this here is\na spring in\nsome hot water"
 		"a spring\nin a\nhot spring!"
@@ -1678,56 +1678,56 @@ NPCdud40{
 		"and just\nkeep holding both\nup and down!"
 		"\n. . ."
 		"youll get\nthe hang\nof it"
-    ]
+	]
 }
 NPCdud41 {
 #low skull alt looking right 4a locked out
-    movieclip NPC10
-    sound_id NPCSkull
-    text [
-        "HEY!\n. . .\nGET OUTTA HERE!"
-        "I FOUND\nTHAT GAME CART\nFIRST!"
-        "ITS RIGHTFULLY\nMINE SO BACK\n OFF UGLY!"
+	movieclip NPC10
+	sound_id NPCSkull
+	text [
+		"HEY!\n. . .\nGET OUTTA HERE!"
+		"I FOUND\nTHAT GAME CART\nFIRST!"
+		"ITS RIGHTFULLY\nMINE SO BACK\n OFF UGLY!"
 		"THIS CART\nIS uh this\ncart . . ."
 		"the cart\n. . . where\ndid it go?"
 		"there was\na cart here,\nright?"
-        "\n. . ."
+		"\n. . ."
 		"am i\nlosing\nit?"
 		"no,\nno! it\ncant be!"
 		"im a\ngamer, i\nnever lose!"
-    ]
+	]
 }
 NPCdud42 {
 #rapture guy
-    movieclip NPCB1
-    sound_id NPCBlob
-    text [
-        "\n\nWHAT???"
+	movieclip NPCB1
+	sound_id NPCBlob
+	text [
+		"\n\nWHAT???"
 		"\n\nIM SORRY. . ."
 		"\nCOULD YOU\nSPEAK UP?"
 		"\nI CANT\nHEAR YOU"
 		"\n\nHUH???"
 		"\nSAY THAT\nAGAIN??"
-    ]
+	]
 }
 NPCdud43 {
 #heartbreak
-    movieclip NPCM1
-    sound_id LandCloudSoft
-    text [
+	movieclip NPCM1
+	sound_id LandCloudSoft
+	text [
 		"\n. . ."
 		"we can't\nkeep going\nlike this"
 		"there should\nbe more out\nthere for us"
 		"i'll put an\nend to it,\nto us"
 		"\n. . ."
 		"i hope you\nnever see\nme again"
-    ]
+	]
 }
 NPCdud44 {
 #underwater mines tutorial
-    movieclip NPC1
-    sound_id NPCSkull
-    text [
+	movieclip NPC1
+	sound_id NPCSkull
+	text [
 		"\nglub"
 		"\n. . ."
 		"\n. . ."
@@ -1742,13 +1742,13 @@ NPCdud44 {
 		"not like theres\nany explosive shit\ndown here tho"
 		"just these\nweird bumpy\ntesticles"
 		"\n. . . shame!"
-    ]
+	]
 }
 NPCdud45 {
 #shopkeeper
-    movieclip NPCdud23
-    sound_id GhostMove
-    text [
+	movieclip NPCdud23
+	sound_id GhostMove
+	text [
 		"\n. . ."
 		"what is that\nthing my eyes\n're seeing?"
 		"\ncould it be???"
@@ -1774,13 +1774,13 @@ NPCdud45 {
 		"if you know\nwhat i mean,\nwink"
 		"\n. . ."
 		"\ncome back soon!"
-    ]
+	]
 }
 NPCdud46 {
 #shopkeeper
-    movieclip NPCdud23
-    sound_id GhostMove
-    text [
+	movieclip NPCdud23
+	sound_id GhostMove
+	text [
 		"\n. . . psst"
 		"\nhey kid"
 		"ive got\nthe real\nshit here"
@@ -1802,13 +1802,13 @@ NPCdud46 {
 		"think of it as\na subscription\nservice"
 		"\n. . ."
 		"\nhope it helped"
-    ]
+	]
 }
 NPCdud47 {
 #shopkeeper
-    movieclip NPCdud22
-    sound_id NPCBlob
-    text [
+	movieclip NPCdud22
+	sound_id NPCBlob
+	text [
 		"\ngah!"
 		"you know\nwhat they\nsay"
 		"looks\ncan be\ndeceiving"
@@ -1816,7 +1816,7 @@ NPCdud47 {
 		"i might look\nlike i eat\ncats for fun"
 		"but thats just\njudging a book\nby its cover"
 		"in fact, i\nonly eat cats\nfor the protein!"
-    ]
+	]
 }
 
 NPCdudH1 {
@@ -1824,22 +1824,22 @@ NPCdudH1 {
 	movieclip NPCHX
 	sound_id NPCSteven
 	text [
-        "you\nseem\nlost"
+		"you\nseem\nlost"
 		"trying to find\nan exit where\nthere are none"
 		"so desperate\n. . .\nhow pathetic"
 		"i can give you\nthe answers\nyou need to hear"
 		"\n600"
 		"bring me 600\nand the truth\nwill be told"
-    ]
-    
-    alt_text [
-        "youve come\na long way\nsmall one"
+	]
+	
+	alt_text [
+		"youve come\na long way\nsmall one"
 		"trying to\noutrun\nyour fate"
 		"trying to\navoid\nthe unavoidable"
 		"\npitiful"
 		"there\nis no\nway out"
 		"let me\nshow\nyou"
-    ]
+	]
 }
 NPCdudH2 {
 #basic sideways
@@ -1891,9 +1891,9 @@ NPCdud1x {
 NPCdud2x {
 #funny (col)lab reference
 	movieclip NPCdud13
-    sound_id NPCBlob
-    text [
-    "you know\nit doesnt quite\nmake sense"
+	sound_id NPCBlob
+	text [
+	"you know\nit doesnt quite\nmake sense"
 	"this\nplace\ni mean"
 	"well its\nnot just\nthis place . . ."
 	"the world used\nto make sense\na long time ago"
@@ -1907,7 +1907,7 @@ NPCdud2x {
 	"\n. . ."
 	"i dont really\nbelieve in that\nbullshit though"
 	"everyone's\nfucking\ndead!"
-    ]
+	]
 }
 NPCdudx1 {
 #dumbass
@@ -1920,11 +1920,11 @@ NPCdudx1 {
 }
 NPCdudx2 {
 #YexprilesteR
-    movieclip NPCdud3
-    sound_id NPCBlob
-    text [
-    "\n|"
-    ]
+	movieclip NPCdud3
+	sound_id NPCBlob
+	text [
+	"\n|"
+	]
 }
 NPCdudx3 {
 #stephens sausage but no roll :sadface:
@@ -1986,38 +1986,38 @@ NPCdudx6 {
 }
 NPCdudx7 {
 #nightsky ghost - unused
-    movieclip NPCdudG4
-    sound_id NPCGhost
-    text [
-        "if you look\nat the stars\nlong enough"
+	movieclip NPCdudG4
+	sound_id NPCGhost
+	text [
+		"if you look\nat the stars\nlong enough"
 		"you might\nsee your wish\ncome true"
 		"only if your wish\nis dying from\nstar exposure though"
 		"\n. . ."
 		"i shouldve\nwished for\nsomething else"
-    ]
+	]
 }
 NPCdudx8 {
 #funny ghost
-    movieclip NPCG4
-    sound_id NPCGhost
-    text [
-        "yea yea\neveryones\ndead"
+	movieclip NPCG4
+	sound_id NPCGhost
+	text [
+		"yea yea\neveryones\ndead"
 		"but you know\nit isnt\nthat bad really"
 		"now i have\nall this place\n for myself !"
 		"or i would\nif i wasnt\ndead too"
 		"it is\nwhat\nit is:"
 		"\nloads of ass"
-    ]
+	]
 }
 NPCdudx9 {
 #funny bill
-    movieclip NPCdud16
-    sound_id NPCBlob
-    text [
+	movieclip NPCdud16
+	sound_id NPCBlob
+	text [
 		"welcome\nto my\ncave!"
 		"you can rest here,\njust know that\nthe day goes on"
 		". . .\nso . . .\n. . ."
-        "do you ever\nwonder about\nyour neighbors?"
+		"do you ever\nwonder about\nyour neighbors?"
 		"even tho\nyou dont\nhave them?"
 		"i do,\nall of\nthe time"
 		"and if i sound\nconfused, thats\ncause its true!"
@@ -2026,37 +2026,37 @@ NPCdudx9 {
 		"and i tried to\nexplain, but it\nhurts to describe"
 		"oh, but im still\nenjoying the\nway it feels!"
 		"\n. . ."
-    ]
+	]
 }
 NPCdudx10 {
 #shy ghost - unused
-    movieclip NPCdudG2
-    sound_id NPCGhost
-    text [
-        "\nno!"
+	movieclip NPCdudG2
+	sound_id NPCGhost
+	text [
+		"\nno!"
 		"i wont\nmake eye\ncontact!"
 		"you cant\nmake me\ndo it!"
 		"i was born shy,\nand shy is how\ni shall die!"
-    ]
+	]
 }
 NPCdudx11 {
 #funny 1-0 ghost
-    movieclip NPCdudG3
-    sound_id NPCGhost
-    text [
-        "\nwhat the fuck?"
+	movieclip NPCdudG3
+	sound_id NPCGhost
+	text [
+		"\nwhat the fuck?"
 		"\nhow?!"
 		"you know what?\nim sick of\nthis shit"
 		"ive seen\nenough,\nim out"
 		"its\nbeen\nreal"
 		"have fun,\nsee you\nnever"
-    ]
+	]
 }
 NPCdudx12{
 #yet another horny being
-    movieclip NPCdud14
-    sound_id NPCBlob
-    text [
+	movieclip NPCdud14
+	sound_id NPCBlob
+	text [
 		"\n. . ."
 		"\nyeah"
 		"\nuh . . ."
@@ -2070,7 +2070,7 @@ NPCdudx12{
 		"to uh,\ndo that\nkinda stuff"
 		"\n. . ."
 		"\nget a hint already!"
-    ]
+	]
 }
 NPCdudx13 {
 #save warning - unused
@@ -2168,54 +2168,54 @@ NPCdudx18 {
 # MIRRORS
 NPCdud1m{
 #den of wonders mirror
-    movieclip NPCdudm1
-    sound_id NPCBlob
-    text [
+	movieclip NPCdudm1
+	sound_id NPCBlob
+	text [
 		"\n. . ."
-    ]
+	]
 }
 NPCdud2m{
 #train screen
-    movieclip NPCtrainsystem
-    sound_id ConsoleUp
-    text [
+	movieclip NPCtrainsystem
+	sound_id ConsoleUp
+	text [
 		"TRAIN\nDEPARTURE IN\n-16,746,818 MINUTES"
 		"\nERROR!"
 		"NEGATIVE\nDEPARTURE TIME\nCANNOT COMPUTE"
 		"INSERT\nYOUR\nTICKET"
 		"MUST\nINSERT\nTHREE COINS"
-    ]
+	]
 }
 NPCdud2mb{
 #train screen
-    movieclip NPCtrainsystem
-    sound_id ConsoleUp
-    text [
+	movieclip NPCtrainsystem
+	sound_id ConsoleUp
+	text [
 		"TRAIN HAS\nARRIVED\nSUCCESSFULLY"
 		"\nEXIT SAFELY"
-    ]
+	]
 }
 NPCdud2mc{
 #train screen
-    movieclip NPCtrainsystem
-    sound_id ConsoleUp
-    text [
+	movieclip NPCtrainsystem
+	sound_id ConsoleUp
+	text [
 		"\nERROR!"
 		"TRAIN\nDERAILED FROM\nDESIGNATED PATH!"
-    ]
+	]
 }
 
 NPCHM{
 #den of wonders mirror
-    movieclip NPCHM
-    sound_id NPCSteven
-    text [
+	movieclip NPCHM
+	sound_id NPCSteven
+	text [
 		"\n. . ."
 		"\nah!"
 		"youve been\nthrough\na lot"
 		"im afraid i\ncant give you\nwhat you want"
 		"150,\nyou do not\npossess"
-    ]
+	]
 	
 	alt_text [
 		"\n. . ."
@@ -2230,20 +2230,20 @@ NPCHM{
 # TOMBSTONES
 NPCdudp1{
 #museum picture
-    movieclip NPCdudm4
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm4
+	sound_id NPCDefault
+	text [
 		"here\nlies\npotassium"
 		"\n(WIP)"
-        "\n. . ."
-        "just like\neverything else\nhe makes!"
-    ]
+		"\n. . ."
+		"just like\neverything else\nhe makes!"
+	]
 }
 NPCdudp2{
 #museum picture
-    movieclip NPCdudm4
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm4
+	sound_id NPCDefault
+	text [
 		"here\nlies\nadenator"
 		"tried to sculpt\na mountain next\nto a windy"
 		"and i say\nvery windy\ncoast"
@@ -2254,14 +2254,14 @@ NPCdudp2{
 		". . . \n(there's a mysterious note here)"
 		"come on, there's\nway more\nthan just that!"
 		"what about the coast?\ndidn't he revise\nthat as well?"
-    ]
+	]
 }
 
 NPCdudp3{
 #museum picture
-    movieclip NPCdudm4
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm4
+	sound_id NPCDefault
+	text [
 		"here\nlies\nmysterytank"
 		"this person was an uncreative\nsadist who made areas that\nhad to be revamped"
 		"he had caused another person\nsuffering for no reason\nat all"
@@ -2270,144 +2270,144 @@ NPCdudp3{
 		"we will still\nremember him\nfondly"
 		"or at\nleast\ni will"
 		"\n- signed,\n#1 Floating City fan"
-    ]
+	]
 }
 
 NPCdudp4{
 #museum picture
-    movieclip NPCdudm4
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm4
+	sound_id NPCDefault
+	text [
 		"here\nlies\nbutcherberries"
 		"renowned speedrunner\nmoderator, modder\nand overall cool guy"
 		"we remember\nhim for\nhis feats"
 		"such as\nbuilding our entire\nrailing system"
 		"even if\nit was never\ntruly finished"
 		"he will be\nremembered\nand dearly missed"
-    ]
+	]
 }
 NPCdudp5{
 #museum picture
-    movieclip NPCdudm4
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm4
+	sound_id NPCDefault
+	text [
 		"here\nlies\nmeh32"
 		"\nyou will be missed"
-    ]
+	]
 }
 NPCdudp6{
 #museum picture
-    movieclip NPCdudm4
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm4
+	sound_id NPCDefault
+	text [
 		"here\nlies\nbuddermario"
 		"he left the next\nmessage behind,\nfor all of us:"
 		"\n^"
 		"\n. . ."
 		"whatever\nthat's supposed\nto mean"
-    ]
+	]
 }
 
 
 NPCdudp7{
 #museum picture
-    movieclip NPCdudm4
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm4
+	sound_id NPCDefault
+	text [
 		"here\nlies\nNotWendy"
 		"\n. . ."
 		"\nwho?"
-    ]
+	]
 }
 NPCdudp7c{
 #museum picture
-    movieclip NPCdudm4
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm4
+	sound_id NPCDefault
+	text [
 		"here\nlies\npixlie"
 		"we\nremember\nyou fondly"
-    ]
+	]
 }
 NPCdudp7d{
 #museum picture
-    movieclip NPCdudm4
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm4
+	sound_id NPCDefault
+	text [
 		"\n. . ."
 		"this\ngrave\nis empty"
 		"someone might be\nburied here at\nsome point"
 		"if there's anyone\naround to bury them,\nthat is"
-    ]
+	]
 }
 NPCdudp7a{
 #museum picture
-    movieclip NPCdudm4
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm4
+	sound_id NPCDefault
+	text [
 		"here\nlies\nBlockByte"
 		"\nyou will be missed"
-    ]
+	]
 }
 NPCdudp7b{
 #museum picture
-    movieclip NPCdudm4
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm4
+	sound_id NPCDefault
+	text [
 		"here\nlies\nhinge"
 		"they did fuck\nall and still\ngot in here"
 		"dont\nreally\nknow how"
 		"but were\nproud of em\nanyway"
-    ]
+	]
 }
 NPCdudp8{
 #museum picture
-    movieclip NPCdudm4
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm4
+	sound_id NPCDefault
+	text [
 		"here\nlies\nderzox"
-        "he wasn't a very\nexperienced\nmodder"
-        "and although he was\nfilling the mod\nwith trash areas"
-        "\nhe enjoyed working on them"
-        "he truly wished he\ncould have made\n the collab better"
-        "\nand not make it worse"
-        "\nwhich he did"
-        "but he was happy that\nhe tried."
-        "he was very\nthankful\nfor the chance"
+		"he wasn't a very\nexperienced\nmodder"
+		"and although he was\nfilling the mod\nwith trash areas"
+		"\nhe enjoyed working on them"
+		"he truly wished he\ncould have made\n the collab better"
+		"\nand not make it worse"
+		"\nwhich he did"
+		"but he was happy that\nhe tried."
+		"he was very\nthankful\nfor the chance"
 		"\n. . ."
 		"that's what\nthey told me\nto write here"
 		"but whatever,\ni liked\nhis areas"
 		"aqueros coast enjoyer?\nsí soy"
-    ]
+	]
 }
 NPCdudp9{
 #museum picture
-    movieclip NPCdudm4
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm4
+	sound_id NPCDefault
+	text [
 		"here\nlie the\nplayesters"
 		"for those\nwho helped\nshare the word"
 		"and for those\nwho helped shape up\nour hearts"
 		"Br0k4n, NotWendy,\nKeehle, Lightingreed,\nPatchouli"
 		"we will\nremember you\nfondly"
-    ]
+	]
 }
 NPCdudp10{
 #museum picture
-    movieclip NPCdudm5
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm5
+	sound_id NPCDefault
+	text [
 		"here\nlies the\nTEIN community"
 		"for those so talented\nand gifted, who fought\nfor a better future"
 		"those whose\nnames have been\nlong forgotten"
 		"we mourn for them,\nfor they helped\ninspire all of us"
 		"live on, blazing souls,\nand rest in peace\nwherever you are"
-    ]
+	]
 }
 NPCdudp11{
 #museum picture
-    movieclip NPCdudm4
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm4
+	sound_id NPCDefault
+	text [
 		"here\nlies\nsurrealdude"
 		"when peace finally\nfell upon this\ncursed land . . ."
 		"it was then when\nhe decided to bring\neverything back together"
@@ -2416,13 +2416,13 @@ NPCdudp11{
 		"but some others, far\nmore wise, know that\nwhat he did . . ."
 		"\nwas a dick move"
 		"he will\nbe remembered,\nbut not missed"
-    ]
+	]
 }
 NPCdudp12a{
 #museum picture
-    movieclip NPCdudm6
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm6
+	sound_id NPCDefault
+	text [
 		"tenacious entanglement\nhas had a\nlong history"
 		"it first began\nas another mod called\nfunny collab"
 		"many claimed that\nFC sucked, and they\nwerent wrong"
@@ -2448,13 +2448,13 @@ NPCdudp12a{
 		"because FC\nisnt even a mod\nat this point"
 		"\nthats right . . ."
 		"the true FC was\nthe | s we made\nalong the way"
-    ]
+	]
 }
 NPCdudp12b{
 #museum picture
-    movieclip NPCdudm6
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm6
+	sound_id NPCDefault
+	text [
 		"anni5 was made\nas a long last\ngoodbye to funny collab"
 		"except instead of being\na goodbye it was more\nlike defiling a grave"
 		"a grave which\nwas already defiled\nto begin with"
@@ -2463,13 +2463,13 @@ NPCdudp12b{
 		"\n. . ."
 		"\nwait . . ."
 		"\nits not?"
-    ]
+	]
 }
 NPCdudp13{
 #museum picture
-    movieclip NPCdudm7
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm7
+	sound_id NPCDefault
+	text [
 		"this is\nwhat the full\nmap looks like"
 		"or, you know,\nat least a\nconcept art of it"
 		"one thing to say about anni 5 is that its fucking huge"
@@ -2480,43 +2480,43 @@ NPCdudp13{
 		"yeah, safe to say, this mod was too fucking ambitious"
 		"but its also\nwhat makes\nit so special!"
 		". . .\nmoving on"
-    ]
+	]
 }
 NPCdudp14a{
 #museum picture
-    movieclip NPCdudm6
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm6
+	sound_id NPCDefault
+	text [
 		"in this world,\nmany people have been\ncursed to dream"
 		"dream about a better\nfuture, about a better\ntime and place"
 		"but only few of them\ncould bring those\ndreams to reality"
 		"and they hope\nyou would experience\nthose dreams aswell"
 		"this one reads:\nShattered Spectrum - Beta\nby NotWendy"
-    ]
+	]
 }
 NPCdudp14b{
 #museum picture
-    movieclip NPCdudm8
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm8
+	sound_id NPCDefault
+	text [
 		"this one reads:\nFuture Spectrum Collab\nby peepperson (and others)"
-    ]
+	]
 }
 NPCdudp14c{
 #museum picture
-    movieclip NPCdudm6
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm6
+	sound_id NPCDefault
+	text [
 		"this one reads:\nFleeting Dream\nby BlockByte and Adenator"
 		"\n. . ."
 		"it also reads:\nsorry, i fucked up the icon,\ni swear it looks better on the workshop"
-    ]
+	]
 }
 NPCdudp14d{
 #museum picture
-    movieclip NPCdudm6
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm6
+	sound_id NPCDefault
+	text [
 		"this one reads:\nhonorary mentions:\n(aka recent cool mods)"
 		"TEIN Randomizer\n(Also known as Anni 5)\nby Uzerro"
 		"Enana's Collection\n\nby Enana Blanca"
@@ -2524,36 +2524,36 @@ NPCdudp14d{
 		"\n. . ."
 		"ok fuck it\nthere's so many\ncool mods in here"
 		"like really, just\ncheck the workshop,\nwhat are you doing here"
-    ]
+	]
 }
 NPCdudp15{
 #museum picture
-    movieclip NPCdudm9
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm9
+	sound_id NPCDefault
+	text [
 		"here\nlies\nunfinished level npc"
 		"our lives\nhave been gloomier\nwithout him around"
 		"who will fill the\nhard-hat shaped hole\nin our hearts now?"
-    ]
+	]
 }
 NPCdudp16{
 #retro cutscene show
-    movieclip NPCdudm10
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm10
+	sound_id NPCDefault
+	text [
 		"whatever"
-    ]
+	]
 }
 
 NPCdudp0{
 #museum picture
-    movieclip NPCdudm4
-    sound_id NPCDefault
-    text [
+	movieclip NPCdudm4
+	sound_id NPCDefault
+	text [
 		"\nhere lies Ash"
 		"\n. . ."
 		"(something has been\nunlocked in a\ntrain somewhere)"
-    ]
+	]
 }
 
 
@@ -2561,9 +2561,9 @@ NPCdudp0{
 #OUT OF BOUNDS. GO BACK
 NPCNAN0 {
 	#outofbounds
-    movieclip NPCdudNAN
-    sound_id NPCNAN
-    text [
+	movieclip NPCdudNAN
+	sound_id NPCNAN
+	text [
 		"\n. . ."
 		"\nhow curious"
 		"you're not supposed to be here"
@@ -2572,24 +2572,24 @@ NPCNAN0 {
 		"not to worry, eternity with you will be oh so fun"
 		"just smile with me and do what i do"
 		":)"
-    ]
+	]
 }
 NPCNAN1{
 #unfinished
-    movieclip NPCdudNAN3
+	movieclip NPCdudNAN3
 	sound_id NPCBlob
-    text [
+	text [
 		"we have\nsome loose ends\nhere, don't we"
 		"ah,\nhow\nunfortunate"
 		"\nbut don't worry!"
 		"it'll\nall be\nover soon!"
-    ]
+	]
 }
 NPCNAN2{
 #unfinished
-    movieclip NPCdudNAN3
-    sound_id NPCBlob
-    text [
+	movieclip NPCdudNAN3
+	sound_id NPCBlob
+	text [
 		"we have\nsome loose ends\nhere, don't we"
 		"\nhm . . ."
 		"but,\nthis\nearly?"
@@ -2597,22 +2597,22 @@ NPCNAN2{
 		"\ntell you what"
 		"why don't you\njust keep going\nforward"
 		"surely\nnothing can\ngo wrong"
-    ]
+	]
 }
 NPCNAN3{
 #unfinished
-    movieclip NPCdudNAN4
-    sound_id NPCBlob
-    text [
+	movieclip NPCdudNAN4
+	sound_id NPCBlob
+	text [
 		"\n. . ."
-    ]
+	]
 }
 
 NPCNAN4{
 #unfinished
-    movieclip NPCdudNAN3
-    sound_id NPCBlob
-    text [
+	movieclip NPCdudNAN3
+	sound_id NPCBlob
+	text [
 		"we have\nsome loose ends\nhere, don't we"
 		"it's true,\nguy workin on it\ndidnt finish it"
 		"too busy\nbeing dead or\nsome horseshit"
@@ -2620,13 +2620,13 @@ NPCNAN4{
 		"just keep going\nright through\nthis tunnel"
 		"\n. . ."
 		"\ngood luck!"
-    ]
+	]
 }
 NPCNAN5 {
 	#outofbounds
-    movieclip NPCdudNAN
-    sound_id NPCNAN
-    text [
+	movieclip NPCdudNAN
+	sound_id NPCNAN
+	text [
 		"\n. . ."
 		"\noh"
 		"didn't\nexpect you\nto do that"
@@ -2636,5 +2636,5 @@ NPCNAN5 {
 		"here, i'll\nlet you leave\nfor now"
 		"you can\ncome back once\nyou're ready"
 		"i'll be\nwaiting\n;)"
-    ]
+	]
 }
