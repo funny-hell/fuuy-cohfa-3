@@ -2579,10 +2579,10 @@ a {
 	area_label_frame 43
 	tile_graphics Tilecitygirders
 	overlay_graphics Overlayscity
-	background_graphics bg2
+	background_graphics ch4abg
 	foreground_graphics none
 	fx_shader distortionparticles
-	palette 1143
+	palette 1139
 	
 	music [danse_intro.ogg, danse_loop.ogg]
 	ambience rain.ogg
@@ -2599,16 +2599,14 @@ a {
 	npc_1 NPCdud17
 	npc_2 NPC1
 	npc_3 NPC2
-	decoration_1 Decoration0
+	decoration_1 decorationfci1
 	decoration_2 Decoration1
 	decoration_3 inst10
 	
 	area_type normal
 	
-	0 {
-		area_name "none"
-		area_label_frame 0
-		npc_1 NPCH4
+	1 {
+		background_graphics bg2
 	}
 	14 {
 	 fx_shader_mid reflectionripples
