@@ -44,6 +44,21 @@ c6 {
 	0 {
 		decoration_1 WarpzonePortal
 	}
+	1x {
+		area_label_frame 0
+		background_graphics bgsolid
+		music [none, none]
+		ambience_volume 20
+		ambience bird.ogg
+		global_particle_1 None
+		global_particle_2 None
+		foreground_graphics None
+		
+		fx_shader_mid lighting
+		midfx_layer 2
+		midfx_graphics ShadeBox
+		shader_param .1
+	}
 	2 {
 		decoration_1 dudropedeco2
 	}

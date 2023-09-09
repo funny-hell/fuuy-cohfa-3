@@ -1240,7 +1240,7 @@ NPCdud17{
 	]
 }
 NPCdud18{
-#budder doesnt like australia
+#fucktard doesnt like australia
 	movieclip NPC1
 	sound_id NPCSkull
 	text [
@@ -2300,11 +2300,9 @@ NPCdudp6{
 	movieclip NPCdudm4
 	sound_id NPCDefault
 	text [
-		"here\nlies\nbuddermario"
-		"he left the next\nmessage behind,\nfor all of us:"
-		"\n^"
-		"\n. . ."
-		"whatever\nthat's supposed\nto mean"
+		"here\nlies\n..."
+		"\nsomebody"
+		"no one\never liked\nhim"
 	]
 }
 
@@ -2423,25 +2421,33 @@ NPCdudp12a{
 	movieclip NPCdudm6
 	sound_id NPCDefault
 	text [
-		"tenacious entanglement\nhas had a\nlong history"
-		"it first began\nas another mod called\nfunny collab"
-		"many claimed that\nFC sucked, and they\nwerent wrong"
-		"so we thought it\nwould be funny to bring\nit back for anni 5"
-		"so now the mod\nhas a very confusing\nhistory behind it"
-		"as such, there are many\nquestions that will\nnever be answered"
-		"like,\nwhere did it\ncome from?"
-		"or, will\nit ever be\nfinished?"
-		"or, why the fuck are\nthere 5 different exodus\nships existing all at once"
-		"seriously,\nwhats up\nwith that?"
-		"but there are\nsome things we\nknow about TE"
-		"like, it used\nto be a trainwreck\nof a mod"
-		"\n(it still is)"
-		"or,\nno one ever\nliked it"
-		"\n(they still dont)"
-		"also, a lot of\nareas were pulled\nfrom dead mods"
-		"and they were\ngiven a special place\nhere in FC"
-		"and now they\nalso are in\na dead mod"
-		"a dead mod\nthat was pulled\nfrom being dead"
+		"funny collab\nhas had a\nlong history"
+		"it started\nas a mod to\nrecycle areas"
+		"areas that\nwere never\nfinished"
+		"areas that\nwould otherwise\nbe forgotten"
+		"potassium decided\nto add his\nfuture future mod"
+		"but he didn't\nstop there"
+		"the fucker added\n a whole 'nother\n12 areas after!"
+		"but we're not\n done yet!"
+		"he also\nadded even\nmore!"
+		"but those\nare secret"
+		"good luck\nfinding them"
+		"so after\nall this\nsurreal showed up"
+		"the mod\nslowly went\nfrom potassium's"
+		"\nto surreal's"
+		"almost everything in\nthis mod has\nbeen seen by surreal"
+		"he took this this mod\nfrom awful to\nslightly less awful"
+		"finally, after\nso many changes\nhe decided"
+		"to lay\nthe mod\nto rest"
+		"as a final\nhurrah for\nfunny collab"
+		"the mod was\nreleased on\ntein's fifth anniversary"
+		"and there the\nmod was.\nfinished"
+		"but then pixlie\ndecided to\nruin everything"
+		"angry she\ncouldn't contribute\nmore"
+		"she decided she\nwould remaster\nthe whole freaking mod"
+		"but then she\nrealized that was\na stupid decision"
+		"so she decided\nto just remaster\nthe past"
+		"she likely\nstill regrets it\nto this day"
 		"\n. . ."
 		"can we certainly\nsay FC is truly a\ndead mod?"
 		"nope,\nof course\nthe fuck not"
@@ -2455,14 +2461,12 @@ NPCdudp12b{
 	movieclip NPCdudm6
 	sound_id NPCDefault
 	text [
-		"anni5 was made\nas a long last\ngoodbye to funny collab"
+		"FC remake was made\nas a long last\ngoodbye to funny collab"
 		"except instead of being\na goodbye it was more\nlike defiling a grave"
 		"a grave which\nwas already defiled\nto begin with"
-		"anni5 was such a\nwaste of time, you\nwouldnt even know"
+		"FC was such a\nwaste of time, you\nwouldnt even know"
 		"but at\nleast its\nover now"
-		"\n. . ."
-		"\nwait . . ."
-		"\nits not?"
+		"finally\nlaid to\nrest"
 	]
 }
 NPCdudp13{
@@ -2472,13 +2476,13 @@ NPCdudp13{
 	text [
 		"this is\nwhat the full\nmap looks like"
 		"or, you know,\nat least a\nconcept art of it"
-		"one thing to say about anni 5 is that its fucking huge"
+		"one thing to say about FC is that it's fucking huge"
 		"and im here to say that thats not a good thing"
 		"can you imagine how many hours were spent working on every single area?"
 		"also, as huge as this map looks, it doesnt even have half of the mod"
 		"since it only has the past areas on it but not the far future areas or the carts"
 		"yeah, safe to say, this mod was too fucking ambitious"
-		"but its also\nwhat makes\nit so special!"
+		"but that's also\nwhat makes\nit so special!"
 		". . .\nmoving on"
 	]
 }
@@ -2534,6 +2538,7 @@ NPCdudp15{
 		"here\nlies\nunfinished level npc"
 		"our lives\nhave been gloomier\nwithout him around"
 		"who will fill the\nhard-hat shaped hole\nin our hearts now?"
+		"may he forever\nrest in peace"
 	]
 }
 NPCdudp16{

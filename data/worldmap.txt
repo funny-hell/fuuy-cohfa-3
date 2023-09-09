@@ -816,6 +816,17 @@ nodes {
 		right Shock
 		left Grave
 	}
+	Grave {
+		clipname grave
+		entrylevel hub2-5
+		page darkerworld
+		levelgroups hub2
+		unlock_condition visited_levels_any
+		unlock_condition_levels [hub2-4 hub2-5]
+		
+		right Lemniscateum
+		up GraveKonami1
+	}
 	GraveKonami1 {
 		clipname grave
 		entrylevel hub2-5
@@ -904,17 +915,6 @@ nodes {
 		levelgroups [15x]
 		unlock_condition collected_carts_any
 		unlock_condition_levels [15x-2 15x-4 15x-6 15x-8]	
-	}
-	Grave {
-		clipname grave
-		entrylevel hub2-5
-		page darkerworld
-		levelgroups hub2
-		unlock_condition visited_levels_any
-		unlock_condition_levels [hub2-4 hub2-5]
-		
-		right Lemniscateum
-		up GraveKonami1
 	}
 	DarkRapture {
 		clipname dark_rapture

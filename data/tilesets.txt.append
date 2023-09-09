@@ -2599,9 +2599,10 @@ a {
 	npc_1 NPCdud17
 	npc_2 NPC1
 	npc_3 NPC2
-	decoration_1 decorationfci1
-	decoration_2 Decoration1
-	decoration_3 inst10
+	
+	decoration_1 HGirder
+	decoration_2 pix_skyf_railcar_wheel_l
+	decoration_3 pix_skyf_railcar_wheel_r
 	
 	area_type normal
 	
