@@ -1818,7 +1818,15 @@ NPCdud47 {
 		"in fact, i\nonly eat cats\nfor the protein!"
 	]
 }
-
+NPCpix1 {
+#peace
+	movieclip NPCM1
+	sound_id LandCloudSoft
+	text [
+		"\ni hope you find peace, potassium"
+		"\nyou deserve so much better"
+	]
+}
 NPCdudH1 {
 #basic sideways
 	movieclip NPCHX

@@ -7706,6 +7706,7 @@ wlspl {
 	9 {
 		npc_1 NPCdudp15
 		npc_2 NPCdudp14d
+		npc_3 NPCpix1
 	}
 }
 r1b {
@@ -8057,10 +8058,11 @@ wlsplx {
 	music despair.ogg
 	ambience ruins.ogg
 	0 {
-	music none
+		music none
 		shader_param 0.8
-	palette 892
-	area_label_frame 0
+		palette 892
+		area_label_frame 0
+		ambience bird.ogg
 	}
 	1 {
 		shader_param 0.6
