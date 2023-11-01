@@ -2044,7 +2044,7 @@ npc_1 NPCdud22
 	art_alts [
    	 [OrbSmall, orbblob]
    	 [ChainLink2, None]
-	 [GlowShroom, CeilingLamp2][GlowShroomSmall, GlowBulb][Cartridge, cart2]
+	 [GlowShroom, CeilingLamp][GlowShroomSmall, GlowBulb][Cartridge, cart2]
    	 ]
 	1 {
 		ambience stormship.ogg
@@ -2179,7 +2179,7 @@ npc_1 NPCdud22
 	global_particle_2 cloudwind_heavy
 	decoration_1 Deco10
 	decoration_2 Deco11
-	decoration_3 none
+	decoration_3 BewareFlyingFish
 	
 	npc_1 NPCdud36
 	
