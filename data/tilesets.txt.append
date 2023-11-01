@@ -3939,7 +3939,7 @@ butx {
 	art_alts [
    	 [OrbSmall, orbblob]
    	 [ChainLink2, None]
-	 [GlowShroom, CeilingLamp2][GlowShroomSmall, GlowBulb][Cartridge, cart2]
+	 [GlowShroom, CeilingLamp][GlowShroomSmall, GlowBulb][Cartridge, cart2]
    	 ]
 	
 	4 {
