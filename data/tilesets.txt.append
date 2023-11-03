@@ -4149,8 +4149,7 @@ butx {
 	tile_particle_3 smoke_pipecastle
 	tile_particle_4 smoke_pipecastle_down
 	tile_particle_5 toxicbubbles
-	global_particle_1 lightning
-	global_particle_2 wind
+	global_particle_1 wind
 	
 	area_type normal
 	toxic_timer 0
