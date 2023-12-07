@@ -2087,7 +2087,7 @@ npc_1 NPCdud22
 	global_particle_3 shooting_star
 	decoration_1 Deco10
 	decoration_2 Deco11
-	decoration_3 none
+	decoration_3 WarningSign
 	
 	fx_shader_mid lightingmodded
 	midfx_graphics ShadeBox
