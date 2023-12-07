@@ -2410,6 +2410,7 @@ j {
 	
 	art_alts[
 		[MiniFly, MiniWisp]
+		[Fireball, ActualFireball]
 	]
 	
 	music [beeth5_intro.ogg, beeth5_loop.ogg]
