@@ -2118,7 +2118,13 @@ npc_1 NPCdud22
 	overlay_graphics Overlayscaves
 	background_graphics bgpit
 	foreground_graphics None
-	palette 1155
+	palette 1076
+	
+	fx_shader_mid lightingmodded
+	midfx_layer 2
+	midfx_graphics SolidBox
+	
+	shader_param 0.5
 	
 	global_particle_1 embers
 	global_particle_3 shooting_star2

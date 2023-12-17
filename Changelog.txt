@@ -1,6 +1,0 @@
-Changelog:
-Overhauled FCi and Insanity.
-Rebalanced Castle.
-Fixed background blur.
-Started remaking Skyfolding.
-Removed Retrograde Roots.

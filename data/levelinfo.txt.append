@@ -678,8 +678,7 @@
 "7c-5" {name="The Pit 6" id=6}
 "7c-6" {name="The Pit 7" id=7}
 "7c-7" {name="The Pit 8" id=8}
-"7c-8" {name="The Pit 9" id=-1}
-"7c-9" {name="The Pit 10" id=-1}
+"7c-9" {name="The Pit 9" id=-1}
 "7c-10" {name="The Pit 11" id=-1}
 "7c-11" {name="The Pit 12" id=-1}
 "7c-12" {name="The Pit 13" id=-1}
@@ -1062,7 +1061,7 @@
 "i0-5x" {name="SCAB OR DIE 6" id=-1}
 "i0-6x" {name="RETINARAS LOOK LIKE AMONG US" id=-1}
 "i0-7x" {name="\"Worst level in the game\"" id=-1}
-"i0-8x" {name="IS THIS ANNIVERSARRY 7?" id=-1}
+"i0-8x" {name="IS THIS ANNIVERSARRY 71?" id=-1}
 "i0-9x" {name="LSD RADIX SORT" id=-1}
 "i0-10x" {name="- TRUE FINALE -" id=-1}
 

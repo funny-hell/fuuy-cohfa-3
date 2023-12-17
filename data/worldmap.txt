@@ -8,7 +8,7 @@ pages {
 	}
 	
 	rightworld {
-		collectibles 54
+		collectibles 53
 	}
 	
 	darkerworld {
