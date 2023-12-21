@@ -4921,7 +4921,7 @@ rr2x {
 8a {
 	area_name "Hell"
 	area_label_frame 58
-	tile_graphics Tilehell
+	tile_graphics Tilehell2
 	overlay_graphics Overlaystox
 	background_graphics hellbg
 	foreground_graphics None
