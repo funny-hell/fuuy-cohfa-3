@@ -137,7 +137,7 @@ r3 {
 	area_name "Collapse"
 	area_label_frame 32
 	tile_graphics Tileairship
-	overlay_graphics Overlaysfield
+	overlay_graphics Overlaystheglow
 	background_graphics ch3bg
 	foreground_graphics None
 	fx_shader reflectionripples
@@ -183,18 +183,18 @@ r3 {
 	area_type dark
 
 	art_alts [
-		[MiniFrog, MiniFlea][OrbSmall, OrbBlob2][OrbLarge, OrbLarge2][ChainLink2, None]
+		[MiniFrog, MiniFlea][OrbSmall, OrbBlob2][OrbLarge, OrbLarge2][ChainLink2, None][FloatingMine,LivingMine]
 	]
 	
-	global_particle_1 bgrain
-	global_particle_2 fog
-	global_particle_3 lightning
+	global_particle_1 collapseparts
 	tile_particle_1 raintile
 	#tile_particle_2 waterfall_splash
 	tile_particle_3 bubbles
 	tile_particle_5 toxicbubbles
-	music [1812_intro_superdark.ogg, 1812_loop_superdark.ogg]
+	music [collapse_intro.ogg, collapse_loop.ogg]
 	ambience cogs.ogg
+	
+	do_tilt true
 }
 r4 {
 	area_name "The Flip"

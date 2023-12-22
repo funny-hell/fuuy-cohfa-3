@@ -3744,3 +3744,42 @@ bgsnowstorm {
 	inherit_speed 0
 	tags []
 }
+
+# more of adenator's particles because uhh uhhmmm
+collapseparts {
+	combo [bgrain, cloudwind_heavy, lightning, embers, collapsefizzy]
+}
+
+collapsefizzy {
+    #system properties
+    movieclip TestParticle2
+    max_particles 1000
+    layer 4
+    livebounds [-10, 64, -10, 42]
+	prewarm [10,30]
+    batched true
+    
+    #emitter properties
+    emit_rate [30,30]
+    emit_amount [1,3]
+    emit_direction [0, 1]
+    emit_spread 0
+    emit_box [54, 0]      #54 for "level width", 32 for "level height"    
+    emit_offset [27,0]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
+    
+    #particle animation properties
+    particle_lifetime 20
+    initial_speed [2.5, 10]
+    initial_rotation 0
+    rotation_speed 0
+    force [0, 0]
+    friction [1, 1]
+    size_start [1,5]
+    size_end 0
+    alpha_start [0.3,0.7]
+    alpha_end 1
+    face_moving_direction true
+    speed_scale 0
+    inherit_speed 0
+    tags [collide_air]
+}
