@@ -152,6 +152,33 @@ r3 {
 	npc_2 none
 	npc_3 none
 
+	3 {
+		toxic_timer 1.5
+	}
+	4 {
+		toxic_timer 1.5
+	}
+	5 {
+		toxic_timer 1.5
+	}
+	6 {
+		toxic_timer 1.5
+	}
+	7 {
+		toxic_timer 1.5
+	}
+	8 {
+		toxic_timer 1.5
+	}
+	9 {
+		toxic_timer 1.5
+	}
+	10 {
+		toxic_timer 1.5
+	}
+	11 {
+		toxic_timer 1.5
+	}
 	12 {
 		toxic_timer 1.05
 	}
@@ -4392,12 +4419,10 @@ r3x {
 	area_type dark
 
 	art_alts [
-		[MiniFrog, MiniFlea][OrbSmall, OrbBlob2][OrbLarge, OrbLarge2][ChainLink2, None][Cartridge, cart2]
+		[MiniFrog, MiniFlea][OrbSmall, OrbBlob2][OrbLarge, OrbLarge2][ChainLink2, None][FloatingMine,LivingMine][Cartridge,cart2]
 	]
 	
-	global_particle_1 bgrain
-	global_particle_2 fog
-	global_particle_3 lightning
+	global_particle_1 collapseparts
 	tile_particle_1 raintile
 	#tile_particle_2 waterfall_splash
 	tile_particle_3 bubbles
