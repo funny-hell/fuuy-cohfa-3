@@ -2651,3 +2651,17 @@ NPCNAN5 {
 		"i'll be\nwaiting\n;)"
 	]
 }
+
+NPC_Sploder {
+#Radiation
+    movieclip NPC5
+	sound_id NPCSkull
+	text [
+	    "\ndamn. . ."
+		"i know how\npopular radiation\nis these days"
+		"but these\nmeat sacks\njust never learn"
+		"some of them\nare eating\nway too much!"
+		"be careful\naround the more\nglowy ones"
+		"their bodies\nmight go ballistic\nif disturbed"
+	]
+}
