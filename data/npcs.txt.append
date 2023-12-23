@@ -2665,3 +2665,16 @@ NPC_Sploder {
 		"their bodies\nmight go ballistic\nif disturbed"
 	]
 }
+
+NPCsize2 {
+#i want to believe
+	movieclip NPC15
+	sound_id NPCSkull
+	text [
+		"if you're looking\nfor that fuckin'\nsize two fish"
+		"\nit ain't here"
+		"trust me\ni looked\nreal hard"
+		"\n. . ."
+		"maybe you'll\njust want\nto believe"
+	]
+}
