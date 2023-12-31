@@ -678,18 +678,9 @@
 "7c-5" {name="The Pit 6" id=6}
 "7c-6" {name="The Pit 7" id=7}
 "7c-7" {name="The Pit 8" id=8}
-"7c-9" {name="The Pit 9" id=-1}
-"7c-10" {name="The Pit 11" id=-1}
-"7c-11" {name="The Pit 12" id=-1}
-"7c-12" {name="The Pit 13" id=-1}
-"7c-13" {name="The Pit 14" id=-1}
-"7c-14" {name="The Pit 15" id=-1}
-"7c-15" {name="The Pit 16" id=-1}
-"7c-16" {name="The Pit 17" id=-1}
-"7c-17" {name="The Pit 18" id=-1}
-"7c-18" {name="The Pit 19" id=-1}
-"7c-20" {name="The Pit 10" id=2}
-"7c-21" {name="???" id=-1}
+"7c-8" {name="The Pit 9" id=9}
+"7c-20" {name="The Pit 10" id=10}
+"7c-21" {name="???" id=2}
 "7c-22" {name="???" id=-1}
 "7c-23" {name="???" id=-1}
 "7c-24" {name="???" id=-1}
