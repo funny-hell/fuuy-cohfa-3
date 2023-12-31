@@ -2187,11 +2187,15 @@ npc_1 NPCdud22
 		sfx_file mainsounds_mirror.txt
 		art_alts [
 		[MiniFly, MiniWisp][MiniRat, MiniRatWhite][MiniFrog, MiniFrogWhite]
-		[GlowShroom, just_a_block][GlowShroomSmall, just_a_block][Cartridge, CartCoin]
+		[GlowShroom, just_a_block][GlowShroomSmall, just_a_block]
 		]
 	}
 	21 {
 		tile_graphics Tiletox
+		
+		art_alts [
+			[Cartridge, CartCoin]
+		]
 	}
 	23 {
 		tile_graphics Tiletox
