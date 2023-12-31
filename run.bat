@@ -1,2 +1,2 @@
-@PATH D:\Program Files (x86)\SteamLibrary\steamapps\common\theendisnigh
+@PATH C:\Program Files (x86)\Steam\steamapps\common\theendisnigh
 @TheEndIsNigh -modpaths 1 "%cd%"
