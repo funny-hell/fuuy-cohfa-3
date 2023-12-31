@@ -2455,7 +2455,9 @@ j {
 	ambience castle.ogg
 	music_volume 1.3
 	
-	
+	3 {
+		sfx_file mainsounds_noswitch.txt
+	}
 	
 	15 {
 	art_alts[
@@ -2475,6 +2477,8 @@ j {
 	[OrbSmall, dudsawsmall][OrbLarge, dudsawbig][ChainLink, none][ChainLink2, none][MiniFly, MiniWisp][GlowShroom, GlowBulb][GlowShroomSmall, GlowBulbSmall]
 ]
 	tile_particle_1 spark
+	
+	sfx_file mainsounds_noswitch.txt
 }
 	18 {
 	art_alts[
