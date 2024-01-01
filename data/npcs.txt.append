@@ -2678,3 +2678,22 @@ NPCsize2 {
 		"maybe you'll\njust want\nto believe"
 	]
 }
+
+npchydredronice {
+#ungrabbable ledges
+	movieclip NPC13
+	sound_id NPCSkull
+	text [
+		". . .\n\nhuh?"
+		"a breathing\nface? out\nhere of all?"
+		"never thought\ni'd see\nthe day!"
+		"lemme tell\njust how i\ndied out here"
+		"ya see those\niced over ledges\nover beside you?"
+		"can't grab em\nwith that ice\non der!"
+		"alive me\ndidn't know this,\nand slipped off"
+		"while crouching\nin the attempt\n. . ."
+		"broke me legs,\nand died out here\nalone and cold"
+		"hope ya don't\n. . .\nsuffer the same"
+		"else i guess\nmy world's fucked\nafter all"
+	]
+}

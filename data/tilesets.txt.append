@@ -5754,7 +5754,7 @@ k2 {
 	global_particle_1 cloudwind_stormy
 	global_particle_2 fullsnowh
 	#global_particle_3 fgsnowstormright
-	global_particle_4 lightning
+	#global_particle_4 lightning
 	tile_particle_1 waterfall_thin
 	tile_particle_2 waterfall_splash
 	tile_particle_3 smoke
@@ -5774,36 +5774,21 @@ k2 {
 		[Player, PlayerCold]
 	]
 	
-	1 {
+	0 {
 		background_graphics coastbg
 		global_particle_2 bgrain3
 		global_particle_3 fgrain3
 		ambience storm.ogg
-	}
-	2 {
-		background_graphics coastbg
-		global_particle_2 bgrain3
-		global_particle_3 fgrain3
-		ambience storm.ogg
-	}
-	3 {
-		background_graphics coastbg
-		global_particle_2 bgrain3
-		global_particle_3 fgrain3
-		ambience storm.ogg
-	}
-	4 {
-		global_particle_2 bgrain3
-		global_particle_3 fgrain3
-		ambience storm.ogg
-	}
-	17 {
-		global_particle_1 cloudwind_light
-		global_particle_2 cold
-		global_particle_3 cold
-		global_particle_4 cold
 		
-		player_physics "data/playerphysics.txt"
+		area_label_frame 0
+		music none
+		
+		npc_1 npchydredronice
+	}
+	1 {
+		global_particle_2 bgrain3
+		global_particle_3 fgrain3
+		ambience storm.ogg
 	}
 	18 {
 		global_particle_1 cloudwind_light
@@ -5857,15 +5842,62 @@ k2 {
 		
 		npc_1 NPCNAN1
 	}
-	21 {
-		global_particle_1 cloudwind_light
-		global_particle_2 cold
-		global_particle_3 cold
-		global_particle_4 cold
+}
+
+k2x {
+	area_name "Mount Hydredron"
+	area_label_frame 49
+	tile_graphics Tilehydredron
+	background_graphics Background
+	foreground_graphics none
+	fx_shader sludgeripples
+	fx_shader_mid lightingmodded
+	midfx_graphics ShadeBox
+	midfx_layer 2
+	shader_param .6
+	#palette 728
+	palette 751
+	overlay_graphics Overlayshell
+	player_physics "data/player_physics/playerphysics_sckrunkly.txt"
+	
+	#sfx_file hydredronsounds.txt
+	
+	decoration_1 BlockSnow
+	decoration_2 HydredronFlag
+	
+	global_particle_1 cloudwind_stormy
+	global_particle_2 fullsnowh
+	#global_particle_3 fgsnowstormright
+	global_particle_4 lightning
+	tile_particle_1 waterfall_thin
+	tile_particle_2 waterfall_splash
+	tile_particle_3 smoke
+	tile_particle_4 drip
+	tile_particle_5 surface_splash 
+	
+	music [vivaldiwinter_intro.ogg, vivaldiwinter_loop.ogg]
+	ambience wind.ogg
+	
+	npc_1 NPC_HYDREDRONSUMMIT
+	
+	art_alts [
+		[GlowShroomSmall,GlowBulbSmall]
+		[AimSpitter,eyeshooter][Bullet,eyebullet]
+		[ChargeSlug, ChargeWormer]
+		[Mask, MaskSeeker]
+		[Player, PlayerCold]
+	]
+	
+	1 {
+		background_graphics coastbg
+		global_particle_2 bgrain3
+		global_particle_3 fgrain3
+		ambience storm.ogg
 		
-		player_physics "data/playerphysics.txt"
-		
+		area_label_frame 0
 		music none
+		
+		npc_1 npchydredronice
 	}
 }
 
