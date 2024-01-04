@@ -510,7 +510,8 @@ gb {
 
 	shader_param 1
 
-	npc_1 NPCH2	
+	npc_1 NPCH2
+	npc_2 NPCH5b
 	
 	area_type dark
 
