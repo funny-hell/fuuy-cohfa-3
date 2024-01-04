@@ -5,6 +5,7 @@ import csv
 
 map_path = '../data/map.csv'
 nmap_path = '../data/nmap.csv'
+extracted_path = 'C:/Program Files (x86)/Steam/steamapps/common/theendisnigh/extracted/'
 
 map_file = open(map_path, 'r')
 map_csv = csv.reader(map_file)
@@ -27,13 +28,11 @@ for row in map_csv:
         
         if not foo.endswith('.lvl'):
             foo += '.lvl'
-            
-        foo = '../tilemaps/' + foo
         
-        if os.path.exists(foo):
+        if os.path.exists('../tilemaps/' + foo) or os.path.exists(extracted_path + 'tilemaps/' + foo):
             nrow.append(str(column))
         else:
-            nrow += ''
+            nrow.append('')
         
     print(nrow)
     nmap_csv.writerow(nrow)
