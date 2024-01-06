@@ -11,14 +11,6 @@ pages {
 		collectibles 53
 	}
 	
-	darkerworld {
-		collectibles 16
-	}
-	
-	darkrapture {
-		collectibles 1
-	}
-	
 	leftworld {
 		collectibles 2
 	}
@@ -56,9 +48,9 @@ meta {
 	
 	stevenheads [NPCH1 NPCH2 NPCH3 NPCH4 NPCH5 NPCH5b NPCH5c NPCH6 NPCHX NPCdudH1 NPCdudH2 NPCHM NPCSDR2warp1 NPCSDR2warp2 NPCSDR2warp3 NPCSDR2warp4]
 	steventhreshtumors [50 100 170 300 450 450 450 530 689 600 400 150 1 1 1 1] //tumors: light-506 right-95 console-93 total-689 (outdated)
-	stevenlevels [10x-7 10x-5 10x-3 10x-1 15x-1 15x-5 15x-7 7d-15 r1d-1 9d-1 9-19 15x-3 $g6b-1x $g6a-1x $gn3-1x $gn4-1x]
+	stevenlevels [10x-7 10x-5 10x-3 10x-1 15x-1 15x-5 15x-7 wlspl-0 r1d-1 9d-1 9-19 15x-3 $g6b-1x $g6a-1x $gn3-1x $gn4-1x]
 	
-	mainworlds [1 2 3 4 4a 4b 4c 5a 5b 5c 1d 2d 3d 6 7 8 9 r1 r2 r3 r4 r5 6d ex xs qu gb 7d t o 12 but 6a 6b 6b_u 6b_d 6c hub m 7a 7b 7c j 5 8 9 9d 9xx 8a 8ax 8ad 8c 1b a r1d dud3 2b but2 but2b rr1 rr2 rr3 1bd ad r1b r4b hub2 ki k2 o1 o1a o2 o2a o3] //if you pause on these worlds, it lets you open the map. otherwise you get "exit area"
+	mainworlds [1 2 3 4 4a 4b 4c 5a 5b 5c 1d 2d 3d 6 7 8 9 r1 r2 r3 r4 r5 6d ex xs qu gb 7d t o 12 but 6a 6b 6b_u 6b_d 6c hub m 7a 7b 7c j 5 8 9 9d 9xx 8a 8ax 8ad 8c 1b a r1d dud3 2b but2 but2b rr1 rr2 rr3 1bd ad r1b r4b hub2 ki k2 o1 o1a o2 o2a o3 wlspl] //if you pause on these worlds, it lets you open the map. otherwise you get "exit area"
 	cartworlds [c1 c2 c3 c4a c4b c4c c5a c5b c5c c6 c9 g0 g1 g2 g3 g4 g5 g6 g9 i1 i2 i3 i4 i5 i5b ix0 ix1 ix2 ix3 ix4 ix5 ix6 ix7 ix8 c0 gbt gr1 gr2 gr3 gr5 g4a g5a gr4 gi0 g6d g6c g6a g6b g99 gr6 csd1 csd2 g7a g7b g7c g7 gx gn1 gn2 gn3 gn4 gn5 gn6 gn7 c8c gn9 gn10 gn11 gnr1 gnr2 gnr3 gj] //launch console automatically when you exit from these worlds
 	
 	headlevel 5a-22
@@ -561,7 +553,7 @@ nodes {
 		
 		select TheFuture
 		right Anguish
-		down FutureFuture
+		down TheGrave
 	}
 	Anguish {
 		clipname darkcity
@@ -633,319 +625,16 @@ nodes {
 		levelgroups [7]
 		
 		right Acceptance
-		left FutureFuture
+		left TheGrave
 	}
-	FutureFuture {
-		clipname futurefuture
-		entrylevel none
+	TheGrave {
+		clipname grave
+		entrylevel wlspl-0
 		page darkworld
-		unlock_condition visited_levels_any
-		unlock_condition_levels [r1-1 rr1-1]
+		levelgroups [wlspl]
 		
-		select TheFutureFuture
 		right Nevermore
 		up ThePast
-	}
-	
-	//FUTURE FUTURE LETS GO
-	
-	TheFutureFuture {
-		clipname futurama
-		entrylevel none
-		page darkerworld
-		unlock_condition visited_levels_any
-		unlock_condition_levels [r1-1 rr1-1]
-		
-		select FutureFuture
-		down Rapture
-	}
-	Rapture {
-		clipname rapture
-		entrylevel r1-1
-		page darkerworld
-		levelgroups [r1 r1x]
-		
-		up TheFutureFuture
-		right Wastelands
-		down Eidolon
-	}
-	Wastelands {
-		clipname wastelands
-		entrylevel r2-1
-		page darkerworld
-		levelgroups [r2 r2x]
-		
-		left Rapture
-		right Collapse
-		down Throes
-	}
-	Collapse {
-		clipname collapse
-		entrylevel r3-1
-		page darkerworld
-		levelgroups [r3 r3x]
-		
-		left Wastelands
-		right Hubz
-		down Beseech
-		up Frost
-	}
-	Frost {
-		clipname frost
-		entrylevel r4b-1
-		page darkerworld
-		levelgroups [r4b r4bx]
-		
-		down Collapse
-	}
-	Eidolon {
-		clipname altff_1
-		entrylevel rr1-1
-		page darkerworld
-		levelgroups [rr1 rr1x]
-		
-		up Rapture
-		down Rapture
-		right Throes
-	}
-	Throes {
-		clipname altff_2
-		entrylevel rr2-1
-		page darkerworld
-		levelgroups [rr2 rr2x]
-		
-		up Wastelands
-		down Wastelands
-		left Eidolon
-		right Beseech
-	}
-	Beseech {
-		clipname altff_3
-		entrylevel rr3-1
-		page darkerworld
-		levelgroups [rr3 rr3x]
-		
-		up Collapse
-		down Collapse
-		left Throes
-		right Hubz
-	}
-	Hubz {
-		clipname hub
-		entrylevel hub-1
-		page darkerworld
-		levelgroups [hub]
-		
-		left Collapse
-	right Flip
-	down Shock
-	up Excruciance
-	}
-	Excruciance {
-		clipname excruciance
-		entrylevel ex-1
-		page darkerworld
-		levelgroups [ex exx]
-		
-		down Hubz
-	right XSExodus
-	up XSExodus
-	}
-	XSExodus {
-		clipname xsexodus
-		entrylevel xs-1
-		page darkerworld
-		levelgroups [xs xsx]
-		
-		down Excruciance
-		left Excruciance
-		right QuantumUndersides
-		up QuantumUndersides
-	}
-	QuantumUndersides {
-		clipname quantum
-		entrylevel qu-1
-		page darkerworld
-		levelgroups [qu qux]
-		
-		left XSExodus
-		down GunsBlazing
-	}
-	GunsBlazing {
-		clipname guns
-		entrylevel gb-1
-		page darkerworld
-		levelgroups [gb gbx]
-		
-		up QuantumUndersides
-	}
-	Flip {
-		clipname flip
-		entrylevel r4-1
-		page darkerworld
-		levelgroups [r4 r4x]
-		
-		left Hubz
-		right Desintegration
-		down Desintegration
-	}
-	Desintegration {
-		clipname desintegration
-		entrylevel r5-0
-		page darkerworld
-		levelgroups [r5 r5x]
-		
-		left Flip
-		up Flip
-	}
-	Shock {
-		clipname shock
-		entrylevel 6d-3
-		page darkerworld
-		levelgroups [6d 6dx]
-		
-		up Hubz
-		left Lemniscateum
-	}
-	Lemniscateum {
-		clipname lemniscateum
-		entrylevel 7d-1
-		page darkerworld
-		levelgroups [7d 7dx]
-		
-		right Shock
-		left Grave
-	}
-	Grave {
-		clipname grave
-		entrylevel hub2-5
-		page darkerworld
-		levelgroups hub2
-		unlock_condition visited_levels_any
-		unlock_condition_levels [hub2-4 hub2-5]
-		
-		right Lemniscateum
-		up GraveKonami1
-	}
-	GraveKonami1 {
-		clipname grave
-		entrylevel hub2-5
-		page darkerworld
-		levelgroups konami
-		unlock_condition visited_levels_any
-		unlock_condition_levels [hub2-4 hub2-5]
-		
-		up GraveKonami2
-	}
-	
-	GraveKonami2 {
-		clipname grave
-		entrylevel hub2-5
-		page darkerworld
-		levelgroups konami
-		unlock_condition visited_levels_any
-		unlock_condition_levels [hub2-4 hub2-5]
-		
-		down GraveKonami3
-	}
-	GraveKonami3 {
-		clipname grave
-		entrylevel hub2-5
-		page darkerworld
-		levelgroups konami
-		unlock_condition visited_levels_any
-		unlock_condition_levels [hub2-4 hub2-5]
-		
-		down GraveKonami4
-	}
-	GraveKonami4 {
-		clipname grave
-		entrylevel hub2-5
-		page darkerworld
-		levelgroups konami
-		unlock_condition visited_levels_any
-		unlock_condition_levels [hub2-4 hub2-5]
-		
-		left GraveKonami5
-	}
-	GraveKonami5 {
-		clipname grave
-		entrylevel hub2-5
-		page darkerworld
-		levelgroups konami
-		unlock_condition visited_levels_any
-		unlock_condition_levels [hub2-4 hub2-5]
-		
-		right GraveKonami6
-	}
-	GraveKonami6 {
-		clipname grave
-		entrylevel hub2-5
-		page darkerworld
-		levelgroups konami
-		unlock_condition visited_levels_any
-		unlock_condition_levels [hub2-4 hub2-5]
-		
-		left GraveKonami7
-	}
-	GraveKonami7 {
-		clipname grave
-		entrylevel hub2-5
-		page darkerworld
-		levelgroups konami
-		unlock_condition visited_levels_any
-		unlock_condition_levels [hub2-4 hub2-5]
-		
-		right GraveKonami8
-	}
-	GraveKonami8 {
-		clipname grave
-		entrylevel hub2-5
-		page darkerworld
-		levelgroups konami
-		unlock_condition visited_levels_any
-		unlock_condition_levels [hub2-4 hub2-5]
-		
-		select DarkRapture
-	}
-	StevenHeadFF {
-		clipname steveff
-		entrylevel 15x-1
-		page darkerworld
-		levelgroups [15x]
-		unlock_condition collected_carts_any
-		unlock_condition_levels [15x-2 15x-4 15x-6 15x-8]	
-	}
-	DarkRapture {
-		clipname dark_rapture
-		entrylevel r1d-1
-		page darkrapture
-		levelgroups [r1d r1dx]
-	}
-	Terminal {
-		clipname terminal
-		entrylevel t-1
-		page darkrapture
-		levelgroups [t tx]
-		
-		up Omni
-		down Grave
-	}
-	Omni {
-		clipname omni
-		entrylevel o-1
-		page darkrapture
-		levelgroups [o]
-		
-		down Terminal
-	}
-	Heartbreak {
-		clipname heartbreak
-		entrylevel 12-1
-		page darkrapture
-		levelgroups [12]
-		
-		down Lemniscateum
 	}
 	
 	//HoardersRetreat
