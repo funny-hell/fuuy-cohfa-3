@@ -162,6 +162,11 @@ c6 {
 	
 	npc_2 NPCdud34
 }
+5c {
+	fx_shader_mid fire
+	midfx_graphics ShadeBox
+	midfx_layer 2
+}
 5cx {
 	palette 1209
 	7 {
