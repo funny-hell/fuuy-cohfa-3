@@ -507,8 +507,8 @@ nodes {
 		page rightworld
 		levelgroups [9d 9xx]
 		
-		left Wreckage
-		down Wreckage
+		left Farlands
+		down Farlands
 	}
 
 
