@@ -1834,9 +1834,12 @@ j {
 	background_graphics ch3bg
 	foreground_graphics None
 	fx_shader reflectionripples
-	fx_shader_mid distortionparticles
+	fx_shader_mid lightingmodded
 	palette 1116
-	midfx_layer 1
+	midfx_layer 2
+	midfx_graphics SolidBox
+	
+	shader_param 0.7
 
 	global_particle_1 cloudwind_stormy
 	global_particle_2 bgrain3
