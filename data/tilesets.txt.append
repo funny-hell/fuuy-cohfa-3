@@ -6580,3 +6580,33 @@ o3x {
 	]
 
 }
+
+solong {
+	area_name "So Long"
+	area_label_frame 0
+	tile_graphics Tilecredits
+	overlay_graphics Overlaysfield
+	background_graphics gladebg
+	foreground_graphics none
+	palette 1176
+	
+	fx_shader ripples
+	
+	music none
+	ambience forest.ogg
+	
+	decoration_1 creditscene
+
+	global_particle_1 fallleaves
+	global_particle_2 fallleavesred
+	global_particle_3 cloudwind_lighter
+	tile_particle_1 fgrain_tile
+	tile_particle_2 leavessplash
+	tile_particle_3 splash
+	tile_particle_5 groundleaves
+	
+	music_volume 1.5
+	ambience_volume 0.7
+	
+	area_type normal
+}

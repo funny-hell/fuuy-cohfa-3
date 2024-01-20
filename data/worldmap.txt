@@ -629,9 +629,9 @@ nodes {
 	}
 	TheGrave {
 		clipname grave
-		entrylevel wlspl-0
+		entrylevel solong-1
 		page darkworld
-		levelgroups [wlspl]
+		levelgroups [solong]
 		
 		right Nevermore
 		up ThePast
