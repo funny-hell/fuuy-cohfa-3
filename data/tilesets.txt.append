@@ -6596,6 +6596,7 @@ solong {
 	ambience forest.ogg
 	
 	decoration_1 creditscene
+	decoration_2 literallyjustablock
 
 	global_particle_1 fallleaves
 	global_particle_2 fallleavesred
