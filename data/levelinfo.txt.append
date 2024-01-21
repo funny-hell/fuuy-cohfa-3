@@ -510,10 +510,6 @@
 "1-2b" {name="???" id=-1}
 "1-3b" {name="???" id=-1}
 "1d-2b" {name="???" id=-1}
-"a-1" {name="Skyfolding 1" id=1}
-"a-2" {name="Skyfolding 2" id=2}
-"a-3" {name="Skyfolding 3" id=3}
-"a-4" {name="Skyfolding 4" id=4}
 "1-1x" {name="The Cellar" id=-1}
 "1b-1" {name="Floating City 1" id=1}
 "1b-2x" {name="Floating City 2" id=2}
@@ -706,7 +702,6 @@
 "gj-3" {name=" " id=-1}
 "gj-4" {name=" " id=-1}
 
-"gn11-1" {name="Doomed Island 1" id=-1}
 
 
 
@@ -798,17 +793,6 @@
 "1xd-1x" {name="???" id=-1}
 "1shop-1" {name="Hoarders Retreat" id=-1}
 "1shop-2" {name="Hoarders Retreat" id=-1}
-"wlspl-0" {name="???" id=-1}
-"wlspl-1" {name="???" id=-1}
-"wlspl-2" {name="The Wailing Sepulcher" id=-1}
-"wlspl-3" {name="The Wailing Sepulcher" id=-1}
-"wlspl-4" {name="The Wailing Sepulcher" id=-1}
-"wlspl-5" {name="The Wailing Sepulcher" id=-1}
-"wlspl-6" {name="The Wailing Sepulcher" id=-1}
-"wlspl-7" {name="The Wailing Sepulcher" id=-1}
-"wlspl-8" {name="The Wailing Sepulcher" id=-1}
-"wlspl-9" {name="The Wailing Sepulcher" id=-1}
-"wlspl-10" {name="The Wailing Sepulcher" id=-1}
 "aus-1" {name="Australia 1" id=-1}
 "dud1-0" {name="???" id=-1}
 "dud1-1" {name="Sun Station" id=-1}

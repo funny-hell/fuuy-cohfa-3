@@ -298,7 +298,6 @@ nodes {
 		
 		down TheEnd
 		right FCi
-		up Skyfolding
 		left TheEnd
 		select Intersection
 	}
@@ -309,16 +308,6 @@ nodes {
 		levelgroups [2b]
 		
 		up AridFlats
-	}
-	Skyfolding {
-		clipname skyfolding
-		entrylevel a-1
-		page lightworld
-		levelgroups [a ax]
-		
-		down Intersection
-		right Intersection
-		left Intersection
 	}
 	FCi {
 		clipname floatingcity
