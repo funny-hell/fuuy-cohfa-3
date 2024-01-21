@@ -6592,11 +6592,14 @@ solong {
 	
 	fx_shader ripples
 	
+	sfx_file mainsounds_noswitch.txt
+	
 	music none
 	ambience forest.ogg
 	
 	decoration_1 creditscene
 	decoration_2 literallyjustablock
+	decoration_3 skipcredits
 
 	global_particle_1 fallleaves
 	global_particle_2 fallleavesred
@@ -6610,4 +6613,8 @@ solong {
 	ambience_volume 0.7
 	
 	area_type normal
+	
+	#art_alts [
+	#	[CartConsole, just_a_block] # tyler i (finxx) am going to kill you
+	#]
 }
