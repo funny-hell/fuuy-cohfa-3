@@ -48,7 +48,7 @@ meta {
 	
 	stevenheads [NPCH1 NPCH2 NPCH3 NPCH4 NPCH5 NPCH5b NPCH5c NPCH6 NPCHX NPCdudH1 NPCdudH2 NPCHM NPCSDR2warp1 NPCSDR2warp2 NPCSDR2warp3 NPCSDR2warp4]
 	steventhreshtumors [50 100 170 300 450 450 450 530 689 600 400 150 1 1 1 1] //tumors: light-506 right-95 console-93 total-689 (outdated)
-	stevenlevels [10x-7 10x-5 10x-3 10x-1 15x-1 15x-5 15x-7 wlspl-0 r1d-1 9d-1 9-19 15x-3 $g6b-1x $g6a-1x $gn3-1x $gn4-1x]
+	stevenlevels [10x-7 10x-5 10x-3 10x-1 15x-1 15x-5 15x-7 solong-1 r1d-1 9d-1 9-19 15x-3 $g6b-1x $g6a-1x $gn3-1x $gn4-1x]
 	
 	mainworlds [1 2 3 4 4a 4b 4c 5a 5b 5c 1d 2d 3d 6 7 8 9 r1 r2 r3 r4 r5 6d ex xs qu gb 7d t o 12 but 6a 6b 6b_u 6b_d 6c hub m 7a 7b 7c j 5 8 9 9d 9xx 8a 8ax 8ad 8c 1b a r1d dud3 2b but2 but2b rr1 rr2 rr3 1bd ad r1b r4b hub2 ki k2 o1 o1a o2 o2a o3 solong] //if you pause on these worlds, it lets you open the map. otherwise you get "exit area"
 	cartworlds [c1 c2 c3 c4a c4b c4c c5a c5b c5c c6 c9 g0 g1 g2 g3 g4 g5 g6 g9 i1 i2 i3 i4 i5 i5b ix0 ix1 ix2 ix3 ix4 ix5 ix6 ix7 ix8 c0 gbt gr1 gr2 gr3 gr5 g4a g5a gr4 gi0 g6d g6c g6a g6b g99 gr6 csd1 csd2 g7a g7b g7c g7 gx gn1 gn2 gn3 gn4 gn5 gn6 gn7 c8c gn9 gn10 gn11 gnr1 gnr2 gnr3 gj] //launch console automatically when you exit from these worlds
