@@ -1,6 +1,6 @@
 pages {
 	lightworld {
-		collectibles 295 //lives + biglives + carts + bodyparts (used for "percent complete" display)
+		collectibles 279 //lives + biglives + carts + bodyparts (used for "percent complete" display)
 	}
 	
 	darkworld {
@@ -8,7 +8,7 @@ pages {
 	}
 	
 	rightworld {
-		collectibles 53
+		collectibles 77
 	}
 	
 	leftworld {
@@ -422,12 +422,6 @@ nodes {
 		
 		left Aqueros
 		down Aqueros
-	}
-	Meta {
-		clipname meta
-		entrylevel 0-10
-		page rightworld
-		levelgroups [0 0x]
 	}
 	Gallery {
 		clipname gallery
