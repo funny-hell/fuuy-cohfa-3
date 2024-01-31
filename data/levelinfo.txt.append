@@ -481,9 +481,9 @@
 "8as-9" {name="???" id=1}
 "8cx-1" {name="???" id=1} #cart
 "8cx-2" {name="???" id=-1}
-"8cx-3" {name="???" id=2} #biglife
+"8cx-3" {name="???" id=1} #biglife
 "8cx-4" {name="???" id=-1} #biglife
-"8cx-5" {name="???" id=1} #biglife
+"8cx-5" {name="???" id=2} #biglife
 "8cx-0" {name="???" id=-1}
 "8c-1" {name="Breeze 1" id=-1}
 "8c-2" {name="Breeze 2" id=-1}

@@ -2009,6 +2009,9 @@ a {
 			[Floater, Ghost][OrbSmall, BalloonSmall][OrbLarge, BalloonLarge][ChainLink2, BalloonLink2]
 		]
 	}
+	12 {
+		tile_particle_5 waterfall_splash
+	}
 	14 {
 		art_alts[
 			[Floater, Ghost][OrbSmall, BalloonSmall][OrbLarge, BalloonLarge][ChainLink2, BalloonLink2]
@@ -2443,7 +2446,7 @@ butx {
 	fx_shader_mid castleglow
 	midfx_graphics SolidBox
 	palette 1194
-	midfx_layer 1
+	midfx_layer 0
 	
 	tile_particle_1 spark_castle
 	tile_particle_2 smoke_pipecastle_right
@@ -2460,7 +2463,7 @@ butx {
 	npc_3 NPCdudx8
 	
 	art_alts[
-		[MiniFly, MiniWisp][Cartridge, cart2]
+		[MiniFly, MiniWisp][Cartridge, cart2][Fireball, ActualFireball]
 	]
 	
 	music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
