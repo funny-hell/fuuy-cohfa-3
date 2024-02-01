@@ -1,0 +1,7 @@
+{
+    "name": "Extended Past",
+    "author": "Finxx + A bunch of others",
+    "description": "A remake of the extended past from Anniversary 5.",
+    "savefile_suffix": ".extpastv1",
+    "inherit_save": ""
+}
